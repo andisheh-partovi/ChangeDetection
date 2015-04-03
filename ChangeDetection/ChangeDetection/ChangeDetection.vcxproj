@@ -62,9 +62,11 @@
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Definitions.h" />
+    <ClInclude Include="IOHandler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="IOHandler.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

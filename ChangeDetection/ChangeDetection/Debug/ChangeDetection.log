@@ -1,12 +1,15 @@
-﻿Build started 3/26/2015 10:12:20 PM.
+﻿Build started 4/4/2015 12:20:25 AM.
      1>Project "C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\ChangeDetection.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\ChangeDetection.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp
          App.cpp
+     1>c:\users\andisheh\documents\github\changedetection\changedetection\changedetection\app.cpp(116): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\andisheh\documents\github\changedetection\changedetection\changedetection\app.cpp(175): warning C4018: '<' : signed/unsigned mismatch
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\Debug\ChangeDetection.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ChangeDetection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\Debug\ChangeDetection.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\Debug\ChangeDetection.lib" /MACHINE:X86 Debug\App.obj
+         Debug\IOHandler.obj
          Debug\main.obj
          LINK : C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\Debug\ChangeDetection.exe not found or not built by the last incremental link; performing full link
          ChangeDetection.vcxproj -> C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\Debug\ChangeDetection.exe
@@ -19,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:09.34
+Time Elapsed 00:00:15.04
