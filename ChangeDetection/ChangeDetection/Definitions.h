@@ -8,4 +8,4 @@
 typedef std::unordered_map<std::string, int> String2intMap;
 
 //system constants
-#define GAMMA 4
+#define GAMMA 0.1666666

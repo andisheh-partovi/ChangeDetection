@@ -1,6 +1,7 @@
 #include "App.h"
 
 #include <boost\tokenizer.hpp>
+#include <boost/lexical_cast.hpp>//casting double to string
 #include <boost/math/special_functions/gamma.hpp> //gamma function (tgamma)
 #include <math.h> //pow
 
@@ -9,7 +10,7 @@ App::App(void)
 {
 	ioHandler = new IOHandler();
 
-	dictionarySize = 24;
+	dictionarySize = 100;
 }
 
 void App::run()
@@ -21,7 +22,16 @@ void App::run()
 
 	runChangeDetectionAlgorithm();
 
-	std::cout << "finished running\n";
+	std::cout << "finished running\n\n";
+
+	//outputting:
+	//writing the log:
+	ioHandler->write2File(log, "log.txt");
+	prin2DArray(r);
+
+	//testing:
+	//std::cout << "\n\n";
+	//printString2intMap(mergeString2intMaps(allData, 0, allData.size()-1));
 }
 
 //the initialization steps
@@ -38,7 +48,6 @@ void App::initializeChangeDetectionAlgorithm()
 
 void App::runChangeDetectionAlgorithm()
 {
-	String2intMap x_t;
 	double likelihood;
 	double P_rt_and_x_1_t;
 	std::vector<double> joint_rt_probs;
@@ -46,14 +55,14 @@ void App::runChangeDetectionAlgorithm()
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < 5 ; ++t)
+	for (unsigned int t = 1 ; t < 6 ; ++t)
 	{
 		std::cout << "timestep: " << t << "\n";
+		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
-		x_t = getx_t(t);
-		allData.push_back(x_t);
+		allData.push_back(getx_t(t));
 		//printString2intMap(x_t);
 
 		//for all the points in r_t, calculate the joint probability
@@ -63,7 +72,7 @@ void App::runChangeDetectionAlgorithm()
 			{
 				P_rt_and_x_1_t = 0;
 
-				likelihood = calculateLikelihood(x_t, dictionarySize);
+				likelihood = calculateLikelihood(allData[t], dictionarySize);
 
 				//for all the points in r_t-1
 				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
@@ -73,12 +82,17 @@ void App::runChangeDetectionAlgorithm()
 			}
 			else //possible continuation : calcuate Growth probability
 			{
-				likelihood = calculateLikelihood(mergeString2intMaps(allData, 0, i-1), dictionarySize);
+				likelihood = calculateLikelihood(mergeString2intMaps(allData, 0, i), dictionarySize);
 				P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
 			}
 
 			//save the joint probabilities
 			joint_rt_probs.push_back(P_rt_and_x_1_t);
+			
+			//log:
+			log += "for point r_t = " + std::to_string(static_cast<long long>(i))
+				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(likelihood) + "\n"
+				+ ":\njoint: " + boost::lexical_cast<std::string>(P_rt_and_x_1_t) + "\n";
 		}
 
 		//for all the points in r_t, calculate the conditional probability
@@ -178,22 +192,49 @@ double App::sumOfElements(std::vector <double> inputVector)
 	return sum;
 }
 
-double App::calculateLikelihood (String2intMap x_t, int dictionarySize)
+//original likelihood method
+//double App::calculateLikelihood (String2intMap x_t, int dictionarySize)
+//{
+//	int D = x_t.size();
+//	double alpha = 1.0/dictionarySize;
+//	double gammaAlpha = boost::math::tgamma<double>(alpha);
+//
+//	double constantFactor = boost::math::tgamma<double>(alpha * D) / pow(gammaAlpha, D);
+//
+//	double numerator = 1;
+//	double denom = 0;
+//
+//	String2intMap::iterator iter;
+//	for (iter = x_t.begin() ; iter != x_t.end() ; ++iter)
+//	{
+//		numerator *= boost::math::tgamma<double>(alpha + iter->second);
+//		denom += alpha + iter->second;
+//	}
+//
+//	return (constantFactor * numerator) / boost::math::tgamma<double>(denom);
+//}
+
+double App::calculateLikelihood (String2intMap data, int dictionarySize)
 {
-	int D = x_t.size();
 	double alpha = 1.0/dictionarySize;
 	double gammaAlpha = boost::math::tgamma<double>(alpha);
 
-	double constantFactor = boost::math::tgamma<double>(alpha * D) / pow(gammaAlpha, D);
+	double constantFactor = boost::math::tgamma<double>(1) / pow(gammaAlpha, dictionarySize);
 
 	double numerator = 1;
 	double denom = 0;
 
 	String2intMap::iterator iter;
-	for (iter = x_t.begin() ; iter != x_t.end() ; ++iter)
+	for (iter = data.begin() ; iter != data.end() ; ++iter)
 	{
 		numerator *= boost::math::tgamma<double>(alpha + iter->second);
 		denom += alpha + iter->second;
+	}
+
+	for(unsigned int i = 1 ; i <= (dictionarySize - data.size()) ; ++i)
+	{
+		numerator *= gammaAlpha;
+		denom += alpha;
 	}
 
 	return (constantFactor * numerator) / boost::math::tgamma<double>(denom);

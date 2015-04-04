@@ -10,5 +10,6 @@ public:
 	~IOHandler(void);
 
 	std::string readFile(std::string filePath);
+	void write2File(std::string text, std::string filePath);
 };
 

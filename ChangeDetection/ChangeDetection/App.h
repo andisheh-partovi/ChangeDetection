@@ -7,6 +7,7 @@ class App
 {
 private:
 	IOHandler* ioHandler;
+	std::string log;
 
 	int dictionarySize;
 
@@ -18,7 +19,7 @@ private:
 	String2intMap getx_t(int t);
 	void initializeChangeDetectionAlgorithm();
 	void runChangeDetectionAlgorithm();
-	double calculateLikelihood (String2intMap x_t, int dictionarySize);
+	double calculateLikelihood (String2intMap data, int dictionarySize);
 	double getInitialProbability();
 	double hazardFunction(bool isChangePoint);
 

@@ -25,9 +25,25 @@ std::string IOHandler::readFile(std::string filePath)
 	}
 	else
 	{
-		std::cerr << "unable to open file" << filePath;
+		std::cerr << "unable to open file for reading:" << filePath;
 		return NULL;
 	}
+}
+
+void IOHandler::write2File(std::string text, std::string filePath)
+{
+	std::ofstream file;
+	file.open (filePath);
+
+	if (file.is_open())
+	{
+		file << text;
+
+		file.close();
+
+	}
+	else
+		std::cerr << "unable to open file for writing:" << filePath;
 }
 
 
