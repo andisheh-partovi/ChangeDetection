@@ -4,23 +4,33 @@
 #include <boost/lexical_cast.hpp>//casting double to string
 #include <boost/math/special_functions/gamma.hpp> //gamma function (tgamma)
 #include <math.h> //pow
+#include <windows.h>//SetCurrentDirectory
 
 
 App::App(void)
 {
 	ioHandler = new IOHandler();
+	strUtilHandle = new MyStringUtility();
 
-	dictionarySize = 100;
 }
 
-void App::run()
+void App::run(Method method)
 {
 	std::cout << "started running\n\n";
 
 	//initialization step
-	initializeChangeDetectionAlgorithm();
+	initializeChangeDetectionAlgorithm(method);
+	switch (method)
+	{
+		case wordCount:
+			dictionarySize = 100;
+		case POSCount:
+			dictionarySize = 36;
+		default:
+			std::cerr << "unkown method selected.";
+	}
 
-	runChangeDetectionAlgorithm();
+	runChangeDetectionAlgorithm(method);
 
 	std::cout << "finished running\n\n";
 
@@ -35,7 +45,7 @@ void App::run()
 }
 
 //the initialization steps
-void App::initializeChangeDetectionAlgorithm()
+void App::initializeChangeDetectionAlgorithm(Method method)
 {
 	//setting the first element of the r matrix to its initial value
 	std::vector<double> tempRow;
@@ -43,10 +53,10 @@ void App::initializeChangeDetectionAlgorithm()
 	r.push_back(tempRow);
 	
 	//reading and saving the first datum
-	allData.push_back(getx_t(0));
+	allData.push_back(getx_t(0, method));
 }
 
-void App::runChangeDetectionAlgorithm()
+void App::runChangeDetectionAlgorithm(Method method)
 {
 	double likelihood;
 	double P_rt_and_x_1_t;
@@ -62,7 +72,7 @@ void App::runChangeDetectionAlgorithm()
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
-		allData.push_back(getx_t(t));
+		allData.push_back(getx_t(t, method));
 		//printString2intMap(x_t);
 
 		//for all the points in r_t, calculate the joint probability
@@ -111,12 +121,75 @@ void App::runChangeDetectionAlgorithm()
 }
 
 //returns the datum at time t (x_t) in form of a vector
-String2intMap App::getx_t (int t)
+String2intMap App::getx_t (int t, Method method)
 {
-	std::string filePath = "C:\\Users\\andisheh\\Documents\\GitHub\\ChangeDetection\\ChangeDetection\\ChangeDetection\\test files\\"
-							+ std::to_string(static_cast<long long>(t)) + ".txt";
+	std::string filePath = fileNUmber2FilePath (t);
 
-	return getWordFrequencyCount(ioHandler->readFile(filePath));
+	switch (method)
+	{
+		case wordCount:
+			return getWordFrequencyCount(ioHandler->readFile(filePath));
+		case POSCount:
+			return getPOSCount(t);
+		default:
+			std::cerr << "unkown method selected.";
+	}
+	
+}
+
+std::string App::fileNUmber2FilePath (int fileNumber)
+{
+	std::string testLocation = "\\test_files\\";
+	return PROJECT_PATH + testLocation + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
+}
+
+//returns the part of speech tag count of the input string
+//it uses stanford POS tagger
+String2intMap App::getPOSCount(int fileNumber)
+{
+	String2intMap POSCount;
+
+	//commanding the POS tagger to read and tag the input file and write back the result
+	std::string outputFilePath = "\\stanford_output\\stanford_output";
+	outputFilePath = PROJECT_PATH + outputFilePath + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
+
+	std::string command = "stanford-postagger models\\wsj-0-18-left3words-distsim.tagger ";
+	command += fileNUmber2FilePath(fileNumber) + " > " + outputFilePath;
+
+	std::string currentDirectory = PROJECT_PATH;
+	currentDirectory += "\\stanford-postagger-full-2013-06-20";
+	SetCurrentDirectory(currentDirectory.c_str());
+	system(command.c_str());
+
+	SetCurrentDirectory(PROJECT_PATH);
+
+	//reading the stanford output file
+	std::string POSOutput = ioHandler->readFile(outputFilePath);
+
+	//parsing stanford's output
+	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string POS;
+
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			POS = bothWords[1];
+
+			if (POSCount.find(POS) == POSCount.end()) //if not in the map
+				POSCount[POS] = 1;
+			else
+				POSCount[POS] = POSCount[POS] + 1;
+		}
+	}
+
+	return POSCount;
 }
 
 //merges the maps in the input list of maps, if their index is between the start and end index

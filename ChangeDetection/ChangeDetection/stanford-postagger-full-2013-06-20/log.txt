@@ -1,0 +1,85 @@
+timestep: 1:
+for point r_t = 0:
+likelihood: 0.99999999999999667
+:
+joint: 0.16666659999999944
+for point r_t = 1:
+likelihood: 0.99999999999999667
+:
+joint: 0.83333339999999723
+timestep: 2:
+for point r_t = 0:
+likelihood: 0.99999999999999667
+:
+joint: 0.16666659999999944
+for point r_t = 1:
+likelihood: 0.99999999999999667
+:
+joint: 0.13888884444443952
+for point r_t = 2:
+likelihood: 0.99999999999999667
+:
+joint: 0.69444455555555773
+timestep: 3:
+for point r_t = 0:
+likelihood: 0.99999999999999667
+:
+joint: 0.16666659999999944
+for point r_t = 1:
+likelihood: 0.99999999999999667
+:
+joint: 0.13888884444443952
+for point r_t = 2:
+likelihood: 0.99999999999999667
+:
+joint: 0.11574071296295591
+for point r_t = 3:
+likelihood: 0.99999999999999667
+:
+joint: 0.57870384259260177
+timestep: 4:
+for point r_t = 0:
+likelihood: 0.99999999999999667
+:
+joint: 0.16666659999999944
+for point r_t = 1:
+likelihood: 0.99999999999999667
+:
+joint: 0.13888884444443952
+for point r_t = 2:
+likelihood: 0.99999999999999667
+:
+joint: 0.11574071296295591
+for point r_t = 3:
+likelihood: 0.99999999999999667
+:
+joint: 0.09645060185184412
+for point r_t = 4:
+likelihood: 0.99999999999999667
+:
+joint: 0.48225324074075765
+timestep: 5:
+for point r_t = 0:
+likelihood: 0.99999999999999667
+:
+joint: 0.16666659999999944
+for point r_t = 1:
+likelihood: 0.99999999999999667
+:
+joint: 0.13888884444443952
+for point r_t = 2:
+likelihood: 0.99999999999999667
+:
+joint: 0.11574071296295591
+for point r_t = 3:
+likelihood: 0.99999999999999667
+:
+joint: 0.09645060185184412
+for point r_t = 4:
+likelihood: 0.99999999999999667
+:
+joint: 0.080375507973243554
+for point r_t = 5:
+likelihood: 0.99999999999999667
+:
+joint: 0.4018777327675141

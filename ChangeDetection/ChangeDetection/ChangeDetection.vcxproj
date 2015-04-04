@@ -63,6 +63,7 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="Definitions.h" />
     <ClInclude Include="IOHandler.h" />
+    <ClInclude Include="MyStringUtility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />

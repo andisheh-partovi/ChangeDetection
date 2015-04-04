@@ -1,0 +1,3 @@
+
+C:\Users\andisheh\Documents\visual~1\Projects\MissionImpossible\MissionImpossible\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\visual~1\Projects\MissionImpossible\MissionImpossible\user_input.txt 
+andishe_NN loves_VBZ zahra_NN

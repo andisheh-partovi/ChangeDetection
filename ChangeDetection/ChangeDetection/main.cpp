@@ -6,7 +6,7 @@ int main()
 {
 	App* app = new App();
 
-	app->run();
+	app->run(POSCount);
 
 	_getch();
 	return 0;
