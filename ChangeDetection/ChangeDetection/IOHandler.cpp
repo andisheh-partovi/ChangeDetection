@@ -8,6 +8,7 @@ IOHandler::IOHandler(void)
 std::string IOHandler::readFile(std::string filePath)
 {
 	std::string fileContent;
+	std::string eachLine;
 	std::ifstream file;
 
 	file.open (filePath);
@@ -16,7 +17,8 @@ std::string IOHandler::readFile(std::string filePath)
 	{
 		while(!file.eof()) // To get you all the lines.
 		{
-			std::getline(file,fileContent); // Saves the line in STRING.
+			std::getline(file,eachLine); // Saves the line in STRING.
+			fileContent += eachLine + "\n";
 		}
 
 		file.close();

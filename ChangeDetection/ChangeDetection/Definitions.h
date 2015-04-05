@@ -6,7 +6,9 @@
 
 //data types
 typedef std::unordered_map<std::string, int> String2intMap;
+typedef std::vector <std::string> StringList;
 
+//Algorithm-specifics
 enum Method
 {
 	wordCount,

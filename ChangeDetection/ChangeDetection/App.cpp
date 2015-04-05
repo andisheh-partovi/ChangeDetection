@@ -12,6 +12,27 @@ App::App(void)
 	ioHandler = new IOHandler();
 	strUtilHandle = new MyStringUtility();
 
+	//defining the non_function_POSs:
+	//adjectives
+	NON_FUNCTION_POS.push_back("JJ");
+	NON_FUNCTION_POS.push_back("JJR");
+	NON_FUNCTION_POS.push_back("JJS");
+	//nouns
+	NON_FUNCTION_POS.push_back("NN");
+	NON_FUNCTION_POS.push_back("NNP");
+	NON_FUNCTION_POS.push_back("NNPS");
+	NON_FUNCTION_POS.push_back("NNS");
+	//adverbs
+	NON_FUNCTION_POS.push_back("RB");
+	NON_FUNCTION_POS.push_back("RBR");
+	NON_FUNCTION_POS.push_back("RBS");
+	//verbs
+	NON_FUNCTION_POS.push_back("VB");
+	NON_FUNCTION_POS.push_back("VBD");
+	NON_FUNCTION_POS.push_back("VBG");
+	NON_FUNCTION_POS.push_back("VBN");
+	NON_FUNCTION_POS.push_back("VBP");
+	NON_FUNCTION_POS.push_back("VBZ");
 }
 
 void App::run(Method method)
@@ -22,12 +43,17 @@ void App::run(Method method)
 	initializeChangeDetectionAlgorithm(method);
 	switch (method)
 	{
-		case wordCount:
+	case wordCount:
 			dictionarySize = 100;
-		case POSCount:
+			break;
+	case POSCount:
 			dictionarySize = 36;
-		default:
-			std::cerr << "unkown method selected.";
+			break;
+	case functionWordCount:
+			dictionarySize = 100;
+			break;
+	default:
+			std::cerr << "unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
 
 	runChangeDetectionAlgorithm(method);
@@ -67,13 +93,13 @@ void App::runChangeDetectionAlgorithm(Method method)
 	//for all files in the data folder
 	for (unsigned int t = 1 ; t < 6 ; ++t)
 	{
-		std::cout << "timestep: " << t << "\n";
+		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
 		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
 		allData.push_back(getx_t(t, method));
-		//printString2intMap(x_t);
+		printString2intMap(allData[t]);
 
 		//for all the points in r_t, calculate the joint probability
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
@@ -131,10 +157,11 @@ String2intMap App::getx_t (int t, Method method)
 			return getWordFrequencyCount(ioHandler->readFile(filePath));
 		case POSCount:
 			return getPOSCount(t);
+		case functionWordCount:
+			return getFunctionWordCount(t);
 		default:
-			std::cerr << "unkown method selected.";
+			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
-	
 }
 
 std::string App::fileNUmber2FilePath (int fileNumber)
@@ -143,13 +170,9 @@ std::string App::fileNUmber2FilePath (int fileNumber)
 	return PROJECT_PATH + testLocation + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
 }
 
-//returns the part of speech tag count of the input string
-//it uses stanford POS tagger
-String2intMap App::getPOSCount(int fileNumber)
+//commanding the POS tagger to read and tag the input file and write back the result
+std::string App::runPOSTagger(int fileNumber)
 {
-	String2intMap POSCount;
-
-	//commanding the POS tagger to read and tag the input file and write back the result
 	std::string outputFilePath = "\\stanford_output\\stanford_output";
 	outputFilePath = PROJECT_PATH + outputFilePath + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
 
@@ -165,6 +188,19 @@ String2intMap App::getPOSCount(int fileNumber)
 
 	//reading the stanford output file
 	std::string POSOutput = ioHandler->readFile(outputFilePath);
+	//std::cout << "POSOutput: " << POSOutput;
+
+	return POSOutput;
+}
+
+//returns the part of speech tag count of the input string
+//it uses stanford POS tagger
+String2intMap App::getPOSCount(int fileNumber)
+{
+	String2intMap POSCount;
+
+	//commanding the POS tagger to read and tag the input file and write back the result
+	std::string POSOutput = runPOSTagger(fileNumber);
 
 	//parsing stanford's output
 	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
@@ -192,6 +228,45 @@ String2intMap App::getPOSCount(int fileNumber)
 	return POSCount;
 }
 
+//returns a map that holds the counts of the function words 
+String2intMap App::getFunctionWordCount(int fileNumber)
+{
+	String2intMap functionWordCount;
+
+	//commanding the POS tagger to read and tag the input file and write back the result
+	std::string POSOutput = runPOSTagger(fileNumber);
+
+	//parsing stanford's output
+	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string POS;
+	std::string word;
+
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			word= bothWords[0];
+			POS = bothWords[1];
+
+			if (!isElementInList(POS, NON_FUNCTION_POS))
+			{
+				if (functionWordCount.find(word) == functionWordCount.end()) //if not in the map
+					functionWordCount[word] = 1;
+				else
+					functionWordCount[word] = functionWordCount[word] + 1;
+			}
+		}
+	}
+
+	return functionWordCount;
+}
+
 //merges the maps in the input list of maps, if their index is between the start and end index
 String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, int startIndex, int endIndex)
 {
@@ -200,7 +275,7 @@ String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, i
 	String2intMap::iterator iter;
 	std::string currentKey;
 
-	for(unsigned int i = startIndex ; i <= endIndex ; ++i) 
+	for(int i = startIndex ; i <= endIndex ; ++i) 
 	{
 		currentMap = inputList.at(i);
 
@@ -259,10 +334,20 @@ double App::sumOfElements(std::vector <double> inputVector)
 {
 	double sum = 0;
 
-	for (int i = 0 ; i < inputVector.size() ; ++i)
+	for (unsigned int i = 0 ; i < inputVector.size() ; ++i)
 		sum += inputVector[i];
 
 	return sum;
+}
+
+//checks if the element is included at least once in the list or not
+bool App::isElementInList(std::string element, StringList list)
+{
+	for (unsigned int i = 0 ; i < list.size() ; ++i)
+		if (list.at(i).compare(element) == 0)
+			return true;
+
+	return false;
 }
 
 //original likelihood method
