@@ -1,8 +1,5 @@
-PRESIDENT HARRY S. TRUMAN'S ANNUAL MESSAGE TO THE CONGRESS ON THE STATE OF THE UNION
+Mr. Speaker, Mr. President, Members of the Congress:
  
-January 7, 1948
-
-Mr. President, Mr. Speaker, and Members of the 80th Congress: 
 We are here today to consider the state of the Union. 
 On this occasion, above all others, the Congress and the President should concentrate their attention, not upon party but upon the country; not upon things which divide us but upon those which bind us together-the enduring principles of our American syst em, and our common aspirations for the future welfare and security of the people of the United States. 
 The United States has become great because we, as a people, have been able to work together for great objectives even while differing about details. 
@@ -137,4 +134,4 @@ We are determined that the democratic faith of our people and the strength of ou
 It is our faith in human dignity that underlies these purposes. It is this faith that keeps us a strong and vital people. 
 This is a time to remind ourselves of these fundamentals. For today the whole world looks to us for leadership. 
 This is the hour to rededicate ourselves to the faith in mankind that makes us strong. 
-This is the hour to rededicate ourselves to the faith in God that gives us confidence as we face the challenge of the years ahead. 
+This is the hour to rededicate ourselves to the faith in God that gives us confidence as we face the challenge of the years ahead.
