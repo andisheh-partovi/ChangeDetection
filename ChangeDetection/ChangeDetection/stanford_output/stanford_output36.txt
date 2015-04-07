@@ -1,0 +1,166 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1980-Carter.txt 
+This_DT last_JJ few_JJ months_NNS has_VBZ not_RB been_VBN an_DT easy_JJ time_NN for_IN any_DT of_IN us_PRP ._.
+As_IN we_PRP meet_VBP tonight_RB ,_, it_PRP has_VBZ never_RB been_VBN more_JJR clear_JJ that_IN the_DT state_NN of_IN our_PRP$ Union_NNP depends_VBZ on_IN the_DT state_NN of_IN the_DT world_NN ._.
+And_CC tonight_RB ,_, as_IN throughout_IN our_PRP$ own_JJ generation_NN ,_, freedom_NN and_CC peace_NN in_IN the_DT world_NN depend_VBP on_IN the_DT state_NN of_IN our_PRP$ Union_NNP ._.
+The_DT 1980_CD 's_POS have_VBP been_VBN born_VBN in_IN turmoil_NN ,_, strife_NN ,_, and_CC change_NN ._.
+This_DT is_VBZ a_DT time_NN of_IN challenge_NN to_TO our_PRP$ interests_NNS and_CC our_PRP$ values_NNS and_CC it_PRP 's_VBZ a_DT time_NN that_WDT tests_VBZ our_PRP$ wisdom_NN and_CC our_PRP$ skills_NNS ._.
+At_IN this_DT time_NN in_IN Iran_NNP ,_, 50_CD Americans_NNS are_VBP still_RB held_VBN captive_NN ,_, innocent_JJ victims_NNS of_IN terrorism_NN and_CC anarchy_NN ._.
+Also_RB at_IN this_DT moment_NN ,_, massive_JJ Soviet_JJ troops_NNS are_VBP attempting_VBG to_TO subjugate_VB the_DT fiercely_RB independent_JJ and_CC deeply_RB religious_JJ people_NNS of_IN Afghanistan_NNP ._.
+These_DT two_CD acts_NNS --_: one_CD of_IN international_JJ terrorism_NN and_CC one_CD of_IN military_JJ aggression_NN --_: present_VB a_DT serious_JJ challenge_NN to_TO the_DT United_NNP States_NNPS of_IN America_NNP and_CC indeed_RB to_TO all_PDT the_DT nations_NNS of_IN the_DT world_NN ._.
+Together_RB ,_, we_PRP will_MD meet_VB these_DT threats_NNS to_TO peace_NN ._.
+I_PRP 'm_VBP determined_VBN that_IN the_DT United_NNP States_NNPS will_MD remain_VB the_DT strongest_JJS of_IN all_DT nations_NNS ,_, but_CC our_PRP$ power_NN will_MD never_RB be_VB used_VBN to_TO initiate_VB a_DT threat_NN to_TO the_DT security_NN of_IN any_DT nation_NN or_CC to_TO the_DT rights_NNS of_IN any_DT human_JJ being_NN ._.
+We_PRP seek_VBP to_TO be_VB and_CC to_TO remain_VB secure_JJ --_: a_DT nation_NN at_IN peace_NN in_IN a_DT stable_JJ world_NN ._.
+But_CC to_TO be_VB secure_JJ we_PRP must_MD face_VB the_DT world_NN as_IN it_PRP is_VBZ ._.
+Three_CD basic_JJ developments_NNS have_VBP helped_VBN to_TO shape_VB our_PRP$ challenges_NNS :_: the_DT steady_JJ growth_NN and_CC increased_VBD projection_NN of_IN Soviet_JJ military_JJ power_NN beyond_IN its_PRP$ own_JJ borders_NNS ;_: the_DT overwhelming_JJ dependence_NN of_IN the_DT Western_JJ democracies_NNS on_IN oil_NN supplies_NNS from_IN the_DT Middle_NNP East_NNP ;_: and_CC the_DT press_NN of_IN social_JJ and_CC religious_JJ and_CC economic_JJ and_CC political_JJ change_NN in_IN the_DT many_JJ nations_NNS of_IN the_DT developing_VBG world_NN ,_, exemplified_VBN by_IN the_DT revolution_NN in_IN Iran_NNP ._.
+Each_DT of_IN these_DT factors_NNS is_VBZ important_JJ in_IN its_PRP$ own_JJ right_NN ._.
+Each_DT interacts_NNS with_IN the_DT others_NNS ._.
+All_DT must_MD be_VB faced_VBN together_RB ,_, squarely_RB and_CC courageously_RB ._.
+We_PRP will_MD face_VB these_DT challenges_NNS ,_, and_CC we_PRP will_MD meet_VB them_PRP with_IN the_DT best_JJS that_WDT is_VBZ in_IN us_PRP ._.
+And_CC we_PRP will_MD not_RB fail_VB ._.
+In_IN response_NN to_TO the_DT abhorrent_JJ act_NN in_IN Iran_NNP ,_, our_PRP$ Nation_NN has_VBZ never_RB been_VBN aroused_VBN and_CC unified_VBN so_RB greatly_RB in_IN peacetime_NN ._.
+Our_PRP$ position_NN is_VBZ clear_JJ ._.
+The_DT United_NNP States_NNPS will_MD not_RB yield_VB to_TO blackmail_VB ._.
+We_PRP continue_VBP to_TO pursue_VB these_DT specific_JJ goals_NNS :_: first_RB ,_, to_TO protect_VB the_DT present_JJ and_CC long-range_JJ interests_NNS of_IN the_DT United_NNP States_NNPS ;_: secondly_RB ,_, to_TO preserve_VB the_DT lives_NNS of_IN the_DT American_JJ hostages_NNS and_CC to_TO secure_VB ,_, as_RB quickly_RB as_IN possible_JJ ,_, their_PRP$ safe_JJ release_NN ,_, if_IN possible_JJ ,_, to_TO avoid_VB bloodshed_NN which_WDT might_MD further_RB endanger_VB the_DT lives_NNS of_IN our_PRP$ fellow_JJ citizens_NNS ;_: to_TO enlist_VB the_DT help_NN of_IN other_JJ nations_NNS in_IN condemning_VBG this_DT act_NN of_IN violence_NN ,_, which_WDT is_VBZ shocking_JJ and_CC violates_VBZ the_DT moral_JJ and_CC the_DT legal_JJ standards_NNS of_IN a_DT civilized_JJ world_NN ;_: and_CC also_RB to_TO convince_VB and_CC to_TO persuade_VB the_DT Iranian_JJ leaders_NNS that_IN the_DT real_JJ danger_NN to_TO their_PRP$ nation_NN lies_VBZ in_IN the_DT north_NN ,_, in_IN the_DT Soviet_NNP Union_NNP and_CC from_IN the_DT Soviet_JJ troops_NNS now_RB in_IN Afghanistan_NNP ,_, and_CC that_IN the_DT unwarranted_JJ Iranian_JJ quarrel_VBP with_IN the_DT United_NNP States_NNPS hampers_VBZ their_PRP$ response_NN to_TO this_DT far_RB greater_JJR danger_NN to_TO them_PRP ._.
+If_IN the_DT American_JJ hostages_NNS are_VBP harmed_VBN ,_, a_DT severe_JJ price_NN will_MD be_VB paid_VBN ._.
+We_PRP will_MD never_RB rest_VB until_IN every_DT one_CD of_IN the_DT American_JJ hostages_NNS are_VBP released_VBN ._.
+But_CC now_RB we_PRP face_VBP a_DT broader_JJR and_CC more_JJR fundamental_JJ challenge_NN in_IN this_DT region_NN because_IN of_IN the_DT recent_JJ military_JJ action_NN of_IN the_DT Soviet_NNP Union_NNP ._.
+Now_RB ,_, as_IN during_IN the_DT last_JJ 3 1\/2_CD decades_NNS ,_, the_DT relationship_NN between_IN our_PRP$ country_NN ,_, the_DT United_NNP States_NNPS of_IN America_NNP ,_, and_CC the_DT Soviet_NNP Union_NNP is_VBZ the_DT most_RBS critical_JJ factor_NN in_IN determining_VBG whether_IN the_DT world_NN will_MD live_VB at_IN peace_NN or_CC be_VB engulfed_VBN in_IN global_JJ conflict_NN ._.
+Since_IN the_DT end_NN of_IN the_DT Second_NNP World_NNP War_NNP ,_, America_NNP has_VBZ led_VBN other_JJ nations_NNS in_IN meeting_VBG the_DT challenge_NN of_IN mounting_VBG Soviet_JJ power_NN ._.
+This_DT has_VBZ not_RB been_VBN a_DT simple_JJ or_CC a_DT static_JJ relationship_NN ._.
+Between_IN us_PRP there_EX has_VBZ been_VBN cooperation_NN ,_, there_EX has_VBZ been_VBN competition_NN ,_, and_CC at_IN times_NNS there_RB has_VBZ been_VBN confrontation_NN ._.
+In_IN the_DT 1940_CD 's_POS we_PRP took_VBD the_DT lead_NN in_IN creating_VBG the_DT Atlantic_NNP Alliance_NNP in_IN response_NN to_TO the_DT Soviet_NNP Union_NNP 's_POS suppression_NN and_CC then_RB consolidation_NN of_IN its_PRP$ East_JJ European_JJ empire_NN and_CC the_DT resulting_VBG threat_NN of_IN the_DT Warsaw_NNP Pact_NNP to_TO Western_NNP Europe_NNP ._.
+In_IN the_DT 1950_CD 's_POS we_PRP helped_VBD to_TO contain_VB further_JJ Soviet_JJ challenges_NNS in_IN Korea_NNP and_CC in_IN the_DT Middle_NNP East_NNP ,_, and_CC we_PRP rearmed_VBD to_TO assure_VB the_DT continuation_NN of_IN that_DT containment_NN ._.
+In_IN the_DT 1960_CD 's_POS we_PRP met_VBD the_DT Soviet_JJ challenges_NNS in_IN Berlin_NNP ,_, and_CC we_PRP faced_VBD the_DT Cuban_JJ missile_NN crisis_NN ._.
+And_CC we_PRP sought_VBD to_TO engage_VB the_DT Soviet_NNP Union_NNP in_IN the_DT important_JJ task_NN of_IN moving_VBG beyond_IN the_DT cold_JJ war_NN and_CC away_RB from_IN confrontation_NN ._.
+And_CC in_IN the_DT 1970_CD 's_POS three_CD American_JJ Presidents_NNS negotiated_VBN with_IN the_DT Soviet_JJ leaders_NNS in_IN attempts_NNS to_TO halt_VB the_DT growth_NN of_IN the_DT nuclear_JJ arms_NNS race_NN ._.
+We_PRP sought_VBD to_TO establish_VB rules_NNS of_IN behavior_NN that_WDT would_MD reduce_VB the_DT risks_NNS of_IN conflict_NN ,_, and_CC we_PRP searched_VBD for_IN areas_NNS of_IN cooperation_NN that_WDT could_MD make_VB our_PRP$ relations_NNS reciprocal_JJ and_CC productive_JJ ,_, not_RB only_RB for_IN the_DT sake_NN of_IN our_PRP$ two_CD nations_NNS but_CC for_IN the_DT security_NN and_CC peace_NN of_IN the_DT entire_JJ world_NN ._.
+In_IN all_DT these_DT actions_NNS ,_, we_PRP have_VBP maintained_VBN two_CD commitments_NNS :_: to_TO be_VB ready_JJ to_TO meet_VB any_DT challenge_NN by_IN Soviet_JJ military_JJ power_NN ,_, and_CC to_TO develop_VB ways_NNS to_TO resolve_VB disputes_NNS and_CC to_TO keep_VB the_DT peace_NN ._.
+Preventing_VBG nuclear_JJ war_NN is_VBZ the_DT foremost_JJ responsibility_NN of_IN the_DT two_CD superpowers_NNS ._.
+That_DT 's_VBZ why_WRB we_PRP 've_VBP negotiated_VBN the_DT strategic_JJ arms_NNS limitation_NN treaties_NNS --_: SALT_NNP I_PRP and_CC SALT_NNP II_NNP ._.
+Especially_RB now_RB ,_, in_IN a_DT time_NN of_IN great_JJ tension_NN ,_, observing_VBG the_DT mutual_JJ constraints_NNS imposed_VBN by_IN the_DT terms_NNS of_IN these_DT treaties_NNS will_MD be_VB in_IN the_DT best_JJS interest_NN of_IN both_DT countries_NNS and_CC will_MD help_VB to_TO preserve_VB world_NN peace_NN ._.
+I_PRP will_MD consult_VB very_RB closely_RB with_IN the_DT Congress_NNP on_IN this_DT matter_NN as_IN we_PRP strive_VBP to_TO control_VB nuclear_JJ weapons_NNS ._.
+That_DT effort_NN to_TO control_VB nuclear_JJ weapons_NNS will_MD not_RB be_VB abandoned_VBN ._.
+We_PRP superpowers_NNS also_RB have_VBP the_DT responsibility_NN to_TO exercise_VB restraint_NN in_IN the_DT use_NN of_IN our_PRP$ great_JJ military_JJ force_NN ._.
+The_DT integrity_NN and_CC the_DT independence_NN of_IN weaker_JJR nations_NNS must_MD not_RB be_VB threatened_VBN ._.
+They_PRP must_MD know_VB that_IN in_IN our_PRP$ presence_NN they_PRP are_VBP secure_JJ ._.
+But_CC now_RB the_DT Soviet_NNP Union_NNP has_VBZ taken_VBN a_DT radical_JJ and_CC an_DT aggressive_JJ new_JJ step_NN ._.
+It_PRP 's_VBZ using_VBG its_PRP$ great_JJ military_JJ power_NN against_IN a_DT relatively_RB defenseless_JJ nation_NN ._.
+The_DT implications_NNS of_IN the_DT Soviet_JJ invasion_NN of_IN Afghanistan_NNP could_MD pose_VB the_DT most_RBS serious_JJ threat_NN to_TO the_DT peace_NN since_IN the_DT Second_NNP World_NNP War_NNP ._.
+The_DT vast_JJ majority_NN of_IN nations_NNS on_IN Earth_NNP have_VBP condemned_VBN this_DT latest_JJS Soviet_JJ attempt_NN to_TO extend_VB its_PRP$ colonial_NN domination_NN of_IN others_NNS and_CC have_VBP demanded_VBN the_DT immediate_JJ withdrawal_NN of_IN Soviet_JJ troops_NNS ._.
+The_DT Moslem_NNP world_NN is_VBZ especially_RB and_CC justifiably_RB outraged_JJ by_IN this_DT aggression_NN against_IN an_DT Islamic_JJ people_NNS ._.
+No_DT action_NN of_IN a_DT world_NN power_NN has_VBZ ever_RB been_VBN so_RB quickly_RB and_CC so_RB overwhelmingly_RB condemned_VBN ._.
+But_CC verbal_JJ condemnation_NN is_VBZ not_RB enough_RB ._.
+The_DT Soviet_NNP Union_NNP must_MD pay_VB a_DT concrete_JJ price_NN for_IN their_PRP$ aggression_NN ._.
+While_IN this_DT invasion_NN continues_VBZ ,_, we_PRP and_CC the_DT other_JJ nations_NNS of_IN the_DT world_NN can_MD not_RB conduct_VB business_NN as_IN usual_JJ with_IN the_DT Soviet_NNP Union_NNP ._.
+That_DT 's_VBZ why_WRB the_DT United_NNP States_NNPS has_VBZ imposed_VBN stiff_JJ economic_JJ penalties_NNS on_IN the_DT Soviet_NNP Union_NNP ._.
+I_PRP will_MD not_RB issue_VB any_DT permits_NNS for_IN Soviet_JJ ships_NNS to_TO fish_NN in_IN the_DT coastal_JJ waters_NNS of_IN the_DT United_NNP States_NNPS ._.
+I_PRP 've_VBP cut_VBN Soviet_JJ access_NN to_TO high-technology_NN equipment_NN and_CC to_TO agricultural_JJ products_NNS ._.
+I_PRP 've_VBP limited_VBN other_JJ commerce_NN with_IN the_DT Soviet_NNP Union_NNP ,_, and_CC I_PRP 've_VBP asked_VBN our_PRP$ allies_NNS and_CC friends_NNS to_TO join_VB with_IN us_PRP in_IN restraining_VBG their_PRP$ own_JJ trade_NN with_IN the_DT Soviets_NNPS and_CC not_RB to_TO replace_VB our_PRP$ own_JJ embargoed_JJ items_NNS ._.
+And_CC I_PRP have_VBP notified_VBN the_DT Olympic_NNP Committee_NNP that_IN with_IN Soviet_JJ invading_VBG forces_NNS in_IN Afghanistan_NNP ,_, neither_CC the_DT American_JJ people_NNS nor_CC I_PRP will_MD support_VB sending_VBG an_DT Olympic_NNP team_NN to_TO Moscow_NNP ._.
+The_DT Soviet_NNP Union_NNP is_VBZ going_VBG to_TO have_VB to_TO answer_VB some_DT basic_JJ questions_NNS :_: Will_MD it_PRP help_VB promote_VB a_DT more_RBR stable_JJ international_JJ environment_NN in_IN which_WDT its_PRP$ own_JJ legitimate_JJ ,_, peaceful_JJ concerns_NNS can_MD be_VB pursued_VBN ?_.
+Or_CC will_MD it_PRP continue_VB to_TO expand_VB its_PRP$ military_JJ power_NN far_RB beyond_IN its_PRP$ genuine_JJ security_NN needs_NNS ,_, and_CC use_VBP that_IN power_NN for_IN colonial_JJ conquest_NN ?_.
+The_DT Soviet_NNP Union_NNP must_MD realize_VB that_IN its_PRP$ decision_NN to_TO use_VB military_JJ force_NN in_IN Afghanistan_NNP will_MD be_VB costly_JJ to_TO every_DT political_JJ and_CC economic_JJ relationship_NN it_PRP values_VBZ ._.
+The_DT region_NN which_WDT is_VBZ now_RB threatened_VBN by_IN Soviet_JJ troops_NNS in_IN Afghanistan_NNP is_VBZ of_IN great_JJ strategic_JJ importance_NN :_: It_PRP contains_VBZ more_JJR than_IN two-thirds_NNS of_IN the_DT world_NN 's_POS exportable_JJ oil_NN ._.
+The_DT Soviet_JJ effort_NN to_TO dominate_VB Afghanistan_NNP has_VBZ brought_VBN Soviet_JJ military_JJ forces_NNS to_TO within_IN 300_CD miles_NNS of_IN the_DT Indian_JJ Ocean_NNP and_CC close_JJ to_TO the_DT Straits_NNP of_IN Hormuz_NNP ,_, a_DT waterway_NN through_IN which_WDT most_JJS of_IN the_DT world_NN 's_POS oil_NN must_MD flow_VB ._.
+The_DT Soviet_NNP Union_NNP is_VBZ now_RB attempting_VBG to_TO consolidate_VB a_DT strategic_JJ position_NN ,_, therefore_RB ,_, that_IN poses_VBZ a_DT grave_JJ threat_NN to_TO the_DT free_JJ movement_NN of_IN Middle_NNP East_NNP oil_NN ._.
+This_DT situation_NN demands_VBZ careful_JJ thought_NN ,_, steady_JJ nerves_NNS ,_, and_CC resolute_JJ action_NN ,_, not_RB only_RB for_IN this_DT year_NN but_CC for_IN many_JJ years_NNS to_TO come_VB ._.
+It_PRP demands_VBZ collective_JJ efforts_NNS to_TO meet_VB this_DT new_JJ threat_NN to_TO security_NN in_IN the_DT Persian_NNP Gulf_NNP and_CC in_IN Southwest_NNP Asia_NNP ._.
+It_PRP demands_VBZ the_DT participation_NN of_IN all_PDT those_DT who_WP rely_VBP on_IN oil_NN from_IN the_DT Middle_NNP East_NNP and_CC who_WP are_VBP concerned_VBN with_IN global_JJ peace_NN and_CC stability_NN ._.
+And_CC it_PRP demands_VBZ consultation_NN and_CC close_JJ cooperation_NN with_IN countries_NNS in_IN the_DT area_NN which_WDT might_MD be_VB threatened_VBN ._.
+Meeting_VBG this_DT challenge_NN will_MD take_VB national_JJ will_NN ,_, diplomatic_JJ and_CC political_JJ wisdom_NN ,_, economic_JJ sacrifice_NN ,_, and_CC ,_, of_IN course_NN ,_, military_JJ capability_NN ._.
+We_PRP must_MD call_VB on_IN the_DT best_JJS that_WDT is_VBZ in_IN us_PRP to_TO preserve_VB the_DT security_NN of_IN this_DT crucial_JJ region_NN ._.
+Let_VB our_PRP$ position_NN be_VB absolutely_RB clear_JJ :_: An_DT attempt_NN by_IN any_DT outside_JJ force_NN to_TO gain_VB control_NN of_IN the_DT Persian_NNP Gulf_NNP region_NN will_MD be_VB regarded_VBN as_IN an_DT assault_NN on_IN the_DT vital_JJ interests_NNS of_IN the_DT United_NNP States_NNPS of_IN America_NNP ,_, and_CC such_PDT an_DT assault_NN will_MD be_VB repelled_VBN by_IN any_DT means_NNS necessary_JJ ,_, including_VBG military_JJ force_NN ._.
+During_IN the_DT past_JJ 3_CD years_NNS ,_, you_PRP have_VBP joined_VBN with_IN me_PRP to_TO improve_VB our_PRP$ own_JJ security_NN and_CC the_DT prospects_NNS for_IN peace_NN ,_, not_RB only_RB in_IN the_DT vital_JJ oil-producing_JJ area_NN of_IN the_DT Persian_NNP Gulf_NNP region_NN but_CC around_IN the_DT world_NN ._.
+We_PRP 've_VBP increased_VBN annually_RB our_PRP$ real_JJ commitment_NN for_IN defense_NN ,_, and_CC we_PRP will_MD sustain_VB this_DT increase_NN of_IN effort_NN throughout_IN the_DT Five_CD Year_NN Defense_NN Program_NN ._.
+It_PRP 's_VBZ imperative_JJ that_IN Congress_NNP approve_VBP this_DT strong_JJ defense_NN budget_NN for_IN 1981_CD ,_, encompassing_VBG a_DT 5-percent_JJ real_JJ growth_NN in_IN authorizations_NNS ,_, without_IN any_DT reduction_NN ._.
+We_PRP are_VBP also_RB improving_VBG our_PRP$ capability_NN to_TO deploy_VB U.S._NNP military_JJ forces_NNS rapidly_RB to_TO distant_JJ areas_NNS ._.
+We_PRP 've_VBP helped_VBN to_TO strengthen_VB NATO_NNP and_CC our_PRP$ other_JJ alliances_NNS ,_, and_CC recently_RB we_PRP and_CC other_JJ NATO_NNP members_NNS have_VBP decided_VBN to_TO develop_VB and_CC to_TO deploy_VB modernized_JJ ,_, intermediate-range_JJ nuclear_JJ forces_NNS to_TO meet_VB an_DT unwarranted_JJ and_CC increased_VBD threat_NN from_IN the_DT nuclear_JJ weapons_NNS of_IN the_DT Soviet_NNP Union_NNP ._.
+We_PRP are_VBP working_VBG with_IN our_PRP$ allies_NNS to_TO prevent_VB conflict_NN in_IN the_DT Middle_NNP East_NNP ._.
+The_DT peace_NN treaty_NN between_IN Egypt_NNP and_CC Israel_NNP is_VBZ a_DT notable_JJ achievement_NN which_WDT represents_VBZ a_DT strategic_JJ asset_NN for_IN America_NNP and_CC which_WDT also_RB enhances_VBZ prospects_NNS for_IN regional_JJ and_CC world_NN peace_NN ._.
+We_PRP are_VBP now_RB engaged_VBN in_IN further_JJ negotiations_NNS to_TO provide_VB full_JJ autonomy_NN for_IN the_DT people_NNS of_IN the_DT West_NNP Bank_NNP and_CC Gaza_NNP ,_, to_TO resolve_VB the_DT Palestinian_JJ issue_NN in_IN all_DT its_PRP$ aspects_NNS ,_, and_CC to_TO preserve_VB the_DT peace_NN and_CC security_NN of_IN Israel_NNP ._.
+Let_VB no_DT one_NN doubt_NN our_PRP$ commitment_NN to_TO the_DT security_NN of_IN Israel_NNP ._.
+In_IN a_DT few_JJ days_NNS we_PRP will_MD observe_VB an_DT historic_JJ event_NN when_WRB Israel_NNP makes_VBZ another_DT major_JJ withdrawal_NN from_IN the_DT Sinai_NNP and_CC when_WRB Ambassadors_NNS will_MD be_VB exchanged_VBN between_IN Israel_NNP and_CC Egypt_NNP ._.
+We_PRP 've_VBP also_RB expanded_VBN our_PRP$ own_JJ sphere_NN of_IN friendship_NN ._.
+Our_PRP$ deep_JJ commitment_NN to_TO human_JJ rights_NNS and_CC to_TO meeting_VBG human_JJ needs_NNS has_VBZ improved_VBN our_PRP$ relationship_NN with_IN much_JJ of_IN the_DT Third_NNP World_NNP ._.
+Our_PRP$ decision_NN to_TO normalize_VB relations_NNS with_IN the_DT People_NNS 's_POS Republic_NNP of_IN China_NNP will_MD help_VB to_TO preserve_VB peace_NN and_CC stability_NN in_IN Asia_NNP and_CC in_IN the_DT Western_NNP Pacific_NNP ._.
+We_PRP 've_VBP increased_VBN and_CC strengthened_VBN our_PRP$ naval_JJ presence_NN in_IN the_DT Indian_JJ Ocean_NNP ,_, and_CC we_PRP are_VBP now_RB making_VBG arrangements_NNS for_IN key_JJ naval_JJ and_CC air_NN facilities_NNS to_TO be_VB used_VBN by_IN our_PRP$ forces_NNS in_IN the_DT region_NN of_IN northeast_NN Africa_NNP and_CC the_DT Persian_NNP Gulf_NNP ._.
+We_PRP 've_VBP reconfirmed_VBN our_PRP$ 1959_CD agreement_NN to_TO help_VB Pakistan_NNP preserve_VB its_PRP$ independence_NN and_CC its_PRP$ integrity_NN ._.
+The_DT United_NNP States_NNPS will_MD take_VB action_NN consistent_JJ with_IN our_PRP$ own_JJ laws_NNS to_TO assist_VB Pakistan_NNP in_IN resisting_VBG any_DT outside_JJ aggression_NN ._.
+And_CC I_PRP 'm_VBP asking_VBG the_DT Congress_NNP specifically_RB to_TO reaffirm_VB this_DT agreement_NN ._.
+I_PRP 'm_VBP also_RB working_VBG ,_, along_IN with_IN the_DT leaders_NNS of_IN other_JJ nations_NNS ,_, to_TO provide_VB additional_JJ military_JJ and_CC economic_JJ aid_NN for_IN Pakistan_NNP ._.
+That_DT request_NN will_MD come_VB to_TO you_PRP in_IN just_RB a_DT few_JJ days_NNS ._.
+Finally_RB ,_, we_PRP are_VBP prepared_VBN to_TO work_VB with_IN other_JJ countries_NNS in_IN the_DT region_NN to_TO share_VB a_DT cooperative_JJ security_NN framework_NN that_WDT respects_VBZ differing_VBG values_NNS and_CC political_JJ beliefs_NNS ,_, yet_RB which_WDT enhances_VBZ the_DT independence_NN ,_, security_NN ,_, and_CC prosperity_NN of_IN all_DT ._.
+All_PDT these_DT efforts_NNS combined_VBN emphasize_VB our_PRP$ dedication_NN to_TO defend_VB and_CC preserve_VB the_DT vital_JJ interests_NNS of_IN the_DT region_NN and_CC of_IN the_DT nation_NN which_WDT we_PRP represent_VBP and_CC those_DT of_IN our_PRP$ allies_NNS --_: in_IN Europe_NNP and_CC the_DT Pacific_NNP ,_, and_CC also_RB in_IN the_DT parts_NNS of_IN the_DT world_NN which_WDT have_VBP such_JJ great_JJ strategic_JJ importance_NN to_TO us_PRP ,_, stretching_VBG especially_RB through_IN the_DT Middle_NNP East_NNP and_CC Southwest_NNP Asia_NNP ._.
+With_IN your_PRP$ help_NN ,_, I_PRP will_MD pursue_VB these_DT efforts_NNS with_IN vigor_NN and_CC with_IN determination_NN ._.
+You_PRP and_CC I_PRP will_MD act_VB as_RB necessary_JJ to_TO protect_VB and_CC to_TO preserve_VB our_PRP$ Nation_NN 's_POS security_NN ._.
+The_DT men_NNS and_CC women_NNS of_IN America_NNP 's_POS Armed_NNP Forces_NNP are_VBP on_IN duty_NN tonight_NN in_IN many_JJ parts_NNS of_IN the_DT world_NN ._.
+I_PRP 'm_VBP proud_JJ of_IN the_DT job_NN they_PRP are_VBP doing_VBG ,_, and_CC I_PRP know_VBP you_PRP share_VB that_DT pride_NN ._.
+I_PRP believe_VBP that_IN our_PRP$ volunteer_NN forces_NNS are_VBP adequate_JJ for_IN current_JJ defense_NN needs_NNS ,_, and_CC I_PRP hope_VBP that_IN it_PRP will_MD not_RB become_VB necessary_JJ to_TO impose_VB a_DT draft_NN ._.
+However_RB ,_, we_PRP must_MD be_VB prepared_VBN for_IN that_DT possibility_NN ._.
+For_IN this_DT reason_NN ,_, I_PRP have_VBP determined_VBN that_IN the_DT Selective_NNP Service_NNP System_NNP must_MD now_RB be_VB revitalized_VBN ._.
+I_PRP will_MD send_VB legislation_NN and_CC budget_NN proposals_NNS to_TO the_DT Congress_NNP next_JJ month_NN so_RB that_IN we_PRP can_MD begin_VB registration_NN and_CC then_RB meet_VB future_JJ mobilization_NN needs_VBZ rapidly_RB if_IN they_PRP arise_VBP ._.
+We_PRP also_RB need_VBP clear_JJ and_CC quick_JJ passage_NN of_IN a_DT new_JJ charter_NN to_TO define_VB the_DT legal_JJ authority_NN and_CC accountability_NN of_IN our_PRP$ intelligence_NN agencies_NNS ._.
+We_PRP will_MD guarantee_VB that_IN abuses_NNS do_VBP not_RB recur_VB ,_, but_CC we_PRP must_MD tighten_VB our_PRP$ controls_NNS on_IN sensitive_JJ intelligence_NN information_NN ,_, and_CC we_PRP need_VBP to_TO remove_VB unwarranted_JJ restraints_NNS on_IN America_NNP 's_POS ability_NN to_TO collect_VB intelligence_NN ._.
+The_DT decade_NN ahead_RB will_MD be_VB a_DT time_NN of_IN rapid_JJ change_NN ,_, as_IN nations_NNS everywhere_RB seek_VBP to_TO deal_VB with_IN new_JJ problems_NNS and_CC age-old_JJ tensions_NNS ._.
+But_CC America_NNP need_MD have_VB no_DT fear_NN ._.
+We_PRP can_MD thrive_VB in_IN a_DT world_NN of_IN change_NN if_IN we_PRP remain_VBP true_JJ to_TO our_PRP$ values_NNS and_CC actively_RB engaged_VBN in_IN promoting_VBG world_NN peace_NN ._.
+We_PRP will_MD continue_VB to_TO work_VB as_IN we_PRP have_VBP for_IN peace_NN in_IN the_DT Middle_NNP East_NNP and_CC southern_JJ Africa_NNP ._.
+We_PRP will_MD continue_VB to_TO build_VB our_PRP$ ties_NNS with_IN developing_VBG nations_NNS ,_, respecting_VBG and_CC helping_VBG to_TO strengthen_VB their_PRP$ national_JJ independence_NN which_WDT they_PRP have_VBP struggled_VBN so_RB hard_JJ to_TO achieve_VB ._.
+And_CC we_PRP will_MD continue_VB to_TO support_VB the_DT growth_NN of_IN democracy_NN and_CC the_DT protection_NN of_IN human_JJ rights_NNS ._.
+In_IN repressive_JJ regimes_NNS ,_, popular_JJ frustrations_NNS often_RB have_VBP no_DT outlet_NN except_IN through_IN violence_NN ._.
+But_CC when_WRB peoples_NNS and_CC their_PRP$ governments_NNS can_MD approach_VB their_PRP$ problems_NNS together_RB through_IN open_JJ ,_, democratic_JJ methods_NNS ,_, the_DT basis_NN for_IN stability_NN and_CC peace_NN is_VBZ far_RB more_RBR solid_JJ and_CC far_RB more_RBR enduring_JJ ._.
+That_DT is_VBZ why_WRB our_PRP$ support_NN for_IN human_JJ rights_NNS in_IN other_JJ countries_NNS is_VBZ in_IN our_PRP$ own_JJ national_JJ interest_NN as_RB well_RB as_IN part_NN of_IN our_PRP$ own_JJ national_JJ character_NN ._.
+Peace_NN --_: a_DT peace_NN that_WDT preserves_VBZ freedom_NN --_: remains_VBZ America_NNP 's_POS first_JJ goal_NN ._.
+In_IN the_DT coming_VBG years_NNS ,_, as_IN a_DT mighty_JJ nation_NN we_PRP will_MD continue_VB to_TO pursue_VB peace_NN ._.
+But_CC to_TO be_VB strong_JJ abroad_RB we_PRP must_MD be_VB strong_JJ at_IN home_NN ._.
+And_CC in_IN order_NN to_TO be_VB strong_JJ ,_, we_PRP must_MD continue_VB to_TO face_VB up_RP to_TO the_DT difficult_JJ issues_NNS that_WDT confront_VBP us_PRP as_IN a_DT nation_NN today_NN ._.
+The_DT crises_NNS in_IN Iran_NNP and_CC Afghanistan_NNP have_VBP dramatized_VBN a_DT very_RB important_JJ lesson_NN :_: Our_PRP$ excessive_JJ dependence_NN on_IN foreign_JJ oil_NN is_VBZ a_DT clear_JJ and_CC present_JJ danger_NN to_TO our_PRP$ Nation_NN 's_POS security_NN ._.
+The_DT need_NN has_VBZ never_RB been_VBN more_JJR urgent_JJ ._.
+At_IN long_JJ last_JJ ,_, we_PRP must_MD have_VB a_DT clear_JJ ,_, comprehensive_JJ energy_NN policy_NN for_IN the_DT United_NNP States_NNPS ._.
+As_IN you_PRP well_RB know_VBP ,_, I_PRP have_VBP been_VBN working_VBG with_IN the_DT Congress_NNP in_IN a_DT concentrated_JJ and_CC persistent_JJ way_NN over_IN the_DT past_JJ 3_CD years_NNS to_TO meet_VB this_DT need_NN ._.
+We_PRP have_VBP made_VBN progress_NN together_RB ._.
+But_CC Congress_NNP must_MD act_VB promptly_RB now_RB to_TO complete_VB final_JJ action_NN on_IN this_DT vital_JJ energy_NN legislation_NN ._.
+Our_PRP$ Nation_NN will_MD then_RB have_VB a_DT major_JJ conservation_NN effort_NN ,_, important_JJ initiatives_NNS to_TO develop_VB solar_JJ power_NN ,_, realistic_JJ pricing_NN based_VBN on_IN the_DT true_JJ value_NN of_IN oil_NN ,_, strong_JJ incentives_NNS for_IN the_DT production_NN of_IN coal_NN and_CC other_JJ fossil_JJ fuels_NNS in_IN the_DT United_NNP States_NNPS ,_, and_CC our_PRP$ Nation_NN 's_POS most_RBS massive_JJ peacetime_NN investment_NN in_IN the_DT development_NN of_IN synthetic_JJ fuels_NNS ._.
+The_DT American_JJ people_NNS are_VBP making_VBG progress_NN in_IN energy_NN conservation_NN ._.
+Last_JJ year_NN we_PRP reduced_VBD overall_JJ petroleum_NN consumption_NN by_IN 8_CD percent_NN and_CC gasoline_NN consumption_NN by_IN 5_CD percent_NN below_IN what_WP it_PRP was_VBD the_DT year_NN before_IN ._.
+Now_RB we_PRP must_MD do_VB more_JJR ._.
+After_IN consultation_NN with_IN the_DT Governors_NNP ,_, we_PRP will_MD set_VB gasoline_NN conservation_NN goals_NNS for_IN each_DT of_IN the_DT 50_CD States_NNPS ,_, and_CC I_PRP will_MD make_VB them_PRP mandatory_JJ if_IN these_DT goals_NNS are_VBP not_RB met_VBN ._.
+I_PRP 've_VBP established_VBN an_DT import_NN ceiling_NN for_IN 1980_CD of_IN 8.2_CD million_CD barrels_NNS a_DT day_NN --_: well_RB below_IN the_DT level_NN of_IN foreign_JJ oil_NN purchases_NNS in_IN 1977_CD ._.
+I_PRP expect_VBP our_PRP$ imports_NNS to_TO be_VB much_RB lower_JJR than_IN this_DT ,_, but_CC the_DT ceiling_NN will_MD be_VB enforced_VBN by_IN an_DT oil_NN import_NN fee_NN if_IN necessary_JJ ._.
+I_PRP 'm_VBP prepared_JJ to_TO lower_VB these_DT imports_NNS still_RB further_RB if_IN the_DT other_JJ oil-consuming_JJ countries_NNS will_MD join_VB us_PRP in_IN a_DT fair_JJ and_CC mutual_JJ reduction_NN ._.
+If_IN we_PRP have_VBP a_DT serious_JJ shortage_NN ,_, I_PRP will_MD not_RB hesitate_VB to_TO impose_VB mandatory_JJ gasoline_NN rationing_VBG immediately_RB ._.
+The_DT single_JJ biggest_JJS factor_NN in_IN the_DT inflation_NN rate_NN last_JJ year_NN ,_, the_DT increase_NN in_IN the_DT inflation_NN rate_NN last_JJ year_NN ,_, was_VBD from_IN one_CD cause_NN :_: the_DT skyrocketing_VBG prices_NNS of_IN OPEC_NNP oil_NN ._.
+We_PRP must_MD take_VB whatever_WDT actions_NNS are_VBP necessary_JJ to_TO reduce_VB our_PRP$ dependence_NN on_IN foreign_JJ oil_NN --_: and_CC at_IN the_DT same_JJ time_NN reduce_VB inflation_NN ._.
+As_IN individuals_NNS and_CC as_IN families_NNS ,_, few_JJ of_IN us_PRP can_MD produce_VB energy_NN by_IN ourselves_PRP ._.
+But_CC all_DT of_IN us_PRP can_MD conserve_VB energy_NN --_: every_DT one_CD of_IN us_PRP ,_, every_DT day_NN of_IN our_PRP$ lives_NNS ._.
+Tonight_NNP I_PRP call_VBP on_IN you_PRP --_: in_IN fact_NN ,_, all_PDT the_DT people_NNS of_IN America_NNP --_: to_TO help_VB our_PRP$ Nation_NN ._.
+Conserve_VB energy_NN ._.
+Eliminate_VB waste_NN ._.
+Make_NNP 1980_CD indeed_RB a_DT year_NN of_IN energy_NN conservation_NN ._.
+Of_IN course_NN ,_, we_PRP must_MD take_VB other_JJ actions_NNS to_TO strengthen_VB our_PRP$ Nation_NN 's_POS economy_NN ._.
+First_RB ,_, we_PRP will_MD continue_VB to_TO reduce_VB the_DT deficit_NN and_CC then_RB to_TO balance_VB the_DT Federal_NNP budget_NN ._.
+Second_NNP ,_, as_IN we_PRP continue_VBP to_TO work_VB with_IN business_NN to_TO hold_VB down_RP prices_NNS ,_, we_PRP 'll_MD build_VB also_RB on_IN the_DT historic_JJ national_JJ accord_NN with_IN organized_VBN labor_NN to_TO restrain_VB pay_NN increases_NNS in_IN a_DT fair_JJ fight_NN against_IN inflation_NN ._.
+Third_NNP ,_, we_PRP will_MD continue_VB our_PRP$ successful_JJ efforts_NNS to_TO cut_VB paperwork_NN and_CC to_TO dismantle_VB unnecessary_JJ Government_NN regulation_NN ._.
+Fourth_JJ ,_, we_PRP will_MD continue_VB our_PRP$ progress_NN in_IN providing_VBG jobs_NNS for_IN America_NNP ,_, concentrating_VBG on_IN a_DT major_JJ new_JJ program_NN to_TO provide_VB training_NN and_CC work_NN for_IN our_PRP$ young_JJ people_NNS ,_, especially_RB minority_NN youth_NN ._.
+It_PRP has_VBZ been_VBN said_VBD that_IN ``_`` a_DT mind_NN is_VBZ a_DT terrible_JJ thing_NN to_TO waste_NN ._. ''_''
+We_PRP will_MD give_VB our_PRP$ young_JJ people_NNS new_JJ hope_NN for_IN jobs_NNS and_CC a_DT better_JJR life_NN in_IN the_DT 1980_CD 's_POS ._.
+And_CC fifth_JJ ,_, we_PRP must_MD use_VB the_DT decade_NN of_IN the_DT 1980_CD 's_POS to_TO attack_VB the_DT basic_JJ structural_JJ weaknesses_NNS and_CC problems_NNS in_IN our_PRP$ economy_NN through_IN measures_NNS to_TO increase_VB productivity_NN ,_, savings_NNS ,_, and_CC investment_NN ._.
+With_IN these_DT energy_NN and_CC economic_JJ policies_NNS ,_, we_PRP will_MD make_VB America_NNP even_RB stronger_JJR at_IN home_NN in_IN this_DT decade_NN --_: just_RB as_IN our_PRP$ foreign_JJ and_CC defense_NN policies_NNS will_MD make_VB us_PRP stronger_JJR and_CC safer_JJR throughout_IN the_DT world_NN ._.
+We_PRP will_MD never_RB abandon_VB our_PRP$ struggle_NN for_IN a_DT just_RB and_CC a_DT decent_JJ society_NN here_RB at_IN home_NN ._.
+That_DT 's_VBZ the_DT heart_NN of_IN America_NNP --_: and_CC it_PRP 's_VBZ the_DT source_NN of_IN our_PRP$ ability_NN to_TO inspire_VB other_JJ people_NNS to_TO defend_VB their_PRP$ own_JJ rights_NNS abroad_RB ._.
+Our_PRP$ material_NN resources_NNS ,_, great_JJ as_IN they_PRP are_VBP ,_, are_VBP limited_VBN ._.
+Our_PRP$ problems_NNS are_VBP too_RB complex_JJ for_IN simple_JJ slogans_NNS or_CC for_IN quick_JJ solutions_NNS ._.
+We_PRP can_MD not_RB solve_VB them_PRP without_IN effort_NN and_CC sacrifice_NN ._.
+Walter_NNP Lippmann_NNP once_RB reminded_VBD us_PRP ,_, ``_`` You_PRP took_VBD the_DT good_JJ things_NNS for_IN granted_VBN ._.
+Now_RB you_PRP must_MD earn_VB them_PRP again_RB ._.
+For_IN every_DT right_NN that_IN you_PRP cherish_VBP ,_, you_PRP have_VBP a_DT duty_NN which_WDT you_PRP must_MD fulfill_VB ._.
+For_IN every_DT good_JJ which_WDT you_PRP wish_VBP to_TO preserve_VB ,_, you_PRP will_MD have_VB to_TO sacrifice_VB your_PRP$ comfort_NN and_CC your_PRP$ ease_NN ._.
+There_EX is_VBZ nothing_NN for_IN nothing_NN any_DT longer_JJR ._. ''_''
+Our_PRP$ challenges_NNS are_VBP formidable_JJ ._.
+But_CC there_EX 's_VBZ a_DT new_JJ spirit_NN of_IN unity_NN and_CC resolve_VB in_IN our_PRP$ country_NN ._.
+We_PRP move_VBP into_IN the_DT 1980_CD 's_POS with_IN confidence_NN and_CC hope_NN and_CC a_DT bright_JJ vision_NN of_IN the_DT America_NNP we_PRP want_VBP :_: an_DT America_NNP strong_JJ and_CC free_JJ ,_, an_DT America_NNP at_IN peace_NN ,_, an_DT America_NNP with_IN equal_JJ rights_NNS for_IN all_DT citizens_NNS --_: and_CC for_IN women_NNS ,_, guaranteed_VBN in_IN the_DT United_NNP States_NNPS Constitution_NNP --_: an_DT America_NNP with_IN jobs_NNS and_CC good_JJ health_NN and_CC good_JJ education_NN for_IN every_DT citizen_NN ,_, an_DT America_NNP with_IN a_DT clean_JJ and_CC bountiful_JJ life_NN in_IN our_PRP$ cities_NNS and_CC on_IN our_PRP$ farms_NNS ,_, an_DT America_NNP that_WDT helps_VBZ to_TO feed_VB the_DT world_NN ,_, an_DT America_NNP secure_JJ in_IN filling_VBG its_PRP$ own_JJ energy_NN needs_NNS ,_, an_DT America_NNP of_IN justice_NN ,_, tolerance_NN ,_, and_CC compassion_NN ._.
+For_IN this_DT vision_NN to_TO come_VB true_JJ ,_, we_PRP must_MD sacrifice_VB ,_, but_CC this_DT national_JJ commitment_NN will_MD be_VB an_DT exciting_JJ enterprise_NN that_WDT will_MD unify_VB our_PRP$ people_NNS ._.
+Together_RB as_IN one_CD people_NNS ,_, let_VB us_PRP work_VB to_TO build_VB our_PRP$ strength_NN at_IN home_NN ,_, and_CC together_RB as_IN one_CD indivisible_JJ union_NN ,_, let_VB us_PRP seek_VB peace_NN and_CC security_NN throughout_IN the_DT world_NN ._.
+Together_RB let_VB us_PRP make_VB of_IN this_DT time_NN of_IN challenge_NN and_CC danger_NN a_DT decade_NN of_IN national_JJ resolve_NN and_CC of_IN brave_VBP achievement_NN ._.
+Thank_VB you_PRP very_RB much_RB ._.

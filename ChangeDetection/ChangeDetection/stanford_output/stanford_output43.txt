@@ -1,0 +1,207 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1987-Reagan.txt 
+Thank_VB you_PRP very_RB much_RB ._.
+Mr._NNP Speaker_NNP ,_, Mr._NNP President_NNP ,_, distinguished_VBD members_NNS of_IN Congress_NNP ,_, honored_VBD guests_NNS and_CC fellow_JJ citizens_NNS ._.
+May_NNP I_PRP congratulate_VBP all_DT of_IN you_PRP who_WP are_VBP members_NNS of_IN this_DT historic_JJ 100th_JJ Congress_NNP of_IN the_DT United_NNP States_NNPS of_IN America_NNP ._.
+In_IN this_DT 200th_JJ anniversary_NN year_NN of_IN our_PRP$ Constitution_NNP ,_, you_PRP and_CC I_PRP stand_VBP on_IN the_DT shoulders_NNS of_IN giants_NNS --_: men_NNS whose_WP$ words_NNS and_CC deeds_NNS put_VBD wind_NN in_IN the_DT sails_NNS of_IN freedom_NN ._.
+However_RB ,_, we_PRP must_MD always_RB remember_VB that_IN our_PRP$ Constitution_NNP is_VBZ to_TO be_VB celebrated_VBN not_RB for_IN being_VBG old_JJ ,_, but_CC for_IN being_VBG young_JJ --_: young_JJ with_IN the_DT same_JJ energy_NN ,_, spirit_NN ,_, and_CC promise_VBP that_IN filled_VBN each_DT eventful_JJ day_NN in_IN Philadelphia_NNP 's_POS State_NNP House_NNP ._.
+We_PRP will_MD be_VB guided_VBN tonight_RB by_IN their_PRP$ acts_NNS ;_: and_CC we_PRP will_MD be_VB guided_VBN forever_RB by_IN their_PRP$ words_NNS ._.
+Now_RB ,_, forgive_VBP me_PRP ,_, but_CC I_PRP ca_MD n't_RB resist_VB sharing_VBG a_DT story_NN from_IN those_DT historic_JJ days_NNS ._.
+Philadelphia_NNP was_VBD bursting_VBG with_IN civic_JJ pride_NN in_IN the_DT spring_NN of_IN 1787_CD ,_, and_CC its_PRP$ newspapers_NNS began_VBD embellishing_VBG the_DT arrival_NN of_IN the_DT Convention_NNP delegates_NNS with_IN elaborate_JJ social_JJ classifications_NNS ._.
+Governors_NNS of_IN states_NNS were_VBD called_VBN ``_`` Excellency_NNP ._. ''_''
+Justices_NNPS and_CC Chancellors_NNPS had_VBD reserved_VBN for_IN them_PRP ``_`` Honorable_JJ ''_'' with_IN a_DT capital_NN ``_`` H._NNP ''_'' For_IN Congressmen_NNS ,_, it_PRP was_VBD ``_`` honorable_JJ ''_'' with_IN a_DT small_JJ ``_`` h._FW ''_'' And_CC all_DT others_NNS were_VBD referred_VBN to_TO as_IN ``_`` the_DT following_VBG respectable_JJ characters_NNS ._. ''_''
+Well_RB ,_, for_IN this_DT 100th_JJ Congress_NNP ,_, I_PRP invoke_VBP special_JJ Executive_NNP powers_NNS to_TO declare_VB that_IN each_DT of_IN you_PRP must_MD never_RB be_VB titled_VBN less_JJR than_IN Honorable_JJ with_IN a_DT capital_NN ``_`` H._NNP ''_'' Incidentally_NNP ,_, I_PRP 'm_VBP delighted_JJ you_PRP 're_VBP celebrating_VBG the_DT 100th_JJ birthday_NN of_IN the_DT Congress_NNP ._.
+It_PRP 's_VBZ always_RB a_DT pleasure_NN to_TO congratulate_VB someone_NN with_IN more_JJR birthdays_NNS than_IN I_PRP 've_VBP had_VBN ._.
+Now_RB ,_, there_EX 's_VBZ a_DT new_JJ face_NN at_IN this_DT place_NN of_IN honor_NN tonight_NN ._.
+And_CC please_VB join_VB me_PRP in_IN warm_JJ congratulations_NNS to_TO the_DT Speaker_NNP of_IN the_DT House_NNP ,_, Jim_NNP Wright_NNP ._.
+Mr._NNP Speaker_NNP ,_, you_PRP might_MD recall_VB a_DT similar_JJ situation_NN in_IN your_PRP$ very_RB first_JJ session_NN of_IN Congress_NNP ,_, 32_CD years_NNS ago_RB ._.
+Then_RB ,_, as_IN now_RB ,_, the_DT Speakership_NNP had_VBD changed_VBN hands_NNS and_CC another_DT great_JJ son_NN of_IN Texas_NNP ,_, Sam_NNP Rayburn_NNP --_: ``_`` Mr._NNP Sam_NNP ''_'' --_: sat_VBD in_IN your_PRP$ chair_NN ._.
+I_PRP can_MD not_RB find_VB better_JJR words_NNS than_IN those_DT used_VBN by_IN President_NNP Eisenhower_NNP that_IN evening_NN ._.
+He_PRP said_VBD ,_, ``_`` We_PRP shall_MD have_VB much_JJ to_TO do_VB together_RB ;_: I_PRP am_VBP sure_JJ that_IN we_PRP will_MD get_VB it_PRP done_VBN and_CC that_IN we_PRP shall_MD do_VB it_PRP in_IN harmony_NN and_CC goodwill_NN ._. ''_''
+Tonight_NNP ,_, I_PRP renew_VBP that_IN pledge_NN ._.
+To_TO you_PRP ,_, Mr._NNP Speaker_NNP ,_, and_CC to_TO Senate_NNP Majority_NNP Leader_NNP Robert_NNP Byrd_NNP ,_, who_WP brings_VBZ 34_CD years_NNS of_IN distinguished_JJ service_NN to_TO the_DT Congress_NNP ,_, may_MD I_PRP say_VB :_: though_IN there_EX are_VBP changes_NNS in_IN the_DT Congress_NNP ,_, America_NNP 's_POS interests_NNS remain_VBP the_DT same_JJ ._.
+And_CC I_PRP am_VBP confident_JJ that_IN ,_, along_IN with_IN Republican_JJ leaders_NNS Bob_NNP Michel_NNP and_CC Bob_NNP Dole_NNP ,_, this_DT Congress_NNP can_MD make_VB history_NN ._.
+Six_CD Years_NNS ago_RB ,_, I_PRP was_VBD here_RB to_TO ask_VB the_DT Congress.to_NNP join_VB me_PRP in_IN America_NNP 's_POS New_NNP Beginning_NN ._.
+Well_RB ,_, the_DT results_NNS are_VBP something_NN of_IN which_WDT we_PRP can_MD all_RB be_VB proud_JJ ._.
+Our_PRP$ inflation_NN rate_NN is_VBZ now_RB the_DT lowest_JJS in_IN a_DT in_IN a_DT quarter_NN of_IN a_DT century_NN ._.
+The_DT prime_JJ interest_NN rate_NN has_VBZ fallen_VBN from_IN the_DT 21_CD and_CC a_DT half_NN percent_NN the_DT month_NN before_IN we_PRP took_VBD office_NN to_TO seven_CD and_CC a_DT half_NN percent_NN today_NN ,_, and_CC those_DT rates_NNS have_VBP triggered_VBN the_DT most_RBS housing_NN starts_NNS in_IN eight_CD years_NNS ._.
+The_DT unemployment_NN rate_NN --_: still_RB too_RB high_JJ --_: is_VBZ the_DT lowest_JJS in_IN nearly_RB seven_CD years_NNS ,_, and_CC our_PRP$ people_NNS have_VBP created_VBN nearly_RB 13_CD million_CD new_JJ jobs_NNS ._.
+Over_IN 61_CD percent_NN of_IN everyone_NN over_IN the_DT age_NN of_IN 16_CD ,_, male_NN and_CC female_NN ,_, is_VBZ employed_VBN the_DT highest_JJS percentagc_NN on_IN record_NN ._.
+Let_NNP 's_POS roll_NN up_RB our_PRP$ sleeves_NNS and_CC go_VB to_TO work_VB ,_, and_CC put_VBD America_NNP 's_POS economic_JJ engine_NN at_IN full_JJ throttle_NN ._.
+We_PRP can_MD also_RB be_VB heartened_VBN by_IN our_PRP$ progress_NN across_IN the_DT world_NN ._.
+Most_RBS important_JJ ,_, America_NNP is_VBZ at_IN peace_NN tonight_NN ,_, and_CC freedom_NN is_VBZ on_IN the_DT march_NN ._.
+And_CC we_PRP 've_VBP done_VBN much_RB these_DT past_JJ years_NNS to_TO restore_VB our_PRP$ defenses_NNS ,_, our_PRP$ alliances_NNS ,_, and_CC our_PRP$ leadership_NN in_IN the_DT world_NN ._.
+Our_PRP$ sons_NNS and_CC daughters_NNS in_IN the_DT services_NNS once_RB again_RB wear_VB their_PRP$ uniforms_NNS with_IN pride_NN ._.
+But_CC though_IN we_PRP 've_VBP made_VBN much_JJ progress_NN ,_, I_PRP have_VBP one_CD major_JJ regret_NN ._.
+I_PRP took_VBD a_DT risk_NN with_IN regard_NN to_TO our_PRP$ action_NN in_IN Iran_NNP ._.
+It_PRP did_VBD not_RB work_NN ,_, and_CC for_IN that_DT I_PRP assume_VBP full_JJ responsibility_NN ._.
+The_DT goals_NNS were_VBD worthy_JJ ._.
+I_PRP do_VBP not_RB believe_VB it_PRP was_VBD wrong_JJ to_TO try_VB to_TO establish_VB contacts_NNS with_IN a_DT country_NN of_IN strategic_JJ importance_NN or_CC to_TO try_VB to_TO save_VB lives_NNS ._.
+And_CC certainly_RB it_PRP was_VBD not_RB wrong_JJ to_TO try_VB to_TO secure_VB freedom_NN for_IN our_PRP$ citizens_NNS held_VBN in_IN barbaric_JJ captivity_NN ._.
+But_CC we_PRP did_VBD not_RB achieve_VB what_WP we_PRP wished_VBD ,_, and_CC serious_JJ mistakes_NNS were_VBD made_VBN in_IN trying_VBG to_TO do_VB so_RB ._.
+We_PRP will_MD get_VB to_TO the_DT bottom_NN of_IN this_DT ,_, and_CC I_PRP will_MD take_VB whatever_WDT action_NN is_VBZ called_VBN for_IN ._.
+But_CC in_IN debating_VBG the_DT past_NN --_: in_IN debating_VBG the_DT past_NN ,_, we_PRP must_MD not_RB deny_VB ourselves_PRP the_DT successes_NNS of_IN the_DT future_NN ._.
+Let_VB it_PRP never_RB be_VB said_VBN of_IN this_DT generation_NN of_IN Americans_NNPS that_IN we_PRP became_VBD so_RB obsessed_VBN with_IN failure_NN that_IN we_PRP refused_VBD to_TO take_VB risks_NNS that_WDT could_MD further_VB the_DT cause_NN of_IN peace_NN and_CC freedom_NN in_IN the_DT world_NN ._.
+Much_JJ is_VBZ at_IN stake_NN here_RB ,_, and_CC the_DT nation_NN and_CC the_DT world_NN are_VBP watching_VBG --_: to_TO see_VB if_IN we_PRP go_VBP forward_RB together_RB in_IN the_DT national_JJ interest_NN ,_, or_CC if_IN we_PRP let_VBP partisanship_NN weaken_VBP us_PRP ._.
+And_CC let_VB there_EX be_VB no_DT mistake_NN about_IN American_JJ policy_NN :_: we_PRP will_MD not_RB sit_VB idly_RB by_IN if_IN our_PRP$ interests_NNS or_CC our_PRP$ friends_NNS in_IN the_DT Middle_NNP East_NNP are_VBP threatened_VBN ,_, nor_CC will_MD we_PRP yield_VB to_TO terrorist_JJ blackmail_VBP ._.
+And_CC now_RB ,_, ladies_NNS and_CC gentlemen_NNS of_IN the_DT Congress_NNP ,_, why_WRB do_VBP n't_RB we_PRP get_VBP to_TO work_VB ?_.
+I_PRP am_VBP pleased_JJ to_TO report_VB that_IN ,_, because_IN of_IN our_PRP$ efforts_NNS to_TO rebuild_VB the_DT strength_NN of_IN America_NNP ,_, the_DT world_NN is_VBZ a_DT safer_JJR place_NN ._.
+Earlier_RBR this_DT month_NN ,_, I_PRP submitted_VBD a_DT budget_NN to_TO defend_VB America_NNP and_CC maintain_VB our_PRP$ momentum_NN to_TO make_VB up_RP for_IN neglect_NN in_IN the_DT last_JJ decade_NN ._.
+Well_RB ,_, I_PRP ask_VBP you_PRP to_TO vote_VB out_RP a_DT defense_NN and_CC foreign_JJ affairs_NNS budget_NN that_WDT says_VBZ ``_`` yes_UH ''_'' to_TO protecting_VBG our_PRP$ country_NN ._.
+While_IN the_DT world_NN is_VBZ safer_JJR ,_, it_PRP is_VBZ not_RB safe_JJ ._.
+Since_IN 1970_CD ,_, the_DT Soviets_NNPS have_VBP invested_VBN $_$ 500_CD billion_CD more_JJR on_IN their_PRP$ military_JJ forces_NNS than_IN we_PRP have_VBP ._.
+Even_RB today_NN ,_, though_IN nearly_RB one_CD in_IN three_CD Soviet_JJ families_NNS is_VBZ without_IN running_VBG hot_JJ water_NN ,_, and_CC the_DT average_JJ family_NN spends_VBZ two_CD hours_NNS a_DT day_NN shopping_NN for_IN the_DT basic_JJ necessities_NNS of_IN life_NN ,_, their_PRP$ government_NN still_RB found_VBD the_DT resources_NNS to_TO transfer_VB $_$ 75_CD billion_CD in_IN weapons_NNS to_TO client_NN states_NNS in_IN the_DT past_JJ five_CD years_NNS --_: clients_NNS like_IN Syria_NNP ,_, Vietnam_NNP ,_, Cuba_NNP ,_, Libya_NNP ,_, Angola_NNP ,_, Ethiopia_NNP ,_, Afghanistan_NNP ,_, and_CC Nicaragua_NNP ._.
+With_IN 120,000_CD Soviet_JJ combat_NN and_CC military_JJ personnel_NNS and_CC 15,000_CD military_JJ advisers_NNS in_IN Asia_NNP ,_, Africa_NNP ,_, and_CC Latin_NNP America_NNP ,_, can_MD anyone_NN still_RB doubt_VB their_PRP$ single-minded_JJ determination_NN to_TO expand_VB their_PRP$ power_NN ?_.
+Despite_IN this_DT ,_, the_DT Congress_NNP cut_VBD my_PRP$ request_NN for_IN critical_JJ U.S._NNP security_NN assistance_NN to_TO free_JJ nations_NNS by_IN 21_CD percent_NN this_DT year_NN ,_, and_CC cut_NN defense_NN requests_NNS by_IN $_$ 85_CD billion_CD in_IN the_DT last_JJ three_CD years_NNS ._.
+These_DT assistance_NN programs_NNS serve_VBP our_PRP$ national_JJ interests_NNS as_RB well_RB as_IN mutual_JJ interests_NNS ,_, and_CC when_WRB the_DT programs_NNS are_VBP devastated_VBN ,_, American_NNP interests_NNS are_VBP harmed_VBN ._.
+My_PRP$ friends_NNS ,_, it_PRP 's_VBZ my_PRP$ duty_NN as_IN President_NNP to_TO say_VB to_TO you_PRP again_RB tonight_RB that_IN there_EX is_VBZ no_DT surer_JJR way_NN to_TO lose_VB freedom_NN than_IN to_TO lose_VB our_PRP$ resolve_NN ._.
+Today_NN ,_, the_DT brave_VBP people_NNS of_IN Afghanistan_NNP are_VBP showing_VBG that_IN resolve_NN ._.
+The_DT Soviet_NNP Union_NNP says_VBZ it_PRP wants_VBZ a_DT peaceful_JJ settlement_NN in_IN Afghanistan_NNP ,_, yet_RB it_PRP continues_VBZ a_DT brutal_JJ war_NN and_CC props_NNS up_IN a_DT regime_NN whose_WP$ days_NNS are_VBP clearly_RB numbered_VBN ._.
+We_PRP are_VBP ready_JJ to_TO support_VB a_DT political_JJ solution_NN that_WDT guarantees_VBZ the_DT rapid_JJ withdrawal_NN of_IN all_DT Soviet_JJ troops_NNS and_CC genuine_JJ self-determination_NN for_IN the_DT Afghan_NNP people_NNS ._.
+In_IN Central_NNP America_NNP ,_, too_RB ,_, the_DT cause_NN of_IN freedom_NN is_VBZ being_VBG tested_VBN ._.
+And_CC our_PRP$ resolve_NN is_VBZ being_VBG tested_VBN there_RB as_RB well_RB ._.
+Here_RB ,_, especially_RB ,_, the_DT world_NN is_VBZ watching_VBG to_TO see_VB how_WRB this_DT Nation_NN responds_VBZ ._.
+Today_NN ,_, over_IN 90_CD percent_NN of_IN the_DT people_NNS of_IN Latin_NNP America_NNP live_VBP in_IN democracy_NN ._.
+Democracy_NN is_VBZ on_IN the_DT march_NN in_IN Central_NNP and_CC South_NNP America_NNP ._.
+Communist_JJ Nicaragua_NNP is_VBZ the_DT odd_JJ man_NN out_RB --_: suppressing_VBG the_DT Church_NNP ,_, the_DT press_NN ,_, and_CC democratic_JJ dissent_NN and_CC promoting_VBG subversion_NN in_IN the_DT region_NN ._.
+We_PRP support_VBP diplomatic_JJ efforts_NNS ,_, but_CC these_DT efforts_NNS can_MD never_RB succeed_VB if_IN the_DT Sandinistas_NNPS win_VBP their_PRP$ war_NN against_IN the_DT Nicaraguan_JJ people_NNS ._.
+Our_PRP$ commitment_NN to_TO a_DT Western_JJ Hemisphere_NNP safe_JJ from_IN aggression_NN did_VBD not_RB occur_VB by_IN spontaneous_JJ generation_NN on_IN the_DT day_NN that_IN we_PRP took_VBD office_NN ._.
+It_PRP began_VBD with_IN the_DT Monroe_NNP Doctrine_NNP in_IN 1823_CD and_CC continues_VBZ our_PRP$ historic_JJ bipartisan_JJ American_JJ policy_NN ._.
+Franklin_NNP Roosevelt_NNP said_VBD we_PRP ``_`` are_VBP determined_VBN to_TO do_VB everything_NN possible_JJ to_TO maintain_VB peace_NN on_IN this_DT hemisphere_NN ._. ''_''
+President_NNP Truman_NNP was_VBD very_RB blunt_JJ :_: ``_`` International_NNP communism_NN seeks_VBZ to_TO crush_VB and_CC undermine_VB and_CC destroy_VB the_DT independence_NN of_IN the_DT Americans_NNPS ._.
+We_PRP can_MD not_RB let_VB that_DT happen_VB here_RB ._. ''_''
+And_CC John_NNP F._NNP Kennedy_NNP made_VBD clear_JJ that_IN ``_`` Communist_JJ domination_NN in_IN this_DT hemisphere_NN can_MD never_RB be_VB neqotiated_VBN ._. ''_''
+Some_DT in_IN this_DT Congress_NNP may_MD choose_VB to_TO depart_VB from_IN this_DT historic_JJ commitment_NN ,_, but_CC I_PRP will_MD not_RB ._.
+This_DT year_NN we_PRP celebrate_VBP the_DT second_JJ century_NN of_IN our_PRP$ Constitution_NNP ._.
+The_DT Sandinistas_NNPS just_RB signed_VBD theirs_PRP two_CD weeks_NNS ago_IN -_: and_CC then_RB suspended_VBD it_PRP ._.
+We_PRP wo_MD n't_RB know_VB how_WRB my_PRP$ words_NNS tonight_RB will_MD be_VB reported_VBN there_RB ,_, for_IN one_CD simple_JJ reason_NN :_: there_EX is_VBZ no_DT free_JJ press_NN in_IN Nicaragua_NNP ._.
+Nicaraguan_JJ freedom_NN fighters_NNS have_VBP never_RB asked_VBN us_PRP to_TO wage_VB their_PRP$ battle_NN ,_, but_CC I_PRP will_MD fight_VB and_CC effort_NN to_TO shut_VB off_RP their_PRP$ lifeblood_NN and_CC consign_VB them_PRP to_TO death_NN ,_, defeat_NN ,_, or_CC a_DT life_NN without_IN freedom_NN ._.
+There_EX must_MD be_VB no_DT Soviet_JJ beachhead_NN in_IN Central_NNP America_NNP ._.
+You_PRP know_VBP ,_, we_PRP Americans_NNPS have_VBP always_RB preferred_VBN dialogue_NN to_TO conflict_NN ,_, and_CC so_IN we_PRP always_RB remain_VBP open_JJ to_TO more_RBR constructive_JJ relations_NNS with_IN the_DT Soviet_NNP Union_NNP ._.
+But_CC more_RBR responsible_JJ Soviet_JJ conduct_NN around_IN the_DT world_NN is_VBZ a_DT key_JJ element_NN of_IN the_DT U.S.-Soviet_JJ agenda_NN ._.
+Progress_NNP is_VBZ also_RB required_VBN on_IN the_DT other_JJ items_NNS of_IN our_PRP$ agenda_NN as_RB well_RB real_JJ respect_NN for_IN human_JJ rights_NNS ,_, and_CC more_RBR open_JJ contacts_NNS between_IN our_PRP$ societies_NNS ,_, and_CC ,_, of_IN course_NN ,_, arms_NNS reduction_NN ._.
+In_IN Iceland_NNP last_JJ October_NNP ,_, we_PRP had_VBD one_CD moment_NN of_IN opportunity_NN that_IN the_DT Soviets_NNPS dashed_VBD because_IN they_PRP sought_VBD to_TO cripple_VB our_PRP$ Strategic_NNP Defense_NNP Initiative_NNP --_: SDI_NNP ._.
+I_PRP would_MD n't_RB let_VB them_PRP do_VB it_PRP then_RB ._.
+I_PRP wo_MD n't_RB let_VB them_PRP do_VB it_PRP now_RB or_CC in_IN the_DT future_NN ._.
+This_DT is_VBZ the_DT most_RBS positive_JJ and_CC promising_JJ defense_NN program_NN we_PRP have_VBP undertaken_VBN ._.
+It_PRP 's_VBZ the_DT path_NN for_IN both_DT sides_NNS --_: to_TO a_DT safer_JJR future_NN ;_: a_DT system_NN that_WDT defends_VBZ human_JJ life_NN instead_RB of_IN threatening_VBG it_PRP ._.
+SDI_NNP will_MD go_VB forward_RB ._.
+The_DT United_NNP States_NNPS has_VBZ made_VBN serious_JJ ,_, fair_JJ ,_, and_CC far-reaching_JJ proposals_NNS to_TO the_DT Soviet_NNP Union_NNP ,_, and_CC this_DT is_VBZ a_DT moment_NN of_IN rare_JJ opportunity_NN for_IN arms_NNS reduction_NN ._.
+But_CC I_PRP will_MD need_VB ,_, and_CC American_JJ negotiators_NNS in_IN Geneva_NNP will_MD need_VB Congress_NNP '_POS support_NN ._.
+Enacting_VBG the_DT Soviet_JJ negotiating_NN position_NN into_IN American_JJ law_NN would_MD not_RB be_VB the_DT way_NN to_TO win_VB a_DT good_JJ agreement_NN ._.
+So_IN I_PRP must_MD tell_VB you_PRP in_IN this_DT Congress_NNP I_PRP will_MD veto_VB any_DT effort_NN that_WDT undercuts_VBZ our_PRP$ national_JJ security_NN and_CC our_PRP$ negotiating_VBG leverage_NN ._.
+Now_RB ,_, today_NN ,_, we_PRP also_RB find_VBP ourselves_PRP engaged_VBN in_IN expanding_VBG peaceful_JJ commerce_NN across_IN the_DT world_NN ._.
+We_PRP will_MD work_VB to_TO expand_VB our_PRP$ opportunities_NNS in_IN international_JJ markets_NNS through_IN the_DT Uruquay_NNP round_NN of_IN trade_NN negotiations_NNS and_CC to_TO complete_VB an_DT historic_JJ free_JJ trade_NN arrangement_NN between_IN the_DT world_NN 's_POS two_CD largest_JJS trading_VBG partners_NNS --_: Canada_NNP and_CC the_DT United_NNP States_NNPS ._.
+Our_PRP$ basic_JJ trade_NN policy_NN remains_VBZ the_DT same_JJ :_: we_PRP remain_VBP opposed_VBN as_IN ever_RB to_TO protectionism_NN because_IN America_NNP 's_POS growth_NN and_CC future_NN depend_VBP on_IN trade_NN ._.
+But_CC we_PRP would_MD insist_VB on_IN trade_NN that_WDT is_VBZ fair_JJ and_CC free_JJ ._.
+We_PRP are_VBP always_RB willing_JJ to_TO be_VB trade_NN partners_NNS but_CC never_RB trade_NN patsies_NNS ._.
+Now_RB from_IN foreign_JJ borders_NNS ,_, let_VB us_PRP return_VB to_TO our_PRP$ own_JJ because_IN America_NNP in_IN the_DT world_NN is_VBZ only_RB as_RB strong_JJ as_IN America_NNP at_IN home_NN ._.
+This_DT 100th_JJ Congress_NNP has_VBZ high_JJ responsibilities_NNS ._.
+I_PRP begin_VBP with_IN a_DT gentle_JJ reminder_NN that_IN many_JJ of_IN these_DT are_VBP simply_RB the_DT incomplete_JJ obligations_NNS of_IN the_DT past_NN ._.
+The_DT American_JJ people_NNS deserve_VBP to_TO be_VB impatient_JJ because_IN we_PRP do_VBP not_RB yet_RB have_VB the_DT public_JJ house_NN in_IN order_NN ._.
+We_PRP 've_VBP had_VBD great_JJ success_NN in_IN restoring_VBG our_PRP$ economic_JJ integrity_NN ,_, and_CC we_PRP 've_VBP rescued_VBN our_PRP$ nation_NN from_IN the_DT worst_JJS economic_JJ mess_NN since_IN the_DT Depression_NN ._.
+But_CC there_EX 's_VBZ more_JJR to_TO do_VB ._.
+For_IN starters_NNS ,_, the_DT federal_JJ deficit_NN is_VBZ outrageous_JJ ._.
+For_IN years_NNS I_PRP 've_VBP asked_VBN that_IN we_PRP stop_VBP pushing_VBG onto_IN our_PRP$ children_NNS the_DT excesses_NNS of_IN our_PRP$ government_NN ._.
+And_CC what_WP the_DT Congress_NNP finally_RB needs_VBZ to_TO do_VB is_VBZ pass_VB a_DT constitutional_JJ amendment_NN that_WDT mandates_VBZ a_DT balanced_JJ budget_NN --_: and_CC forces_NNS government_NN to_TO live_VB within_IN its_PRP$ means_NNS ._.
+States_NNPS ,_, cities_NNS ,_, and_CC the_DT families_NNS of_IN America_NNP balance_VBP their_PRP$ budgets_NNS ._.
+Why_WRB ca_MD n't_RB we_VB ?_.
+Next_JJ --_: the_DT budget_NN process_NN is_VBZ a_DT sorry_JJ spectacle_NN ._.
+The_DT missing_VBG of_IN deadlines_NNS and_CC the_DT nightmare_NN of_IN monstrous_JJ continuing_VBG resolutions_NNS packing_VBG hundreds_NNS of_IN billions_NNS of_IN dollars_NNS of_IN spending_NN into_IN one_CD bill_NN must_MD be_VB stopped_VBN ._.
+We_PRP ask_VBP the_DT Congress_NNP ,_, once_RB again_RB :_: Give_VB us_PRP the_DT same_JJ tool_NN that_WDT 43_CD Governors_NNS have_VBP --_: a_DT line-item_JJ veto_NN so_IN we_PRP can_MD carve_VB out_RP the_DT boondoggles_NNS and_CC pork_NN --_: those_DT items_NNS that_WDT would_MD never_RB survive_VB on_IN their_PRP$ own_JJ ._.
+I_PRP will_MD send_VB the_DT Congress_NNP broad_JJ recommendations_NNS on_IN the_DT budget_NN ,_, but_CC first_RB I_PRP 'd_MD like_VB to_TO see_VB yours_NNS ._.
+Let_VB 's_POS go_VB to_TO work_VB and_CC get_VB this_DT done_VBN together_RB ._.
+But_CC now_RB ,_, let_VB 's_POS talk_NN about_IN this_DT year_NN 's_POS budget_NN ._.
+Even_RB though_IN I_PRP have_VBP submitted_VBN it_PRP within_IN the_DT Gramm-Rudman-Hollings_NNP deficit_NN reduction_NN target_NN ,_, I_PRP have_VBP seen_VBN suggestions_NNS that_IN we_PRP might_MD postpone_VB that_IN timetable_NN ._.
+Well_RB ,_, I_PRP think_VBP the_DT American_JJ people_NNS are_VBP tired_VBN of_IN hearing_VBG the_DT same_JJ old_JJ excuses_NNS ._.
+Together_RB ,_, we_PRP made_VBD a_DT commitment_NN to_TO balance_VB the_DT budget_NN :_: now_RB ,_, let_VB 's_POS keep_VB it_PRP ._.
+As_IN for_IN those_DT suggestions_NNS that_IN the_DT answer_NN is_VBZ higher_JJR taxes_NNS ,_, the_DT American_JJ people_NNS have_VBP repeatedly_RB rejected_VBN that_IN shopworn_JJ advice_NN ._.
+They_PRP know_VBP that_IN we_PRP do_VBP n't_RB have_VB deficits_NNS because_IN people_NNS are_VBP taxed_VBN too_RB little_RB ;_: we_PRP have_VBP deficits_NNS because_IN big_JJ government_NN spends_VBZ too_RB much_JJ ._.
+Now_RB ,_, next_JJ month_NN ,_, next_JJ month_NN ,_, I_PRP 'll_MD place_VB two_CD additional_JJ reforms_NNS before_IN the_DT Congress_NNP ._.
+We_PRP 've_VBP created_VBN a_DT welfare_NN monster_NN that_WDT is_VBZ a_DT shocking_JJ indictment_NN of_IN our_PRP$ sense_NN of_IN priorities_NNS ._.
+Our_PRP$ national_JJ welfare_NN system_NN consists_VBZ of_IN some_DT 59_CD major_JJ programs_NNS and_CC over_IN 6,000_CD pages_NNS of_IN federal_JJ laws_NNS and_CC regulations_NNS on_IN which_WDT more_JJR than_IN $_$ 132_CD billion_CD was_VBD spent_VBN in_IN 1985_CD ._.
+I_PRP will_MD propose_VB a_DT new_JJ national_JJ welfare_NN strategy_NN --_: a_DT program_NN of_IN welfare_NN reform_NN through_IN state-sponsored_JJ ,_, community-based_JJ demonstration_NN projects_NNS ._.
+This_DT is_VBZ the_DT time_NN to_TO reform_VB this_DT outmoded_JJ social_JJ dinosaur_NN and_CC finally_RB break_VB the_DT poverty_NN trap_NN ._.
+Now_RB ,_, we_PRP will_MD never_RB abandon_VB those_DT who_WP ,_, through_IN no_DT fault_NN of_IN their_PRP$ own_JJ ,_, must_MD have_VB our_PRP$ help_NN ._.
+But_CC let_VB us_PRP work_VB to_TO see_VB how_WRB many_JJ can_MD be_VB freed_VBN from_IN the_DT dependency_NN of_IN welfare_NN and_CC made_VBD self-supporting_JJ ,_, which_WDT the_DT great_JJ majority_NN of_IN welfare_NN recipients_NNS want_VBP more_JJR than_IN anything_NN else_RB ._.
+Next_JJ ,_, let_VB us_PRP remove_VB a_DT financial_JJ specter_NN facing_VBG our_PRP$ older_JJR Americans_NNPS --_: the_DT fear_NN of_IN an_DT illness_NN so_RB expensive_JJ that_IN it_PRP can_MD result_VB in_IN having_VBG to_TO make_VB an_DT intolerable_JJ choice_NN between_IN bankruptcy_NN and_CC death_NN ._.
+I_PRP will_MD submit_VB legislation_NN shortly_RB to_TO help_VB free_VB the_DT elderly_JJ from_IN the_DT fear_NN of_IN catastrophic_JJ illness_NN ._.
+Now_RB ,_, let_VB 's_POS turn_VB to_TO the_DT future_NN ._.
+It_PRP 's_VBZ widely_RB said_VBD that_IN America_NNP is_VBZ losing_VBG her_PRP$ competitive_JJ edge_NN ._.
+Well_RB ,_, that_WDT wo_MD n't_RB happen_VB if_IN we_PRP act_VBP now_RB ._.
+How_WRB well_RB prepared_VBN are_VBP we_PRP to_TO enter_VB the_DT 21st_JJ century_NN ?_.
+In_IN my_PRP$ lifetime_NN ,_, America_NNP set_VBD the_DT standard_NN for_IN the_DT world_NN ._.
+It_PRP is_VBZ now_RB time_NN to_TO determine_VB that_IN we_PRP should_MD enter_VB the_DT next_JJ century_NN having_VBG achieved_VBN a_DT level_NN of_IN excellence_NN unsurpassed_JJ in_IN history_NN ._.
+We_PRP will_MD achieve_VB this_DT first_JJ ,_, by_IN guaranteeing_VBG that_DT government_NN does_VBZ everything_NN possible_JJ to_TO promote_VB America_NNP 's_POS ability_NN to_TO compete_VB ._.
+Second_NNP ,_, we_PRP must_MD act_VB as_IN individuals_NNS in_IN a_DT quest_NN for_IN excellence_NN that_WDT will_MD not_RB be_VB measured_VBN by_IN new_JJ proposals_NNS or_CC billions_NNS in_IN new_JJ funding_NN ._.
+Rather_RB ,_, it_PRP involves_VBZ an_DT expenditure_NN of_IN American_JJ spirit_NN and_CC just_RB plain_JJ American_JJ grit_NN ._.
+The_DT Congress_NNP will_MD soon_RB receive_VB my_PRP$ comprehensive_JJ proposals_NNS to_TO enhance_VB our_PRP$ competitiveness_NN --_: including_VBG new_JJ science_NN and_CC technology_NN centers_NNS and_CC strong_JJ new_JJ funding_NN for_IN basic_JJ research_NN ._.
+The_DT bill_NN will_MD include_VB legal_JJ and_CC regulatory_JJ reforms_NNS and_CC weapons_NNS to_TO fight_VB unfair_JJ trade_NN practices_NNS ._.
+Competitiveness_NN also_RB means_VBZ giving_VBG our_PRP$ farmers_NNS a_DT shot_NN at_IN participating_VBG fairly_RB and_CC fully_RB in_IN a_DT changing_JJ world_NN market_NN ._.
+Preparing_VBG for_IN the_DT future_NN must_MD begin_VB ,_, as_IN always_RB ,_, with_IN our_PRP$ children_NNS ._.
+We_PRP need_VBP to_TO set_VB for_IN them_PRP new_JJ and_CC more_RBR rigorous_JJ goals_NNS ._.
+We_PRP must_MD demand_VB more_JJR of_IN ourselves_PRP and_CC our_PRP$ children_NNS by_IN raising_VBG literacy_NN levels_NNS dramatically_RB by_IN the_DT year_NN 2000_CD ._.
+Our_PRP$ children_NNS should_MD master_VB the_DT basic_JJ concepts_NNS of_IN math_NN and_CC science_NN ,_, and_CC let_VB 's_POS insist_VBP that_IN students_NNS not_RB leave_VBP high_JJ school_NN until_IN they_PRP have_VBP studied_VBN and_CC understood_VBN the_DT basic_JJ documents_NNS of_IN our_PRP$ national_JJ heritage_NN ._.
+There_EX 's_VBZ one_CD more_JJR thing_NN we_PRP ca_MD n't_RB let_VB up_RP on_IN ._.
+Let_VB 's_POS redouble_VB our_PRP$ personal_JJ efforts_NNS to_TO provide_VB for_IN every_DT child_NN a_DT safe_JJ and_CC drug-free_JJ learning_NN environment_NN ._.
+If_IN our_PRP$ crusade_NN against_IN drugs_NNS succeeds_VBZ with_IN our_PRP$ children_NNS ,_, we_PRP will_MD defeat_VB that_IN scourge_NN all_DT over_IN the_DT country_NN ._.
+Finally_RB ,_, let_VB 's_POS stop_VB suppressing_VBG the_DT spiritual_JJ core_NN of_IN our_PRP$ national_JJ being_NN ._.
+Our_PRP$ nation_NN could_MD not_RB have_VB been_VBN conceived_VBN without_IN divine_JJ help_NN ._.
+Why_WRB is_VBZ it_PRP that_IN we_PRP can_MD build_VB a_DT nation_NN with_IN our_PRP$ prayers_NNS but_CC we_PRP ca_MD n't_RB use_VB a_DT schoolroom_NN for_IN voluntary_JJ prayer_NN ?_.
+The_DT 100th_JJ Congress_NNP of_IN the_DT United_NNP States_NNPS should_MD be_VB remembered_VBN as_IN the_DT one_CD that_WDT ended_VBD the_DT expulsion_NN of_IN God_NNP from_IN America_NNP 's_POS classrooms_NNS ._.
+The_DT quest_NN for_IN excellence_NN into_IN the_DT 21st_JJ century_NN begins_VBZ in_IN the_DT schoolroom_NN but_CC must_MD go_VB next_JJ to_TO the_DT workplace_NN ._.
+More_JJR than_IN 20_CD million_CD new_JJ jobs_NNS will_MD be_VB created_VBN before_IN the_DT new_JJ century_NN unfolds_VBZ ,_, and_CC ,_, by_IN then_RB ,_, our_PRP$ economy_NN should_MD be_VB able_JJ to_TO provide_VB a_DT job_NN for_IN everyone_NN who_WP wants_VBZ to_TO work_VB ._.
+We_PRP must_MD also_RB enable_VB our_PRP$ workers_NNS to_TO adapt_VB to_TO the_DT rapidly_RB changing_VBG nature_NN of_IN the_DT workplace_NN ,_, and_CC I_PRP will_MD propose_VB substantial_JJ new_JJ federal_JJ commitments_NNS keyed_VBN to_TO re-training_NN and_CC Job_NNP mobility_NN ._.
+Over_IN the_DT next_JJ few_JJ weeks_NNS ,_, I_PRP will_MD be_VB sending_VBG the_DT Congress_NNP a_DT complete_JJ series_NN of_IN these_DT special_JJ messages_NNS --_: on_IN budget_NN reform_NN ,_, welfare_NN reform_NN ,_, competitiveness_NN ,_, including_VBG education_NN ,_, trade_NN ,_, worker_NN training_NN and_CC assistance_NN ,_, agriculture_NN ,_, and_CC other_JJ subjects_NNS ._.
+The_DT Congress_NNP can_MD give_VB us_PRP these_DT tools_NNS ,_, but_CC to_TO make_VB these_DT tools_NNS work_VBP ,_, it_PRP really_RB comes_VBZ down_RP to_TO just_RB being_VBG our_PRP$ best_JJS ,_, and_CC that_DT is_VBZ the_DT core_NN of_IN American_JJ greatness_NN ._.
+The_DT responsibility_NN of_IN freedom_NN presses_NNS us_PRP towards_IN higher_JJR knowledge_NN and_CC ,_, I_PRP believe_VBP ,_, moral_JJ and_CC spiritual_JJ greatness_NN ._.
+Through_IN lower_JJR taxes_NNS and_CC smaller_JJR government_NN ,_, government_NN has_VBZ its_PRP$ ways_NNS of_IN freeing_VBG people_NNS 's_POS spirits_NNS ._.
+But_CC only_RB we_PRP ,_, each_DT of_IN us_PRP ,_, can_MD let_VB the_DT spirit_NN soar_VB against_IN our_PRP$ own_JJ individual_JJ standards_NNS ._.
+Excellence_NN is_VBZ what_WP makes_VBZ freedom_NN ring_NN ._.
+And_CC is_VBZ n't_RB that_IN what_WP we_PRP do_VBP best_JJS ?_.
+We_PRP 're_VBP entering_VBG our_PRP$ third_JJ century_NN now_RB ,_, but_CC it_PRP 's_VBZ wrong_JJ to_TO judge_VB our_PRP$ nation_NN by_IN its_PRP$ Years_NNS ._.
+The_DT calendar_NN ca_MD n't_RB measure_VB America_NNP because_IN we_PRP were_VBD meant_VBN to_TO be_VB an_DT endless_JJ experiment_NN in_IN freedom_NN with_IN no_DT limit_NN to_TO our_PRP$ reaches_NNS ,_, no_DT boundaries_NNS to_TO what_WP we_PRP can_MD do_VB ,_, no_DT end_NN point_NN to_TO our_PRP$ hopes_NNS ._.
+The_DT United_NNP States_NNPS Constitution_NNP is_VBZ the_DT impassioned_JJ and_CC inspired_JJ vehicle_NN by_IN which_WDT we_PRP travel_VBP through_IN history_NN ._.
+It_PRP grew_VBD out_IN of_IN the_DT most_RBS fundamental_JJ inspiration_NN of_IN our_PRP$ existence_NN :_: that_IN we_PRP are_VBP here_RB to_TO serve_VB Him_PRP by_IN living_VBG free_JJ --_: that_IN living_VBG free_JJ releases_NNS in_IN us_PRP the_DT noblest_JJS of_IN impulses_NNS and_CC the_DT best_JJS of_IN our_PRP$ abilities_NNS ._.
+That_IN we_PRP would_MD use_VB these_DT gifts_NNS for_IN good_JJ and_CC generous_JJ purposes_NNS and_CC would_MD secure_VB them_PRP not_RB just_RB for_IN ourselves_PRP ,_, and_CC for_IN our_PRP$ children_NNS ,_, but_CC for_IN all_DT mankind_NN ._.
+Over_IN the_DT years_NNS --_: I_PRP wo_MD n't_RB count_VB if_IN you_PRP do_VBP n't_RB nothing_NN has_VBZ been_VBN so_RB heartwarming_JJ to_TO me_PRP as_IN speaking_VBG to_TO America_NNP 's_POS young_JJ ._.
+And_CC the_DT little_JJ ones_NNS especially_RB so_RB fresh-faced_JJ and_CC so_RB eager_JJ to_TO know_VB -_: well_RB ,_, from_IN time_NN to_TO time_NN I_PRP 've_VBP been_VBN with_IN them_PRP ,_, they_PRP will_MD ask_VB about_IN our_PRP$ Constitution_NNP ,_, and_CC I_PRP hope_VBP you_PRP Members_NNS of_IN Congress_NNP will_MD not_RB deem_VB this_DT a_DT breach_NN of_IN protocol_NN if_IN you_PRP 'll_MD permit_VB me_PRP to_TO share_VB these_DT thoughts_NNS again_RB with_IN the_DT young_JJ people_NNS who_WP might_MD be_VB listening_VBG or_CC watching_VBG this_DT evening_NN ._.
+I_PRP have_VBP read_VBN the_DT constitutions_NNS of_IN a_DT number_NN of_IN countries_NNS including_VBG the_DT Soviet_NNP Union_NNP 's_POS ._.
+Now_RB some_DT people_NNS are_VBP surprised_VBN to_TO hear_VB that_IN they_PRP have_VBP a_DT constitution_NN ,_, and_CC it_PRP even_RB supposedly_RB grants_NNS a_DT number_NN of_IN freedoms_NNS to_TO its_PRP$ people_NNS ._.
+Many_JJ countries_NNS have_VBP written_VBN into_IN their_PRP$ constitution_NN provisions_NNS for_IN freedom_NN of_IN speech_NN and_CC freedom_NN of_IN assembly_NN ._.
+Well_RB ,_, if_IN this_DT is_VBZ true_JJ ,_, why_WRB is_VBZ the_DT Constitution_NNP of_IN the_DT United_NNP States_NNPS so_RB exceptional_JJ ?_.
+Well_RB ,_, the_DT difference_NN is_VBZ so_RB small_JJ that_IN it_PRP almost_RB escapes_VBZ you_PRP -_: but_CC it_PRP 's_VBZ so_RB great_JJ it_PRP tells_VBZ you_PRP the_DT whole_JJ story_NN in_IN just_RB three_CD words_NNS :_: We_PRP the_DT people_NNS ._.
+In_IN those_DT other_JJ constitutions_NNS ,_, the_DT government_NN tells_VBZ the_DT people_NNS of_IN those_DT countries_NNS what_WP they_PRP are_VBP allowed_VBN to_TO do_VB ._.
+In_IN our_PRP$ Constitution_NNP ,_, we_PRP the_DT people_NNS tell_VBP the_DT government_NN what_WP it_PRP can_MD do_VB and_CC that_IN it_PRP can_MD do_VB only_RB those_DT things_NNS listed_VBN in_IN that_DT document_NN and_CC no_DT others_NNS ._.
+Virtually_RB every_DT other_JJ revolution_NN in_IN history_NN has_VBZ just_RB exchanged_VBN one_CD set_NN of_IN rulers_NNS for_IN another_DT set_NN of_IN rulers_NNS ._.
+Our_PRP$ revolution_NN is_VBZ the_DT first_JJ to_TO say_VB the_DT people_NNS are_VBP the_DT masters_NNS ,_, and_CC government_NN is_VBZ their_PRP$ servant_NN ._.
+And_CC you_PRP young_JJ people_NNS out_IN there_RB ,_, do_VBP n't_RB ever_RB forget_VB that_DT ._.
+Some_DT day_NN ,_, you_PRP could_MD be_VB in_IN this_DT room_NN --_: but_CC wherever_WRB you_PRP are_VBP ,_, America_NNP is_VBZ depending_VBG on_IN you_PRP to_TO reach_VB your_PRP$ highest_JJS and_CC be_VB your_PRP$ best_JJS because_IN here_RB ,_, in_IN America_NNP ,_, we_PRP the_DT people_NNS are_VBP in_IN charge_NN ._.
+Just_RB three_CD words_NNS ._.
+We_PRP the_DT people_NNS ._.
+Those_DT are_VBP the_DT kids_NNS on_IN Christmas_NNP Day_NNP looking_VBG out_RP from_IN a_DT frozen_JJ sentry_NN post_NN on_IN the_DT 38th_JJ Parallel_JJ in_IN Korea_NNP ,_, or_CC aboard_IN an_DT aircraft_NN carrier_NN in_IN the_DT Mediterranean_NNP ._.
+A_DT million_CD miles_NNS from_IN home_NN ._.
+But_CC doing_VBG their_PRP$ duty_NN ._.
+We_PRP the_DT people_NNS ._.
+Those_DT are_VBP the_DT warm-hearted_JJ whose_WP$ numbers_NNS we_PRP ca_MD n't_RB begin_VB to_TO count_VB who_WP 'll_MD begin_VB the_DT day_NN with_IN a_DT little_JJ prayer_NN for_IN hostages_NNS they_PRP will_MD never_RB know_VB and_CC MIA_NNP families_NNS they_PRP will_MD never_RB meet_VB ._.
+Why_WRB ?_.
+Because_IN that_DT 's_VBZ the_DT way_NN we_PRP are_VBP ,_, this_DT unique_JJ breed_NN we_PRP call_VBP Americans_NNPS ._.
+We_PRP the_DT people_NNS ._.
+They_PRP 're_VBP farmers_NNS on_IN tough_JJ times_NNS ,_, but_CC who_WP never_RB stop_VBP feeding_VBG a_DT hungry_JJ world_NN ._.
+They_PRP 're_VBP the_DT volunteers_NNS at_IN the_DT hospital_NN choking_VBG back_RP their_PRP$ tears_NNS for_IN the_DT hundredth_JJ time_NN ,_, caring_VBG for_IN a_DT baby_NN struggling_VBG for_IN life_NN because_IN of_IN a_DT mother_NN who_WP used_VBD drugs_NNS ._.
+And_CC you_PRP 'll_MD forgive_VB me_PRP a_DT special_JJ memory_NN --_: it_PRP 's_VBZ a_DT million_CD mothers_NNS like_IN Nelle_NNP Reagan_NNP who_WP never_RB knew_VBD a_DT stranger_NN or_CC turned_VBD a_DT hungry_JJ person_NN away_RB from_IN her_PRP$ kitchen_NN door_NN ._.
+We_PRP the_DT people_NNS ._.
+They_PRP refute_VBP last_JJ week_NN 's_POS television_NN commentary_NN downgrading_NN our_PRP$ optimism_NN and_CC our_PRP$ idealism_NN ._.
+They_PRP are_VBP the_DT entrepreneurs_NNS ,_, the_DT builders_NNS ,_, the_DT pioneers_NNS ,_, and_CC a_DT lot_NN of_IN regular_JJ folks_NNS the_DT true_JJ heroes_NNS of_IN our_PRP$ land_NN who_WP make_VBP up_RP the_DT most_RBS uncommon_JJ nation_NN of_IN doers_NNS in_IN history_NN ._.
+You_PRP know_VBP they_PRP 're_VBP Americans_NNS because_IN their_PRP$ spirit_NN is_VBZ as_RB big_JJ as_IN the_DT universe_NN and_CC their_PRP$ hearts_NNS are_VBP bigger_JJR than_IN their_PRP$ spirits_NNS ._.
+We_PRP the_DT people_NNS ._.
+Starting_VBG the_DT third_JJ century_NN of_IN a_DT dream_NN and_CC standing_VBG up_RP to_TO some_DT cynic_JJ who_WP 's_VBZ trying_VBG to_TO tell_VB us_PRP we_PRP 're_VBP not_RB going_VBG to_TO get_VB any_DT better_JJR ._.
+Are_VBP we_PRP at_IN the_DT end_NN ?_.
+Well_RB ,_, I_PRP ca_MD n't_RB tell_VB it_PRP any_DT better_JJR than_IN the_DT real_JJ thing_NN --_: a_DT story_NN recorded_VBN by_IN James_NNP Madison_NNP from_IN the_DT final_JJ moments_NNS of_IN the_DT Constitutional_NNP Convention_NNP --_: September_NNP 17th_JJ ,_, 1787_CD ._.
+As_IN the_DT last_JJ few_JJ members_NNS signed_VBD the_DT document_NN ,_, Benjamin_NNP Franklin_NNP --_: the_DT oldest_JJS delegate_NN at_IN 81_CD years_NNS ,_, and_CC in_IN frail_JJ health_NN --_: looked_VBD over_IN toward_IN the_DT chair_NN where_WRB George_NNP Washington_NNP daily_JJ presided_VBD ._.
+At_IN the_DT back_NN of_IN the_DT chair_NN was_VBD painted_VBN the_DT picture_NN of_IN a_DT sun_NN on_IN the_DT horizon_NN ._.
+And_CC turning_VBG to_TO those_DT sitting_VBG next_JJ to_TO him_PRP ,_, Franklin_NNP observed_VBD that_IN artists_NNS found_VBD it_PRP difficult_JJ in_IN their_PRP$ painting_NN to_TO distinguish_VB between_IN a_DT rising_VBG and_CC a_DT setting_VBG sun_NN ._.
+Well_RB ,_, I_PRP know_VBP if_IN we_PRP were_VBD there_RB ,_, we_PRP could_MD see_VB those_DT delegates_NNS sitting_VBG around_IN Franklin_NNP --_: leaning_VBG in_IN to_TO listen_VB more_RBR closely_RB to_TO him_PRP ._.
+And_CC then_RB Dr._NNP Franklin_NNP began_VBD to_TO share_VB his_PRP$ deepest_JJS hopes_NNS and_CC fears_NNS about_IN the_DT outcome_NN of_IN their_PRP$ efforts_NNS ,_, and_CC this_DT is_VBZ what_WP he_PRP said_VBD :_: ``_`` I_PRP have_VBP often_RB looked_VBN at_IN that_DT picture_NN behind_IN the_DT President_NNP without_IN being_VBG able_JJ to_TO tell_VB whether_IN it_PRP was_VBD a_DT rising_VBG or_CC setting_VBG Sun_NNP :_: But_CC now_RB at_IN length_NN I_PRP have_VBP the_DT happiness_NN to_TO know_VB that_IN it_PRP is_VBZ a_DT rising_VBG and_CC not_RB a_DT setting_VBG Sun_NNP ._. ''_''
+Well_RB ,_, you_PRP can_MD bet_VB it_PRP 's_VBZ rising_VBG ,_, because_RB ,_, my_PRP$ fellow_JJ citizens_NNS ,_, America_NNP is_VBZ n't_RB finished_VBD her_PRP$ best_JJS days_NNS have_VBP just_RB begun_VBN ._.
+Thank_VB you_PRP ,_, God_NNP bless_VB you_PRP and_CC God_NNP bless_VBP America_NNP ._.

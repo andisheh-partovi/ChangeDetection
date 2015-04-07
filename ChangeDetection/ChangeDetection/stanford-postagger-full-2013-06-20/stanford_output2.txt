@@ -1,3 +1,0 @@
-
-C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\test_files\2.txt 
-Alice_NNP was_VBD beginning_VBG to_TO get_VB very_RB tired_JJ of_IN sitting_VBG by_IN her_PRP$ sister_NN on_IN the_DT bank_NN

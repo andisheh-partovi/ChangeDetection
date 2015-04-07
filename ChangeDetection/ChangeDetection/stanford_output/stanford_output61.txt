@@ -1,0 +1,290 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\2003-GWBush.txt 
+Mr._NNP Speaker_NNP ,_, Vice_NNP President_NNP Cheney_NNP ,_, Members_NNP of_IN Congress_NNP ,_, distinguished_VBD guests_NNS ,_, fellow_JJ citizens_NNS :_: Every_DT year_NN ,_, by_IN law_NN and_CC by_IN custom_NN ,_, we_PRP meet_VBP here_RB to_TO consider_VB the_DT state_NN of_IN the_DT union_NN ._.
+This_DT year_NN ,_, we_PRP gather_VBP in_IN this_DT chamber_NN deeply_RB aware_JJ of_IN decisive_JJ days_NNS that_WDT lie_VBP ahead_RB ._.
+You_PRP and_CC I_PRP serve_VBP our_PRP$ country_NN in_IN a_DT time_NN of_IN great_JJ consequence_NN ._.
+During_IN this_DT session_NN of_IN Congress_NNP ,_, we_PRP have_VBP the_DT duty_NN to_TO reform_VB domestic_JJ programs_NNS vital_JJ to_TO our_PRP$ country_NN ..._: and_CC we_PRP have_VBP the_DT opportunity_NN to_TO save_VB millions_NNS of_IN lives_NNS abroad_RB from_IN a_DT terrible_JJ disease_NN ._.
+We_PRP will_MD work_VB for_IN a_DT prosperity_NN that_WDT is_VBZ broadly_RB shared_VBN ..._: and_CC we_PRP will_MD answer_VB every_DT danger_NN and_CC every_DT enemy_NN that_WDT threatens_VBZ the_DT American_JJ people_NNS ._.
+In_IN all_DT these_DT days_NNS of_IN promise_NN and_CC days_NNS of_IN reckoning_NN ,_, we_PRP can_MD be_VB confident_JJ ._.
+In_IN a_DT whirlwind_JJ of_IN change_NN ,_, and_CC hope_NN ,_, and_CC peril_NN ,_, our_PRP$ faith_NN is_VBZ sure_JJ ,_, our_PRP$ resolve_NN is_VBZ firm_JJ ,_, and_CC our_PRP$ union_NN is_VBZ strong_JJ ._.
+This_DT country_NN has_VBZ many_JJ challenges_NNS ._.
+We_PRP will_MD not_RB deny_VB ,_, we_PRP will_MD not_RB ignore_VB ,_, we_PRP will_MD not_RB pass_VB along_RB our_PRP$ problems_NNS to_TO other_JJ Congresses_NNS ,_, other_JJ presidents_NNS ,_, and_CC other_JJ generations_NNS ._.
+We_PRP will_MD confront_VB them_PRP with_IN focus_NN ,_, and_CC clarity_NN ,_, and_CC courage_NN ._.
+During_IN the_DT last_JJ two_CD years_NNS ,_, we_PRP have_VBP seen_VBN what_WP can_MD be_VB accomplished_VBN when_WRB we_PRP work_VBP together_RB ._.
+To_TO lift_VB the_DT standards_NNS of_IN our_PRP$ public_JJ schools_NNS ,_, we_PRP achieved_VBD historic_JJ education_NN reform_NN -_: which_WDT must_MD now_RB be_VB carried_VBN out_RP in_IN every_DT school_NN ,_, and_CC every_DT classroom_NN ,_, so_RB that_IN every_DT child_NN in_IN America_NNP can_MD read_VB ,_, and_CC learn_VB ,_, and_CC succeed_VB in_IN life_NN ._.
+To_TO protect_VB our_PRP$ country_NN ,_, we_PRP reorganized_VBD our_PRP$ government_NN and_CC created_VBD the_DT Department_NNP of_IN Homeland_NNP Security_NNP -_: which_WDT is_VBZ mobilizing_VBG against_IN the_DT threats_NNS of_IN a_DT new_JJ era_NN ._.
+To_TO bring_VB our_PRP$ economy_NN out_IN of_IN recession_NN ,_, we_PRP delivered_VBD the_DT largest_JJS tax_NN relief_NN in_IN a_DT generation_NN ._.
+To_TO insist_VB on_IN integrity_NN in_IN American_JJ business_NN ,_, we_PRP passed_VBD tough_JJ reforms_NNS ,_, and_CC we_PRP are_VBP holding_VBG corporate_JJ criminals_NNS to_TO account_VB ._.
+Some_DT might_MD call_VB this_DT a_DT good_JJ record_NN ._.
+I_PRP call_VBP it_PRP a_DT good_JJ start_NN ._.
+Tonight_NNP I_PRP ask_VBP the_DT House_NNP and_CC Senate_NNP to_TO join_VB me_PRP in_IN the_DT next_JJ bold_JJ steps_NNS to_TO serve_VB our_PRP$ fellow_JJ citizens_NNS ._.
+Our_PRP$ first_JJ goal_NN is_VBZ clear_JJ :_: We_PRP must_MD have_VB an_DT economy_NN that_WDT grows_VBZ fast_RB enough_JJ to_TO employ_VB every_DT man_NN and_CC woman_NN who_WP seeks_VBZ a_DT job_NN ._.
+After_IN recession_NN ,_, terrorist_JJ attacks_NNS ,_, corporate_JJ scandals_NNS ,_, and_CC stock_NN market_NN declines_NNS ,_, our_PRP$ economy_NN is_VBZ recovering_VBG -_: yet_CC it_PRP is_VBZ not_RB growing_VBG fast_RB enough_RB ,_, or_CC strongly_RB enough_RB ._.
+With_IN unemployment_NN rising_VBG ,_, our_PRP$ Nation_NN needs_VBZ more_RBR small_JJ businesses_NNS to_TO open_VB ,_, more_JJR companies_NNS to_TO invest_VB and_CC expand_VB ,_, more_JJR employers_NNS to_TO put_VB up_RP the_DT sign_NN that_IN says_VBZ ,_, ``_`` Help_VB Wanted_VBN ._. ''_''
+Jobs_NNP are_VBP created_VBN when_WRB the_DT economy_NN grows_VBZ ;_: the_DT economy_NN grows_VBZ when_WRB Americans_NNS have_VBP more_JJR money_NN to_TO spend_VB and_CC invest_VB ;_: and_CC the_DT best_JJS ,_, fairest_JJS way_NN to_TO make_VB sure_JJ Americans_NNS have_VBP that_DT money_NN is_VBZ not_RB to_TO tax_NN it_PRP away_RB in_IN the_DT first_JJ place_NN ._.
+I_PRP am_VBP proposing_VBG that_IN all_PDT the_DT income_NN tax_NN reductions_NNS set_VBN for_IN 2004_CD and_CC 2006_CD be_VB made_VBN permanent_JJ and_CC effective_JJ this_DT year_NN ._.
+And_CC under_IN my_PRP$ plan_NN ,_, as_RB soon_RB as_IN I_PRP have_VBP signed_VBN the_DT bill_NN ,_, this_DT extra_JJ money_NN will_MD start_VB showing_VBG up_RP in_IN workers_NNS '_POS paychecks_NNS ._.
+Instead_RB of_IN gradually_RB reducing_VBG the_DT marriage_NN penalty_NN ,_, we_PRP should_MD do_VB it_PRP now_RB ._.
+Instead_RB of_IN slowly_RB raising_VBG the_DT child_NN credit_NN to_TO a_DT thousand_CD dollars_NNS ,_, we_PRP should_MD send_VB the_DT checks_NNS to_TO American_JJ families_NNS now_RB ._.
+This_DT tax_NN relief_NN is_VBZ for_IN everyone_NN who_WP pays_VBZ income_NN taxes_NNS -_: and_CC it_PRP will_MD help_VB our_PRP$ economy_NN immediately_RB ._.
+Ninety-two_CD million_CD Americans_NNPS will_MD keep_VB -_: this_DT year_NN -_: an_DT average_NN of_IN almost_RB 1,100_CD dollars_NNS more_JJR of_IN their_PRP$ own_JJ money_NN ._.
+A_DT family_NN of_IN four_CD with_IN an_DT income_NN of_IN 40,000_CD dollars_NNS would_MD see_VB their_PRP$ federal_JJ income_NN taxes_NNS fall_VBP from_IN 1,178_CD dollars_NNS to_TO 45_CD dollars_NNS per_IN year_NN ._.
+And_CC our_PRP$ plan_NN will_MD improve_VB the_DT bottom_JJ line_NN for_IN more_JJR than_IN 23_CD million_CD small_JJ businesses_NNS ._.
+You_PRP ,_, the_DT Congress_NNP ,_, have_VBP already_RB passed_VBN all_PDT these_DT reductions_NNS ,_, and_CC promised_VBD them_PRP for_IN future_JJ years_NNS ._.
+If_IN this_DT tax_NN relief_NN is_VBZ good_JJ for_IN Americans_NNPS three_CD ,_, or_CC five_CD ,_, or_CC seven_CD years_NNS from_IN now_RB ,_, it_PRP is_VBZ even_RB better_RBR for_IN Americans_NNPS today_NN ._.
+We_PRP also_RB strengthen_VBP the_DT economy_NN by_IN treating_VBG investors_NNS equally_RB in_IN our_PRP$ tax_NN laws_NNS ._.
+It_PRP is_VBZ fair_JJ to_TO tax_VB a_DT company_NN 's_POS profits_NNS ._.
+It_PRP is_VBZ not_RB fair_JJ to_TO again_RB tax_VB the_DT shareholder_NN on_IN the_DT same_JJ profits_NNS ._.
+To_TO boost_VB investor_NN confidence_NN ,_, and_CC to_TO help_VB the_DT nearly_RB 10_CD million_CD seniors_NNS who_WP receive_VBP dividend_NN income_NN ,_, I_PRP ask_VBP you_PRP to_TO end_VB the_DT unfair_JJ double_JJ taxation_NN of_IN dividends_NNS ._.
+Lower_JJR taxes_NNS and_CC greater_JJR investment_NN will_MD help_VB this_DT economy_NN expand_VB ._.
+More_JJR jobs_NNS mean_VBP more_JJR taxpayers_NNS -_: and_CC higher_JJR revenues_NNS to_TO our_PRP$ government_NN ._.
+The_DT best_JJS way_NN to_TO address_VB the_DT deficit_NN and_CC move_VB toward_IN a_DT balanced_JJ budget_NN is_VBZ to_TO encourage_VB economic_JJ growth_NN -_: and_CC to_TO show_VB some_DT spending_NN discipline_NN in_IN Washington_NNP ,_, D.C._NNP ._.
+We_PRP must_MD work_VB together_RB to_TO fund_VB only_RB our_PRP$ most_RBS important_JJ priorities_NNS ._.
+I_PRP will_MD send_VB you_PRP a_DT budget_NN that_WDT increases_VBZ discretionary_JJ spending_NN by_IN four_CD percent_NN next_JJ year_NN -_: about_IN as_RB much_JJ as_IN the_DT average_JJ family_NN 's_POS income_NN is_VBZ expected_VBN to_TO grow_VB ._.
+And_CC that_DT is_VBZ a_DT good_JJ benchmark_NN for_IN us_PRP :_: Federal_NNP spending_NN should_MD not_RB rise_VB any_DT faster_JJR than_IN the_DT paychecks_NNS of_IN American_JJ families_NNS ._.
+A_DT growing_VBG economy_NN ,_, and_CC a_DT focus_NN on_IN essential_JJ priorities_NNS ,_, will_MD also_RB be_VB crucial_JJ to_TO the_DT future_NN of_IN Social_NNP Security_NNP ._.
+As_IN we_PRP continue_VBP to_TO work_VB together_RB to_TO keep_VB Social_NNP Security_NNP sound_NN and_CC reliable_JJ ,_, we_PRP must_MD offer_VB younger_JJR workers_NNS a_DT chance_NN to_TO invest_VB in_IN retirement_NN accounts_NNS that_IN they_PRP will_MD control_VB and_CC they_PRP will_MD own_VB ._.
+Our_PRP$ second_JJ goal_NN is_VBZ high_JJ quality_NN ,_, affordable_JJ health_NN care_NN for_IN all_DT Americans_NNPS ._.
+The_DT American_JJ system_NN of_IN medicine_NN is_VBZ a_DT model_NN of_IN skill_NN and_CC innovation_NN -_: with_IN a_DT pace_NN of_IN discovery_NN that_WDT is_VBZ adding_VBG good_JJ years_NNS to_TO our_PRP$ lives_NNS ._.
+Yet_RB for_IN many_JJ people_NNS ,_, medical_JJ care_NN costs_NNS too_RB much_JJ -_: and_CC many_JJ have_VBP no_DT coverage_NN at_IN all_DT ._.
+These_DT problems_NNS will_MD not_RB be_VB solved_VBN with_IN a_DT nationalized_VBN health_NN care_NN system_NN that_WDT dictates_VBZ coverage_NN and_CC rations_NNS care_NN ._.
+Instead_RB ,_, we_PRP must_MD work_VB toward_IN a_DT system_NN in_IN which_WDT all_DT Americans_NNPS have_VBP a_DT good_JJ insurance_NN policy_NN ..._: choose_VB their_PRP$ own_JJ doctors_NNS ._. ._.
+and_CC seniors_NNS and_CC low-income_JJ Americans_NNPS receive_VBP the_DT help_NN they_PRP need_VBP ._.
+Instead_RB of_IN bureaucrats_NNS ,_, and_CC trial_NN lawyers_NNS ,_, and_CC HMOs_NNS ,_, we_PRP must_MD put_VB doctors_NNS ,_, and_CC nurses_NNS ,_, and_CC patients_NNS back_RB in_IN charge_NN of_IN American_JJ medicine_NN ._.
+Health_NNP care_NN reform_NN must_MD begin_VB with_IN Medicare_NNP ,_, because_IN Medicare_NNP is_VBZ the_DT binding_JJ commitment_NN of_IN a_DT caring_VBG society_NN ._.
+We_PRP must_MD renew_VB that_IN commitment_NN by_IN giving_VBG seniors_NNS access_NN to_TO the_DT preventive_JJ medicine_NN and_CC new_JJ drugs_NNS that_WDT are_VBP transforming_VBG health_NN care_NN in_IN America_NNP ._.
+Seniors_NNS happy_JJ with_IN the_DT current_JJ Medicare_NNP system_NN should_MD be_VB able_JJ to_TO keep_VB their_PRP$ coverage_NN just_RB the_DT way_NN it_PRP is_VBZ ._.
+And_CC just_RB like_IN you_PRP ,_, the_DT members_NNS of_IN Congress_NNP ,_, members_NNS of_IN your_PRP$ staffs_NNS ,_, and_CC other_JJ federal_JJ employees_NNS ,_, all_DT seniors_NNS should_MD have_VB the_DT choice_NN of_IN a_DT health_NN care_NN plan_NN that_WDT provides_VBZ prescription_NN drugs_NNS ._.
+My_PRP$ budget_NN will_MD commit_VB an_DT additional_JJ 400_CD billion_CD dollars_NNS over_IN the_DT next_JJ decade_NN to_TO reform_NN and_CC strengthen_VB Medicare_NNP ._.
+Leaders_NNS of_IN both_DT political_JJ parties_NNS have_VBP talked_VBN for_IN years_NNS about_IN strengthening_VBG Medicare_NNP -_: I_PRP urge_VBP the_DT members_NNS of_IN this_DT new_JJ Congress_NNP to_TO act_VB this_DT year_NN ._.
+To_TO improve_VB our_PRP$ health_NN care_NN system_NN ,_, we_PRP must_MD address_VB one_CD of_IN the_DT prime_JJ causes_NNS of_IN higher_JJR costs_NNS -_: the_DT constant_JJ threat_NN that_WDT physicians_NNS and_CC hospitals_NNS will_MD be_VB unfairly_RB sued_VBN ._.
+Because_IN of_IN excessive_JJ litigation_NN ,_, everybody_NN pays_VBZ more_RBR for_IN health_NN care_NN -_: and_CC many_JJ parts_NNS of_IN America_NNP are_VBP losing_VBG fine_JJ doctors_NNS ._.
+No_DT one_NN has_VBZ ever_RB been_VBN healed_VBN by_IN a_DT frivolous_JJ lawsuit_NN -_: and_CC I_PRP urge_VBP the_DT Congress_NNP to_TO pass_VB medical_JJ liability_NN reform_NN ._.
+Our_PRP$ third_JJ goal_NN is_VBZ to_TO promote_VB energy_NN independence_NN for_IN our_PRP$ country_NN ,_, while_IN dramatically_RB improving_VBG the_DT environment_NN ._.
+I_PRP have_VBP sent_VBN you_PRP a_DT comprehensive_JJ energy_NN plan_NN to_TO promote_VB energy_NN efficiency_NN and_CC conservation_NN ,_, to_TO develop_VB cleaner_JJR technology_NN ,_, and_CC to_TO produce_VB more_JJR energy_NN at_IN home_NN ._.
+I_PRP have_VBP sent_VBN you_PRP Clear_JJ Skies_NNS legislation_NN that_WDT mandates_VBZ a_DT 70_CD percent_NN cut_NN in_IN air_NN pollution_NN from_IN power_NN plants_NNS over_IN the_DT next_JJ 15_CD years_NNS ._.
+I_PRP have_VBP sent_VBN you_PRP a_DT Healthy_JJ Forests_NNP Initiative_NNP ,_, to_TO help_VB prevent_VB the_DT catastrophic_JJ fires_NNS that_WDT devastate_VBP communities_NNS ,_, kill_VBP wildlife_NN ,_, and_CC burn_VBP away_RB millions_NNS of_IN acres_NNS of_IN treasured_JJ forest_NN ._.
+I_PRP urge_VBP you_PRP to_TO pass_VB these_DT measures_NNS ,_, for_IN the_DT good_JJ of_IN both_DT our_PRP$ environment_NN and_CC our_PRP$ economy_NN ._.
+Even_RB more_RBR ,_, I_PRP ask_VBP you_PRP to_TO take_VB a_DT crucial_JJ step_NN ,_, and_CC protect_VB our_PRP$ environment_NN in_IN ways_NNS that_WDT generations_NNS before_IN us_PRP could_MD not_RB have_VB imagined_VBN ._.
+In_IN this_DT century_NN ,_, the_DT greatest_JJS environmental_JJ progress_NN will_MD come_VB about_RB ,_, not_RB through_IN endless_JJ lawsuits_NNS or_CC command_NN and_CC control_NN regulations_NNS ,_, but_CC through_IN technology_NN and_CC innovation_NN ._.
+Tonight_NNP I_PRP am_VBP proposing_VBG 1.2_CD billion_CD dollars_NNS in_IN research_NN funding_NN so_RB that_IN America_NNP can_MD lead_VB the_DT world_NN in_IN developing_VBG clean_JJ ,_, hydrogen-powered_JJ automobiles_NNS ._.
+A_DT simple_JJ chemical_NN reaction_NN between_IN hydrogen_NN and_CC oxygen_NN generates_VBZ energy_NN ,_, which_WDT can_MD be_VB used_VBN to_TO power_NN a_DT car_NN -_: producing_VBG only_RB water_NN ,_, not_RB exhaust_VB fumes_VBZ ._.
+With_IN a_DT new_JJ national_JJ commitment_NN ,_, our_PRP$ scientists_NNS and_CC engineers_NNS will_MD overcome_VB obstacles_NNS to_TO taking_VBG these_DT cars_NNS from_IN laboratory_NN to_TO showroom_NN -_: so_IN that_IN the_DT first_JJ car_NN driven_VBN by_IN a_DT child_NN born_VBN today_NN could_MD be_VB powered_VBN by_IN hydrogen_NN ,_, and_CC pollution-free_JJ ._.
+Join_VB me_PRP in_IN this_DT important_JJ innovation_NN -_: to_TO make_VB our_PRP$ air_NN significantly_RB cleaner_JJR ,_, and_CC our_PRP$ country_NN much_RB less_RBR dependent_JJ on_IN foreign_JJ sources_NNS of_IN energy_NN ._.
+Our_PRP$ fourth_JJ goal_NN is_VBZ to_TO apply_VB the_DT compassion_NN of_IN America_NNP to_TO the_DT deepest_JJS problems_NNS of_IN America_NNP ._.
+For_IN so_RB many_JJ in_IN our_PRP$ country_NN -_: the_DT homeless_NN ,_, the_DT fatherless_JJ ,_, the_DT addicted_VBN -_: the_DT need_NN is_VBZ great_JJ ._.
+Yet_CC there_EX is_VBZ power_NN -_: wonder-working_JJ power_NN -_: in_IN the_DT goodness_NN ,_, and_CC idealism_NN ,_, and_CC faith_NN of_IN the_DT American_JJ people_NNS ._.
+Americans_NNPS are_VBP doing_VBG the_DT work_NN of_IN compassion_NN every_DT day_NN -_: visiting_VBG prisoners_NNS ,_, providing_VBG shelter_NN to_TO battered_JJ women_NNS ,_, bringing_VBG companionship_NN to_TO lonely_JJ seniors_NNS ._.
+These_DT good_JJ works_NNS deserve_VBP our_PRP$ praise_NN ..._: they_PRP deserve_VBP our_PRP$ personal_JJ support_NN ..._: and_CC ,_, when_WRB appropriate_JJ ,_, they_PRP deserve_VBP the_DT assistance_NN of_IN our_PRP$ government_NN ._.
+I_PRP urge_VBP you_PRP to_TO pass_VB both_DT my_PRP$ faith-based_JJ initiative_NN and_CC the_DT Citizen_NNP Service_NNP Act_NNP -_: to_TO encourage_VB acts_NNS of_IN compassion_NN that_WDT can_MD transform_VB America_NNP ,_, one_CD heart_NN and_CC one_CD soul_NN at_IN a_DT time_NN ._.
+Last_JJ year_NN ,_, I_PRP called_VBD on_RP my_PRP$ fellow_JJ citizens_NNS to_TO participate_VB in_IN USA_NNP Freedom_NNP Corps_NNP ,_, which_WDT is_VBZ enlisting_VBG tens_NNS of_IN thousands_NNS of_IN new_JJ volunteers_NNS across_IN America_NNP ._.
+Tonight_NNP I_PRP ask_VBP Congress_NNP and_CC the_DT American_JJ people_NNS to_TO focus_VB the_DT spirit_NN of_IN service_NN and_CC the_DT resources_NNS of_IN government_NN on_IN the_DT needs_NNS of_IN some_DT of_IN our_PRP$ most_RBS vulnerable_JJ citizens_NNS -_: boys_NNS and_CC girls_NNS trying_VBG to_TO grow_VB up_RP without_IN guidance_NN and_CC attention_NN ..._: and_CC children_NNS who_WP have_VBP to_TO go_VB through_IN a_DT prison_NN gate_NN to_TO be_VB hugged_VBN by_IN their_PRP$ mom_NN or_CC dad_NN ._.
+I_PRP propose_VBP a_DT 450_CD million_CD dollar_NN initiative_NN to_TO bring_VB mentors_NNS to_TO more_JJR than_IN a_DT million_CD disadvantaged_JJ junior_NN high_JJ students_NNS and_CC children_NNS of_IN prisoners_NNS ._.
+Government_NN will_MD support_VB the_DT training_NN and_CC recruiting_NN of_IN mentors_NNS ,_, yet_RB it_PRP is_VBZ the_DT men_NNS and_CC women_NNS of_IN America_NNP who_WP will_MD fill_VB the_DT need_NN ._.
+One_CD mentor_NN ,_, one_CD person_NN ,_, can_MD change_VB a_DT life_NN forever_RB -_: and_CC I_PRP urge_VBP you_PRP to_TO be_VB that_IN one_CD person_NN ._.
+Another_DT cause_NN of_IN hopelessness_NN is_VBZ addiction_NN to_TO drugs_NNS ._.
+Addiction_NN crowds_NNS out_IN friendship_NN ,_, ambition_NN ,_, moral_JJ conviction_NN ,_, and_CC reduces_VBZ all_PDT the_DT richness_NN of_IN life_NN to_TO a_DT single_JJ destructive_JJ desire_NN ._.
+As_IN a_DT government_NN ,_, we_PRP are_VBP fighting_VBG illegal_JJ drugs_NNS by_IN cutting_VBG off_RP supplies_NNS ,_, and_CC reducing_VBG demand_NN through_IN anti-drug_JJ education_NN programs_NNS ._.
+Yet_RB for_IN those_DT already_RB addicted_VBN ,_, the_DT fight_NN against_IN drugs_NNS is_VBZ a_DT fight_NN for_IN their_PRP$ own_JJ lives_NNS ._.
+Too_RB many_JJ Americans_NNPS in_IN search_NN of_IN treatment_NN can_MD not_RB get_VB it_PRP ._.
+So_RB tonight_RB I_PRP propose_VBP a_DT new_JJ 600_CD million_CD dollar_NN program_NN to_TO help_VB an_DT additional_JJ 300,000_CD Americans_NNPS receive_VBP treatment_NN over_IN the_DT next_JJ three_CD years_NNS ._.
+Our_PRP$ Nation_NN is_VBZ blessed_VBN with_IN recovery_NN programs_NNS that_WDT do_VBP amazing_JJ work_NN ._.
+One_CD of_IN them_PRP is_VBZ found_VBN at_IN the_DT Healing_NNP Place_NNP Church_NNP in_IN Baton_NNP Rouge_NNP ,_, Louisiana_NNP ._.
+A_DT man_NN in_IN the_DT program_NN said_VBD ,_, ``_`` God_NNP does_VBZ miracles_NNS in_IN people_NNS ._.
+s_PRP lives_VBZ ,_, and_CC you_PRP never_RB think_VBP it_PRP could_MD be_VB you_PRP ._. ''_''
+Tonight_NNP ,_, let_VB us_PRP bring_VB to_TO all_DT Americans_NNPS who_WP struggle_VBP with_IN drug_NN addiction_NN this_DT message_NN of_IN hope_NN :_: The_DT miracle_NN of_IN recovery_NN is_VBZ possible_JJ ,_, and_CC it_PRP could_MD be_VB you_PRP ._.
+By_IN caring_VBG for_IN children_NNS who_WP need_VBP mentors_NNS ,_, and_CC for_IN addicted_VBN men_NNS and_CC women_NNS who_WP need_VBP treatment_NN ,_, we_PRP are_VBP building_VBG a_DT more_RBR welcoming_VBG society_NN -_: a_DT culture_NN that_WDT values_VBZ every_DT life_NN ._.
+And_CC in_IN this_DT work_NN we_PRP must_MD not_RB overlook_VB the_DT weakest_JJS among_IN us_PRP ._.
+I_PRP ask_VBP you_PRP to_TO protect_VB infants_NNS at_IN the_DT very_JJ hour_NN of_IN birth_NN ,_, and_CC end_VB the_DT practice_NN of_IN partial-birth_JJ abortion_NN ._.
+And_CC because_IN no_DT human_JJ life_NN should_MD be_VB started_VBN or_CC ended_VBN as_IN the_DT object_NN of_IN an_DT experiment_NN ,_, I_PRP ask_VBP you_PRP to_TO set_VB a_DT high_JJ standard_NN for_IN humanity_NN and_CC pass_VB a_DT law_NN against_IN all_DT human_JJ cloning_NN ._.
+The_DT qualities_NNS of_IN courage_NN and_CC compassion_NN that_IN we_PRP strive_VBP for_IN in_IN America_NNP also_RB determine_VB our_PRP$ conduct_NN abroad_RB ._.
+The_DT American_JJ flag_NN stands_VBZ for_IN more_JJR than_IN our_PRP$ power_NN and_CC our_PRP$ interests_NNS ._.
+Our_PRP$ Founders_NNS dedicated_VBN this_DT country_NN to_TO the_DT cause_NN of_IN human_JJ dignity_NN -_: the_DT rights_NNS of_IN every_DT person_NN and_CC the_DT possibilities_NNS of_IN every_DT life_NN ._.
+This_DT conviction_NN leads_VBZ us_PRP into_IN the_DT world_NN to_TO help_VB the_DT afflicted_VBN ,_, and_CC defend_VB the_DT peace_NN ,_, and_CC confound_VB the_DT designs_NNS of_IN evil_JJ men_NNS ._.
+In_IN Afghanistan_NNP ,_, we_PRP helped_VBD to_TO liberate_VB an_DT oppressed_JJ people_NNS ..._: and_CC we_PRP will_MD continue_VB helping_VBG them_PRP secure_VB their_PRP$ country_NN ,_, rebuild_VB their_PRP$ society_NN ,_, and_CC educate_VB all_DT their_PRP$ children_NNS -_: boys_NNS and_CC girls_NNS ._.
+In_IN the_DT Middle_NNP East_NNP ,_, we_PRP will_MD continue_VB to_TO seek_VB peace_NN between_IN a_DT secure_JJ Israel_NNP and_CC a_DT democratic_JJ Palestine_NNP ._.
+Across_IN the_DT earth_NN ,_, America_NNP is_VBZ feeding_VBG the_DT hungry_JJ ;_: more_JJR than_IN 60_CD percent_NN of_IN international_JJ food_NN aid_NN comes_VBZ as_IN a_DT gift_NN from_IN the_DT people_NNS of_IN the_DT United_NNP States_NNPS ._.
+As_IN our_PRP$ Nation_NN moves_VBZ troops_NNS and_CC builds_VBZ alliances_NNS to_TO make_VB our_PRP$ world_NN safer_JJR ,_, we_PRP must_MD also_RB remember_VB our_PRP$ calling_VBG ,_, as_IN a_DT blessed_VBN country_NN ,_, to_TO make_VB this_DT world_NN better_RBR ._.
+Today_NN ,_, on_IN the_DT continent_NN of_IN Africa_NNP ,_, nearly_RB 30_CD million_CD people_NNS have_VBP the_DT AIDS_NNP virus_NN -_: including_VBG three_CD million_CD children_NNS under_IN the_DT age_NN of_IN 15_CD ._.
+There_EX are_VBP whole_JJ countries_NNS in_IN Africa_NNP where_WRB more_JJR than_IN one-third_NN of_IN the_DT adult_NN population_NN carries_VBZ the_DT infection_NN ._.
+More_JJR than_IN four_CD million_CD require_VBP immediate_JJ drug_NN treatment_NN ._.
+Yet_RB across_IN that_DT continent_NN ,_, only_RB 50,000_CD AIDS_NNP victims_NNS -_: only_RB 50,000_CD -_: are_VBP receiving_VBG the_DT medicine_NN they_PRP need_VBP ._.
+Because_IN the_DT AIDS_NNP diagnosis_NN is_VBZ considered_VBN a_DT death_NN sentence_NN ,_, many_JJ do_VBP not_RB seek_VB treatment_NN ._.
+Almost_RB all_DT who_WP do_VBP are_VBP turned_VBN away_RB ._.
+A_DT doctor_NN in_IN rural_JJ South_NNP Africa_NNP describes_VBZ his_PRP$ frustration_NN ._.
+He_PRP says_VBZ ,_, ``_`` We_PRP have_VBP no_DT medicines_NNS ._. ._.
+many_JJ hospitals_NNS tell_VBP -LSB-_JJ people_NNS -RSB-_NNP ,_, `_`` You_PRP 've_VBP got_VBN AIDS_NNP ._.
+We_PRP ca_MD n't_RB help_VB you_PRP ._.
+Go_VB home_NN and_CC die_VB ._. '_'' ''_''
+In_IN an_DT age_NN of_IN miraculous_JJ medicines_NNS ,_, no_DT person_NN should_MD have_VB to_TO hear_VB those_DT words_NNS ._.
+AIDS_NNP can_MD be_VB prevented_VBN ._.
+Anti-retroviral_JJ drugs_NNS can_MD extend_VB life_NN for_IN many_JJ years_NNS ._.
+And_CC the_DT cost_NN of_IN those_DT drugs_NNS has_VBZ dropped_VBN from_IN 12,000_CD dollars_NNS a_DT year_NN to_TO under_IN 300_CD dollars_NNS a_DT year_NN -_: which_WDT places_VBZ a_DT tremendous_JJ possibility_NN within_IN our_PRP$ grasp_NN ._.
+Ladies_NNP and_CC gentlemen_NNS ,_, seldom_RB has_VBZ history_NN offered_VBD a_DT greater_JJR opportunity_NN to_TO do_VB so_RB much_RB for_IN so_RB many_JJ ._.
+We_PRP have_VBP confronted_VBN ,_, and_CC will_MD continue_VB to_TO confront_VB ,_, HIV\/AIDS_NNP in_IN our_PRP$ own_JJ country_NN ._.
+And_CC to_TO meet_VB a_DT severe_JJ and_CC urgent_JJ crisis_NN abroad_RB ,_, tonight_NN I_PRP propose_VBP the_DT Emergency_NN Plan_NN for_IN AIDS_NNP Relief_NNP -_: a_DT work_NN of_IN mercy_NN beyond_IN all_DT current_JJ international_JJ efforts_NNS to_TO help_VB the_DT people_NNS of_IN Africa_NNP ._.
+This_DT comprehensive_JJ plan_NN will_MD prevent_VB seven_CD million_CD new_JJ AIDS_NNP infections_NNS ..._: treat_VB at_IN least_JJS two_CD million_CD people_NNS with_IN life-extending_JJ drugs_NNS ..._: and_CC provide_VB humane_NN care_NN for_IN millions_NNS of_IN people_NNS suffering_VBG from_IN AIDS_NNP ,_, and_CC for_IN children_NNS orphaned_VBN by_IN AIDS_NNP ._.
+I_PRP ask_VBP the_DT Congress_NNP to_TO commit_VB 15_CD billion_CD dollars_NNS over_IN the_DT next_JJ five_CD years_NNS ,_, including_VBG nearly_RB ten_CD billion_CD dollars_NNS in_IN new_JJ money_NN ,_, to_TO turn_VB the_DT tide_NN against_IN AIDS_NNP in_IN the_DT most_RBS afflicted_VBN nations_NNS of_IN Africa_NNP and_CC the_DT Caribbean_NNP ._.
+This_DT Nation_NN can_MD lead_VB the_DT world_NN in_IN sparing_VBG innocent_JJ people_NNS from_IN a_DT plague_VB of_IN nature_NN ._.
+And_CC this_DT Nation_NN is_VBZ leading_VBG the_DT world_NN in_IN confronting_VBG and_CC defeating_VBG the_DT man-made_JJ evil_NN of_IN international_JJ terrorism_NN ._.
+There_EX are_VBP days_NNS when_WRB the_DT American_JJ people_NNS do_VBP not_RB hear_VB news_NN about_IN the_DT war_NN on_IN terror_NN ._.
+There_EX is_VBZ never_RB a_DT day_NN when_WRB I_PRP do_VBP not_RB learn_VB of_IN another_DT threat_NN ,_, or_CC receive_VB reports_NNS of_IN operations_NNS in_IN progress_NN ,_, or_CC give_VB an_DT order_NN in_IN this_DT global_JJ war_NN against_IN a_DT scattered_JJ network_NN of_IN killers_NNS ._.
+The_DT war_NN goes_VBZ on_IN ,_, and_CC we_PRP are_VBP winning_VBG ._.
+To_TO date_NN we_PRP have_VBP arrested_VBN ,_, or_CC otherwise_RB dealt_VBN with_IN ,_, many_JJ key_JJ commanders_NNS of_IN al-Qaida_NN ._.
+They_PRP include_VBP a_DT man_NN who_WP directed_VBD logistics_NNS and_CC funding_NN for_IN the_DT September_NNP 11th_JJ attacks_NNS ..._: the_DT chief_NN of_IN al-Qaida_JJ operations_NNS in_IN the_DT Persian_NNP Gulf_NNP who_WP planned_VBD the_DT bombings_NNS of_IN our_PRP$ embassies_NNS in_IN East_NNP Africa_NNP and_CC the_DT USS_NNP Cole_NNP ..._: an_DT al-Qaida_JJ operations_NNS chief_NN from_IN Southeast_NNP Asia_NNP ..._: a_DT former_JJ director_NN of_IN al-Qaida_NN 's_POS training_NN camps_NNS in_IN Afghanistan_NNP ..._: a_DT key_JJ al-Qaida_JJ operative_NN in_IN Europe_NNP ._. ._.
+and_CC a_DT major_JJ al-Qaida_JJ leader_NN in_IN Yemen_NNP ._.
+All_DT told_VBD ,_, more_JJR than_IN 3,000_CD suspected_VBN terrorists_NNS have_VBP been_VBN arrested_VBN in_IN many_JJ countries_NNS ._.
+And_CC many_JJ others_NNS have_VBP met_VBN a_DT different_JJ fate_NN ._.
+They_PRP are_VBP no_RB longer_RB a_DT problem_NN for_IN the_DT United_NNP States_NNPS and_CC our_PRP$ friends_NNS and_CC allies_NNS ._.
+We_PRP are_VBP working_VBG closely_RB with_IN other_JJ nations_NNS to_TO prevent_VB further_JJ attacks_NNS ._.
+America_NNP and_CC coalition_NN countries_NNS have_VBP uncovered_VBN and_CC stopped_VBD terrorist_JJ conspiracies_NNS targeting_VBG the_DT American_JJ embassy_NN in_IN Yemen_NNP ..._: the_DT American_JJ embassy_NN in_IN Singapore_NNP ..._: a_DT Saudi_JJ military_JJ base_NN ..._: and_CC ships_NNS in_IN the_DT straits_NNS of_IN Hormuz_NNP ,_, and_CC the_DT straits_NNS of_IN Gibraltar_NNP ._.
+We_PRP have_VBP broken_VBN al-Qaida_JJ cells_NNS in_IN Hamburg_NNP ,_, and_CC Milan_NNP ,_, and_CC Madrid_NNP ,_, and_CC London_NNP ,_, and_CC Paris_NNP -_: as_RB well_RB as_IN Buffalo_NNP ,_, New_NNP York_NNP ._.
+We_PRP have_VBP the_DT terrorists_NNS on_IN the_DT run_NN ,_, and_CC we_PRP are_VBP keeping_VBG them_PRP on_IN the_DT run_NN ._.
+One_CD by_IN one_CD ,_, the_DT terrorists_NNS are_VBP learning_VBG the_DT meaning_NN of_IN American_JJ justice_NN ._.
+As_IN we_PRP fight_VBP this_DT war_NN ,_, we_PRP will_MD remember_VB where_WRB it_PRP began_VBD -_: here_RB ,_, in_IN our_PRP$ own_JJ country_NN ._.
+This_DT government_NN is_VBZ taking_VBG unprecedented_JJ measures_NNS to_TO protect_VB our_PRP$ people_NNS and_CC defend_VB our_PRP$ homeland_NN ._.
+We_PRP have_VBP intensified_VBN security_NN at_IN the_DT borders_NNS and_CC ports_NNS of_IN entry_NN ..._: posted_VBD more_JJR than_IN 50,000_CD newly_RB trained_VBN federal_JJ screeners_NNS in_IN airports_NNS ..._: begun_VBN inoculating_VBG troops_NNS and_CC first_JJ responders_NNS against_IN smallpox_NN ..._: and_CC are_VBP deploying_VBG the_DT Nation_NN 's_POS first_JJ early_JJ warning_NN network_NN of_IN sensors_NNS to_TO detect_VB biological_JJ attack_NN ._.
+And_CC this_DT year_NN ,_, for_IN the_DT first_JJ time_NN ,_, we_PRP are_VBP beginning_VBG to_TO field_VB a_DT defense_NN to_TO protect_VB this_DT Nation_NN against_IN ballistic_JJ missiles_NNS ._.
+I_PRP thank_VBP the_DT Congress_NNP for_IN supporting_VBG these_DT measures_NNS ._.
+I_PRP ask_VBP you_PRP tonight_RB to_TO add_VB to_TO our_PRP$ future_JJ security_NN with_IN a_DT major_JJ research_NN and_CC production_NN effort_NN to_TO guard_VB our_PRP$ people_NNS against_IN bio-terrorism_NN ,_, called_VBN Project_NNP Bioshield_NNP ._.
+The_DT budget_NN I_PRP send_VBP you_PRP will_MD propose_VB almost_RB six_CD billion_CD dollars_NNS to_TO quickly_RB make_VB available_JJ effective_JJ vaccines_NNS and_CC treatments_NNS against_IN agents_NNS like_IN anthrax_NN ,_, botulinum_NN toxin_NN ,_, Ebola_NNP ,_, and_CC plague_VB ._.
+We_PRP must_MD assume_VB that_IN our_PRP$ enemies_NNS would_MD use_VB these_DT diseases_NNS as_IN weapons_NNS ,_, and_CC we_PRP must_MD act_VB before_IN the_DT dangers_NNS are_VBP upon_IN us_PRP ._.
+Since_IN September_NNP 11th_JJ ,_, our_PRP$ intelligence_NN and_CC law_NN enforcement_NN agencies_NNS have_VBP worked_VBN more_RBR closely_RB than_IN ever_RB to_TO track_VB and_CC disrupt_VB the_DT terrorists_NNS ._.
+The_DT FBI_NNP is_VBZ improving_VBG its_PRP$ ability_NN to_TO analyze_VB intelligence_NN ,_, and_CC transforming_VBG itself_PRP to_TO meet_VB new_JJ threats_NNS ._.
+And_CC tonight_RB ,_, I_PRP am_VBP instructing_VBG the_DT leaders_NNS of_IN the_DT FBI_NNP ,_, Central_NNP Intelligence_NNP ,_, Homeland_NNP Security_NNP ,_, and_CC the_DT Department_NNP of_IN Defense_NNP to_TO develop_VB a_DT Terrorist_NNP Threat_NNP Integration_NNP Center_NNP ,_, to_TO merge_VB and_CC analyze_VB all_DT threat_NN information_NN in_IN a_DT single_JJ location_NN ._.
+Our_PRP$ government_NN must_MD have_VB the_DT very_RB best_JJS information_NN possible_JJ ,_, and_CC we_PRP will_MD use_VB it_PRP to_TO make_VB sure_JJ the_DT right_JJ people_NNS are_VBP in_IN the_DT right_JJ places_NNS to_TO protect_VB our_PRP$ citizens_NNS ._.
+Our_PRP$ war_NN against_IN terror_NN is_VBZ a_DT contest_NN of_IN will_MD ,_, in_IN which_WDT perseverance_NN is_VBZ power_NN ._.
+In_IN the_DT ruins_NNS of_IN two_CD towers_NNS ,_, at_IN the_DT western_JJ wall_NN of_IN the_DT Pentagon_NNP ,_, on_IN a_DT field_NN in_IN Pennsylvania_NNP ,_, this_DT Nation_NN made_VBD a_DT pledge_NN ,_, and_CC we_PRP renew_VBP that_IN pledge_NN tonight_NN :_: Whatever_WDT the_DT duration_NN of_IN this_DT struggle_NN ,_, and_CC whatever_WDT the_DT difficulties_NNS ,_, we_PRP will_MD not_RB permit_VB the_DT triumph_NN of_IN violence_NN in_IN the_DT affairs_NNS of_IN men_NNS ..._: free_JJ people_NNS will_MD set_VB the_DT course_NN of_IN history_NN ._.
+Today_NN ,_, the_DT gravest_JJS danger_NN in_IN the_DT war_NN on_IN terror_NN ..._: the_DT gravest_JJS danger_NN facing_VBG America_NNP and_CC the_DT world_NN ..._: is_VBZ outlaw_JJ regimes_NNS that_WDT seek_VBP and_CC possess_VBP nuclear_JJ ,_, chemical_NN ,_, and_CC biological_JJ weapons_NNS ._.
+These_DT regimes_NNS could_MD use_VB such_JJ weapons_NNS for_IN blackmail_VBP ,_, terror_NN ,_, and_CC mass_NN murder_NN ._.
+They_PRP could_MD also_RB give_VB or_CC sell_VB those_DT weapons_NNS to_TO their_PRP$ terrorist_JJ allies_NNS ,_, who_WP would_MD use_VB them_PRP without_IN the_DT least_JJS hesitation_NN ._.
+This_DT threat_NN is_VBZ new_JJ ;_: America_NNP 's_POS duty_NN is_VBZ familiar_JJ ._.
+Throughout_IN the_DT 20th_JJ century_NN ,_, small_JJ groups_NNS of_IN men_NNS seized_VBD control_NN of_IN great_JJ nations_NNS ..._: built_VBN armies_NNS and_CC arsenals_NNS ._. ._.
+and_CC set_VBN out_RP to_TO dominate_VB the_DT weak_JJ and_CC intimidate_VB the_DT world_NN ._.
+In_IN each_DT case_NN ,_, their_PRP$ ambitions_NNS of_IN cruelty_NN and_CC murder_NN had_VBD no_DT limit_NN ._.
+In_IN each_DT case_NN ,_, the_DT ambitions_NNS of_IN Hitlerism_NNP ,_, militarism_NN ,_, and_CC communism_NN were_VBD defeated_VBN by_IN the_DT will_NN of_IN free_JJ peoples_NNS ,_, by_IN the_DT strength_NN of_IN great_JJ alliances_NNS ,_, and_CC by_IN the_DT might_NN of_IN the_DT United_NNP States_NNPS of_IN America_NNP ._.
+Now_RB ,_, in_IN this_DT century_NN ,_, the_DT ideology_NN of_IN power_NN and_CC domination_NN has_VBZ appeared_VBN again_RB ,_, and_CC seeks_VBZ to_TO gain_VB the_DT ultimate_JJ weapons_NNS of_IN terror_NN ._.
+Once_RB again_RB ,_, this_DT Nation_NN and_CC our_PRP$ friends_NNS are_VBP all_DT that_DT stand_NN between_IN a_DT world_NN at_IN peace_NN ,_, and_CC a_DT world_NN of_IN chaos_NN and_CC constant_JJ alarm_NN ._.
+Once_RB again_RB ,_, we_PRP are_VBP called_VBN to_TO defend_VB the_DT safety_NN of_IN our_PRP$ people_NNS ,_, and_CC the_DT hopes_NNS of_IN all_DT mankind_NN ._.
+And_CC we_PRP accept_VBP this_DT responsibility_NN ._.
+America_NNP is_VBZ making_VBG a_DT broad_JJ and_CC determined_JJ effort_NN to_TO confront_VB these_DT dangers_NNS ._.
+We_PRP have_VBP called_VBN on_IN the_DT United_NNP Nations_NNPS to_TO fulfill_VB its_PRP$ charter_NN ,_, and_CC stand_VB by_IN its_PRP$ demand_NN that_IN Iraq_NNP disarm_VBP ._.
+We_PRP are_VBP strongly_RB supporting_VBG the_DT International_NNP Atomic_NNP Energy_NNP Agency_NNP in_IN its_PRP$ mission_NN to_TO track_VB and_CC control_VB nuclear_JJ materials_NNS around_IN the_DT world_NN ._.
+We_PRP are_VBP working_VBG with_IN other_JJ governments_NNS to_TO secure_VB nuclear_JJ materials_NNS in_IN the_DT former_JJ Soviet_NNP Union_NNP ,_, and_CC to_TO strengthen_VB global_JJ treaties_NNS banning_VBG the_DT production_NN and_CC shipment_NN of_IN missile_NN technologies_NNS and_CC weapons_NNS of_IN mass_NN destruction_NN ._.
+In_IN all_DT of_IN these_DT efforts_NNS ,_, however_RB ,_, America_NNP 's_POS purpose_NN is_VBZ more_JJR than_IN to_TO follow_VB a_DT process_NN -_: it_PRP is_VBZ to_TO achieve_VB a_DT result_NN :_: the_DT end_NN of_IN terrible_JJ threats_NNS to_TO the_DT civilized_JJ world_NN ._.
+All_DT free_JJ nations_NNS have_VBP a_DT stake_NN in_IN preventing_VBG sudden_JJ and_CC catastrophic_JJ attack_NN ._.
+We_PRP are_VBP asking_VBG them_PRP to_TO join_VB us_PRP ,_, and_CC many_JJ are_VBP doing_VBG so_RB ._.
+Yet_CC the_DT course_NN of_IN this_DT Nation_NN does_VBZ not_RB depend_VB on_IN the_DT decisions_NNS of_IN others_NNS ._.
+Whatever_WDT action_NN is_VBZ required_VBN ,_, whenever_WRB action_NN is_VBZ necessary_JJ ,_, I_PRP will_MD defend_VB the_DT freedom_NN and_CC security_NN of_IN the_DT American_JJ people_NNS ._.
+Different_JJ threats_NNS require_VBP different_JJ strategies_NNS ._.
+In_IN Iran_NNP ,_, we_PRP continue_VBP to_TO see_VB a_DT government_NN that_WDT represses_VBZ its_PRP$ people_NNS ,_, pursues_VBZ weapons_NNS of_IN mass_NN destruction_NN ,_, and_CC supports_VBZ terror_NN ._.
+We_PRP also_RB see_VBP Iranian_JJ citizens_NNS risking_VBG intimidation_NN and_CC death_NN as_IN they_PRP speak_VBP out_RP for_IN liberty_NN ,_, human_JJ rights_NNS ,_, and_CC democracy_NN ._.
+Iranians_NNPS ,_, like_IN all_DT people_NNS ,_, have_VBP a_DT right_NN to_TO choose_VB their_PRP$ own_JJ government_NN ,_, and_CC determine_VB their_PRP$ own_JJ destiny_NN -_: and_CC the_DT United_NNP States_NNPS supports_VBZ their_PRP$ aspirations_NNS to_TO live_VB in_IN freedom_NN ._.
+On_IN the_DT Korean_JJ peninsula_NN ,_, an_DT oppressive_JJ regime_NN rules_NNS a_DT people_NNS living_VBG in_IN fear_NN and_CC starvation_NN ._.
+Throughout_IN the_DT 1990s_CD ,_, the_DT United_NNP States_NNPS relied_VBP on_IN a_DT negotiated_VBN framework_NN to_TO keep_VB North_NNP Korea_NNP from_IN gaining_VBG nuclear_JJ weapons_NNS ._.
+We_PRP now_RB know_VBP that_IN the_DT regime_NN was_VBD deceiving_VBG the_DT world_NN ,_, and_CC developing_VBG those_DT weapons_NNS all_DT along_IN ._.
+And_CC today_NN the_DT North_JJ Korean_JJ regime_NN is_VBZ using_VBG its_PRP$ nuclear_JJ program_NN to_TO incite_VB fear_NN and_CC seek_VB concessions_NNS ._.
+America_NNP and_CC the_DT world_NN will_MD not_RB be_VB blackmailed_VBN ._.
+America_NNP is_VBZ working_VBG with_IN the_DT countries_NNS of_IN the_DT region_NN -_: South_NNP Korea_NNP ,_, Japan_NNP ,_, China_NNP ,_, and_CC Russia_NNP -_: to_TO find_VB a_DT peaceful_JJ solution_NN ,_, and_CC to_TO show_VB the_DT North_JJ Korean_JJ government_NN that_WDT nuclear_JJ weapons_NNS will_MD bring_VB only_RB isolation_NN ,_, economic_JJ stagnation_NN ,_, and_CC continued_VBD hardship_NN ._.
+The_DT North_JJ Korean_JJ regime_NN will_MD find_VB respect_NN in_IN the_DT world_NN ,_, and_CC revival_NN for_IN its_PRP$ people_NNS ,_, only_RB when_WRB it_PRP turns_VBZ away_RB from_IN its_PRP$ nuclear_JJ ambitions_NNS ._.
+Our_PRP$ Nation_NN and_CC the_DT world_NN must_MD learn_VB the_DT lessons_NNS of_IN the_DT Korean_JJ peninsula_NN ,_, and_CC not_RB allow_VB an_DT even_RB greater_JJR threat_NN to_TO rise_VB up_RP in_IN Iraq_NNP ._.
+A_DT brutal_JJ dictator_NN ,_, with_IN a_DT history_NN of_IN reckless_JJ aggression_NN ._. ._.
+with_IN ties_NNS to_TO terrorism_NN ..._: with_IN great_JJ potential_JJ wealth_NN ..._: will_MD not_RB be_VB permitted_VBN to_TO dominate_VB a_DT vital_JJ region_NN and_CC threaten_VB the_DT United_NNP States_NNPS ._.
+Twelve_CD years_NNS ago_RB ,_, Saddam_NNP Hussein_NNP faced_VBD the_DT prospect_NN of_IN being_VBG the_DT last_JJ casualty_NN in_IN a_DT war_NN he_PRP had_VBD started_VBN and_CC lost_VBN ._.
+To_TO spare_VB himself_PRP ,_, he_PRP agreed_VBD to_TO disarm_VB of_IN all_DT weapons_NNS of_IN mass_NN destruction_NN ._.
+For_IN the_DT next_JJ 12_CD years_NNS ,_, he_PRP systematically_RB violated_VBD that_DT agreement_NN ._.
+He_PRP pursued_VBD chemical_NN ,_, biological_JJ ,_, and_CC nuclear_JJ weapons_NNS even_RB while_IN inspectors_NNS were_VBD in_IN his_PRP$ country_NN ._.
+Nothing_NN to_TO date_NN has_VBZ restrained_VBN him_PRP from_IN his_PRP$ pursuit_NN of_IN these_DT weapons_NNS -_: not_RB economic_JJ sanctions_NNS ,_, not_RB isolation_NN from_IN the_DT civilized_JJ world_NN ,_, not_RB even_RB cruise_VB missile_NN strikes_NNS on_IN his_PRP$ military_JJ facilities_NNS ._.
+Almost_RB three_CD months_NNS ago_RB ,_, the_DT United_NNP Nations_NNP Security_NNP Council_NNP gave_VBD Saddam_NNP Hussein_NNP his_PRP$ final_JJ chance_NN to_TO disarm_VB ._.
+He_PRP has_VBZ shown_VBN instead_RB his_PRP$ utter_JJ contempt_NN for_IN the_DT United_NNP Nations_NNPS ,_, and_CC for_IN the_DT opinion_NN of_IN the_DT world_NN ._.
+The_DT 108_CD UN_NNP weapons_NNS inspectors_NNS were_VBD not_RB sent_VBN to_TO conduct_VB a_DT scavenger_NN hunt_NN for_IN hidden_JJ materials_NNS across_IN a_DT country_NN the_DT size_NN of_IN California_NNP ._.
+The_DT job_NN of_IN the_DT inspectors_NNS is_VBZ to_TO verify_VB that_DT Iraq_NNP 's_POS regime_NN is_VBZ disarming_VBG ._.
+It_PRP is_VBZ up_RB to_TO Iraq_NNP to_TO show_VB exactly_RB where_WRB it_PRP is_VBZ hiding_VBG its_PRP$ banned_VBN weapons_NNS ..._: lay_VBD those_DT weapons_NNS out_RP for_IN the_DT world_NN to_TO see_VB ..._: and_CC destroy_VB them_PRP as_IN directed_VBN ._.
+Nothing_NN like_IN this_DT has_VBZ happened_VBN ._.
+The_DT United_NNP Nations_NNPS concluded_VBD in_IN 1999_CD that_WDT Saddam_NNP Hussein_NNP had_VBD biological_JJ weapons_NNS materials_NNS sufficient_JJ to_TO produce_VB over_IN 25,000_CD liters_NNS of_IN anthrax_NN -_: enough_JJ doses_NNS to_TO kill_VB several_JJ million_CD people_NNS ._.
+He_PRP has_VBZ not_RB accounted_VBN for_IN that_DT material_NN ._.
+He_PRP has_VBZ given_VBN no_DT evidence_NN that_IN he_PRP has_VBZ destroyed_VBN it_PRP ._.
+The_DT United_NNP Nations_NNPS concluded_VBD that_IN Saddam_NNP Hussein_NNP had_VBD materials_NNS sufficient_JJ to_TO produce_VB more_JJR than_IN 38,000_CD liters_NNS of_IN botulinum_NN toxin_NN -_: enough_RB to_TO subject_JJ millions_NNS of_IN people_NNS to_TO death_NN by_IN respiratory_JJ failure_NN ._.
+He_PRP has_VBZ not_RB accounted_VBN for_IN that_DT material_NN ._.
+He_PRP has_VBZ given_VBN no_DT evidence_NN that_IN he_PRP has_VBZ destroyed_VBN it_PRP ._.
+Our_PRP$ intelligence_NN officials_NNS estimate_VBP that_IN Saddam_NNP Hussein_NNP had_VBD the_DT materials_NNS to_TO produce_VB as_RB much_JJ as_IN 500_CD tons_NNS of_IN sarin_NN ,_, mustard_NN ,_, and_CC VX_NNP nerve_NN agent_NN ._.
+In_IN such_JJ quantities_NNS ,_, these_DT chemical_NN agents_NNS also_RB could_MD kill_VB untold_JJ thousands_NNS ._.
+He_PRP has_VBZ not_RB accounted_VBN for_IN these_DT materials_NNS ._.
+He_PRP has_VBZ given_VBN no_DT evidence_NN that_IN he_PRP has_VBZ destroyed_VBN them_PRP ._.
+U.S._NNP intelligence_NN indicates_VBZ that_IN Saddam_NNP Hussein_NNP had_VBD upwards_NNS of_IN 30,000_CD munitions_NNS capable_JJ of_IN delivering_VBG chemical_NN agents_NNS ._.
+Inspectors_NNS recently_RB turned_VBD up_RP 16_CD of_IN them_PRP ,_, despite_IN Iraq_NNP 's_POS recent_JJ declaration_NN denying_VBG their_PRP$ existence_NN ._.
+Saddam_NNP Hussein_NNP has_VBZ not_RB accounted_VBN for_IN the_DT remaining_VBG 29,984_CD of_IN these_DT prohibited_VBN munitions_NNS ._.
+He_PRP has_VBZ given_VBN no_DT evidence_NN that_IN he_PRP has_VBZ destroyed_VBN them_PRP ._.
+From_IN three_CD Iraqi_JJ defectors_NNS we_PRP know_VBP that_IN Iraq_NNP ,_, in_IN the_DT late_JJ 1990s_CD ,_, had_VBD several_JJ mobile_JJ biological_JJ weapons_NNS labs_NNS ._.
+These_DT are_VBP designed_VBN to_TO produce_VB germ_JJ warfare_NN agents_NNS ,_, and_CC can_MD be_VB moved_VBN from_IN place_NN to_TO place_VB to_TO evade_VB inspectors_NNS ._.
+Saddam_NNP Hussein_NNP has_VBZ not_RB disclosed_VBN these_DT facilities_NNS ._.
+He_PRP has_VBZ given_VBN no_DT evidence_NN that_IN he_PRP has_VBZ destroyed_VBN them_PRP ._.
+The_DT International_NNP Atomic_NNP Energy_NNP Agency_NNP confirmed_VBD in_IN the_DT 1990s_NNS that_WDT Saddam_NNP Hussein_NNP had_VBD an_DT advanced_JJ nuclear_JJ weapons_NNS development_NN program_NN ,_, had_VBD a_DT design_NN for_IN a_DT nuclear_JJ weapon_NN ,_, and_CC was_VBD working_VBG on_IN five_CD different_JJ methods_NNS of_IN enriching_VBG uranium_NN for_IN a_DT bomb_NN ._.
+The_DT British_JJ government_NN has_VBZ learned_VBN that_IN Saddam_NNP Hussein_NNP recently_RB sought_VBD significant_JJ quantities_NNS of_IN uranium_NN from_IN Africa_NNP ._.
+Our_PRP$ intelligence_NN sources_NNS tell_VBP us_PRP that_IN he_PRP has_VBZ attempted_VBN to_TO purchase_VB high_JJ strength_NN aluminum_NN tubes_NNS suitable_JJ for_IN nuclear_JJ weapons_NNS production_NN ._.
+Saddam_NNP Hussein_NNP has_VBZ not_RB credibly_RB explained_VBD these_DT activities_NNS ._.
+He_PRP clearly_RB has_VBZ much_JJ to_TO hide_VB ._.
+The_DT dictator_NN of_IN Iraq_NNP is_VBZ not_RB disarming_VBG ._.
+To_TO the_DT contrary_NN ,_, he_PRP is_VBZ deceiving_VBG ._.
+From_IN intelligence_NN sources_NNS ,_, we_PRP know_VBP ,_, for_IN instance_NN ,_, that_IN thousands_NNS of_IN Iraqi_JJ security_NN personnel_NNS are_VBP at_IN work_NN hiding_VBG documents_NNS and_CC materials_NNS from_IN the_DT UN_NNP inspectors_NNS -_: sanitizing_VBG inspection_NN sites_NNS ,_, and_CC monitoring_VBG the_DT inspectors_NNS themselves_PRP ._.
+Iraqi_JJ officials_NNS accompany_VBP the_DT inspectors_NNS in_IN order_NN to_TO intimidate_VB witnesses_NNS ._.
+Iraq_NNP is_VBZ blocking_VBG U-2_NN surveillance_NN flights_NNS requested_VBN by_IN the_DT United_NNP Nations_NNPS ._.
+Iraqi_JJ intelligence_NN officers_NNS are_VBP posing_VBG as_IN the_DT scientists_NNS inspectors_NNS are_VBP supposed_VBN to_TO interview_VB ._.
+Real_JJ scientists_NNS have_VBP been_VBN coached_VBN by_IN Iraqi_JJ officials_NNS on_IN what_WP to_TO say_VB ._.
+And_CC intelligence_NN sources_NNS indicate_VBP that_IN Saddam_NNP Hussein_NNP has_VBZ ordered_VBN that_IN scientists_NNS who_WP cooperate_VBP with_IN UN_NNP inspectors_NNS in_IN disarming_VBG Iraq_NNP will_MD be_VB killed_VBN ,_, along_IN with_IN their_PRP$ families_NNS ._.
+Year_NN after_IN year_NN ,_, Saddam_NNP Hussein_NNP has_VBZ gone_VBN to_TO elaborate_VB lengths_NNS ,_, spent_VBD enormous_JJ sums_NNS ,_, taken_VBN great_JJ risks_NNS ,_, to_TO build_VB and_CC keep_VB weapons_NNS of_IN mass_NN destruction_NN -_: but_CC why_WRB ?_.
+The_DT only_JJ possible_JJ explanation_NN ,_, the_DT only_JJ possible_JJ use_NN he_PRP could_MD have_VB for_IN those_DT weapons_NNS ,_, is_VBZ to_TO dominate_VB ,_, intimidate_VB ,_, or_CC attack_NN ._.
+With_IN nuclear_JJ arms_NNS or_CC a_DT full_JJ arsenal_NN of_IN chemical_NN and_CC biological_JJ weapons_NNS ,_, Saddam_NNP Hussein_NNP could_MD resume_VB his_PRP$ ambitions_NNS of_IN conquest_NN in_IN the_DT Middle_NNP East_NNP ,_, and_CC create_VB deadly_JJ havoc_NN in_IN the_DT region_NN ._.
+And_CC this_DT Congress_NNP and_CC the_DT American_JJ people_NNS must_MD recognize_VB another_DT threat_NN ._.
+Evidence_NN from_IN intelligence_NN sources_NNS ,_, secret_JJ communications_NNS ,_, and_CC statements_NNS by_IN people_NNS now_RB in_IN custody_NN ,_, reveal_VBP that_IN Saddam_NNP Hussein_NNP aids_NNS and_CC protects_VBZ terrorists_NNS ,_, including_VBG members_NNS of_IN al-Qaida_NN ._.
+Secretly_RB ,_, and_CC without_IN fingerprints_NNS ,_, he_PRP could_MD provide_VB one_CD of_IN his_PRP$ hidden_JJ weapons_NNS to_TO terrorists_NNS ,_, or_CC help_VB them_PRP develop_VB their_PRP$ own_JJ ._.
+Before_IN September_NNP 11_CD ,_, 2001_CD ,_, many_JJ in_IN the_DT world_NN believed_VBD that_IN Saddam_NNP Hussein_NNP could_MD be_VB contained_VBN ._.
+But_CC chemical_NN agents_NNS and_CC lethal_JJ viruses_NNS and_CC shadowy_JJ terrorist_JJ networks_NNS are_VBP not_RB easily_RB contained_VBN ._.
+Imagine_VB those_DT 19_CD hijackers_NNS with_IN other_JJ weapons_NNS ,_, and_CC other_JJ plans_NNS -_: this_DT time_NN armed_VBN by_IN Saddam_NNP Hussein_NNP ._.
+It_PRP would_MD take_VB just_RB one_CD vial_NN ,_, one_CD canister_NN ,_, one_CD crate_NN slipped_VBD into_IN this_DT country_NN to_TO bring_VB a_DT day_NN of_IN horror_NN like_IN none_NN we_PRP have_VBP ever_RB known_VBN ._.
+We_PRP will_MD do_VB everything_NN in_IN our_PRP$ power_NN to_TO make_VB sure_JJ that_DT day_NN never_RB comes_VBZ ._.
+Some_DT have_VBP said_VBD we_PRP must_MD not_RB act_VB until_IN the_DT threat_NN is_VBZ imminent_JJ ._.
+Since_IN when_WRB have_VBP terrorists_NNS and_CC tyrants_NNS announced_VBD their_PRP$ intentions_NNS ,_, politely_RB putting_VBG us_PRP on_IN notice_NN before_IN they_PRP strike_VBP ?_.
+If_IN this_DT threat_NN is_VBZ permitted_VBN to_TO fully_RB and_CC suddenly_RB emerge_VB ,_, all_DT actions_NNS ,_, all_DT words_NNS ,_, and_CC all_DT recriminations_NNS would_MD come_VB too_RB late_RB ._.
+Trusting_VBG in_IN the_DT sanity_NN and_CC restraint_NN of_IN Saddam_NNP Hussein_NNP is_VBZ not_RB a_DT strategy_NN ,_, and_CC it_PRP is_VBZ not_RB an_DT option_NN ._.
+This_DT dictator_NN ,_, who_WP is_VBZ assembling_VBG the_DT world_NN 's_POS most_RBS dangerous_JJ weapons_NNS ,_, has_VBZ already_RB used_VBN them_PRP on_IN whole_JJ villages_NNS -_: leaving_VBG thousands_NNS of_IN his_PRP$ own_JJ citizens_NNS dead_JJ ,_, blind_JJ ,_, or_CC disfigured_JJ ._.
+Iraqi_JJ refugees_NNS tell_VBP us_PRP how_WRB forced_JJ confessions_NNS are_VBP obtained_VBN -_: by_IN torturing_VBG children_NNS while_IN their_PRP$ parents_NNS are_VBP made_VBN to_TO watch_VB ._.
+International_NNP human_JJ rights_NNS groups_NNS have_VBP catalogued_VBN other_JJ methods_NNS used_VBN in_IN the_DT torture_VBP chambers_NNS of_IN Iraq_NNP :_: electric_JJ shock_NN ,_, burning_VBG with_IN hot_JJ irons_NNS ,_, dripping_VBG acid_NN on_IN the_DT skin_NN ,_, mutilation_NN with_IN electric_JJ drills_NNS ,_, cutting_VBG out_RP tongues_NNS ,_, and_CC rape_NN ._.
+If_IN this_DT is_VBZ not_RB evil_JJ ,_, then_RB evil_JJ has_VBZ no_DT meaning_NN ._.
+And_CC tonight_NN I_PRP have_VBP a_DT message_NN for_IN the_DT brave_VB and_CC oppressed_JJ people_NNS of_IN Iraq_NNP :_: Your_PRP$ enemy_NN is_VBZ not_RB surrounding_VBG your_PRP$ country_NN -_: your_PRP$ enemy_NN is_VBZ ruling_VBG your_PRP$ country_NN ._.
+And_CC the_DT day_NN he_PRP and_CC his_PRP$ regime_NN are_VBP removed_VBN from_IN power_NN will_MD be_VB the_DT day_NN of_IN your_PRP$ liberation_NN ._.
+The_DT world_NN has_VBZ waited_VBN 12_CD years_NNS for_IN Iraq_NNP to_TO disarm_VB ._.
+America_NNP will_MD not_RB accept_VB a_DT serious_JJ and_CC mounting_VBG threat_NN to_TO our_PRP$ country_NN ,_, our_PRP$ friends_NNS ,_, and_CC our_PRP$ allies_NNS ._.
+The_DT United_NNP States_NNPS will_MD ask_VB the_DT UN_NNP Security_NNP Council_NNP to_TO convene_VB on_IN February_NNP 5th_JJ to_TO consider_VB the_DT facts_NNS of_IN Iraq_NNP 's_POS ongoing_JJ defiance_NN of_IN the_DT world_NN ._.
+Secretary_NNP of_IN State_NNP Powell_NNP will_MD present_VB information_NN and_CC intelligence_NN about_IN Iraq_NNP 's_POS illegal_JJ weapons_NNS programs_NNS ;_: its_PRP$ attempts_NNS to_TO hide_VB those_DT weapons_NNS from_IN inspectors_NNS ;_: and_CC its_PRP$ links_NNS to_TO terrorist_JJ groups_NNS ._.
+We_PRP will_MD consult_VB ,_, but_CC let_VB there_EX be_VB no_DT misunderstanding_NN :_: If_IN Saddam_NNP Hussein_NNP does_VBZ not_RB fully_RB disarm_VB ,_, for_IN the_DT safety_NN of_IN our_PRP$ people_NNS ,_, and_CC for_IN the_DT peace_NN of_IN the_DT world_NN ,_, we_PRP will_MD lead_VB a_DT coalition_NN to_TO disarm_VB him_PRP ._.
+Tonight_NNP I_PRP also_RB have_VBP a_DT message_NN for_IN the_DT men_NNS and_CC women_NNS who_WP will_MD keep_VB the_DT peace_NN ,_, members_NNS of_IN the_DT American_JJ Armed_NNP Forces_NNP :_: Many_JJ of_IN you_PRP are_VBP assembling_VBG in_IN and_CC near_IN the_DT Middle_NNP East_NNP ,_, and_CC some_DT crucial_JJ hours_NNS may_MD lie_VB ahead_RB ._.
+In_IN those_DT hours_NNS ,_, the_DT success_NN of_IN our_PRP$ cause_NN will_MD depend_VB on_IN you_PRP ._.
+Your_PRP$ training_NN has_VBZ prepared_VBN you_PRP ._.
+Your_PRP$ honor_NN will_MD guide_VB you_PRP ._.
+You_PRP believe_VBP in_IN America_NNP ,_, and_CC America_NNP believes_VBZ in_IN you_PRP ._.
+Sending_VBG Americans_NNPS into_IN battle_NN is_VBZ the_DT most_RBS profound_JJ decision_NN a_DT president_NN can_MD make_VB ._.
+The_DT technologies_NNS of_IN war_NN have_VBP changed_VBN ._.
+The_DT risks_NNS and_CC suffering_NN of_IN war_NN have_VBP not_RB ._.
+For_IN the_DT brave_VBP Americans_NNPS who_WP bear_VBP the_DT risk_NN ,_, no_DT victory_NN is_VBZ free_JJ from_IN sorrow_NN ._.
+This_DT Nation_NN fights_NNS reluctantly_RB ,_, because_IN we_PRP know_VBP the_DT cost_NN ,_, and_CC we_PRP dread_NN the_DT days_NNS of_IN mourning_VBG that_IN always_RB come_VBN ._.
+We_PRP seek_VBP peace_NN ._.
+We_PRP strive_VBP for_IN peace_NN ._.
+And_CC sometimes_RB peace_NN must_MD be_VB defended_VBN ._.
+A_DT future_JJ lived_VBN at_IN the_DT mercy_NN of_IN terrible_JJ threats_NNS is_VBZ no_DT peace_NN at_IN all_DT ._.
+If_IN war_NN is_VBZ forced_VBN upon_IN us_PRP ,_, we_PRP will_MD fight_VB in_IN a_DT just_RB cause_NN and_CC by_IN just_RB means_VBZ -_: sparing_VBG ,_, in_IN every_DT way_NN we_PRP can_MD ,_, the_DT innocent_JJ ._.
+And_CC if_IN war_NN is_VBZ forced_VBN upon_IN us_PRP ,_, we_PRP will_MD fight_VB with_IN the_DT full_JJ force_NN and_CC might_MD of_IN the_DT United_NNP States_NNPS military_JJ -_: and_CC we_PRP will_MD prevail_VB ._.
+And_CC as_IN we_PRP and_CC our_PRP$ coalition_NN partners_NNS are_VBP doing_VBG in_IN Afghanistan_NNP ,_, we_PRP will_MD bring_VB to_TO the_DT Iraqi_JJ people_NNS food_NN ,_, and_CC medicines_NNS ,_, and_CC supplies_NNS ..._: and_CC freedom_NN ._.
+Many_JJ challenges_NNS ,_, abroad_RB and_CC at_IN home_NN ,_, have_VBP arrived_VBN in_IN a_DT single_JJ season_NN ._.
+In_IN two_CD years_NNS ,_, America_NNP has_VBZ gone_VBN from_IN a_DT sense_NN of_IN invulnerability_NN to_TO an_DT awareness_NN of_IN peril_NN ..._: from_IN bitter_JJ division_NN in_IN small_JJ matters_NNS to_TO calm_VB unity_NN in_IN great_JJ causes_NNS ._.
+And_CC we_PRP go_VBP forward_RB with_IN confidence_NN ,_, because_IN this_DT call_NN of_IN history_NN has_VBZ come_VBN to_TO the_DT right_JJ country_NN ._.
+Americans_NNPS are_VBP a_DT resolute_JJ people_NNS ,_, who_WP have_VBP risen_VBN to_TO every_DT test_NN of_IN our_PRP$ time_NN ._.
+Adversity_NNP has_VBZ revealed_VBN the_DT character_NN of_IN our_PRP$ country_NN ,_, to_TO the_DT world_NN ,_, and_CC to_TO ourselves_PRP ._.
+America_NNP is_VBZ a_DT strong_JJ Nation_NN ,_, and_CC honorable_JJ in_IN the_DT use_NN of_IN our_PRP$ strength_NN ._.
+We_PRP exercise_VBP power_NN without_IN conquest_NN ,_, and_CC sacrifice_NN for_IN the_DT liberty_NN of_IN strangers_NNS ._.
+Americans_NNPS are_VBP a_DT free_JJ people_NNS ,_, who_WP know_VBP that_IN freedom_NN is_VBZ the_DT right_NN of_IN every_DT person_NN and_CC the_DT future_NN of_IN every_DT nation_NN ._.
+The_DT liberty_NN we_PRP prize_NN is_VBZ not_RB America_NNP 's_POS gift_NN to_TO the_DT world_NN ,_, it_PRP is_VBZ God_NNP ;_: s_PRP gift_NN to_TO humanity_NN ._.
+We_PRP Americans_NNPS have_VBP faith_NN in_IN ourselves_PRP -_: but_CC not_RB in_IN ourselves_PRP alone_RB ._.
+We_PRP do_VBP not_RB claim_VB to_TO know_VB all_PDT the_DT ways_NNS of_IN Providence_NNP ,_, yet_RB we_PRP can_MD trust_VB in_IN them_PRP ,_, placing_VBG our_PRP$ confidence_NN in_IN the_DT loving_JJ God_NNP behind_IN all_DT of_IN life_NN ,_, and_CC all_DT of_IN history_NN ._.
+May_NNP He_PRP guide_VBP us_PRP now_RB ,_, and_CC may_MD God_NNP continue_VBP to_TO bless_VB the_DT United_NNP States_NNPS of_IN America_NNP ._.
+Thank_VB you_PRP ._.

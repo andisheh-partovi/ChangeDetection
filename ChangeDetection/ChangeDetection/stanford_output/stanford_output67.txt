@@ -1,0 +1,282 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\2009-Obama.txt 
+Madame_NNP Speaker_NNP ,_, Mr._NNP Vice_NNP President_NNP ,_, Members_NNP of_IN Congress_NNP ,_, and_CC the_DT First_NNP Lady_NNP of_IN the_DT United_NNP States_NNPS :_: I_PRP 've_VBP come_VBN here_RB tonight_RB not_RB only_RB to_TO address_VB the_DT distinguished_JJ men_NNS and_CC women_NNS in_IN this_DT great_JJ chamber_NN ,_, but_CC to_TO speak_VB frankly_RB and_CC directly_RB to_TO the_DT men_NNS and_CC women_NNS who_WP sent_VBD us_PRP here_RB ._.
+I_PRP know_VBP that_IN for_IN many_JJ Americans_NNPS watching_VBG right_RB now_RB ,_, the_DT state_NN of_IN our_PRP$ economy_NN is_VBZ a_DT concern_NN that_WDT rises_VBZ above_IN all_DT others_NNS ._.
+And_CC rightly_RB so_RB ._.
+If_IN you_PRP have_VBP n't_RB been_VBN personally_RB affected_VBN by_IN this_DT recession_NN ,_, you_PRP probably_RB know_VBP someone_NN who_WP has_VBZ -_: a_DT friend_NN ;_: a_DT neighbor_NN ;_: a_DT member_NN of_IN your_PRP$ family_NN ._.
+You_PRP do_VBP n't_RB need_VB to_TO hear_VB another_DT list_NN of_IN statistics_NNS to_TO know_VB that_IN our_PRP$ economy_NN is_VBZ in_IN crisis_NN ,_, because_IN you_PRP live_VBP it_PRP every_DT day_NN ._.
+It_PRP 's_VBZ the_DT worry_NN you_PRP wake_VBP up_RP with_IN and_CC the_DT source_NN of_IN sleepless_JJ nights_NNS ._.
+It_PRP 's_VBZ the_DT job_NN you_PRP thought_VBD you_PRP 'd_MD retire_VB from_IN but_CC now_RB have_VBP lost_VBN ;_: the_DT business_NN you_PRP built_VBD your_PRP$ dreams_NNS upon_IN that_DT 's_VBZ now_RB hanging_VBG by_IN a_DT thread_NN ;_: the_DT college_NN acceptance_NN letter_NN your_PRP$ child_NN had_VBD to_TO put_VB back_RP in_IN the_DT envelope_NN ._.
+The_DT impact_NN of_IN this_DT recession_NN is_VBZ real_JJ ,_, and_CC it_PRP is_VBZ everywhere_RB ._.
+But_CC while_IN our_PRP$ economy_NN may_MD be_VB weakened_VBN and_CC our_PRP$ confidence_NN shaken_VBN ;_: though_IN we_PRP are_VBP living_VBG through_IN difficult_JJ and_CC uncertain_JJ times_NNS ,_, tonight_RB I_PRP want_VBP every_DT American_JJ to_TO know_VB this_DT :_: We_PRP will_MD rebuild_VB ,_, we_PRP will_MD recover_VB ,_, and_CC the_DT United_NNP States_NNPS of_IN America_NNP will_MD emerge_VB stronger_JJR than_IN before_RB ._.
+The_DT weight_NN of_IN this_DT crisis_NN will_MD not_RB determine_VB the_DT destiny_NN of_IN this_DT nation_NN ._.
+The_DT answers_NNS to_TO our_PRP$ problems_NNS do_VBP n't_RB lie_VB beyond_IN our_PRP$ reach_NN ._.
+They_PRP exist_VBP in_IN our_PRP$ laboratories_NNS and_CC universities_NNS ;_: in_IN our_PRP$ fields_NNS and_CC our_PRP$ factories_NNS ;_: in_IN the_DT imaginations_NNS of_IN our_PRP$ entrepreneurs_NNS and_CC the_DT pride_NN of_IN the_DT hardest-working_JJ people_NNS on_IN Earth_NNP ._.
+Those_DT qualities_NNS that_WDT have_VBP made_VBN America_NNP the_DT greatest_JJS force_NN of_IN progress_NN and_CC prosperity_NN in_IN human_JJ history_NN we_PRP still_RB possess_VBP in_IN ample_JJ measure_NN ._.
+What_WP is_VBZ required_VBN now_RB is_VBZ for_IN this_DT country_NN to_TO pull_VB together_RB ,_, confront_VB boldly_RB the_DT challenges_NNS we_PRP face_VBP ,_, and_CC take_VB responsibility_NN for_IN our_PRP$ future_NN once_RB more_RBR ._.
+Now_RB ,_, if_IN we_PRP 're_VBP honest_JJ with_IN ourselves_PRP ,_, we_PRP 'll_MD admit_VB that_IN for_IN too_RB long_RB ,_, we_PRP have_VBP not_RB always_RB met_VBD these_DT responsibilities_NNS as_IN a_DT government_NN or_CC as_IN a_DT people_NNS ._.
+I_PRP say_VBP this_DT not_RB to_TO lay_VB blame_NN or_CC look_VB backwards_RB ,_, but_CC because_IN it_PRP is_VBZ only_RB by_IN understanding_VBG how_WRB we_PRP arrived_VBD at_IN this_DT moment_NN that_IN we_PRP 'll_MD be_VB able_JJ to_TO lift_VB ourselves_PRP out_IN of_IN this_DT predicament_NN ._.
+The_DT fact_NN is_VBZ ,_, our_PRP$ economy_NN did_VBD not_RB fall_VB into_IN decline_NN overnight_JJ ._.
+Nor_CC did_VBD all_DT of_IN our_PRP$ problems_NNS begin_VBP when_WRB the_DT housing_NN market_NN collapsed_VBD or_CC the_DT stock_NN market_NN sank_VBD ._.
+We_PRP have_VBP known_VBN for_IN decades_NNS that_WDT our_PRP$ survival_NN depends_VBZ on_IN finding_VBG new_JJ sources_NNS of_IN energy_NN ._.
+Yet_RB we_PRP import_VBP more_JJR oil_NN today_NN than_IN ever_RB before_RB ._.
+The_DT cost_NN of_IN health_NN care_NN eats_VBZ up_RP more_RBR and_CC more_RBR of_IN our_PRP$ savings_NNS each_DT year_NN ,_, yet_RB we_PRP keep_VBP delaying_VBG reform_NN ._.
+Our_PRP$ children_NNS will_MD compete_VB for_IN jobs_NNS in_IN a_DT global_JJ economy_NN that_WDT too_RB many_JJ of_IN our_PRP$ schools_NNS do_VBP not_RB prepare_VB them_PRP for_IN ._.
+And_CC though_IN all_DT these_DT challenges_NNS went_VBD unsolved_JJ ,_, we_PRP still_RB managed_VBD to_TO spend_VB more_JJR money_NN and_CC pile_VB up_RP more_JJR debt_NN ,_, both_DT as_IN individuals_NNS and_CC through_IN our_PRP$ government_NN ,_, than_IN ever_RB before_RB ._.
+In_IN other_JJ words_NNS ,_, we_PRP have_VBP lived_VBN through_IN an_DT era_NN where_WRB too_RB often_RB ,_, short-term_JJ gains_NNS were_VBD prized_VBN over_IN long-term_JJ prosperity_NN ;_: where_WRB we_PRP failed_VBD to_TO look_VB beyond_IN the_DT next_JJ payment_NN ,_, the_DT next_JJ quarter_NN ,_, or_CC the_DT next_JJ election_NN ._.
+A_DT surplus_NN became_VBD an_DT excuse_NN to_TO transfer_VB wealth_NN to_TO the_DT wealthy_JJ instead_RB of_IN an_DT opportunity_NN to_TO invest_VB in_IN our_PRP$ future_NN ._.
+Regulations_NNPS were_VBD gutted_VBN for_IN the_DT sake_NN of_IN a_DT quick_JJ profit_NN at_IN the_DT expense_NN of_IN a_DT healthy_JJ market_NN ._.
+People_NNS bought_VBD homes_NNS they_PRP knew_VBD they_PRP could_MD n't_RB afford_VB from_IN banks_NNS and_CC lenders_NNS who_WP pushed_VBD those_DT bad_JJ loans_NNS anyway_RB ._.
+And_CC all_PDT the_DT while_NN ,_, critical_JJ debates_NNS and_CC difficult_JJ decisions_NNS were_VBD put_VBN off_RP for_IN some_DT other_JJ time_NN on_IN some_DT other_JJ day_NN ._.
+Well_RB that_DT day_NN of_IN reckoning_NN has_VBZ arrived_VBN ,_, and_CC the_DT time_NN to_TO take_VB charge_NN of_IN our_PRP$ future_NN is_VBZ here_RB ._.
+Now_RB is_VBZ the_DT time_NN to_TO act_VB boldly_RB and_CC wisely_RB to_TO not_RB only_RB revive_VB this_DT economy_NN ,_, but_CC to_TO build_VB a_DT new_JJ foundation_NN for_IN lasting_VBG prosperity_NN ._.
+Now_RB is_VBZ the_DT time_NN to_TO jumpstart_VB job_NN creation_NN ,_, re-start_JJ lending_NN ,_, and_CC invest_VB in_IN areas_NNS like_IN energy_NN ,_, health_NN care_NN ,_, and_CC education_NN that_WDT will_MD grow_VB our_PRP$ economy_NN ,_, even_RB as_IN we_PRP make_VBP hard_JJ choices_NNS to_TO bring_VB our_PRP$ deficit_NN down_RB ._.
+That_DT is_VBZ what_WP my_PRP$ economic_JJ agenda_NN is_VBZ designed_VBN to_TO do_VB ,_, and_CC that_DT 's_VBZ what_WP I_PRP 'd_MD like_VB to_TO talk_VB to_TO you_PRP about_IN tonight_NN ._.
+It_PRP 's_VBZ an_DT agenda_NN that_WDT begins_VBZ with_IN jobs_NNS ._.
+As_RB soon_RB as_IN I_PRP took_VBD office_NN ,_, I_PRP asked_VBD this_DT Congress_NNP to_TO send_VB me_PRP a_DT recovery_NN plan_NN by_IN President_NNP 's_POS Day_NNP that_WDT would_MD put_VB people_NNS back_RB to_TO work_VB and_CC put_VB money_NN in_IN their_PRP$ pockets_NNS ._.
+Not_RB because_IN I_PRP believe_VBP in_IN bigger_JJR government_NN I_PRP do_VBP n't_RB ._.
+Not_RB because_IN I_PRP 'm_VBP not_RB mindful_JJ of_IN the_DT massive_JJ debt_NN we_PRP 've_VBP inherited_VBN I_PRP am_VBP ._.
+I_PRP called_VBD for_IN action_NN because_IN the_DT failure_NN to_TO do_VB so_RB would_MD have_VB cost_VBN more_JJR jobs_NNS and_CC caused_VBD more_JJR hardships_NNS ._.
+In_IN fact_NN ,_, a_DT failure_NN to_TO act_VB would_MD have_VB worsened_VBN our_PRP$ long-term_JJ deficit_NN by_IN assuring_VBG weak_JJ economic_JJ growth_NN for_IN years_NNS ._.
+That_DT 's_VBZ why_WRB I_PRP pushed_VBD for_IN quick_JJ action_NN ._.
+And_CC tonight_RB ,_, I_PRP am_VBP grateful_JJ that_IN this_DT Congress_NNP delivered_VBD ,_, and_CC pleased_JJ to_TO say_VB that_IN the_DT American_JJ Recovery_NN and_CC Reinvestment_NNP Act_NNP is_VBZ now_RB law_NN ._.
+Over_IN the_DT next_JJ two_CD years_NNS ,_, this_DT plan_NN will_MD save_VB or_CC create_VB 3.5_CD million_CD jobs.More_NN than_IN 90_CD %_NN of_IN these_DT jobs_NNS will_MD be_VB in_IN the_DT private_JJ sector_NN jobs_NNS rebuilding_VBG our_PRP$ roads_NNS and_CC bridges_NNS ;_: constructing_VBG wind_NN turbines_NNS and_CC solar_JJ panels_NNS ;_: laying_VBG broadband_NN and_CC expanding_VBG mass_NN transit_NN ._.
+Because_IN of_IN this_DT plan_NN ,_, there_EX are_VBP teachers_NNS who_WP can_MD now_RB keep_VB their_PRP$ jobs_NNS and_CC educate_VB our_PRP$ kids_NNS ._.
+Health_NNP care_NN professionals_NNS can_MD continue_VB caring_VBG for_IN our_PRP$ sick_JJ ._.
+There_EX are_VBP 57_CD police_NNS officers_NNS who_WP are_VBP still_RB on_IN the_DT streets_NNS of_IN Minneapolis_NNP tonight_RB because_IN this_DT plan_NN prevented_VBD the_DT layoffs_NNS their_PRP$ department_NN was_VBD about_IN to_TO make_VB ._.
+Because_IN of_IN this_DT plan_NN ,_, 95_CD %_NN of_IN the_DT working_VBG households_NNS in_IN America_NNP will_MD receive_VB a_DT tax_NN cut_NN a_DT tax_NN cut_NN that_IN you_PRP will_MD see_VB in_IN your_PRP$ paychecks_NNS beginning_VBG on_IN April_NNP 1st_CD ._.
+Because_IN of_IN this_DT plan_NN ,_, families_NNS who_WP are_VBP struggling_VBG to_TO pay_VB tuition_NN costs_NNS will_MD receive_VB a_DT $_$ 2,500_CD tax_NN credit_NN for_IN all_DT four_CD years_NNS of_IN college_NN ._.
+And_CC Americans_NNPS who_WP have_VBP lost_VBN their_PRP$ jobs_NNS in_IN this_DT recession_NN will_MD be_VB able_JJ to_TO receive_VB extended_JJ unemployment_NN benefits_NNS and_CC continued_VBD health_NN care_NN coverage_NN to_TO help_VB them_PRP weather_VB this_DT storm_NN ._.
+I_PRP know_VBP there_EX are_VBP some_DT in_IN this_DT chamber_NN and_CC watching_VBG at_IN home_NN who_WP are_VBP skeptical_JJ of_IN whether_IN this_DT plan_NN will_MD work_VB ._.
+I_PRP understand_VBP that_IN skepticism_NN ._.
+Here_RB in_IN Washington_NNP ,_, we_PRP 've_VBP all_DT seen_VBN how_WRB quickly_RB good_JJ intentions_NNS can_MD turn_VB into_IN broken_JJ promises_NNS and_CC wasteful_JJ spending_NN ._.
+And_CC with_IN a_DT plan_NN of_IN this_DT scale_NN comes_VBZ enormous_JJ responsibility_NN to_TO get_VB it_PRP right_RB ._.
+That_DT is_VBZ why_WRB I_PRP have_VBP asked_VBN Vice_NNP President_NNP Biden_NNP to_TO lead_VB a_DT tough_JJ ,_, unprecedented_JJ oversight_NN effort_NN because_IN nobody_NN messes_VBZ with_IN Joe_NNP ._.
+I_PRP have_VBP told_VBN each_DT member_NN of_IN my_PRP$ Cabinet_NNP as_RB well_RB as_IN mayors_NNS and_CC governors_NNS across_IN the_DT country_NN that_IN they_PRP will_MD be_VB held_VBN accountable_JJ by_IN me_PRP and_CC the_DT American_JJ people_NNS for_IN every_DT dollar_NN they_PRP spend_VBP ._.
+I_PRP have_VBP appointed_VBN a_DT proven_VBN and_CC aggressive_JJ Inspector_NNP General_NNP to_TO ferret_VB out_RP any_DT and_CC all_DT cases_NNS of_IN waste_NN and_CC fraud_NN ._.
+And_CC we_PRP have_VBP created_VBN a_DT new_JJ website_NN called_VBN recovery.gov_NNP so_IN that_IN every_DT American_NNP can_MD find_VB out_RP how_WRB and_CC where_WRB their_PRP$ money_NN is_VBZ being_VBG spent_VBN ._.
+So_IN the_DT recovery_NN plan_NN we_PRP passed_VBD is_VBZ the_DT first_JJ step_NN in_IN getting_VBG our_PRP$ economy_NN back_RB on_IN track_NN ._.
+But_CC it_PRP is_VBZ just_RB the_DT first_JJ step_NN ._.
+Because_IN even_RB if_IN we_PRP manage_VBP this_DT plan_NN flawlessly_RB ,_, there_EX will_MD be_VB no_DT real_JJ recovery_NN unless_IN we_PRP clean_VBP up_RP the_DT credit_NN crisis_NN that_WDT has_VBZ severely_RB weakened_VBN our_PRP$ financial_JJ system_NN ._.
+I_PRP want_VBP to_TO speak_VB plainly_RB and_CC candidly_RB about_IN this_DT issue_NN tonight_RB ,_, because_IN every_DT American_JJ should_MD know_VB that_IN it_PRP directly_RB affects_VBZ you_PRP and_CC your_PRP$ family_NN 's_POS well-being_NN ._.
+You_PRP should_MD also_RB know_VB that_IN the_DT money_NN you_PRP 've_VBP deposited_VBN in_IN banks_NNS across_IN the_DT country_NN is_VBZ safe_JJ ;_: your_PRP$ insurance_NN is_VBZ secure_JJ ;_: and_CC you_PRP can_MD rely_VB on_IN the_DT continued_JJ operation_NN of_IN our_PRP$ financial_JJ system_NN ._.
+That_DT is_VBZ not_RB the_DT source_NN of_IN concern_NN ._.
+The_DT concern_NN is_VBZ that_IN if_IN we_PRP do_VBP not_RB re-start_JJ lending_NN in_IN this_DT country_NN ,_, our_PRP$ recovery_NN will_MD be_VB choked_VBN off_RP before_IN it_PRP even_RB begins_VBZ ._.
+You_PRP see_VBP ,_, the_DT flow_NN of_IN credit_NN is_VBZ the_DT lifeblood_NN of_IN our_PRP$ economy_NN ._.
+The_DT ability_NN to_TO get_VB a_DT loan_NN is_VBZ how_WRB you_PRP finance_VBP the_DT purchase_NN of_IN everything_NN from_IN a_DT home_NN to_TO a_DT car_NN to_TO a_DT college_NN education_NN ;_: how_WRB stores_NNS stock_VB their_PRP$ shelves_NNS ,_, farms_NNS buy_VBP equipment_NN ,_, and_CC businesses_NNS make_VBP payroll_NN ._.
+But_CC credit_NN has_VBZ stopped_VBN flowing_VBG the_DT way_NN it_PRP should_MD ._.
+Too_RB many_JJ bad_JJ loans_NNS from_IN the_DT housing_NN crisis_NN have_VBP made_VBN their_PRP$ way_NN onto_IN the_DT books_NNS of_IN too_RB many_JJ banks_NNS ._.
+With_IN so_RB much_JJ debt_NN and_CC so_RB little_JJ confidence_NN ,_, these_DT banks_NNS are_VBP now_RB fearful_JJ of_IN lending_VBG out_RP any_DT more_JJR money_NN to_TO households_NNS ,_, to_TO businesses_NNS ,_, or_CC to_TO each_DT other_JJ ._.
+When_WRB there_EX is_VBZ no_DT lending_NN ,_, families_NNS ca_MD n't_RB afford_VB to_TO buy_VB homes_NNS or_CC cars_NNS ._.
+So_RB businesses_NNS are_VBP forced_VBN to_TO make_VB layoffs_NNS ._.
+Our_PRP$ economy_NN suffers_VBZ even_RB more_RBR ,_, and_CC credit_NN dries_VBZ up_RP even_RB further_RBR ._.
+That_DT is_VBZ why_WRB this_DT administration_NN is_VBZ moving_VBG swiftly_RB and_CC aggressively_RB to_TO break_VB this_DT destructive_JJ cycle_NN ,_, restore_VB confidence_NN ,_, and_CC re-start_JJ lending_NN ._.
+We_PRP will_MD do_VB so_RB in_IN several_JJ ways_NNS ._.
+First_RB ,_, we_PRP are_VBP creating_VBG a_DT new_JJ lending_NN fund_NN that_WDT represents_VBZ the_DT largest_JJS effort_NN ever_RB to_TO help_VB provide_VB auto_NN loans_NNS ,_, college_NN loans_NNS ,_, and_CC small_JJ business_NN loans_NNS to_TO the_DT consumers_NNS and_CC entrepreneurs_NNS who_WP keep_VBP this_DT economy_NN running_VBG ._.
+Second_NNP ,_, we_PRP have_VBP launched_VBN a_DT housing_NN plan_NN that_WDT will_MD help_VB responsible_JJ families_NNS facing_VBG the_DT threat_NN of_IN foreclosure_NN lower_JJR their_PRP$ monthly_JJ payments_NNS and_CC re-finance_VB their_PRP$ mortgages_NNS ._.
+It_PRP 's_VBZ a_DT plan_NN that_WDT wo_MD n't_RB help_VB speculators_NNS or_CC that_DT neighbor_NN down_IN the_DT street_NN who_WP bought_VBD a_DT house_NN he_PRP could_MD never_RB hope_VB to_TO afford_VB ,_, but_CC it_PRP will_MD help_VB millions_NNS of_IN Americans_NNPS who_WP are_VBP struggling_VBG with_IN declining_VBG home_NN values_NNS -_: Americans_NNPS who_WP will_MD now_RB be_VB able_JJ to_TO take_VB advantage_NN of_IN the_DT lower_JJR interest_NN rates_NNS that_IN this_DT plan_NN has_VBZ already_RB helped_VBN bring_VB about_RB ._.
+In_IN fact_NN ,_, the_DT average_JJ family_NN who_WP re-finances_VBZ today_NN can_MD save_VB nearly_RB $_$ 2000_CD per_IN year_NN on_IN their_PRP$ mortgage_NN ._.
+Third_NNP ,_, we_PRP will_MD act_VB with_IN the_DT full_JJ force_NN of_IN the_DT federal_JJ government_NN to_TO ensure_VB that_IN the_DT major_JJ banks_NNS that_WDT Americans_NNPS depend_VBP on_IN have_VBP enough_RB confidence_NN and_CC enough_JJ money_NN to_TO lend_VB even_RB in_IN more_RBR difficult_JJ times_NNS ._.
+And_CC when_WRB we_PRP learn_VBP that_IN a_DT major_JJ bank_NN has_VBZ serious_JJ problems_NNS ,_, we_PRP will_MD hold_VB accountable_JJ those_DT responsible_JJ ,_, force_VB the_DT necessary_JJ adjustments_NNS ,_, provide_VBP the_DT support_NN to_TO clean_VB up_RP their_PRP$ balance_NN sheets_NNS ,_, and_CC assure_VB the_DT continuity_NN of_IN a_DT strong_JJ ,_, viable_JJ institution_NN that_WDT can_MD serve_VB our_PRP$ people_NNS and_CC our_PRP$ economy_NN ._.
+I_PRP understand_VBP that_DT on_IN any_DT given_VBN day_NN ,_, Wall_NNP Street_NNP may_MD be_VB more_RBR comforted_VBN by_IN an_DT approach_NN that_WDT gives_VBZ banks_NNS bailouts_NNS with_IN no_DT strings_NNS attached_VBN ,_, and_CC that_IN holds_VBZ nobody_NN accountable_JJ for_IN their_PRP$ reckless_JJ decisions_NNS ._.
+But_CC such_PDT an_DT approach_NN wo_MD n't_RB solve_VB the_DT problem_NN ._.
+And_CC our_PRP$ goal_NN is_VBZ to_TO quicken_VB the_DT day_NN when_WRB we_PRP re-start_VBP lending_VBG to_TO the_DT American_JJ people_NNS and_CC American_JJ business_NN and_CC end_NN this_DT crisis_NN once_RB and_CC for_IN all_DT ._.
+I_PRP intend_VBP to_TO hold_VB these_DT banks_NNS fully_RB accountable_JJ for_IN the_DT assistance_NN they_PRP receive_VBP ,_, and_CC this_DT time_NN ,_, they_PRP will_MD have_VB to_TO clearly_RB demonstrate_VB how_WRB taxpayer_NN dollars_NNS result_VBP in_IN more_JJR lending_NN for_IN the_DT American_JJ taxpayer_NN ._.
+This_DT time_NN ,_, CEOs_NNS wo_MD n't_RB be_VB able_JJ to_TO use_VB taxpayer_NN money_NN to_TO pad_NN their_PRP$ paychecks_NNS or_CC buy_VB fancy_JJ drapes_NNS or_CC disappear_VB on_IN a_DT private_JJ jet_NN ._.
+Those_DT days_NNS are_VBP over_IN ._.
+Still_RB ,_, this_DT plan_NN will_MD require_VB significant_JJ resources_NNS from_IN the_DT federal_JJ government_NN and_CC yes_RB ,_, probably_RB more_RBR than_IN we_PRP 've_VBP already_RB set_VBN aside_RB ._.
+But_CC while_IN the_DT cost_NN of_IN action_NN will_MD be_VB great_JJ ,_, I_PRP can_MD assure_VB you_PRP that_IN the_DT cost_NN of_IN inaction_NN will_MD be_VB far_RB greater_JJR ,_, for_IN it_PRP could_MD result_VB in_IN an_DT economy_NN that_WDT sputters_VBZ along_IN for_IN not_RB months_NNS or_CC years_NNS ,_, but_CC perhaps_RB a_DT decade_NN ._.
+That_DT would_MD be_VB worse_JJR for_IN our_PRP$ deficit_NN ,_, worse_JJR for_IN business_NN ,_, worse_JJR for_IN you_PRP ,_, and_CC worse_JJR for_IN the_DT next_JJ generation_NN ._.
+And_CC I_PRP refuse_VBP to_TO let_VB that_DT happen_VB ._.
+I_PRP understand_VBP that_IN when_WRB the_DT last_JJ administration_NN asked_VBD this_DT Congress_NNP to_TO provide_VB assistance_NN for_IN struggling_VBG banks_NNS ,_, Democrats_NNPS and_CC Republicans_NNPS alike_RB were_VBD infuriated_VBN by_IN the_DT mismanagement_NN and_CC results_NNS that_WDT followed_VBD ._.
+So_RB were_VBD the_DT American_JJ taxpayers_NNS ._.
+So_RB was_VBD I._NN So_IN I_PRP know_VBP how_WRB unpopular_JJ it_PRP is_VBZ to_TO be_VB seen_VBN as_IN helping_VBG banks_NNS right_RB now_RB ,_, especially_RB when_WRB everyone_NN is_VBZ suffering_VBG in_IN part_NN from_IN their_PRP$ bad_JJ decisions_NNS ._.
+I_PRP promise_VBP you_PRP -_: I_PRP get_VBP it_PRP ._.
+But_CC I_PRP also_RB know_VBP that_IN in_IN a_DT time_NN of_IN crisis_NN ,_, we_PRP can_MD not_RB afford_VB to_TO govern_VB out_IN of_IN anger_NN ,_, or_CC yield_VB to_TO the_DT politics_NNS of_IN the_DT moment_NN ._.
+My_PRP$ job_NN our_PRP$ job_NN is_VBZ to_TO solve_VB the_DT problem_NN ._.
+Our_PRP$ job_NN is_VBZ to_TO govern_VB with_IN a_DT sense_NN of_IN responsibility_NN ._.
+I_PRP will_MD not_RB spend_VB a_DT single_JJ penny_NN for_IN the_DT purpose_NN of_IN rewarding_VBG a_DT single_JJ Wall_NNP Street_NNP executive_NN ,_, but_CC I_PRP will_MD do_VB whatever_WDT it_PRP takes_VBZ to_TO help_VB the_DT small_JJ business_NN that_WDT ca_MD n't_RB pay_VB its_PRP$ workers_NNS or_CC the_DT family_NN that_WDT has_VBZ saved_VBN and_CC still_RB ca_MD n't_RB get_VB a_DT mortgage_NN ._.
+That_DT 's_VBZ what_WP this_DT is_VBZ about_RB ._.
+It_PRP 's_VBZ not_RB about_IN helping_VBG banks_NNS it_PRP 's_VBZ about_IN helping_VBG people_NNS ._.
+Because_IN when_WRB credit_NN is_VBZ available_JJ again_RB ,_, that_IN young_JJ family_NN can_MD finally_RB buy_VB a_DT new_JJ home_NN ._.
+And_CC then_RB some_DT company_NN will_MD hire_VB workers_NNS to_TO build_VB it_PRP ._.
+And_CC then_RB those_DT workers_NNS will_MD have_VB money_NN to_TO spend_VB ,_, and_CC if_IN they_PRP can_MD get_VB a_DT loan_NN too_RB ,_, maybe_RB they_PRP 'll_MD finally_RB buy_VB that_DT car_NN ,_, or_CC open_VB their_PRP$ own_JJ business_NN ._.
+Investors_NNS will_MD return_VB to_TO the_DT market_NN ,_, and_CC American_JJ families_NNS will_MD see_VB their_PRP$ retirement_NN secured_VBN once_RB more_RBR ._.
+Slowly_RB ,_, but_CC surely_RB ,_, confidence_NN will_MD return_VB ,_, and_CC our_PRP$ economy_NN will_MD recover_VB ._.
+So_IN I_PRP ask_VBP this_DT Congress_NNP to_TO join_VB me_PRP in_IN doing_VBG whatever_WDT proves_VBZ necessary_JJ ._.
+Because_IN we_PRP can_MD not_RB consign_VB our_PRP$ nation_NN to_TO an_DT open-ended_JJ recession_NN ._.
+And_CC to_TO ensure_VB that_IN a_DT crisis_NN of_IN this_DT magnitude_NN never_RB happens_VBZ again_RB ,_, I_PRP ask_VBP Congress_NNP to_TO move_VB quickly_RB on_IN legislation_NN that_WDT will_MD finally_RB reform_VB our_PRP$ outdated_JJ regulatory_JJ system_NN ._.
+It_PRP is_VBZ time_NN to_TO put_VB in_IN place_NN tough_JJ ,_, new_JJ common-sense_JJ rules_NNS of_IN the_DT road_NN so_IN that_IN our_PRP$ financial_JJ market_NN rewards_NNS drive_VBP and_CC innovation_NN ,_, and_CC punishes_VBZ short-cuts_NNS and_CC abuse_NN ._.
+The_DT recovery_NN plan_NN and_CC the_DT financial_JJ stability_NN plan_NN are_VBP the_DT immediate_JJ steps_NNS we_PRP 're_VBP taking_VBG to_TO revive_VB our_PRP$ economy_NN in_IN the_DT short-term_JJ ._.
+But_CC the_DT only_JJ way_NN to_TO fully_RB restore_VB America_NNP 's_POS economic_JJ strength_NN is_VBZ to_TO make_VB the_DT long-term_JJ investments_NNS that_WDT will_MD lead_VB to_TO new_JJ jobs_NNS ,_, new_JJ industries_NNS ,_, and_CC a_DT renewed_VBN ability_NN to_TO compete_VB with_IN the_DT rest_NN of_IN the_DT world_NN ._.
+The_DT only_JJ way_NN this_DT century_NN will_MD be_VB another_DT American_JJ century_NN is_VBZ if_IN we_PRP confront_VBP at_IN last_JJ the_DT price_NN of_IN our_PRP$ dependence_NN on_IN oil_NN and_CC the_DT high_JJ cost_NN of_IN health_NN care_NN ;_: the_DT schools_NNS that_WDT are_VBP n't_RB preparing_VBG our_PRP$ children_NNS and_CC the_DT mountain_NN of_IN debt_NN they_PRP stand_VBP to_TO inherit_VB ._.
+That_DT is_VBZ our_PRP$ responsibility_NN ._.
+In_IN the_DT next_JJ few_JJ days_NNS ,_, I_PRP will_MD submit_VB a_DT budget_NN to_TO Congress_NNP ._.
+So_RB often_RB ,_, we_PRP have_VBP come_VBN to_TO view_VB these_DT documents_NNS as_IN simply_RB numbers_NNS on_IN a_DT page_NN or_CC laundry_NN lists_NNS of_IN programs_NNS ._.
+I_PRP see_VBP this_DT document_NN differently_RB ._.
+I_PRP see_VBP it_PRP as_IN a_DT vision_NN for_IN America_NNP as_IN a_DT blueprint_NN for_IN our_PRP$ future_NN ._.
+My_PRP$ budget_NN does_VBZ not_RB attempt_VB to_TO solve_VB every_DT problem_NN or_CC address_NN every_DT issue_NN ._.
+It_PRP reflects_VBZ the_DT stark_JJ reality_NN of_IN what_WP we_PRP 've_VBP inherited_VBN a_DT trillion_CD dollar_NN deficit_NN ,_, a_DT financial_JJ crisis_NN ,_, and_CC a_DT costly_JJ recession_NN ._.
+Given_VBN these_DT realities_NNS ,_, everyone_NN in_IN this_DT chamber_NN -_: Democrats_NNPS and_CC Republicans_NNPS will_MD have_VB to_TO sacrifice_VB some_DT worthy_JJ priorities_NNS for_IN which_WDT there_EX are_VBP no_DT dollars_NNS ._.
+And_CC that_DT includes_VBZ me_PRP ._.
+But_CC that_DT does_VBZ not_RB mean_VB we_PRP can_MD afford_VB to_TO ignore_VB our_PRP$ long-term_JJ challenges_NNS ._.
+I_PRP reject_VBP the_DT view_NN that_IN says_VBZ our_PRP$ problems_NNS will_MD simply_RB take_VB care_NN of_IN themselves_PRP ;_: that_DT says_VBZ government_NN has_VBZ no_DT role_NN in_IN laying_VBG the_DT foundation_NN for_IN our_PRP$ common_JJ prosperity_NN ._.
+For_IN history_NN tells_VBZ a_DT different_JJ story_NN ._.
+History_NN reminds_VBZ us_PRP that_IN at_IN every_DT moment_NN of_IN economic_JJ upheaval_NN and_CC transformation_NN ,_, this_DT nation_NN has_VBZ responded_VBN with_IN bold_JJ action_NN and_CC big_JJ ideas_NNS ._.
+In_IN the_DT midst_NN of_IN civil_JJ war_NN ,_, we_PRP laid_VBD railroad_NN tracks_NNS from_IN one_CD coast_NN to_TO another_DT that_WDT spurred_VBD commerce_NN and_CC industry_NN ._.
+From_IN the_DT turmoil_NN of_IN the_DT Industrial_NNP Revolution_NNP came_VBD a_DT system_NN of_IN public_JJ high_JJ schools_NNS that_WDT prepared_VBD our_PRP$ citizens_NNS for_IN a_DT new_JJ age_NN ._.
+In_IN the_DT wake_NN of_IN war_NN and_CC depression_NN ,_, the_DT GI_NNP Bill_NNP sent_VBD a_DT generation_NN to_TO college_NN and_CC created_VBD the_DT largest_JJS middle-class_NN in_IN history_NN ._.
+And_CC a_DT twilight_JJ struggle_NN for_IN freedom_NN led_VBD to_TO a_DT nation_NN of_IN highways_NNS ,_, an_DT American_JJ on_IN the_DT moon_NN ,_, and_CC an_DT explosion_NN of_IN technology_NN that_WDT still_RB shapes_VBZ our_PRP$ world_NN ._.
+In_IN each_DT case_NN ,_, government_NN did_VBD n't_RB supplant_VB private_JJ enterprise_NN ;_: it_PRP catalyzed_VBD private_JJ enterprise_NN ._.
+It_PRP created_VBD the_DT conditions_NNS for_IN thousands_NNS of_IN entrepreneurs_NNS and_CC new_JJ businesses_NNS to_TO adapt_VB and_CC to_TO thrive_VB ._.
+We_PRP are_VBP a_DT nation_NN that_WDT has_VBZ seen_VBN promise_NN amid_IN peril_NN ,_, and_CC claimed_VBD opportunity_NN from_IN ordeal_NN ._.
+Now_RB we_PRP must_MD be_VB that_IN nation_NN again_RB ._.
+That_DT is_VBZ why_WRB ,_, even_RB as_IN it_PRP cuts_VBZ back_RB on_IN the_DT programs_NNS we_PRP do_VBP n't_RB need_VB ,_, the_DT budget_NN I_PRP submit_VBP will_MD invest_VB in_IN the_DT three_CD areas_NNS that_WDT are_VBP absolutely_RB critical_JJ to_TO our_PRP$ economic_JJ future_NN :_: energy_NN ,_, health_NN care_NN ,_, and_CC education_NN ._.
+It_PRP begins_VBZ with_IN energy_NN ._.
+We_PRP know_VBP the_DT country_NN that_WDT harnesses_VBZ the_DT power_NN of_IN clean_JJ ,_, renewable_JJ energy_NN will_MD lead_VB the_DT 21st_JJ century_NN ._.
+And_CC yet_RB ,_, it_PRP is_VBZ China_NNP that_WDT has_VBZ launched_VBN the_DT largest_JJS effort_NN in_IN history_NN to_TO make_VB their_PRP$ economy_NN energy_NN efficient_JJ ._.
+We_PRP invented_VBD solar_JJ technology_NN ,_, but_CC we_PRP 've_VBP fallen_VBN behind_IN countries_NNS like_IN Germany_NNP and_CC Japan_NNP in_IN producing_VBG it_PRP ._.
+New_NNP plug-in_JJ hybrids_NNS roll_VBP off_RP our_PRP$ assembly_NN lines_NNS ,_, but_CC they_PRP will_MD run_VB on_IN batteries_NNS made_VBN in_IN Korea_NNP ._.
+Well_RB I_PRP do_VBP not_RB accept_VB a_DT future_NN where_WRB the_DT jobs_NNS and_CC industries_NNS of_IN tomorrow_NN take_VBP root_NN beyond_IN our_PRP$ borders_NNS -_: and_CC I_PRP know_VBP you_PRP do_VBP n't_RB either_RB ._.
+It_PRP is_VBZ time_NN for_IN America_NNP to_TO lead_VB again_RB ._.
+Thanks_NNS to_TO our_PRP$ recovery_NN plan_NN ,_, we_PRP will_MD double_VB this_DT nation_NN 's_POS supply_NN of_IN renewable_JJ energy_NN in_IN the_DT next_JJ three_CD years_NNS ._.
+We_PRP have_VBP also_RB made_VBN the_DT largest_JJS investment_NN in_IN basic_JJ research_NN funding_NN in_IN American_JJ history_NN -_: an_DT investment_NN that_WDT will_MD spur_VB not_RB only_RB new_JJ discoveries_NNS in_IN energy_NN ,_, but_CC breakthroughs_NNS in_IN medicine_NN ,_, science_NN ,_, and_CC technology_NN ._.
+We_PRP will_MD soon_RB lay_VB down_RP thousands_NNS of_IN miles_NNS of_IN power_NN lines_NNS that_WDT can_MD carry_VB new_JJ energy_NN to_TO cities_NNS and_CC towns_NNS across_IN this_DT country_NN ._.
+And_CC we_PRP will_MD put_VB Americans_NNPS to_TO work_VB making_VBG our_PRP$ homes_NNS and_CC buildings_NNS more_RBR efficient_JJ so_IN that_IN we_PRP can_MD save_VB billions_NNS of_IN dollars_NNS on_IN our_PRP$ energy_NN bills_NNS ._.
+But_CC to_TO truly_RB transform_VB our_PRP$ economy_NN ,_, protect_VB our_PRP$ security_NN ,_, and_CC save_VB our_PRP$ planet_NN from_IN the_DT ravages_NNS of_IN climate_NN change_NN ,_, we_PRP need_VBP to_TO ultimately_RB make_VB clean_JJ ,_, renewable_JJ energy_NN the_DT profitable_JJ kind_NN of_IN energy_NN ._.
+So_IN I_PRP ask_VBP this_DT Congress_NNP to_TO send_VB me_PRP legislation_NN that_WDT places_VBZ a_DT market-based_JJ cap_NN on_IN carbon_NN pollution_NN and_CC drives_VBZ the_DT production_NN of_IN more_JJR renewable_JJ energy_NN in_IN America_NNP ._.
+And_CC to_TO support_VB that_DT innovation_NN ,_, we_PRP will_MD invest_VB fifteen_CD billion_CD dollars_NNS a_DT year_NN to_TO develop_VB technologies_NNS like_IN wind_NN power_NN and_CC solar_JJ power_NN ;_: advanced_VBD biofuels_NNS ,_, clean_JJ coal_NN ,_, and_CC more_RBR fuel-efficient_JJ cars_NNS and_CC trucks_NNS built_VBN right_RB here_RB in_IN America_NNP ._.
+As_IN for_IN our_PRP$ auto_NN industry_NN ,_, everyone_NN recognizes_VBZ that_IN years_NNS of_IN bad_JJ decision-making_NN and_CC a_DT global_JJ recession_NN have_VBP pushed_VBN our_PRP$ automakers_NNS to_TO the_DT brink_NN ._.
+We_PRP should_MD not_RB ,_, and_CC will_MD not_RB ,_, protect_VBP them_PRP from_IN their_PRP$ own_JJ bad_JJ practices_NNS ._.
+But_CC we_PRP are_VBP committed_VBN to_TO the_DT goal_NN of_IN a_DT re-tooled_JJ ,_, re-imagined_JJ auto_NN industry_NN that_WDT can_MD compete_VB and_CC win_VB ._.
+Millions_NNS of_IN jobs_NNS depend_VBP on_IN it_PRP ._.
+Scores_NNS of_IN communities_NNS depend_VBP on_IN it_PRP ._.
+And_CC I_PRP believe_VBP the_DT nation_NN that_WDT invented_VBD the_DT automobile_NN can_MD not_RB walk_VB away_RB from_IN it_PRP ._.
+None_NN of_IN this_DT will_MD come_VB without_IN cost_NN ,_, nor_CC will_MD it_PRP be_VB easy_JJ ._.
+But_CC this_DT is_VBZ America_NNP ._.
+We_PRP do_VBP n't_RB do_VB what_WP 's_VBZ easy_JJ ._.
+We_PRP do_VBP what_WP is_VBZ necessary_JJ to_TO move_VB this_DT country_NN forward_RB ._.
+For_IN that_DT same_JJ reason_NN ,_, we_PRP must_MD also_RB address_VB the_DT crushing_VBG cost_NN of_IN health_NN care_NN ._.
+This_DT is_VBZ a_DT cost_NN that_WDT now_RB causes_VBZ a_DT bankruptcy_NN in_IN America_NNP every_DT thirty_CD seconds_NNS ._.
+By_IN the_DT end_NN of_IN the_DT year_NN ,_, it_PRP could_MD cause_VB 1.5_CD million_CD Americans_NNPS to_TO lose_VB their_PRP$ homes_NNS ._.
+In_IN the_DT last_JJ eight_CD years_NNS ,_, premiums_NNS have_VBP grown_VBN four_CD times_NNS faster_JJR than_IN wages_NNS ._.
+And_CC in_IN each_DT of_IN these_DT years_NNS ,_, one_CD million_CD more_JJR Americans_NNS have_VBP lost_VBN their_PRP$ health_NN insurance_NN ._.
+It_PRP is_VBZ one_CD of_IN the_DT major_JJ reasons_NNS why_WRB small_JJ businesses_NNS close_VB their_PRP$ doors_NNS and_CC corporations_NNS ship_NN jobs_NNS overseas_RB ._.
+And_CC it_PRP 's_VBZ one_CD of_IN the_DT largest_JJS and_CC fastest-growing_JJ parts_NNS of_IN our_PRP$ budget_NN ._.
+Given_VBN these_DT facts_NNS ,_, we_PRP can_MD no_RB longer_RB afford_VB to_TO put_VB health_NN care_NN reform_NN on_IN hold_NN ._.
+Already_RB ,_, we_PRP have_VBP done_VBN more_JJR to_TO advance_VB the_DT cause_NN of_IN health_NN care_NN reform_NN in_IN the_DT last_JJ thirty_CD days_NNS than_IN we_PRP have_VBP in_IN the_DT last_JJ decade_NN ._.
+When_WRB it_PRP was_VBD days_NNS old_JJ ,_, this_DT Congress_NNP passed_VBD a_DT law_NN to_TO provide_VB and_CC protect_VB health_NN insurance_NN for_IN eleven_CD million_CD American_JJ children_NNS whose_WP$ parents_NNS work_VBP full-time_JJ ._.
+Our_PRP$ recovery_NN plan_NN will_MD invest_VB in_IN electronic_JJ health_NN records_NNS and_CC new_JJ technology_NN that_WDT will_MD reduce_VB errors_NNS ,_, bring_VB down_RP costs_NNS ,_, ensure_VB privacy_NN ,_, and_CC save_VB lives_NNS ._.
+It_PRP will_MD launch_VB a_DT new_JJ effort_NN to_TO conquer_VB a_DT disease_NN that_WDT has_VBZ touched_VBN the_DT life_NN of_IN nearly_RB every_DT American_JJ by_IN seeking_VBG a_DT cure_NN for_IN cancer_NN in_IN our_PRP$ time_NN ._.
+And_CC it_PRP makes_VBZ the_DT largest_JJS investment_NN ever_RB in_IN preventive_JJ care_NN ,_, because_IN that_DT is_VBZ one_CD of_IN the_DT best_JJS ways_NNS to_TO keep_VB our_PRP$ people_NNS healthy_JJ and_CC our_PRP$ costs_NNS under_IN control_NN ._.
+This_DT budget_NN builds_VBZ on_IN these_DT reforms_NNS ._.
+It_PRP includes_VBZ an_DT historic_JJ commitment_NN to_TO comprehensive_JJ health_NN care_NN reform_NN a_DT down-payment_NN on_IN the_DT principle_NN that_IN we_PRP must_MD have_VB quality_NN ,_, affordable_JJ health_NN care_NN for_IN every_DT American_NNP ._.
+It_PRP 's_VBZ a_DT commitment_NN that_WDT 's_VBZ paid_VBN for_IN in_IN part_NN by_IN efficiencies_NNS in_IN our_PRP$ system_NN that_WDT are_VBP long_RB overdue_JJ ._.
+And_CC it_PRP 's_VBZ a_DT step_NN we_PRP must_MD take_VB if_IN we_PRP hope_VBP to_TO bring_VB down_RP our_PRP$ deficit_NN in_IN the_DT years_NNS to_TO come_VB ._.
+Now_RB ,_, there_EX will_MD be_VB many_JJ different_JJ opinions_NNS and_CC ideas_NNS about_IN how_WRB to_TO achieve_VB reform_NN ,_, and_CC that_DT is_VBZ why_WRB I_PRP 'm_VBP bringing_VBG together_RB businesses_NNS and_CC workers_NNS ,_, doctors_NNS and_CC health_NN care_NN providers_NNS ,_, Democrats_NNPS and_CC Republicans_NNPS to_TO begin_VB work_NN on_IN this_DT issue_NN next_JJ week_NN ._.
+I_PRP suffer_VBP no_DT illusions_NNS that_IN this_DT will_MD be_VB an_DT easy_JJ process_NN ._.
+It_PRP will_MD be_VB hard_JJ ._.
+But_CC I_PRP also_RB know_VBP that_IN nearly_RB a_DT century_NN after_IN Teddy_NNP Roosevelt_NNP first_RB called_VBD for_IN reform_NN ,_, the_DT cost_NN of_IN our_PRP$ health_NN care_NN has_VBZ weighed_VBN down_RP our_PRP$ economy_NN and_CC the_DT conscience_NN of_IN our_PRP$ nation_NN long_RB enough_RB ._.
+So_RB let_VB there_RB be_VB no_DT doubt_NN :_: health_NN care_NN reform_NN can_MD not_RB wait_VB ,_, it_PRP must_MD not_RB wait_VB ,_, and_CC it_PRP will_MD not_RB wait_VB another_DT year_NN ._.
+The_DT third_JJ challenge_NN we_PRP must_MD address_VB is_VBZ the_DT urgent_JJ need_NN to_TO expand_VB the_DT promise_NN of_IN education_NN in_IN America_NNP ._.
+In_IN a_DT global_JJ economy_NN where_WRB the_DT most_RBS valuable_JJ skill_NN you_PRP can_MD sell_VB is_VBZ your_PRP$ knowledge_NN ,_, a_DT good_JJ education_NN is_VBZ no_RB longer_RB just_RB a_DT pathway_NN to_TO opportunity_NN it_PRP is_VBZ a_DT pre-requisite_NN ._.
+Right_RB now_RB ,_, three-quarters_NNS of_IN the_DT fastest-growing_JJ occupations_NNS require_VBP more_JJR than_IN a_DT high_JJ school_NN diploma_NN ._.
+And_CC yet_RB ,_, just_RB over_IN half_NN of_IN our_PRP$ citizens_NNS have_VBP that_DT level_NN of_IN education_NN ._.
+We_PRP have_VBP one_CD of_IN the_DT highest_JJS high_JJ school_NN dropout_NN rates_NNS of_IN any_DT industrialized_JJ nation_NN ._.
+And_CC half_NN of_IN the_DT students_NNS who_WP begin_VBP college_NN never_RB finish_VBP ._.
+This_DT is_VBZ a_DT prescription_NN for_IN economic_JJ decline_NN ,_, because_IN we_PRP know_VBP the_DT countries_NNS that_WDT out-teach_VBP us_PRP today_NN will_MD out-compete_VB us_PRP tomorrow_NN ._.
+That_DT is_VBZ why_WRB it_PRP will_MD be_VB the_DT goal_NN of_IN this_DT administration_NN to_TO ensure_VB that_IN every_DT child_NN has_VBZ access_NN to_TO a_DT complete_JJ and_CC competitive_JJ education_NN from_IN the_DT day_NN they_PRP are_VBP born_VBN to_TO the_DT day_NN they_PRP begin_VBP a_DT career_NN ._.
+Already_RB ,_, we_PRP have_VBP made_VBN an_DT historic_JJ investment_NN in_IN education_NN through_IN the_DT economic_JJ recovery_NN plan_NN ._.
+We_PRP have_VBP dramatically_RB expanded_VBN early_JJ childhood_NN education_NN and_CC will_MD continue_VB to_TO improve_VB its_PRP$ quality_NN ,_, because_IN we_PRP know_VBP that_IN the_DT most_RBS formative_JJ learning_NN comes_VBZ in_IN those_DT first_JJ years_NNS of_IN life_NN ._.
+We_PRP have_VBP made_VBN college_NN affordable_JJ for_IN nearly_RB seven_CD million_CD more_JJR students_NNS ._.
+And_CC we_PRP have_VBP provided_VBN the_DT resources_NNS necessary_JJ to_TO prevent_VB painful_JJ cuts_NNS and_CC teacher_NN layoffs_NNS that_WDT would_MD set_VB back_RP our_PRP$ children_NNS 's_POS progress_NN ._.
+But_CC we_PRP know_VBP that_IN our_PRP$ schools_NNS do_VBP n't_RB just_RB need_VB more_JJR resources_NNS ._.
+They_PRP need_VBP more_JJR reform_NN ._.
+That_DT is_VBZ why_WRB this_DT budget_NN creates_VBZ new_JJ incentives_NNS for_IN teacher_NN performance_NN ;_: pathways_NNS for_IN advancement_NN ,_, and_CC rewards_NNS for_IN success_NN ._.
+We_PRP 'll_MD invest_VB in_IN innovative_JJ programs_NNS that_WDT are_VBP already_RB helping_VBG schools_NNS meet_VBP high_JJ standards_NNS and_CC close_JJ achievement_NN gaps_NNS ._.
+And_CC we_PRP will_MD expand_VB our_PRP$ commitment_NN to_TO charter_NN schools_NNS ._.
+It_PRP is_VBZ our_PRP$ responsibility_NN as_IN lawmakers_NNS and_CC educators_NNS to_TO make_VB this_DT system_NN work_NN ._.
+But_CC it_PRP is_VBZ the_DT responsibility_NN of_IN every_DT citizen_NN to_TO participate_VB in_IN it_PRP ._.
+And_CC so_RB tonight_RB ,_, I_PRP ask_VBP every_DT American_JJ to_TO commit_VB to_TO at_IN least_JJS one_CD year_NN or_CC more_JJR of_IN higher_JJR education_NN or_CC career_NN training_NN ._.
+This_DT can_MD be_VB community_NN college_NN or_CC a_DT four-year_JJ school_NN ;_: vocational_JJ training_NN or_CC an_DT apprenticeship_NN ._.
+But_CC whatever_WDT the_DT training_NN may_MD be_VB ,_, every_DT American_NNP will_MD need_VB to_TO get_VB more_JJR than_IN a_DT high_JJ school_NN diploma_NN ._.
+And_CC dropping_VBG out_IN of_IN high_JJ school_NN is_VBZ no_RB longer_RBR an_DT option_NN ._.
+It_PRP 's_VBZ not_RB just_RB quitting_VBG on_IN yourself_PRP ,_, it_PRP 's_VBZ quitting_VBG on_IN your_PRP$ country_NN and_CC this_DT country_NN needs_VBZ and_CC values_VBZ the_DT talents_NNS of_IN every_DT American_NNP ._.
+That_DT is_VBZ why_WRB we_PRP will_MD provide_VB the_DT support_NN necessary_JJ for_IN you_PRP to_TO complete_VB college_NN and_CC meet_VB a_DT new_JJ goal_NN :_: by_IN 2020_CD ,_, America_NNP will_MD once_RB again_RB have_VB the_DT highest_JJS proportion_NN of_IN college_NN graduates_NNS in_IN the_DT world_NN ._.
+I_PRP know_VBP that_IN the_DT price_NN of_IN tuition_NN is_VBZ higher_JJR than_IN ever_RB ,_, which_WDT is_VBZ why_WRB if_IN you_PRP are_VBP willing_JJ to_TO volunteer_VB in_IN your_PRP$ neighborhood_NN or_CC give_VB back_RP to_TO your_PRP$ community_NN or_CC serve_VB your_PRP$ country_NN ,_, we_PRP will_MD make_VB sure_JJ that_IN you_PRP can_MD afford_VB a_DT higher_JJR education_NN ._.
+And_CC to_TO encourage_VB a_DT renewed_VBN spirit_NN of_IN national_JJ service_NN for_IN this_DT and_CC future_JJ generations_NNS ,_, I_PRP ask_VBP this_DT Congress_NNP to_TO send_VB me_PRP the_DT bipartisan_JJ legislation_NN that_WDT bears_VBZ the_DT name_NN of_IN Senator_NNP Orrin_NNP Hatch_NNP as_RB well_RB as_IN an_DT American_NNP who_WP has_VBZ never_RB stopped_VBN asking_VBG what_WP he_PRP can_MD do_VB for_IN his_PRP$ country_NN Senator_NNP Edward_NNP Kennedy_NNP ._.
+These_DT education_NN policies_NNS will_MD open_VB the_DT doors_NNS of_IN opportunity_NN for_IN our_PRP$ children_NNS ._.
+But_CC it_PRP is_VBZ up_RB to_TO us_PRP to_TO ensure_VB they_PRP walk_VBP through_IN them_PRP ._.
+In_IN the_DT end_NN ,_, there_EX is_VBZ no_DT program_NN or_CC policy_NN that_WDT can_MD substitute_VB for_IN a_DT mother_NN or_CC father_NN who_WP will_MD attend_VB those_DT parent\/teacher_JJR conferences_NNS ,_, or_CC help_NN with_IN homework_NN after_IN dinner_NN ,_, or_CC turn_VB off_RP the_DT TV_NN ,_, put_VBD away_RP the_DT video_NN games_NNS ,_, and_CC read_VB to_TO their_PRP$ child_NN ._.
+I_PRP speak_VBP to_TO you_PRP not_RB just_RB as_IN a_DT President_NNP ,_, but_CC as_IN a_DT father_NN when_WRB I_PRP say_VBP that_IN responsibility_NN for_IN our_PRP$ children_NNS 's_POS education_NN must_MD begin_VB at_IN home_NN ._.
+There_EX is_VBZ ,_, of_IN course_NN ,_, another_DT responsibility_NN we_PRP have_VBP to_TO our_PRP$ children_NNS ._.
+And_CC that_DT is_VBZ the_DT responsibility_NN to_TO ensure_VB that_IN we_PRP do_VBP not_RB pass_VB on_IN to_TO them_PRP a_DT debt_NN they_PRP can_MD not_RB pay_VB ._.
+With_IN the_DT deficit_NN we_PRP inherited_VBD ,_, the_DT cost_NN of_IN the_DT crisis_NN we_PRP face_VBP ,_, and_CC the_DT long-term_JJ challenges_NNS we_PRP must_MD meet_VB ,_, it_PRP has_VBZ never_RB been_VBN more_RBR important_JJ to_TO ensure_VB that_IN as_IN our_PRP$ economy_NN recovers_VBZ ,_, we_PRP do_VBP what_WP it_PRP takes_VBZ to_TO bring_VB this_DT deficit_NN down_RB ._.
+I_PRP 'm_VBP proud_JJ that_IN we_PRP passed_VBD the_DT recovery_NN plan_NN free_JJ of_IN earmarks_NNS ,_, and_CC I_PRP want_VBP to_TO pass_VB a_DT budget_NN next_JJ year_NN that_IN ensures_VBZ that_IN each_DT dollar_NN we_PRP spend_VBP reflects_VBZ only_RB our_PRP$ most_RBS important_JJ national_JJ priorities_NNS ._.
+Yesterday_NN ,_, I_PRP held_VBD a_DT fiscal_JJ summit_NN where_WRB I_PRP pledged_VBD to_TO cut_VB the_DT deficit_NN in_IN half_NN by_IN the_DT end_NN of_IN my_PRP$ first_JJ term_NN in_IN office_NN ._.
+My_PRP$ administration_NN has_VBZ also_RB begun_VBN to_TO go_VB line_NN by_IN line_NN through_IN the_DT federal_JJ budget_NN in_IN order_NN to_TO eliminate_VB wasteful_JJ and_CC ineffective_JJ programs_NNS ._.
+As_IN you_PRP can_MD imagine_VB ,_, this_DT is_VBZ a_DT process_NN that_WDT will_MD take_VB some_DT time_NN ._.
+But_CC we_PRP 're_VBP starting_VBG with_IN the_DT biggest_JJS lines_NNS ._.
+We_PRP have_VBP already_RB identified_VBN two_CD trillion_CD dollars_NNS in_IN savings_NNS over_IN the_DT next_JJ decade_NN ._.
+In_IN this_DT budget_NN ,_, we_PRP will_MD end_VB education_NN programs_NNS that_WDT do_VBP n't_RB work_VB and_CC end_VB direct_JJ payments_NNS to_TO large_JJ agribusinesses_NNS that_WDT do_VBP n't_RB need_VB them_PRP ._.
+We_PRP 'll_MD eliminate_VB the_DT no-bid_JJ contracts_NNS that_WDT have_VBP wasted_VBN billions_NNS in_IN Iraq_NNP ,_, and_CC reform_NN our_PRP$ defense_NN budget_NN so_IN that_IN we_PRP 're_VBP not_RB paying_VBG for_IN Cold_NNP War-era_NNP weapons_NNS systems_NNS we_PRP do_VBP n't_RB use_VB ._.
+We_PRP will_MD root_VB out_RP the_DT waste_NN ,_, fraud_NN ,_, and_CC abuse_NN in_IN our_PRP$ Medicare_NNP program_NN that_WDT does_VBZ n't_RB make_VB our_PRP$ seniors_NNS any_DT healthier_RBR ,_, and_CC we_PRP will_MD restore_VB a_DT sense_NN of_IN fairness_NN and_CC balance_NN to_TO our_PRP$ tax_NN code_NN by_IN finally_RB ending_VBG the_DT tax_NN breaks_NNS for_IN corporations_NNS that_WDT ship_VBP our_PRP$ jobs_NNS overseas_RB ._.
+In_IN order_NN to_TO save_VB our_PRP$ children_NNS from_IN a_DT future_NN of_IN debt_NN ,_, we_PRP will_MD also_RB end_VB the_DT tax_NN breaks_NNS for_IN the_DT wealthiest_JJS 2_CD %_NN of_IN Americans_NNPS ._.
+But_CC let_VB me_PRP perfectly_RB clear_JJ ,_, because_IN I_PRP know_VBP you_PRP 'll_MD hear_VB the_DT same_JJ old_JJ claims_NNS that_IN rolling_VBG back_RB these_DT tax_NN breaks_NNS means_VBZ a_DT massive_JJ tax_NN increase_NN on_IN the_DT American_JJ people_NNS :_: if_IN your_PRP$ family_NN earns_VBZ less_JJR than_IN $_$ 250,000_CD a_DT year_NN ,_, you_PRP will_MD not_RB see_VB your_PRP$ taxes_NNS increased_VBD a_DT single_JJ dime_NN ._.
+I_PRP repeat_VBP :_: not_RB one_CD single_JJ dime_NN ._.
+In_IN fact_NN ,_, the_DT recovery_NN plan_NN provides_VBZ a_DT tax_NN cut_NN that_WDT 's_VBZ right_JJ ,_, a_DT tax_NN cut_NN for_IN 95_CD %_NN of_IN working_VBG families_NNS ._.
+And_CC these_DT checks_NNS are_VBP on_IN the_DT way_NN ._.
+To_TO preserve_VB our_PRP$ long-term_JJ fiscal_JJ health_NN ,_, we_PRP must_MD also_RB address_VB the_DT growing_VBG costs_NNS in_IN Medicare_NNP and_CC Social_NNP Security_NNP ._.
+Comprehensive_JJ health_NN care_NN reform_NN is_VBZ the_DT best_JJS way_NN to_TO strengthen_VB Medicare_NNP for_IN years_NNS to_TO come_VB ._.
+And_CC we_PRP must_MD also_RB begin_VB a_DT conversation_NN on_IN how_WRB to_TO do_VB the_DT same_JJ for_IN Social_NNP Security_NNP ,_, while_IN creating_VBG tax-free_JJ universal_JJ savings_NNS accounts_NNS for_IN all_DT Americans_NNPS ._.
+Finally_RB ,_, because_IN we_PRP 're_VBP also_RB suffering_VBG from_IN a_DT deficit_NN of_IN trust_NN ,_, I_PRP am_VBP committed_VBN to_TO restoring_VBG a_DT sense_NN of_IN honesty_NN and_CC accountability_NN to_TO our_PRP$ budget_NN ._.
+That_DT is_VBZ why_WRB this_DT budget_NN looks_VBZ ahead_RB ten_CD years_NNS and_CC accounts_NNS for_IN spending_NN that_WDT was_VBD left_VBN out_RP under_IN the_DT old_JJ rules_NNS -_: and_CC for_IN the_DT first_JJ time_NN ,_, that_WDT includes_VBZ the_DT full_JJ cost_NN of_IN fighting_VBG in_IN Iraq_NNP and_CC Afghanistan_NNP ._.
+For_IN seven_CD years_NNS ,_, we_PRP have_VBP been_VBN a_DT nation_NN at_IN war_NN ._.
+No_RB longer_RBR will_MD we_PRP hide_VB its_PRP$ price_NN ._.
+We_PRP are_VBP now_RB carefully_RB reviewing_VBG our_PRP$ policies_NNS in_IN both_DT wars_NNS ,_, and_CC I_PRP will_MD soon_RB announce_VB a_DT way_NN forward_RB in_IN Iraq_NNP that_WDT leaves_VBZ Iraq_NNP to_TO its_PRP$ people_NNS and_CC responsibly_RB ends_VBZ this_DT war_NN ._.
+And_CC with_IN our_PRP$ friends_NNS and_CC allies_NNS ,_, we_PRP will_MD forge_VB a_DT new_JJ and_CC comprehensive_JJ strategy_NN for_IN Afghanistan_NNP and_CC Pakistan_NNP to_TO defeat_VB al_JJ Qaeda_NNP and_CC combat_NN extremism_NN ._.
+Because_IN I_PRP will_MD not_RB allow_VB terrorists_NNS to_TO plot_VB against_IN the_DT American_JJ people_NNS from_IN safe_JJ havens_NNS half_PDT a_DT world_NN away_RB ._.
+As_IN we_PRP meet_VBP here_RB tonight_RB ,_, our_PRP$ men_NNS and_CC women_NNS in_IN uniform_JJ stand_NN watch_NN abroad_RB and_CC more_JJR are_VBP readying_VBG to_TO deploy_VB ._.
+To_TO each_DT and_CC every_DT one_CD of_IN them_PRP ,_, and_CC to_TO the_DT families_NNS who_WP bear_VBP the_DT quiet_JJ burden_NN of_IN their_PRP$ absence_NN ,_, Americans_NNPS are_VBP united_VBN in_IN sending_VBG one_CD message_NN :_: we_PRP honor_VBP your_PRP$ service_NN ,_, we_PRP are_VBP inspired_VBN by_IN your_PRP$ sacrifice_NN ,_, and_CC you_PRP have_VBP our_PRP$ unyielding_JJ support_NN ._.
+To_TO relieve_VB the_DT strain_NN on_IN our_PRP$ forces_NNS ,_, my_PRP$ budget_NN increases_VBZ the_DT number_NN of_IN our_PRP$ soldiers_NNS and_CC Marines_NNPS ._.
+And_CC to_TO keep_VB our_PRP$ sacred_JJ trust_NN with_IN those_DT who_WP serve_VBP ,_, we_PRP will_MD raise_VB their_PRP$ pay_NN ,_, and_CC give_VB our_PRP$ veterans_NNS the_DT expanded_VBN health_NN care_NN and_CC benefits_NNS that_IN they_PRP have_VBP earned_VBN ._.
+To_TO overcome_VB extremism_NN ,_, we_PRP must_MD also_RB be_VB vigilant_JJ in_IN upholding_VBG the_DT values_NNS our_PRP$ troops_NNS defend_VBP because_IN there_EX is_VBZ no_DT force_NN in_IN the_DT world_NN more_RBR powerful_JJ than_IN the_DT example_NN of_IN America_NNP ._.
+That_DT is_VBZ why_WRB I_PRP have_VBP ordered_VBN the_DT closing_NN of_IN the_DT detention_NN center_NN at_IN Guantanamo_NNP Bay_NNP ,_, and_CC will_MD seek_VB swift_NN and_CC certain_JJ justice_NN for_IN captured_VBN terrorists_NNS -_: because_IN living_VBG our_PRP$ values_NNS does_VBZ n't_RB make_VB us_PRP weaker_JJR ,_, it_PRP makes_VBZ us_PRP safer_JJR and_CC it_PRP makes_VBZ us_PRP stronger_JJR ._.
+And_CC that_DT is_VBZ why_WRB I_PRP can_MD stand_VB here_RB tonight_RB and_CC say_VB without_IN exception_NN or_CC equivocation_NN that_IN the_DT United_NNP States_NNPS of_IN America_NNP does_VBZ not_RB torture_VB ._.
+In_IN words_NNS and_CC deeds_NNS ,_, we_PRP are_VBP showing_VBG the_DT world_NN that_IN a_DT new_JJ era_NN of_IN engagement_NN has_VBZ begun_VBN ._.
+For_IN we_PRP know_VBP that_IN America_NNP can_MD not_RB meet_VB the_DT threats_NNS of_IN this_DT century_NN alone_RB ,_, but_CC the_DT world_NN can_MD not_RB meet_VB them_PRP without_IN America_NNP ._.
+We_PRP can_MD not_RB shun_VB the_DT negotiating_NN table_NN ,_, nor_CC ignore_VB the_DT foes_NNS or_CC forces_NNS that_WDT could_MD do_VB us_PRP harm_VB ._.
+We_PRP are_VBP instead_RB called_VBN to_TO move_VB forward_RB with_IN the_DT sense_NN of_IN confidence_NN and_CC candor_NN that_WDT serious_JJ times_NNS demand_NN ._.
+To_TO seek_VB progress_NN toward_IN a_DT secure_JJ and_CC lasting_JJ peace_NN between_IN Israel_NNP and_CC her_PRP$ neighbors_NNS ,_, we_PRP have_VBP appointed_VBN an_DT envoy_NN to_TO sustain_VB our_PRP$ effort_NN ._.
+To_TO meet_VB the_DT challenges_NNS of_IN the_DT 21st_JJ century_NN -_: from_IN terrorism_NN to_TO nuclear_JJ proliferation_NN ;_: from_IN pandemic_NN disease_NN to_TO cyber_VB threats_NNS to_TO crushing_VBG poverty_NN we_PRP will_MD strengthen_VB old_JJ alliances_NNS ,_, forge_VB new_JJ ones_NNS ,_, and_CC use_VB all_DT elements_NNS of_IN our_PRP$ national_JJ power_NN ._.
+And_CC to_TO respond_VB to_TO an_DT economic_JJ crisis_NN that_WDT is_VBZ global_JJ in_IN scope_NN ,_, we_PRP are_VBP working_VBG with_IN the_DT nations_NNS of_IN the_DT G-20_NN to_TO restore_VB confidence_NN in_IN our_PRP$ financial_JJ system_NN ,_, avoid_VB the_DT possibility_NN of_IN escalating_VBG protectionism_NN ,_, and_CC spur_VB demand_NN for_IN American_JJ goods_NNS in_IN markets_NNS across_IN the_DT globe_NN ._.
+For_IN the_DT world_NN depends_VBZ on_IN us_PRP to_TO have_VB a_DT strong_JJ economy_NN ,_, just_RB as_IN our_PRP$ economy_NN depends_VBZ on_IN the_DT strength_NN of_IN the_DT world_NN 's_POS ._.
+As_IN we_PRP stand_VBP at_IN this_DT crossroads_NNS of_IN history_NN ,_, the_DT eyes_NNS of_IN all_DT people_NNS in_IN all_DT nations_NNS are_VBP once_RB again_RB upon_IN us_PRP -_: watching_VBG to_TO see_VB what_WP we_PRP do_VBP with_IN this_DT moment_NN ;_: waiting_VBG for_IN us_PRP to_TO lead_VB ._.
+Those_DT of_IN us_PRP gathered_VBD here_RB tonight_RB have_VBP been_VBN called_VBN to_TO govern_VB in_IN extraordinary_JJ times_NNS ._.
+It_PRP is_VBZ a_DT tremendous_JJ burden_NN ,_, but_CC also_RB a_DT great_JJ privilege_NN -_: one_CD that_WDT has_VBZ been_VBN entrusted_VBN to_TO few_JJ generations_NNS of_IN Americans_NNPS ._.
+For_IN in_IN our_PRP$ hands_NNS lies_VBZ the_DT ability_NN to_TO shape_VB our_PRP$ world_NN for_IN good_JJ or_CC for_IN ill_JJ ._.
+I_PRP know_VBP that_IN it_PRP is_VBZ easy_JJ to_TO lose_VB sight_NN of_IN this_DT truth_NN to_TO become_VB cynical_JJ and_CC doubtful_JJ ;_: consumed_VBN with_IN the_DT petty_NN and_CC the_DT trivial_JJ ._.
+But_CC in_IN my_PRP$ life_NN ,_, I_PRP have_VBP also_RB learned_VBN that_IN hope_NN is_VBZ found_VBN in_IN unlikely_JJ places_NNS ;_: that_DT inspiration_NN often_RB comes_VBZ not_RB from_IN those_DT with_IN the_DT most_RBS power_NN or_CC celebrity_NN ,_, but_CC from_IN the_DT dreams_NNS and_CC aspirations_NNS of_IN Americans_NNPS who_WP are_VBP anything_NN but_CC ordinary_JJ ._.
+I_PRP think_VBP about_IN Leonard_NNP Abess_NNP ,_, the_DT bank_NN president_NN from_IN Miami_NNP who_WP reportedly_RB cashed_VBD out_IN of_IN his_PRP$ company_NN ,_, took_VBD a_DT $_$ 60_CD million_CD bonus_NN ,_, and_CC gave_VBD it_PRP out_RP to_TO all_DT 399_CD people_NNS who_WP worked_VBD for_IN him_PRP ,_, plus_CC another_DT 72_CD who_WP used_VBD to_TO work_VB for_IN him_PRP ._.
+He_PRP did_VBD n't_RB tell_VB anyone_NN ,_, but_CC when_WRB the_DT local_JJ newspaper_NN found_VBD out_RP ,_, he_PRP simply_RB said_VBD ,_, I_PRP knew_VBD some_DT of_IN these_DT people_NNS since_IN I_PRP was_VBD 7_CD years_NNS old_JJ ._.
+I_PRP did_VBD n't_RB feel_VB right_JJ getting_VBG the_DT money_NN myself_PRP ._. ''_''
+I_PRP think_VBP about_IN Greensburg_NNP ,_, Kansas_NNP ,_, a_DT town_NN that_WDT was_VBD completely_RB destroyed_VBN by_IN a_DT tornado_NN ,_, but_CC is_VBZ being_VBG rebuilt_VBN by_IN its_PRP$ residents_NNS as_IN a_DT global_JJ example_NN of_IN how_WRB clean_JJ energy_NN can_MD power_NN an_DT entire_JJ community_NN -_: how_WRB it_PRP can_MD bring_VB jobs_NNS and_CC businesses_NNS to_TO a_DT place_NN where_WRB piles_NNS of_IN bricks_NNS and_CC rubble_NN once_RB lay_VBD ._.
+``_`` The_DT tragedy_NN was_VBD terrible_JJ ,_, ''_'' said_VBD one_CD of_IN the_DT men_NNS who_WP helped_VBD them_PRP rebuild_VB ._.
+``_`` But_CC the_DT folks_NNS here_RB know_VBP that_IN it_PRP also_RB provided_VBD an_DT incredible_JJ opportunity_NN ._. ''_''
+And_CC I_PRP think_VBP about_IN Ty'Sheoma_NNP Bethea_NNP ,_, the_DT young_JJ girl_NN from_IN that_DT school_NN I_PRP visited_VBD in_IN Dillon_NNP ,_, South_NNP Carolina_NNP a_DT place_NN where_WRB the_DT ceilings_NNS leak_VBP ,_, the_DT paint_NN peels_VBZ off_RP the_DT walls_NNS ,_, and_CC they_PRP have_VBP to_TO stop_VB teaching_VBG six_CD times_NNS a_DT day_NN because_IN the_DT train_NN barrels_NNS by_IN their_PRP$ classroom_NN ._.
+She_PRP has_VBZ been_VBN told_VBN that_IN her_PRP$ school_NN is_VBZ hopeless_JJ ,_, but_CC the_DT other_JJ day_NN after_IN class_NN she_PRP went_VBD to_TO the_DT public_JJ library_NN and_CC typed_VBD up_RP a_DT letter_NN to_TO the_DT people_NNS sitting_VBG in_IN this_DT room_NN ._.
+She_PRP even_RB asked_VBD her_PRP$ principal_NN for_IN the_DT money_NN to_TO buy_VB a_DT stamp_NN ._.
+The_DT letter_NN asks_VBZ us_PRP for_IN help_NN ,_, and_CC says_VBZ ,_, ``_`` We_PRP are_VBP just_RB students_NNS trying_VBG to_TO become_VB lawyers_NNS ,_, doctors_NNS ,_, congressmen_NNS like_IN yourself_PRP and_CC one_CD day_NN president_NN ,_, so_IN we_PRP can_MD make_VB a_DT change_NN to_TO not_RB just_RB the_DT state_NN of_IN South_NNP Carolina_NNP but_CC also_RB the_DT world_NN ._.
+We_PRP are_VBP not_RB quitters_NNS ._. ''_''
+We_PRP are_VBP not_RB quitters_NNS ._.
+These_DT words_NNS and_CC these_DT stories_NNS tell_VBP us_PRP something_NN about_IN the_DT spirit_NN of_IN the_DT people_NNS who_WP sent_VBD us_PRP here_RB ._.
+They_PRP tell_VBP us_PRP that_IN even_RB in_IN the_DT most_RBS trying_VBG times_NNS ,_, amid_IN the_DT most_RBS difficult_JJ circumstances_NNS ,_, there_EX is_VBZ a_DT generosity_NN ,_, a_DT resilience_NN ,_, a_DT decency_NN ,_, and_CC a_DT determination_NN that_WDT perseveres_VBZ ;_: a_DT willingness_NN to_TO take_VB responsibility_NN for_IN our_PRP$ future_NN and_CC for_IN posterity_NN ._.
+Their_PRP$ resolve_NN must_MD be_VB our_PRP$ inspiration_NN ._.
+Their_PRP$ concerns_NNS must_MD be_VB our_PRP$ cause_NN ._.
+And_CC we_PRP must_MD show_VB them_PRP and_CC all_PDT our_PRP$ people_NNS that_IN we_PRP are_VBP equal_JJ to_TO the_DT task_NN before_IN us_PRP ._.
+I_PRP know_VBP that_IN we_PRP have_VBP n't_RB agreed_VBN on_IN every_DT issue_NN thus_RB far_RB ,_, and_CC there_EX are_VBP surely_RB times_NNS in_IN the_DT future_NN when_WRB we_PRP will_MD part_VB ways_NNS ._.
+But_CC I_PRP also_RB know_VBP that_IN every_DT American_NNP who_WP is_VBZ sitting_VBG here_RB tonight_RB loves_VBZ this_DT country_NN and_CC wants_VBZ it_PRP to_TO succeed_VB ._.
+That_DT must_MD be_VB the_DT starting_VBG point_NN for_IN every_DT debate_NN we_PRP have_VBP in_IN the_DT coming_JJ months_NNS ,_, and_CC where_WRB we_PRP return_VBP after_IN those_DT debates_NNS are_VBP done_VBN ._.
+That_DT is_VBZ the_DT foundation_NN on_IN which_WDT the_DT American_JJ people_NNS expect_VBP us_PRP to_TO build_VB common_JJ ground_NN ._.
+And_CC if_IN we_PRP do_VBP if_IN we_PRP come_VBP together_RB and_CC lift_VB this_DT nation_NN from_IN the_DT depths_NNS of_IN this_DT crisis_NN ;_: if_IN we_PRP put_VBP our_PRP$ people_NNS back_RB to_TO work_VB and_CC restart_VB the_DT engine_NN of_IN our_PRP$ prosperity_NN ;_: if_IN we_PRP confront_VBP without_IN fear_NN the_DT challenges_NNS of_IN our_PRP$ time_NN and_CC summon_VB that_DT enduring_VBG spirit_NN of_IN an_DT America_NNP that_WDT does_VBZ not_RB quit_VB ,_, then_RB someday_RB years_NNS from_IN now_RB our_PRP$ children_NNS can_MD tell_VB their_PRP$ children_NNS that_IN this_DT was_VBD the_DT time_NN when_WRB we_PRP performed_VBD ,_, in_IN the_DT words_NNS that_WDT are_VBP carved_VBN into_IN this_DT very_RB chamber_NN ,_, ``_`` something_NN worthy_JJ to_TO be_VB remembered_VBN ._. ''_''
+Thank_VB you_PRP ,_, God_NNP Bless_NNP you_PRP ,_, and_CC may_MD God_NNP Bless_NNP the_DT United_NNP States_NNPS of_IN America_NNP ._.

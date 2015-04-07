@@ -1,0 +1,222 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1981-Reagan.txt 
+Mr._NNP Speaker_NNP ,_, Mr._NNP President_NNP ,_, distinguished_VBD Members_NNS of_IN Congress_NNP ,_, honored_VBD guests_NNS ,_, and_CC fellow_JJ citizens_NNS :_: Only_RB a_DT month_NN ago_IN I_PRP was_VBD your_PRP$ guest_NN in_IN this_DT historic_JJ building_NN ,_, and_CC I_PRP pledged_VBD to_TO you_PRP my_PRP$ cooperation_NN in_IN doing_VBG what_WP is_VBZ right_RB for_IN this_DT Nation_NN that_IN we_PRP all_DT love_VBP so_RB much_RB ._.
+I_PRP 'm_VBP here_RB tonight_RB to_TO reaffirm_VB that_DT pledge_NN and_CC to_TO ask_VB that_IN we_PRP share_VBP in_IN restoring_VBG the_DT promise_NN that_WDT is_VBZ offered_VBN to_TO every_DT citizen_NN by_IN this_DT ,_, the_DT last_JJ ,_, best_JJS hope_NN of_IN man_NN on_IN Earth_NNP ._.
+All_DT of_IN us_PRP are_VBP aware_JJ of_IN the_DT punishing_VBG inflation_NN which_WDT has_VBZ for_IN the_DT first_JJ time_NN in_IN 60_CD years_NNS held_VBN to_TO double-digit_JJ figures_NNS for_IN 2_CD years_NNS in_IN a_DT row_NN ._.
+Interest_NN rates_NNS have_VBP reached_VBN absurd_JJ levels_NNS of_IN more_JJR that_IN 20_CD percent_NN and_CC over_IN 15_CD percent_NN for_IN those_DT who_WP would_MD borrow_VB to_TO buy_VB a_DT home_NN ._.
+All_DT across_IN this_DT land_NN one_NN can_MD see_VB newly_RB built_VBN homes_NNS standing_VBG vacant_JJ ,_, unsold_JJ because_IN of_IN mortgage_NN interest_NN rates_NNS ._.
+Almost_RB 8_CD million_CD Americans_NNPS are_VBP out_IN of_IN work_NN ._.
+These_DT are_VBP people_NNS who_WP want_VBP to_TO be_VB productive_JJ ._.
+But_CC as_IN the_DT months_NNS go_VBP by_IN ,_, despair_NN dominates_VBZ their_PRP$ lives_NNS ._.
+The_DT threats_NNS of_IN layoff_NN and_CC unemployment_NN hang_VBP over_IN other_JJ millions_NNS ,_, and_CC all_DT who_WP work_VBP are_VBP frustrated_VBN by_IN their_PRP$ inability_NN to_TO keep_VB up_RP with_IN inflation_NN ._.
+One_CD worker_NN in_IN a_DT Midwest_NNP city_NN put_VBD it_PRP to_TO me_PRP this_DT way_NN :_: He_PRP said_VBD ,_, ``_`` I_PRP 'm_VBP bringing_VBG home_NN more_RBR dollars_NNS than_IN I_PRP ever_RB believed_VBD I_PRP could_MD possibly_RB earn_VB ,_, but_CC I_PRP seem_VBP to_TO be_VB getting_VBG worse_JJR off_RP ._. ''_''
+And_CC he_PRP is_VBZ ._.
+Not_RB only_RB have_VB hourly_JJ earnings_NNS of_IN the_DT American_JJ worker_NN ,_, after_IN adjusting_VBG for_IN inflation_NN ,_, declined_VBD 5_CD percent_NN over_IN the_DT past_JJ 5_CD years_NNS ,_, but_CC in_IN these_DT 5_CD years_NNS ,_, Federal_NNP personal_JJ taxes_NNS for_IN the_DT average_JJ family_NN have_VBP increased_VBN 67_CD percent_NN ._.
+We_PRP can_MD no_RB longer_RB procrastinate_VB and_CC hope_VB that_IN things_NNS will_MD get_VB better_JJR ._.
+They_PRP will_MD not_RB ._.
+Unless_IN we_PRP act_VBP forcefully_RB --_: and_CC now_RB --_: the_DT economy_NN will_MD get_VB worse_JJR ._.
+Can_MD we_PRP ,_, who_WP man_VBP the_DT ship_NN of_IN state_NN ,_, deny_VBP it_PRP is_VBZ somewhat_RB out_IN of_IN control_NN ?_.
+Our_PRP$ national_JJ debt_NN is_VBZ approaching_VBG $_$ 1_CD trillion_CD ._.
+A_DT few_JJ weeks_NNS ago_IN I_PRP called_VBD such_PDT a_DT figure_NN ,_, a_DT trillion_CD dollars_NNS ,_, incomprehensible_NN ,_, and_CC I_PRP 've_VBP been_VBN trying_VBG ever_RB since_IN to_TO think_VB of_IN a_DT way_NN to_TO illustrate_VB how_WRB big_JJ a_DT trillion_CD really_RB is_VBZ ._.
+And_CC the_DT best_JJS I_PRP could_MD come_VB up_RP with_IN is_VBZ that_IN if_IN you_PRP had_VBD a_DT stack_VB of_IN thousand-dollar_JJ bills_NNS in_IN your_PRP$ hand_NN only_RB 4_CD inches_NNS high_JJ ,_, you_PRP 'd_MD be_VB a_DT millionaire_NN ._.
+A_DT trillion_CD dollars_NNS would_MD be_VB a_DT stack_VB of_IN thousand-dollar_JJ bills_NNS 67_CD miles_NNS high_RB ._.
+The_DT interest_NN on_IN the_DT public_JJ debt_NN this_DT year_NN we_PRP know_VBP will_MD be_VB over_IN $_$ 90_CD billion_CD ,_, and_CC unless_IN we_PRP change_VBP the_DT proposed_VBN spending_NN for_IN the_DT fiscal_JJ year_NN beginning_VBG October_NNP 1st_CD ,_, we_PRP 'll_MD add_VB another_DT almost_RB $_$ 80_CD billion_CD to_TO the_DT debt_NN ._.
+Adding_VBG to_TO our_PRP$ troubles_NNS is_VBZ a_DT mass_NN of_IN regulations_NNS imposed_VBN on_IN the_DT shopkeeper_NN ,_, the_DT farmer_NN ,_, the_DT craftsman_NN ,_, professionals_NNS ,_, and_CC major_JJ industry_NN that_WDT is_VBZ estimated_VBN to_TO add_VB $_$ 100_CD billion_CD to_TO the_DT price_NN of_IN the_DT things_NNS we_PRP buy_VBP ,_, and_CC it_PRP reduces_VBZ our_PRP$ ability_NN to_TO produce_VB ._.
+The_DT rate_NN of_IN increase_NN in_IN American_JJ productivity_NN ,_, once_RB one_CD of_IN the_DT highest_JJS in_IN the_DT world_NN ,_, is_VBZ among_IN the_DT lowest_JJS of_IN all_DT major_JJ industrial_JJ nations_NNS ._.
+Indeed_RB ,_, it_PRP has_VBZ actually_RB declined_VBN in_IN the_DT last_JJ 3_CD years_NNS ._.
+Now_RB ,_, I_PRP 've_VBP painted_VBN a_DT pretty_RB grim_JJ picture_NN ,_, but_CC I_PRP think_VBP I_PRP 've_VBP painted_VBN it_PRP accurately_RB ._.
+It_PRP is_VBZ within_IN our_PRP$ power_NN to_TO change_VB this_DT picture_NN ,_, and_CC we_PRP can_MD act_VB with_IN hope_NN ._.
+There_EX 's_VBZ nothing_NN wrong_JJ with_IN our_PRP$ internal_JJ strengths_NNS ._.
+There_EX has_VBZ been_VBN no_DT breakdown_NN of_IN the_DT human_JJ ,_, technological_JJ ,_, and_CC natural_JJ resources_NNS upon_IN which_WDT the_DT economy_NN is_VBZ built_VBN ._.
+Based_VBN on_IN this_DT confidence_NN in_IN a_DT system_NN which_WDT has_VBZ never_RB failed_VBN us_PRP ,_, but_CC which_WDT we_PRP have_VBP failed_VBN through_IN a_DT lack_NN of_IN confidence_NN and_CC sometimes_RB through_IN a_DT belief_NN that_IN we_PRP could_MD fine-tune_VB the_DT economy_NN and_CC get_VB it_PRP tuned_VBN to_TO our_PRP$ liking_NN ,_, I_PRP am_VBP proposing_VBG a_DT comprehensive_JJ four-point_JJ program_NN ._.
+Now_RB ,_, let_VB me_PRP outline_VB in_IN detail_NN some_DT of_IN the_DT principal_JJ parts_NNS of_IN this_DT program_NN ._.
+You_PRP 'll_MD each_DT be_VB provided_VBN with_IN a_DT completely_RB detailed_VBN copy_NN of_IN the_DT entire_JJ program_NN ._.
+This_DT plan_NN is_VBZ aimed_VBN at_IN reducing_VBG the_DT growth_NN in_IN government_NN spending_NN and_CC taxing_NN ,_, reforming_VBG and_CC eliminating_VBG regulations_NNS which_WDT are_VBP unnecessary_JJ and_CC unproductive_JJ or_CC counterproductive_JJ ,_, and_CC encouraging_VBG a_DT consistent_JJ monetary_JJ policy_NN aimed_VBN at_IN maintaining_VBG the_DT value_NN of_IN the_DT currency_NN ._.
+If_IN enacted_VBN in_IN full_JJ ,_, this_DT program_NN can_MD help_VB America_NNP create_VB 13_CD million_CD new_JJ jobs_NNS ,_, nearly_RB 3_CD million_CD more_JJR than_IN we_PRP would_MD have_VB without_IN these_DT measures_NNS ._.
+It_PRP will_MD also_RB help_VB us_PRP to_TO gain_VB control_NN of_IN inflation_NN ._.
+It_PRP 's_VBZ important_JJ to_TO note_VB that_IN we_PRP 're_VBP only_RB reducing_VBG the_DT rate_NN of_IN increase_NN in_IN taxing_VBG and_CC spending_VBG ._.
+We_PRP 're_VBP not_RB attempting_VBG to_TO cut_VB either_DT spending_NN or_CC taxing_JJ levels_NNS below_IN that_DT which_WDT we_PRP presently_RB have_VBP ._.
+This_DT plan_NN will_MD get_VB our_PRP$ economy_NN moving_VBG again_RB ,_, -LSB-_NNP create_VB -RSB-_JJ productivity_NN growth_NN ,_, and_CC thus_RB create_VB the_DT jobs_NNS that_WDT our_PRP$ people_NNS must_MD have_VB ._.
+And_CC I_PRP 'm_VBP asking_VBG that_IN you_PRP join_VBP me_PRP in_IN reducing_VBG direct_JJ Federal_JJ spending_NN by_IN $_$ 41.4_CD billion_CD in_IN fiscal_JJ year_NN 1982_CD ,_, and_CC this_DT goes_VBZ along_IN with_IN another_DT $_$ 7.7_CD billion_CD in_IN user_NN fees_NNS and_CC off-budget_JJ savings_NNS for_IN a_DT total_NN of_IN $_$ 49.1_CD billion_CD ._.
+And_CC this_DT will_MD still_RB allow_VB an_DT increase_NN of_IN $_$ 40.8_CD billion_CD over_IN 1981_CD spending_NN ._.
+Now_RB ,_, I_PRP know_VBP that_IN exaggerated_JJ and_CC inaccurate_JJ stories_NNS about_IN these_DT cuts_NNS have_VBP disturbed_VBN many_JJ people_NNS ,_, particularly_RB those_DT dependent_JJ on_IN grant_NN and_CC benefit_NN programs_NNS for_IN their_PRP$ basic_JJ needs_NNS ._.
+Some_DT of_IN you_PRP have_VBP heard_VBN from_IN constituents_NNS ,_, I_PRP know_VBP ,_, afraid_JJ that_IN social_JJ security_NN checks_NNS ,_, for_IN example_NN ,_, were_VBD going_VBG to_TO be_VB taken_VBN away_RB from_IN them_PRP ._.
+Well_RB ,_, I_PRP regret_VBP the_DT fear_NN that_IN these_DT unfounded_JJ stories_NNS have_VBP caused_VBN ,_, and_CC I_PRP welcome_VBP this_DT opportunity_NN to_TO set_VB things_NNS straight_RB ._.
+We_PRP will_MD continue_VB to_TO fulfill_VB the_DT obligations_NNS that_WDT spring_VBP from_IN our_PRP$ national_JJ conscience_NN ._.
+Those_DT who_WP ,_, through_IN no_DT fault_NN of_IN their_PRP$ own_JJ ,_, must_MD depend_VB on_IN the_DT rest_NN of_IN us_PRP --_: the_DT poverty_NN stricken_VBN ,_, the_DT disabled_JJ ,_, the_DT elderly_JJ ,_, all_PDT those_DT with_IN true_JJ need_NN --_: can_MD rest_VB assured_VBN that_IN the_DT social_JJ safety_NN net_NN of_IN programs_NNS they_PRP depend_VBP on_IN are_VBP exempt_JJ from_IN any_DT cuts_NNS ._.
+The_DT full_JJ retirement_NN benefits_NNS of_IN the_DT more_JJR than_IN 31_CD million_CD social_JJ security_NN recipients_NNS will_MD be_VB continued_VBN ,_, along_IN with_IN an_DT annual_JJ cost-of-living_NN increase_NN ._.
+Medicare_NNP will_MD not_RB be_VB cut_VBN ,_, nor_CC will_MD supplemental_JJ income_NN for_IN the_DT blind_JJ ,_, the_DT aged_VBN ,_, and_CC the_DT disabled_JJ ._.
+And_CC funding_NN will_MD continue_VB for_IN veterans_NNS pensions_NNS ._.
+School_NNP breakfasts_NNS and_CC lunches_NNS for_IN the_DT children_NNS of_IN low-income_JJ families_NNS will_MD continue_VB ,_, as_RB will_MD nutrition_NN and_CC other_JJ special_JJ services_NNS for_IN the_DT aging_VBG ._.
+There_EX will_MD be_VB no_DT cut_NN in_IN Project_NNP Head_NNP Start_NNP or_CC summer_NN youth_NN jobs_NNS ._.
+All_DT in_IN all_DT ,_, nearly_RB $_$ 216_CD billion_CD worth_NN of_IN programs_NNS providing_VBG help_NN for_IN tens_NNS of_IN millions_NNS of_IN Americans_NNPS will_MD be_VB fully_RB funded_VBN ._.
+But_CC government_NN will_MD not_RB continue_VB to_TO subsidize_VB individuals_NNS or_CC particular_JJ business_NN interests_NNS where_WRB real_JJ need_NN can_MD not_RB be_VB demonstrated_VBN ._.
+And_CC while_IN we_PRP will_MD reduce_VB some_DT subsidies_NNS to_TO regional_JJ and_CC local_JJ governments_NNS ,_, we_PRP will_MD at_IN the_DT same_JJ time_NN convert_VB a_DT number_NN of_IN categorical_JJ grant_NN programs_NNS into_IN block_NN grants_NNS to_TO reduce_VB wasteful_JJ administrative_JJ overhead_NN and_CC to_TO give_VB local_JJ governments_NNS and_CC States_NNS more_JJR flexibility_NN and_CC control_NN ._.
+We_PRP call_VBP for_IN an_DT end_NN in_IN duplication_NN to_TO Federal_NNP programs_NNS and_CC reform_NN of_IN those_DT which_WDT are_VBP not_RB cost-effective_JJ ._.
+Now_RB ,_, already_RB some_DT have_VBP protested_VBN that_IN there_EX must_MD be_VB no_DT reduction_NN in_IN aid_NN to_TO schools_NNS ._.
+Well_RB ,_, let_VB me_PRP point_VB out_RP that_IN Federal_NNP aid_NN to_TO education_NN amounts_NNS to_TO only_RB 8_CD percent_NN of_IN the_DT total_JJ educational_JJ funding_NN ,_, and_CC for_IN this_DT 8_CD percent_NN ,_, the_DT Federal_NNP Government_NNP has_VBZ insisted_VBN on_IN tremendously_RB disproportionate_JJ share_NN of_IN control_NN over_IN our_PRP$ schools_NNS ._.
+Whatever_WDT reductions_NNS we_PRP 've_VBP proposed_VBN in_IN that_DT 8_CD percent_NN will_MD amount_VB to_TO very_RB little_JJ in_IN the_DT total_JJ cost_NN of_IN education_NN ._.
+They_PRP will_MD ,_, however_RB ,_, restore_VB more_JJR authority_NN to_TO States_NNPS and_CC local_JJ school_NN districts_NNS ._.
+Historically_NNP ,_, the_DT American_JJ people_NNS have_VBP supported_VBN by_IN voluntary_JJ contributions_NNS more_RBR artistic_JJ and_CC cultural_JJ activities_NNS than_IN all_PDT the_DT other_JJ countries_NNS in_IN the_DT world_NN put_VBD together_RB ._.
+I_PRP wholeheartedly_RB support_VBP this_DT approach_NN and_CC believe_VB that_IN Americans_NNPS will_MD continue_VB their_PRP$ generosity_NN ._.
+Therefore_RB ,_, I_PRP 'm_VBP proposing_VBG a_DT savings_NN of_IN $_$ 85_CD million_CD in_IN the_DT Federal_NNP subsidies_NNS now_RB going_VBG to_TO the_DT arts_NNS and_CC humanities_NNS ._.
+There_EX are_VBP a_DT number_NN of_IN subsidies_NNS to_TO business_NN and_CC industry_NN that_IN I_PRP believe_VBP are_VBP unnecessary_JJ ,_, not_RB because_IN the_DT activities_NNS being_VBG subsidized_VBN are_VBP n't_RB of_IN value_NN ,_, but_CC because_IN the_DT marketplace_NN contains_VBZ incentives_NNS enough_RB to_TO warrant_VB continuing_VBG these_DT activities_NNS without_IN a_DT government_NN subsidy_NN ._.
+One_CD such_JJ subsidy_NN is_VBZ the_DT Department_NNP of_IN Energy_NNP 's_POS synthetic_JJ fuels_NNS program_NN ._.
+We_PRP will_MD continue_VB support_NN of_IN research_NN leading_VBG to_TO development_NN of_IN new_JJ technologies_NNS and_CC more_JJR independence_NN from_IN foreign_JJ oil_NN ,_, but_CC we_PRP can_MD save_VB at_IN least_JJS $_$ 3.2_CD billion_CD by_IN leaving_VBG to_TO private_JJ industry_NN the_DT building_NN of_IN plants_NNS to_TO make_VB liquid_JJ or_CC gas_NN fuels_NNS from_IN coal_NN ._.
+We_PRP 're_VBP asking_VBG that_IN another_DT major_JJ industry_NN --_: business_NN subsidy_NN I_PRP should_MD say_VB ,_, the_DT Export-Import_NNP Bank_NNP loan_NN authority_NN ,_, be_VB reduced_VBN by_IN one-third_NN in_IN 1982_CD ._.
+We_PRP 're_VBP doing_VBG this_DT because_IN the_DT primary_JJ beneficiaries_NNS of_IN taxpayer_NN funds_NNS in_IN this_DT case_NN are_VBP the_DT exporting_VBG companies_NNS themselves_PRP --_: most_JJS of_IN them_PRP profitable_JJ corporations_NNS ._.
+This_DT brings_VBZ me_PRP to_TO a_DT number_NN of_IN other_JJ lending_NN programs_NNS in_IN which_WDT government_NN makes_VBZ low-interest_JJ loans_NNS ,_, some_DT of_IN them_PRP at_IN an_DT interest_NN rate_NN as_RB low_JJ as_IN 2_CD percent_NN ._.
+What_WP has_VBZ not_RB been_VBN very_RB well_RB understood_VBN is_VBZ that_IN the_DT Treasury_NNP Department_NNP has_VBZ no_DT money_NN of_IN its_PRP$ own_JJ to_TO lend_VB ;_: it_PRP has_VBZ to_TO go_VB into_IN the_DT private_JJ capital_NN market_NN and_CC borrow_VB the_DT money_NN ._.
+So_RB ,_, in_IN this_DT time_NN of_IN excessive_JJ interest_NN rates_NNS ,_, the_DT government_NN finds_VBZ itself_PRP borrowing_VBG at_IN an_DT interest_NN rate_NN several_JJ times_NNS as_RB high_JJ as_IN the_DT interest_NN it_PRP gets_VBZ back_RB from_IN those_DT it_PRP lends_VBZ the_DT money_NN to_TO ._.
+And_CC this_DT difference_NN ,_, of_IN course_NN ,_, is_VBZ paid_VBN by_IN your_PRP$ constituents_NNS --_: the_DT taxpayers_NNS ._.
+They_PRP get_VBP hit_VBN again_RB if_IN they_PRP try_VBP to_TO borrow_VB ,_, because_IN government_NN borrowing_NN contributes_VBZ to_TO raising_VBG all_DT interest_NN rates_NNS ._.
+By_IN terminating_VBG the_DT Economic_NNP Development_NNP Administration_NNP ,_, we_PRP can_MD save_VB hundreds_NNS of_IN millions_NNS of_IN dollars_NNS in_IN 1982_CD and_CC billions_NNS more_RBR over_IN the_DT next_JJ few_JJ years_NNS ._.
+There_EX 's_VBZ a_DT lack_NN of_IN consistent_JJ and_CC convincing_JJ evidence_NN that_IN EDA_NNP and_CC its_PRP$ Regional_NNP Commissions_NNS have_VBP been_VBN effective_JJ in_IN creating_VBG new_JJ jobs_NNS ._.
+They_PRP have_VBP been_VBN effective_JJ in_IN creating_VBG an_DT array_NN of_IN planners_NNS ,_, grantsmen_NNS ,_, and_CC professional_JJ middlemen_NNS ._.
+We_PRP believe_VBP we_PRP can_MD do_VB better_JJR just_RB by_IN the_DT expansion_NN of_IN the_DT economy_NN and_CC the_DT job_NN creation_NN which_WDT will_MD come_VB from_IN our_PRP$ economic_JJ program_NN ._.
+The_DT Food_NNP Stamp_NNP program_NN will_MD be_VB restored_VBN to_TO its_PRP$ original_JJ purpose_NN ,_, to_TO assist_VB those_DT without_IN resources_NNS to_TO purchase_VB sufficient_JJ nutritional_JJ food_NN ._.
+We_PRP will_MD ,_, however_RB ,_, save_VB $_$ 1.8_CD billion_CD in_IN fiscal_JJ year_NN 1982_CD by_IN removing_VBG from_IN eligibility_NN those_DT who_WP are_VBP not_RB in_IN real_JJ need_NN or_CC who_WP are_VBP abusing_VBG the_DT program_NN ._.
+But_CC even_RB with_IN this_DT reduction_NN ,_, the_DT program_NN will_MD be_VB budgeted_VBN for_IN more_JJR than_IN $_$ 10_CD billion_CD ._.
+We_PRP will_MD tighten_VB welfare_NN and_CC give_VB more_JJR attention_NN to_TO outside_JJ sources_NNS of_IN income_NN when_WRB determining_VBG the_DT amount_NN of_IN welfare_NN that_IN an_DT individual_NN is_VBZ allowed_VBN ._.
+This_DT ,_, plus_CC strong_JJ and_CC effective_JJ work_NN requirements_NNS ,_, will_MD save_VB $_$ 520_CD million_CD in_IN the_DT next_JJ year_NN ._.
+I_PRP stated_VBD a_DT moment_NN ago_IN our_PRP$ intention_NN to_TO keep_VB the_DT school_NN breakfast_NN and_CC lunch_NN programs_NNS for_IN those_DT in_IN true_JJ need_NN ._.
+But_CC by_IN cutting_VBG back_RP on_IN meals_NNS for_IN children_NNS of_IN families_NNS who_WP can_MD afford_VB to_TO pay_VB ,_, the_DT savings_NNS will_MD be_VB $_$ 1.6_CD billion_CD in_IN the_DT fiscal_JJ year_NN 1982_CD ._.
+Now_RB ,_, let_VB me_PRP just_RB touch_VBP on_IN a_DT few_JJ other_JJ areas_NNS which_WDT are_VBP typical_JJ of_IN the_DT kind_NN of_IN reductions_NNS we_PRP 've_VBP included_VBN in_IN this_DT economic_JJ package_NN ._.
+The_DT Trade_NNP Adjustment_NNP Assistance_NNP program_NN provides_VBZ benefits_NNS for_IN workers_NNS who_WP are_VBP unemployed_JJ when_WRB foreign_JJ imports_NNS reduce_VB the_DT market_NN for_IN various_JJ American_JJ products_NNS ,_, causing_VBG shutdown_NN of_IN plants_NNS and_CC layoff_NN of_IN workers_NNS ._.
+The_DT purpose_NN is_VBZ to_TO help_VB these_DT workers_NNS find_VBP jobs_NNS in_IN growing_VBG sectors_NNS of_IN our_PRP$ economy_NN ._.
+There_EX 's_VBZ nothing_NN wrong_JJ with_IN that_DT ,_, but_CC because_IN these_DT benefits_NNS are_VBP paid_VBN out_RP on_IN top_NN of_IN normal_JJ unemployment_NN benefits_NNS ,_, we_PRP wind_VBP up_RP paying_VBG greater_JJR benefits_NNS to_TO those_DT who_WP lose_VBP their_PRP$ jobs_NNS because_IN of_IN foreign_JJ competition_NN than_IN we_PRP do_VBP to_TO their_PRP$ friends_NNS and_CC neighbors_NNS who_WP are_VBP laid_VBN off_RP due_JJ to_TO domestic_JJ competition_NN ._.
+Anyone_NN must_MD agree_VB that_IN this_DT is_VBZ unfair_JJ ._.
+Putting_VBG these_DT two_CD programs_NNS on_IN the_DT same_JJ footing_NN will_MD save_VB $_$ 1.15_CD billion_CD in_IN just_RB 1_CD year_NN ._.
+Earlier_JJR I_PRP made_VBD mention_NN of_IN changing_VBG categorical_JJ grants_NNS to_TO States_NNPS and_CC local_JJ governments_NNS into_IN block_NN grants_NNS ._.
+Now_RB ,_, we_PRP know_VBP of_IN course_NN that_IN the_DT categorical_JJ grant_NN programs_NNS burden_NN local_JJ and_CC State_NNP governments_NNS with_IN a_DT mass_NN of_IN Federal_NNP regulations_NNS and_CC Federal_NNP paperwork_NN ._.
+Ineffective_JJ targeting_VBG ,_, wasteful_JJ administrative_JJ overhead_NN --_: all_DT can_MD be_VB eliminated_VBN by_IN shifting_VBG the_DT resources_NNS and_CC decisionmaking_VBG authority_NN to_TO local_JJ and_CC State_NNP government_NN ._.
+This_DT will_MD also_RB consolidate_VB programs_NNS which_WDT are_VBP scattered_VBN throughout_IN the_DT Federal_NNP bureaucracy_NN ,_, bringing_VBG government_NN closer_JJR to_TO the_DT people_NNS and_CC saving_VBG $_$ 23.9_CD billion_CD over_IN the_DT next_JJ 5_CD years_NNS ._.
+Our_PRP$ program_NN for_IN economic_JJ renewal_NN deals_NNS with_IN a_DT number_NN of_IN programs_NNS which_WDT at_IN present_NN are_VBP not_RB cost-effective_JJ ._.
+An_DT example_NN is_VBZ Medicaid_NNP ._.
+Right_RB now_RB Washington_NNP provides_VBZ the_DT States_NNPS with_IN unlimited_JJ matching_JJ payments_NNS for_IN their_PRP$ expenditures_NNS ;_: at_IN the_DT same_JJ time_NN ,_, we_PRP here_RB in_IN Washington_NNP pretty_RB much_RB dictate_VB how_WRB the_DT States_NNPS are_VBP going_VBG to_TO manage_VB those_DT programs_NNS ._.
+We_PRP want_VBP to_TO put_VB a_DT cap_NN on_IN how_WRB much_JJ the_DT Federal_NNP Government_NNP will_MD contribute_VB ,_, but_CC at_IN the_DT same_JJ time_NN allow_VB the_DT States_NNPS much_RB more_RBR flexibility_NN in_IN managing_NN and_CC structuring_VBG the_DT programs_NNS ._.
+I_PRP know_VBP from_IN our_PRP$ experience_NN in_IN California_NNP that_IN such_JJ flexibility_NN could_MD have_VB led_VBN to_TO far_RB more_RBR cost-effective_JJ reforms_NNS ._.
+Now_RB ,_, this_DT will_MD bring_VB a_DT savings_NN of_IN $_$ 1_CD billion_CD next_JJ year_NN ._.
+The_DT space_NN program_NN has_VBZ been_VBN and_CC is_VBZ important_JJ to_TO America_NNP ,_, and_CC we_PRP plan_VBP to_TO continue_VB it_PRP ._.
+We_PRP believe_VBP ,_, however_RB ,_, that_IN a_DT reordering_NN of_IN priorities_NNS to_TO focus_VB on_IN the_DT most_RBS important_JJ and_CC cost-effective_JJ NASA_NNP programs_NNS can_MD result_VB in_IN a_DT savings_NN of_IN a_DT quarter_NN of_IN a_DT million_CD dollars_NNS ._.
+Now_RB ,_, coming_VBG down_RB from_IN space_NN to_TO the_DT mailbox_NN ,_, the_DT Postal_NNP Service_NNP has_VBZ been_VBN consistently_RB unable_JJ to_TO live_VB within_IN its_PRP$ operating_NN budget_NN ._.
+It_PRP is_VBZ still_RB dependent_JJ on_IN large_JJ Federal_NNP subsidies_NNS ._.
+We_PRP propose_VBP reducing_VBG those_DT subsidies_NNS by_IN $_$ 632_CD million_CD in_IN 1982_CD to_TO press_VB the_DT Postal_NNP Service_NNP into_IN becoming_VBG more_RBR effective_JJ ,_, and_CC in_IN subsequent_JJ years_NNS the_DT savings_NNS will_MD continue_VB to_TO add_VB up_RP ._.
+The_DT Economic_NNP Regulatory_NNP Administration_NNP in_IN the_DT Department_NNP of_IN Energy_NNP has_VBZ programs_NNS to_TO force_VB companies_NNS to_TO convert_VB to_TO specific_JJ fuels_NNS ._.
+It_PRP has_VBZ the_DT authority_NN to_TO administer_VB a_DT gas_NN rationing_VBG plan_NN ,_, and_CC prior_RB to_TO decontrol_NN it_PRP ran_VBD the_DT oil_NN price_NN control_NN program_NN ._.
+With_IN these_DT and_CC other_JJ regulations_NNS gone_VBN we_PRP can_MD save_VB several_JJ hundreds_NNS of_IN millions_NNS of_IN dollars_NNS over_IN the_DT next_JJ few_JJ years_NNS ._.
+I_PRP 'm_VBP sure_JJ there_EX 's_VBZ one_CD department_NN you_PRP 've_VBP been_VBN waiting_VBG for_IN me_PRP to_TO mention_VB ,_, the_DT Department_NNP of_IN Defense_NNP ._.
+It_PRP 's_VBZ the_DT only_JJ department_NN in_IN our_PRP$ entire_JJ program_NN that_WDT will_MD actually_RB be_VB increased_VBN over_IN the_DT present_JJ budgeted_VBN figure_NN ._.
+But_CC even_RB here_RB there_EX was_VBD no_DT exemption_NN ._.
+The_DT Department_NNP of_IN Defense_NNP came_VBD up_RP with_IN a_DT number_NN of_IN cuts_NNS which_WDT reduce_VBP the_DT budget_NN increase_NN needed_VBN to_TO restore_VB our_PRP$ military_JJ balance_NN ._.
+These_DT measures_NNS will_MD save_VB $_$ 2.9_CD billion_CD in_IN 1982_CD outlays_NNS ,_, and_CC by_IN 1986_CD a_DT total_NN of_IN $_$ 28.2_CD billion_CD will_MD have_VB been_VBN saved_VBN --_: or_CC perhaps_RB I_PRP should_MD say_VB ,_, will_MD have_VB been_VBN made_VBN available_JJ for_IN the_DT necessary_JJ things_NNS that_IN we_PRP must_MD do_VB ._.
+The_DT aim_NN will_MD be_VB to_TO provide_VB the_DT most_RBS effective_JJ defense_NN for_IN the_DT lowest_JJS possible_JJ cost_NN ._.
+I_PRP believe_VBP that_IN my_PRP$ duty_NN as_IN President_NNP requires_VBZ that_IN I_PRP recommend_VBP increases_NNS in_IN defense_NN spending_NN over_IN the_DT coming_VBG years_NNS ._.
+I_PRP know_VBP that_IN you_PRP 're_VBP all_DT aware_JJ --_: but_CC I_PRP think_VBP it_PRP bears_VBZ saying_VBG again_RB --_: that_IN since_IN 1970_CD the_DT Soviet_NNP Union_NNP has_VBZ invested_VBN $_$ 300_CD billion_CD more_JJR in_IN its_PRP$ military_JJ forces_NNS than_IN we_PRP have_VBP ._.
+As_IN a_DT result_NN of_IN its_PRP$ massive_JJ military_JJ buildup_NN ,_, the_DT Soviets_NNPS have_VBP made_VBN a_DT significant_JJ numerical_JJ advantage_NN in_IN strategic_JJ nuclear_JJ delivery_NN systems_NNS ,_, tactical_JJ aircraft_NN ,_, submarines_NNS ,_, artillery_NN ,_, and_CC anti-aircraft_JJ defense_NN ._.
+To_TO allow_VB this_DT imbalance_NN to_TO continue_VB is_VBZ a_DT threat_NN to_TO our_PRP$ national_JJ security_NN ._.
+Notwithstanding_IN our_PRP$ economic_JJ straits_NNS ,_, making_VBG the_DT financial_JJ changes_NNS beginning_VBG now_RB is_VBZ far_RB less_RBR costly_JJ than_IN waiting_VBG and_CC having_VBG to_TO attempt_VB a_DT crash_NN program_NN several_JJ years_NNS from_IN now_RB ._.
+We_PRP remain_VBP committed_JJ to_TO the_DT goal_NN of_IN arms_NNS limitation_NN through_IN negotiation_NN ._.
+I_PRP hope_VBP we_PRP can_MD persuade_VB our_PRP$ adversaries_NNS to_TO come_VB to_TO realistic_JJ balanced_JJ and_CC verifiable_JJ agreements_NNS ._.
+But_CC ,_, as_IN we_PRP negotiate_VBP ,_, our_PRP$ security_NN must_MD be_VB fully_RB protected_VBN by_IN a_DT balanced_JJ and_CC realistic_JJ defense_NN program_NN ._.
+Now_RB ,_, let_VB me_PRP say_VB a_DT word_NN here_RB about_IN the_DT general_JJ problem_NN of_IN waste_NN and_CC fraud_NN in_IN the_DT Federal_NNP Government_NNP ._.
+One_CD government_NN estimate_NN indicated_VBD that_IN fraud_NN alone_RB may_MD account_VB for_IN anywhere_RB from_IN 1_CD to_TO 10_CD percent_NN --_: as_RB much_RB as_IN $_$ 25_CD billion_CD of_IN Federal_NNP expenditures_NNS for_IN social_JJ programs_NNS ._.
+If_IN the_DT tax_NN dollars_NNS that_WDT are_VBP wasted_VBN or_CC mismanaged_VBN are_VBP added_VBN to_TO this_DT fraud_NN total_NN ,_, the_DT staggering_JJ dimensions_NNS of_IN this_DT problem_NN begin_VB to_TO emerge_VB ._.
+The_DT Office_NNP of_IN Management_NNP and_CC Budget_NNP is_VBZ now_RB putting_VBG together_RP an_DT interagency_NN task_NN force_NN to_TO attack_VB waste_NN and_CC fraud_NN ._.
+We_PRP 're_VBP also_RB planning_VBG to_TO appoint_VB as_IN Inspectors_NNP General_NNP highly_RB trained_VBD professionals_NNS who_WP will_MD spare_VB no_DT effort_NN to_TO do_VB this_DT job_NN ._.
+No_DT administration_NN can_MD promise_VB to_TO immediately_RB stop_VB a_DT trend_NN that_WDT has_VBZ grown_VBN in_IN recent_JJ years_NNS as_RB quickly_RB as_IN government_NN expenditures_NNS themselves_PRP ,_, but_CC let_VB me_PRP say_VB this_DT :_: Waste_NNP and_CC fraud_NN in_IN the_DT Federal_NNP Government_NNP is_VBZ exactly_RB what_WP I_PRP 've_VBP called_VBN it_PRP before_RB --_: an_DT unrelenting_JJ national_JJ scandal_NN ,_, a_DT scandal_NN we_PRP 're_VBP bound_VBN and_CC determined_VBN to_TO do_VB something_NN about_RB ._.
+Marching_VBG in_IN lockstep_NN with_IN the_DT whole_JJ program_NN of_IN reductions_NNS in_IN spending_NN is_VBZ the_DT equally_RB important_JJ program_NN of_IN reduced_JJ tax_NN rates_NNS ._.
+Both_DT are_VBP essential_JJ if_IN we_PRP 're_VBP to_TO have_VB economic_JJ recovery_NN ._.
+It_PRP 's_VBZ time_NN to_TO create_VB new_JJ jobs_NNS ,_, to_TO build_VB and_CC rebuild_VB industry_NN ,_, and_CC to_TO give_VB the_DT American_JJ people_NNS room_NN to_TO do_VB what_WP they_PRP do_VBP best_RB ._.
+And_CC that_DT can_MD only_RB be_VB done_VBN with_IN a_DT tax_NN program_NN which_WDT provides_VBZ incentive_NN to_TO increase_VB productivity_NN for_IN both_DT workers_NNS and_CC industry_NN ._.
+Our_PRP$ proposal_NN is_VBZ for_IN a_DT 10-percent_JJ across-the-board_JJ cut_NN every_DT year_NN for_IN 3_CD years_NNS in_IN the_DT tax_NN rates_NNS for_IN all_DT individual_JJ income_NN taxpayers_NNS ,_, making_VBG a_DT total_JJ cut_NN in_IN the_DT tax-cut_JJ rates_NNS of_IN 30_CD percent_NN ._.
+This_DT 3-year_JJ reduction_NN will_MD also_RB apply_VB to_TO the_DT tax_NN on_IN unearned_JJ income_NN ,_, leading_VBG toward_IN an_DT eventual_JJ elimination_NN of_IN the_DT present_JJ differential_NN between_IN the_DT tax_NN on_IN earned_VBN and_CC unearned_JJ income_NN ._.
+Now_RB ,_, I_PRP would_MD have_VB hoped_VBN that_IN we_PRP could_MD be_VB retroactive_JJ with_IN this_DT ._.
+But_CC as_IN it_PRP stands_VBZ ,_, the_DT effective_JJ starting_VBG date_NN for_IN these_DT 10-percent_JJ personal_JJ income_NN tax_NN rate_NN reductions_NNS will_MD call_VB for_IN as_IN of_IN July_NNP 1st_CD of_IN this_DT year_NN ._.
+Again_RB ,_, let_VB me_PRP remind_VB you_PRP that_IN while_IN this_DT 30-percent_JJ reduction_NN will_MD leave_VB the_DT taxpayers_NNS with_IN $_$ 500_CD billion_CD more_JJR in_IN their_PRP$ pockets_NNS over_IN the_DT next_JJ 5_CD years_NNS ,_, it_PRP 's_VBZ actually_RB only_RB a_DT reduction_NN in_IN the_DT tax_NN increase_NN already_RB built_VBN into_IN the_DT system_NN ._.
+Unlike_IN some_DT past_JJ ``_`` tax_NN reforms_NNS ,_, ''_'' this_DT is_VBZ not_RB merely_RB a_DT shift_NN of_IN wealth_NN between_IN different_JJ sets_NNS of_IN taxpayers_NNS ._.
+This_DT proposal_NN for_IN an_DT equal_JJ reduction_NN in_IN everyone_NN 's_POS tax_NN rates_NNS will_MD expand_VB our_PRP$ national_JJ prosperity_NN ,_, enlarge_VB national_JJ incomes_NNS ,_, and_CC increase_VB opportunities_NNS for_IN all_DT Americans_NNPS ._.
+Some_DT will_MD argue_VB ,_, I_PRP know_VBP ,_, that_IN reducing_VBG tax_NN rates_NNS now_RB will_MD be_VB inflationary_JJ ._.
+A_DT solid_JJ body_NN of_IN economic_JJ experts_NNS does_VBZ not_RB agree_VB ._.
+And_CC tax_NN cuts_NNS adopted_VBN over_IN the_DT past_JJ three-fourths_NNS of_IN a_DT century_NN indicate_VBP these_DT economic_JJ experts_NNS are_VBP right_RB ._.
+They_PRP will_MD not_RB be_VB inflationary_JJ ._.
+I_PRP 've_VBP had_VBD advice_NN that_IN in_IN 1985_CD our_PRP$ real_JJ production_NN in_IN goods_NNS and_CC services_NNS will_MD grow_VB by_IN 20_CD percent_NN and_CC be_VB $_$ 300_CD billion_CD higher_JJR than_IN it_PRP is_VBZ today_NN ._.
+The_DT average_JJ worker_NN 's_POS wage_NN will_MD rise_VB in_IN real_JJ purchasing_NN power_NN 8_CD percent_NN ,_, and_CC this_DT is_VBZ in_IN after-tax_JJ dollars_NNS ._.
+And_CC this_DT ,_, of_IN course_NN ,_, is_VBZ predicated_VBN on_IN a_DT complete_JJ program_NN of_IN tax_NN cuts_NNS and_CC spending_NN reductions_NNS being_VBG implemented_VBN ._.
+The_DT other_JJ part_NN of_IN the_DT tax_NN package_NN is_VBZ aimed_VBN directly_RB at_IN providing_VBG business_NN and_CC industry_NN with_IN the_DT capital_NN needed_VBN to_TO modernize_VB and_CC engage_VB in_IN more_JJR research_NN and_CC development_NN ._.
+This_DT will_MD involve_VB an_DT increase_NN in_IN depreciation_NN allowances_NNS ,_, and_CC this_DT part_NN of_IN our_PRP$ tax_NN proposal_NN will_MD be_VB retroactive_JJ to_TO January_NNP 1st_CD ._.
+The_DT present_JJ depreciation_NN system_NN is_VBZ obsolete_JJ ,_, needlessly_RB complex_JJ ,_, and_CC economically_RB counterproductive_JJ ._.
+Very_RB simply_RB ,_, it_PRP bases_VBZ the_DT depreciation_NN of_IN plant_NN machinery_NN and_CC vehicles_NNS and_CC tools_NNS on_IN their_PRP$ original_JJ cost_NN ,_, with_IN no_DT recognition_NN of_IN how_WRB inflation_NN has_VBZ increased_VBN their_PRP$ replacement_NN cost_NN ._.
+We_PRP 're_VBP proposing_VBG a_DT much_JJ shorter_JJR write-off_NN time_NN than_IN is_VBZ presently_RB allowed_VBN --_: a_DT 5-year-write-off_JJ for_IN machinery_NN ,_, 3_CD years_NNS for_IN vehicles_NNS and_CC trucks_NNS ,_, and_CC a_DT 10-year_JJ write-off_NN for_IN plant_NN ._.
+In_IN fiscal_JJ year_NN 1982_CD under_IN this_DT plan_NN ,_, business_NN would_MD acquire_VB nearly_RB $_$ 10_CD billion_CD for_IN investment_NN ;_: by_IN 1985_CD ,_, the_DT figure_NN would_MD be_VB nearly_RB 45_CD billion_CD ._.
+These_DT changes_NNS are_VBP essential_JJ to_TO provide_VB the_DT new_JJ investment_NN which_WDT is_VBZ needed_VBN to_TO create_VB millions_NNS of_IN new_JJ jobs_NNS between_IN now_RB and_CC 1985_CD -LSB-_NNP 1986_CD -RSB-_NNP ,_, and_CC to_TO make_VB America_NNP competitive_JJ once_RB again_RB in_IN the_DT world_NN market_NN ._.
+These_DT wo_MD n't_RB be_VB make-work_NN jobs_NNS ._.
+They_PRP are_VBP productive_JJ jobs_NNS ,_, jobs_NNS with_IN a_DT future_NN ._.
+I_PRP 'm_VBP well_RB aware_JJ that_IN there_EX are_VBP many_JJ other_JJ desirable_JJ and_CC needed_JJ tax_NN changes_NNS ,_, such_JJ as_IN indexing_NN the_DT income_NN tax_NN brackets_NNS to_TO protect_VB taxpayers_NNS against_IN inflation_NN ;_: the_DT unjust_JJ discrimination_NN against_IN married_JJ couples_NNS if_IN both_DT are_VBP working_VBG and_CC earning_VBG ;_: tuition_NN tax_NN credits_NNS ;_: the_DT unfairness_NN of_IN the_DT inheritance_NN tax_NN ,_, especially_RB to_TO the_DT family-owned_JJ farm_NN and_CC the_DT family-owned_JJ business_NN ;_: and_CC a_DT number_NN of_IN others_NNS ._.
+But_CC our_PRP$ program_NN for_IN economic_JJ recovery_NN is_VBZ so_RB urgently_RB needed_VBN to_TO begin_VB to_TO bring_VB down_RP inflation_NN that_IN I_PRP 'm_VBP asking_VBG you_PRP to_TO act_VB on_IN this_DT plan_NN first_RB and_CC with_IN great_JJ urgency_NN ._.
+And_CC then_RB ,_, I_PRP pledge_NN I_PRP will_MD join_VB with_IN you_PRP in_IN seeking_VBG these_DT additional_JJ tax_NN changes_NNS at_IN the_DT earliest_JJS date_NN possible_JJ ._.
+American_JJ society_NN experienced_VBD a_DT virtual_JJ explosion_NN in_IN government_NN regulation_NN during_IN the_DT past_JJ decade_NN ._.
+Between_IN 1970_CD and_CC 1979_CD ,_, expenditures_NNS for_IN the_DT major_JJ regulatory_JJ agencies_NNS quadrupled_VBD ._.
+The_DT number_NN of_IN pages_NNS published_VBN annually_RB in_IN the_DT Federal_NNP Register_NNP nearly_RB tripled_VBD ,_, and_CC the_DT number_NN of_IN pages_NNS in_IN the_DT Code_NNP of_IN Federal_NNP Regulations_NNPS increased_VBN by_IN nearly_RB two-thirds_NNS ._.
+The_DT result_NN has_VBZ been_VBN higher_JJR prices_NNS ,_, higher_JJR unemployment_NN ,_, and_CC lower_JJR productivity_NN growth_NN ._.
+Overregulation_NN causes_VBZ small_JJ and_CC independent_JJ business_NN men_NNS and_CC women_NNS ,_, as_RB well_RB as_IN large_JJ businesses_NNS to_TO defer_VB or_CC terminate_VB plans_NNS for_IN expansion_NN ._.
+And_CC since_IN they_PRP 're_VBP responsible_JJ for_IN most_JJS of_IN the_DT new_JJ jobs_NNS ,_, those_DT new_JJ jobs_NNS just_RB are_VBP n't_RB created_VBN ._.
+Now_RB ,_, we_PRP have_VBP no_DT intention_NN of_IN dismantling_VBG the_DT regulatory_JJ agencies_NNS ,_, especially_RB those_DT necessary_JJ to_TO protect_VB environment_NN and_CC assure_VB the_DT public_JJ health_NN and_CC safety_NN ._.
+However_RB ,_, we_PRP must_MD come_VB to_TO grips_NNS with_IN inefficient_JJ and_CC burdensome_JJ regulations_NNS ,_, eliminate_VB those_DT we_PRP can_MD and_CC reform_VB the_DT others_NNS ._.
+I_PRP have_VBP asked_VBN Vice_NNP President_NNP Bush_NNP to_TO head_VB a_DT Cabinet-level_JJ Task_NNP Force_NNP on_IN Regulatory_NNP Relief_NNP ._.
+Second_NNP ,_, I_PRP asked_VBD each_DT member_NN of_IN my_PRP$ Cabinet_NNP to_TO postpone_VB the_DT effective_JJ dates_NNS of_IN the_DT hundreds_NNS of_IN new_JJ regulations_NNS which_WDT have_VBP not_RB yet_RB been_VBN implemented_VBN ._.
+Third_NNP ,_, in_IN coordination_NN with_IN the_DT Task_NNP Force_NNP ,_, many_JJ of_IN the_DT agency_NN heads_NNS have_VBP already_RB taken_VBN prompt_JJ action_NN to_TO review_VB and_CC rescind_VB existing_VBG burdensome_JJ regulations_NNS ._.
+And_CC finally_RB ,_, just_RB yesterday_NN I_PRP signed_VBD an_DT Executive_NNP order_NN that_WDT for_IN the_DT first_JJ time_NN provides_VBZ for_IN effective_JJ and_CC coordinated_VBN management_NN of_IN the_DT regulatory_JJ process_NN ._.
+Much_JJ has_VBZ been_VBN accomplished_VBN ,_, but_CC it_PRP 's_VBZ only_RB a_DT beginning_NN ._.
+We_PRP will_MD eliminate_VB those_DT regulations_NNS that_WDT are_VBP unproductive_JJ and_CC unnecessary_JJ by_IN Executive_NNP order_NN where_WRB possible_JJ and_CC cooperate_VB fully_RB with_IN you_PRP on_IN those_DT that_WDT require_VBP legislation_NN ._.
+The_DT final_JJ aspect_NN of_IN our_PRP$ plan_NN requires_VBZ a_DT national_JJ monetary_JJ policy_NN which_WDT does_VBZ not_RB allow_VB money_NN growth_NN to_TO increase_VB consistently_RB faster_JJR than_IN the_DT growth_NN of_IN goods_NNS and_CC services_NNS ._.
+In_IN order_NN to_TO curb_VB inflation_NN we_PRP need_VBP to_TO slow_VB the_DT growth_NN in_IN our_PRP$ money_NN supply_NN ._.
+Now_RB ,_, we_PRP fully_RB recognize_VBP the_DT independence_NN of_IN the_DT Federal_NNP Reserve_NNP System_NNP and_CC will_MD do_VB nothing_NN to_TO interfere_VB with_IN or_CC undermine_VB that_DT independence_NN ._.
+We_PRP will_MD consult_VB regularly_RB with_IN the_DT Federal_NNP Reserve_NNP Board_NNP on_IN all_DT aspects_NNS of_IN our_PRP$ economic_JJ program_NN and_CC will_MD vigorously_RB pursue_VB budget_NN policies_NNS that_WDT 'll_MD make_VB their_PRP$ job_NN easier_JJR in_IN reducing_VBG monetary_JJ growth_NN ._.
+A_DT successful_JJ program_NN to_TO achieve_VB stable_JJ and_CC and_CC moderate_JJ growth_NN patterns_NNS in_IN the_DT money_NN supply_NN will_MD keep_VB both_DT inflation_NN and_CC interest_NN rates_NNS down_RB and_CC restore_VB vigor_NN to_TO our_PRP$ financial_JJ institutions_NNS and_CC markets_NNS ._.
+This_DT ,_, then_RB ,_, is_VBZ our_PRP$ proposal_NN --_: America_NNP 's_POS new_JJ beginning_NN :_: a_DT program_NN for_IN economic_JJ recovery_NN ._.
+I_PRP do_VBP n't_RB want_VB it_PRP to_TO be_VB simply_RB the_DT plan_NN of_IN my_PRP$ administration_NN ._.
+I_PRP 'm_VBP here_RB tonight_RB to_TO ask_VB you_PRP to_TO join_VB me_PRP in_IN making_VBG it_PRP our_PRP$ plan_NN ._.
+Together_RB we_PRP can_MD embark_VB on_IN this_DT road_NN --_: --_: -LSB-_JJ applause_NN -RSB-_NNP ._.
+Thank_VB you_PRP very_RB much_RB ._.
+I_PRP should_MD have_VB arranged_VBN to_TO quit_VB right_RB here_RB ._.
+-LSB-_NNP Laughter_NNP -RSB-_NNP Well_NNP ,_, together_RB we_PRP can_MD embark_VB on_IN this_DT road_NN ,_, not_RB to_TO make_VB things_NNS easy_JJ ,_, but_CC to_TO make_VB things_NNS better_JJR ._.
+Our_PRP$ social_JJ ,_, political_JJ ,_, and_CC cultural_JJ ,_, as_RB well_RB as_IN our_PRP$ economic_JJ institutions_NNS ,_, can_MD no_RB longer_RB absorb_VB the_DT repeated_VBN shocks_NNS that_WDT have_VBP been_VBN dealt_VBN them_PRP over_IN the_DT past_JJ decades_NNS ._.
+Can_MD we_PRP do_VB the_DT job_NN ?_.
+The_DT answer_NN is_VBZ yes_RB ._.
+But_CC we_PRP must_MD begin_VB now_RB ._.
+We_PRP 're_VBP in_IN control_NN here_RB ._.
+There_EX 's_VBZ nothing_NN wrong_JJ with_IN America_NNP that_WDT together_RB we_PRP ca_MD n't_RB fix_VB ._.
+I_PRP 'm_VBP sure_JJ there_EX 'll_MD be_VB some_DT who_WP raise_VBP the_DT old_JJ familiar_JJ cry_NN ,_, ``_`` Do_VBP n't_RB touch_VB my_PRP$ program_NN ;_: cut_NN somewhere_RB else_RB ._. ''_''
+I_PRP hope_VBP I_PRP 've_VBP made_VBN it_PRP plain_JJ that_IN our_PRP$ approach_NN has_VBZ been_VBN evenhanded_JJ ,_, that_IN only_RB the_DT programs_NNS for_IN the_DT truly_RB deserving_JJ needy_JJ remain_VBP untouched_JJ ._.
+The_DT question_NN is_VBZ ,_, are_VBP we_PRP simply_RB going_VBG to_TO go_VB down_RP the_DT same_JJ path_NN we_PRP 've_VBP gone_VBN down_RP before_RB ,_, carving_VBG out_RP one_CD special_JJ program_NN here_RB ,_, another_DT special_JJ program_NN there_RB ?_.
+I_PRP do_VBP n't_RB think_VB that_DT 's_VBZ what_WP the_DT American_JJ people_NNS expect_VBP of_IN us_PRP ._.
+More_RBR important_JJ ,_, I_PRP do_VBP n't_RB think_VB that_DT 's_VBZ what_WP they_PRP want_VBP ._.
+They_PRP 're_VBP ready_JJ to_TO return_VB to_TO the_DT source_NN of_IN our_PRP$ strength_NN ._.
+The_DT substance_NN and_CC prosperity_NN of_IN our_PRP$ nation_NN is_VBZ built_VBN by_IN wages_NNS brought_VBD home_NN from_IN the_DT factories_NNS and_CC the_DT mills_NNS ,_, the_DT farms_NNS ,_, and_CC the_DT shops_NNS ._.
+They_PRP are_VBP the_DT services_NNS provided_VBN in_IN 10,000_CD corners_NNS of_IN America_NNP ;_: the_DT interest_NN on_IN the_DT thrift_NN of_IN our_PRP$ people_NNS and_CC the_DT returns_NNS for_IN their_PRP$ risk-taking_NN ._.
+The_DT production_NN of_IN America_NNP is_VBZ the_DT possession_NN of_IN those_DT who_WP build_VBP ,_, serve_VBP ,_, create_VBP ,_, and_CC produce_VBP ._.
+For_IN too_RB long_RB now_RB ,_, we_PRP 've_VBP removed_VBN from_IN our_PRP$ people_NNS the_DT decisions_NNS on_IN how_WRB to_TO dispose_VB of_IN what_WP they_PRP created_VBD ._.
+We_PRP 've_VBP strayed_VBN from_IN first_JJ principles_NNS ._.
+We_PRP must_MD alter_VB our_PRP$ course_NN ._.
+The_DT taxing_VBG power_NN of_IN government_NN must_MD be_VB used_VBN to_TO provide_VB revenues_NNS for_IN legitimate_JJ government_NN purposes_NNS ._.
+It_PRP must_MD not_RB be_VB used_VBN to_TO regulate_VB the_DT the_DT economy_NN or_CC bring_VB about_RB social_JJ change_NN ._.
+We_PRP 've_VBP tried_VBN that_IN ,_, and_CC surely_RB we_PRP must_MD be_VB able_JJ to_TO see_VB it_PRP does_VBZ n't_RB work_VB ._.
+Spending_NN by_IN government_NN must_MD be_VB limited_VBN to_TO those_DT functions_NNS which_WDT are_VBP the_DT proper_JJ province_NN of_IN government_NN ._.
+We_PRP can_MD no_RB longer_RB afford_VB things_NNS simply_RB because_IN we_PRP think_VBP of_IN them_PRP ._.
+Next_JJ year_NN we_PRP can_MD reduce_VB the_DT budget_NN by_IN $_$ 41.4_CD billion_CD ,_, without_IN harm_NN to_TO government_NN 's_POS legitimate_JJ purposes_NNS or_CC to_TO our_PRP$ responsibility_NN to_TO all_DT who_WP need_VBP our_PRP$ benevolence_NN ._.
+This_DT ,_, plus_CC the_DT reduction_NN in_IN tax_NN rates_NNS ,_, will_MD help_VB bring_VB an_DT end_NN to_TO inflation_NN ._.
+In_IN the_DT health_NN and_CC social_JJ services_NNS area_NN alone_RB ,_, the_DT plan_NN we_PRP 're_VBP proposing_VBG will_MD substantially_RB reduce_VB the_DT need_NN for_IN 465_CD pages_NNS of_IN law_NN ,_, 1,400_CD pages_NNS of_IN regulations_NNS ,_, 5,000_CD Federal_NNP employees_NNS who_WP presently_RB administer_VBP 7,600_CD separate_JJ grants_NNS in_IN about_IN 25,000_CD separate_JJ locations_NNS ._.
+Over_IN 7_CD million_CD man_NN and_CC woman_NN hours_NNS of_IN work_NN by_IN State_NNP and_CC local_JJ officials_NNS are_VBP required_VBN to_TO fill_VB out_RP government_NN forms_NNS ._.
+I_PRP would_MD direct_VB a_DT question_NN to_TO those_DT who_WP have_VBP indicated_VBN already_RB an_DT unwillingness_NN to_TO accept_VB such_PDT a_DT plan_NN :_: Have_VBP they_PRP an_DT alternative_NN which_WDT offers_VBZ a_DT greater_JJR chance_NN of_IN balancing_VBG the_DT budget_NN ,_, reducing_VBG and_CC eliminating_VBG inflation_NN ,_, stimulating_VBG the_DT creation_NN of_IN jobs_NNS ,_, and_CC reducing_VBG the_DT tax_NN burden_NN ?_.
+And_CC ,_, if_IN they_PRP have_VBP n't_RB ,_, are_VBP they_PRP suggesting_VBG we_PRP can_MD continue_VB on_IN the_DT present_JJ course_NN without_IN coming_VBG to_TO a_DT day_NN of_IN reckoning_NN ?_.
+If_IN we_PRP do_VBP n't_RB do_VB this_DT ,_, inflation_NN and_CC the_DT growing_VBG tax_NN burden_NN will_MD put_VB an_DT end_NN to_TO everything_NN we_PRP believe_VBP in_IN and_CC our_PRP$ dreams_NNS for_IN the_DT future_NN ._.
+We_PRP do_VBP n't_RB have_VB an_DT option_NN of_IN living_VBG with_IN inflation_NN and_CC its_PRP$ attendant_JJ tragedy_NN ,_, millions_NNS of_IN productive_JJ people_NNS willing_JJ and_CC able_JJ to_TO work_VB but_CC unable_JJ to_TO find_VB a_DT buyer_NN for_IN their_PRP$ work_NN in_IN the_DT job_NN market_NN ._.
+We_PRP have_VBP an_DT alternative_NN ,_, and_CC that_DT is_VBZ the_DT program_NN for_IN economic_JJ recovery_NN ._.
+True_JJ ,_, it_PRP 'll_MD take_VB time_NN for_IN the_DT favorable_JJ effects_NNS of_IN our_PRP$ proposal_NN to_TO be_VB felt_VBN ._.
+So_RB ,_, we_PRP must_MD begin_VB now_RB ._.
+The_DT people_NNS are_VBP watching_VBG and_CC waiting_VBG ._.
+They_PRP do_VBP n't_RB demand_VB miracles_NNS ._.
+They_PRP do_VBP expect_VB us_PRP to_TO act_VB ._.
+Let_VB us_PRP act_VB together_RB ._.
+Thank_VB you_PRP ,_, and_CC good_JJ night_NN ._.

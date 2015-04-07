@@ -1,0 +1,224 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1975-Ford.txt 
+Mr._NNP Speaker_NNP ,_, Mr._NNP Vice_NNP President_NNP ,_, Members_NNP of_IN the_DT 94th_JJ Congress_NNP ,_, and_CC distinguished_VBD guests_NNS :_: Twenty-six_CD years_NNS ago_RB ,_, a_DT freshman_NN Congressman_NNP ,_, a_DT young_JJ fellow_NN with_IN lots_NNS of_IN idealism_NN who_WP was_VBD out_IN to_TO change_VB the_DT world_NN ,_, stood_VBD before_IN Sam_NNP Rayburn_NNP in_IN the_DT well_NN of_IN the_DT House_NNP and_CC solemnly_RB swore_VBD to_TO the_DT same_JJ oath_NN that_IN all_DT of_IN you_PRP took_VBD yesterday_NN --_: an_DT unforgettable_JJ experience_NN ,_, and_CC I_PRP congratulate_VBP you_PRP all_DT ._.
+Two_CD days_NNS later_RB ,_, that_IN same_JJ freshman_NN stood_VBD at_IN the_DT back_NN of_IN this_DT great_JJ Chamber_NNP --_: over_IN there_EX someplace_VBP --_: as_IN President_NNP Truman_NNP ,_, all_DT charged_VBN up_RP by_IN his_PRP$ single-handed_JJ election_NN victory_NN ,_, reported_VBD as_IN the_DT Constitution_NNP requires_VBZ on_IN the_DT state_NN of_IN the_DT Union_NNP ._.
+When_WRB the_DT bipartisan_JJ applause_NN stopped_VBD ,_, President_NNP Truman_NNP said_VBD ,_, ``_`` I_PRP am_VBP happy_JJ to_TO report_VB to_TO this_DT 81st_CD Congress_NNP that_IN the_DT state_NN of_IN the_DT Union_NNP is_VBZ good_JJ ._.
+Our_PRP$ Nation_NN is_VBZ better_JJR able_JJ than_IN ever_RB before_IN to_TO meet_VB the_DT needs_NNS of_IN the_DT American_JJ people_NNS ,_, and_CC to_TO give_VB them_PRP their_PRP$ fair_JJ chance_NN in_IN the_DT pursuit_NN of_IN happiness_NN ._.
+-LSB-_NNP It_PRP -RSB-_NN is_VBZ foremost_JJ among_IN the_DT nations_NNS of_IN the_DT world_NN in_IN the_DT search_NN for_IN peace_NN ._. ''_''
+Today_NN ,_, that_IN freshman_NN Member_NNP from_IN Michigan_NNP stands_VBZ where_WRB Mr._NNP Truman_NNP stood_VBD ,_, and_CC I_PRP must_MD say_VB to_TO you_PRP that_IN the_DT state_NN of_IN the_DT Union_NNP is_VBZ not_RB good_JJ :_: Millions_NNS of_IN Americans_NNPS are_VBP out_IN of_IN work_NN ._.
+Recession_NN and_CC inflation_NN are_VBP eroding_VBG the_DT money_NN of_IN millions_NNS more_RBR ._.
+Prices_NNS are_VBP too_RB high_JJ ,_, and_CC sales_NNS are_VBP too_RB slow_JJ ._.
+This_DT year_NN 's_POS Federal_NNP deficit_NN will_MD be_VB about_RB $_$ 30_CD billion_CD ;_: next_JJ year_NN 's_POS probably_RB $_$ 45_CD billion_CD ._.
+The_DT national_JJ debt_NN will_MD rise_VB to_TO over_IN $_$ 500_CD billion_CD ._.
+Our_PRP$ plant_NN capacity_NN and_CC productivity_NN are_VBP not_RB increasing_VBG fast_RB enough_RB ._.
+We_PRP depend_VBP on_IN others_NNS for_IN essential_JJ energy_NN ._.
+Some_DT people_NNS question_VBP their_PRP$ Government_NN 's_POS ability_NN to_TO make_VB hard_JJ decisions_NNS and_CC stick_NN with_IN them_PRP ;_: they_PRP expect_VBP Washington_NNP politics_NNS as_IN usual_JJ ._.
+Yet_RB ,_, what_WP President_NNP Truman_NNP said_VBD on_IN January_NNP 5_CD ,_, 1949_CD ,_, is_VBZ even_RB more_RBR true_JJ in_IN 1975_CD ._.
+We_PRP are_VBP better_RBR able_JJ to_TO meet_VB our_PRP$ people_NNS 's_POS needs_NNS ._.
+All_DT Americans_NNPS do_VBP have_VB a_DT fairer_JJR chance_NN to_TO pursue_VB happiness_NN ._.
+Not_RB only_RB are_VBP we_PRP still_RB the_DT foremost_JJ nation_NN in_IN the_DT pursuit_NN of_IN peace_NN but_CC today_NN 's_POS prospects_NNS of_IN attaining_VBG it_PRP are_VBP infinitely_RB brighter_RBR ._.
+There_EX were_VBD 59_CD million_CD Americans_NNPS employed_VBN at_IN the_DT start_NN of_IN 1949_CD ;_: now_RB there_EX are_VBP more_JJR than_IN 85_CD million_CD Americans_NNPS who_WP have_VBP jobs_NNS ._.
+In_IN comparable_JJ dollars_NNS ,_, the_DT average_JJ income_NN of_IN the_DT American_NNP family_NN has_VBZ doubled_VBN during_IN the_DT past_JJ 26_CD years_NNS ._.
+Now_RB ,_, I_PRP want_VBP to_TO speak_VB very_RB bluntly_RB ._.
+I_PRP 've_VBP got_VBN bad_JJ news_NN ,_, and_CC I_PRP do_VBP n't_RB expect_VB much_JJ ,_, if_IN any_DT ,_, applause_NN ._.
+The_DT American_JJ people_NNS want_VBP action_NN ,_, and_CC it_PRP will_MD take_VB both_DT the_DT Congress_NNP and_CC the_DT President_NNP to_TO give_VB them_PRP what_WP they_PRP want_VBP ._.
+Progress_NNP and_CC solutions_NNS can_MD be_VB achieved_VBN ,_, and_CC they_PRP will_MD be_VB achieved_VBN ._.
+My_PRP$ message_NN today_NN is_VBZ not_RB intended_VBN to_TO address_VB all_DT of_IN the_DT complex_JJ needs_NNS of_IN America_NNP ._.
+I_PRP will_MD send_VB separate_JJ messages_NNS making_VBG specific_JJ recommendations_NNS for_IN domestic_JJ legislation_NN ,_, such_JJ as_IN the_DT extension_NN of_IN general_JJ revenue_NN sharing_NN and_CC the_DT Voting_NNP Rights_NNP Act_NNP ._.
+The_DT moment_NN has_VBZ come_VBN to_TO move_VB in_IN a_DT new_JJ direction_NN ._.
+We_PRP can_MD do_VB this_DT by_IN fashioning_VBG a_DT new_JJ partnership_NN between_IN the_DT Congress_NNP on_IN the_DT one_CD hand_NN ,_, the_DT White_NNP House_NNP on_IN the_DT other_JJ ,_, and_CC the_DT people_NNS we_PRP both_DT represent_VBP ._.
+Let_VB us_PRP mobilize_VB the_DT most_RBS powerful_JJ and_CC most_RBS creative_JJ industrial_JJ nation_NN that_DT ever_RB existed_VBN on_IN this_DT Earth_NN to_TO put_VB all_DT our_PRP$ people_NNS to_TO work_VB ._.
+The_DT emphasis_NN on_IN our_PRP$ economic_JJ efforts_NNS must_MD now_RB shift_VB from_IN inflation_NN to_TO jobs_NNS ._.
+To_TO bolster_VB business_NN and_CC industry_NN and_CC to_TO create_VB new_JJ jobs_NNS ,_, I_PRP propose_VBP a_DT 1-year_JJ tax_NN reduction_NN of_IN $_$ 16_CD billion_CD ._.
+Three-quarters_NNS would_MD go_VB to_TO individuals_NNS and_CC one-quarter_NN to_TO promote_VB business_NN investment_NN ._.
+This_DT cash_NN rebate_NN to_TO individuals_NNS amounts_NNS to_TO 12_CD percent_NN of_IN 1974_CD tax_NN payments_NNS --_: a_DT total_JJ cut_NN of_IN $_$ 12_CD billion_CD ,_, with_IN a_DT maximum_NN of_IN $_$ 1,000_CD per_IN return_NN ._.
+I_PRP call_VBP on_IN the_DT Congress_NNP to_TO act_VB by_IN April_NNP 1_CD ._.
+If_IN you_PRP do_VBP --_: and_CC I_PRP hope_VBP you_PRP will_MD --_: the_DT Treasury_NNP can_MD send_VB the_DT first_JJ check_NN for_IN half_NN of_IN the_DT rebate_NN in_IN May_NNP and_CC the_DT second_JJ by_IN September_NNP ._.
+The_DT other_JJ one-fourth_NN of_IN the_DT cut_NN ,_, about_IN $_$ 4_CD billion_CD ,_, will_MD go_VB to_TO business_NN ,_, including_VBG farms_NNS ,_, to_TO promote_VB expansion_NN and_CC to_TO create_VB more_JJR jobs_NNS ._.
+The_DT 1-year_JJ reduction_NN for_IN businesses_NNS would_MD be_VB in_IN the_DT form_NN of_IN a_DT liberalized_VBN investment_NN tax_NN credit_NN increasing_VBG the_DT rate_NN to_TO 12_CD percent_NN for_IN all_DT businesses_NNS ._.
+This_DT tax_NN cut_NN does_VBZ not_RB include_VB the_DT more_RBR fundamental_JJ reforms_NNS needed_VBN in_IN our_PRP$ tax_NN system_NN ._.
+But_CC it_PRP points_VBZ us_PRP in_IN the_DT right_JJ direction_NN --_: allowing_VBG taxpayers_NNS rather_RB than_IN the_DT Government_NN to_TO spend_VB their_PRP$ pay_NN ._.
+Cutting_VBG taxes_NNS now_RB is_VBZ essential_JJ if_IN we_PRP are_VBP to_TO turn_VB the_DT economy_NN around_RB ._.
+A_DT tax_NN cut_NN offers_VBZ the_DT best_JJS hope_NN of_IN creating_VBG more_JJR jobs_NNS ._.
+Unfortunately_RB ,_, it_PRP will_MD increase_VB the_DT size_NN of_IN the_DT budget_NN deficit_NN ._.
+Therefore_RB ,_, it_PRP is_VBZ more_RBR important_JJ than_IN ever_RB that_IN we_PRP take_VBP steps_NNS to_TO control_VB the_DT growth_NN of_IN Federal_NNP expenditures_NNS ._.
+Part_NN of_IN our_PRP$ trouble_NN is_VBZ that_IN we_PRP have_VBP been_VBN self-indulgent_JJ ._.
+For_IN decades_NNS ,_, we_PRP have_VBP been_VBN voting_VBG ever-increasing_JJ levels_NNS of_IN Government_NNP benefits_NNS ,_, and_CC now_RB the_DT bill_NN has_VBZ come_VBN due_RB ._.
+We_PRP have_VBP been_VBN adding_VBG so_RB many_JJ new_JJ programs_NNS that_IN the_DT size_NN and_CC the_DT growth_NN of_IN the_DT Federal_NNP budget_NN has_VBZ taken_VBN on_IN a_DT life_NN of_IN its_PRP$ own_JJ ._.
+One_CD characteristic_NN of_IN these_DT programs_NNS is_VBZ that_IN their_PRP$ cost_NN increases_NNS automatically_RB every_DT year_NN because_IN the_DT number_NN of_IN people_NNS eligible_JJ for_IN most_JJS of_IN the_DT benefits_NNS increases_NNS every_DT year_NN ._.
+When_WRB these_DT programs_NNS are_VBP enacted_VBN ,_, there_EX is_VBZ no_DT dollar_NN amount_NN set_VBN ._.
+No_DT one_NN knows_VBZ what_WP they_PRP will_MD cost_VB ._.
+All_DT we_PRP know_VBP is_VBZ that_IN whatever_WDT they_PRP cost_VBP last_JJ year_NN ,_, they_PRP will_MD cost_VB more_JJR next_JJ year_NN ._.
+It_PRP is_VBZ a_DT question_NN of_IN simple_JJ arithmetic_NN ._.
+Unless_IN we_PRP check_VBP the_DT excessive_JJ growth_NN of_IN Federal_NNP expenditures_NNS or_CC impose_VB on_IN ourselves_PRP matching_VBG increases_NNS in_IN taxes_NNS ,_, we_PRP will_MD continue_VB to_TO run_VB huge_JJ inflationary_JJ deficits_NNS in_IN the_DT Federal_NNP budget_NN ._.
+If_IN we_PRP project_VBP the_DT current_JJ built-in_JJ momentum_NN of_IN Federal_JJ spending_NN through_IN the_DT next_JJ 15_CD years_NNS ,_, State_NNP ,_, Federal_NNP ,_, and_CC local_JJ government_NN expenditures_NNS could_MD easily_RB comprise_VB half_NN of_IN our_PRP$ gross_JJ national_JJ product_NN ._.
+This_DT compares_VBZ with_IN less_JJR than_IN a_DT third_JJ in_IN 1975_CD ._.
+I_PRP have_VBP just_RB concluded_VBN the_DT process_NN of_IN preparing_VBG the_DT budget_NN submissions_NNS for_IN fiscal_JJ year_NN 1976_CD ._.
+In_IN that_DT budget_NN ,_, I_PRP will_MD propose_VB legislation_NN to_TO restrain_VB the_DT growth_NN of_IN a_DT number_NN of_IN existing_VBG programs_NNS ._.
+I_PRP have_VBP also_RB concluded_VBN that_IN no_DT new_JJ spending_NN programs_NNS can_MD be_VB initiated_VBN this_DT year_NN ,_, except_IN for_IN energy_NN ._.
+Further_RB ,_, I_PRP will_MD not_RB hesitate_VB to_TO veto_VB any_DT new_JJ spending_NN programs_NNS adopted_VBN by_IN the_DT Congress_NNP ._.
+As_IN an_DT additional_JJ step_NN toward_IN putting_VBG the_DT Federal_NNP Government_NNP 's_POS house_NN in_IN order_NN ,_, I_PRP recommend_VBP a_DT 5-percent_JJ limit_NN on_IN Federal_NNP pay_NN increases_NNS in_IN 1975_CD ._.
+In_IN all_DT Government_NN programs_NNS tied_VBN to_TO the_DT Consumer_NNP Price_NNP Index_NNP --_: including_VBG social_JJ security_NN ,_, civil_JJ service_NN and_CC military_JJ retirement_NN pay_NN ,_, and_CC food_NN stamps_NNS --_: I_PRP also_RB propose_VBP a_DT 1-year_JJ maximum_NN increase_NN of_IN 5_CD percent_NN ._.
+None_NN of_IN these_DT recommended_VBN ceiling_NN limitations_NNS ,_, over_IN which_WDT Congress_NNP has_VBZ final_JJ authority_NN ,_, are_VBP easy_JJ to_TO propose_VB ,_, because_IN in_IN most_JJS cases_NNS they_PRP involve_VBP anticipated_JJ payments_NNS to_TO many_JJ ,_, many_JJ deserving_JJ people_NNS ._.
+Nonetheless_RB ,_, it_PRP must_MD be_VB done_VBN ._.
+I_PRP must_MD emphasize_VB that_IN I_PRP am_VBP not_RB asking_VBG to_TO eliminate_VB ,_, to_TO reduce_VB ,_, to_TO freeze_VB these_DT payments_NNS ._.
+I_PRP am_VBP merely_RB recommending_VBG that_IN we_PRP slow_VB down_RP the_DT rate_NN at_IN which_WDT these_DT payments_NNS increase_NN and_CC these_DT programs_NNS grow_VBP ._.
+Only_RB a_DT reduction_NN in_IN the_DT growth_NN of_IN spending_NN can_MD keep_VB Federal_NNP borrowing_VBG down_RB and_CC reduce_VB the_DT damage_NN to_TO the_DT private_JJ sector_NN from_IN high_JJ interest_NN rates_NNS ._.
+Only_RB a_DT reduction_NN in_IN spending_NN can_MD make_VB it_PRP possible_JJ for_IN the_DT Federal_NNP Reserve_NNP System_NNP to_TO avoid_VB an_DT inflationary_JJ growth_NN in_IN the_DT money_NN supply_NN and_CC thus_RB restore_VB balance_NN to_TO our_PRP$ economy_NN ._.
+A_DT major_JJ reduction_NN in_IN the_DT growth_NN of_IN Federal_JJ spending_NN can_MD help_VB dispel_VB the_DT uncertainty_NN that_WDT so_RB many_JJ feel_VBP about_IN our_PRP$ economy_NN and_CC put_VB us_PRP on_IN the_DT way_NN to_TO curing_VBG our_PRP$ economic_JJ ills_NNS ._.
+If_IN we_PRP do_VBP n't_RB act_VB to_TO slow_VB down_RP the_DT rate_NN of_IN increase_NN in_IN Federal_JJ spending_NN ,_, the_DT United_NNP States_NNPS Treasury_NNP will_MD be_VB legally_RB obligated_VBN to_TO spend_VB more_JJR than_IN $_$ 360_CD billion_CD in_IN fiscal_JJ year_NN 1976_CD ,_, even_RB if_IN no_DT new_JJ programs_NNS are_VBP enacted_VBN ._.
+These_DT are_VBP not_RB matters_NNS of_IN conjecture_NN or_CC prediction_NN ,_, but_CC again_RB ,_, a_DT matter_NN of_IN simple_JJ arithmetic_NN ._.
+The_DT size_NN of_IN these_DT numbers_NNS and_CC their_PRP$ implications_NNS for_IN our_PRP$ everyday_JJ life_NN and_CC the_DT health_NN of_IN our_PRP$ economic_JJ system_NN are_VBP shocking_JJ ._.
+I_PRP submitted_VBD to_TO the_DT last_JJ Congress_NNP a_DT list_NN of_IN budget_NN deferrals_NNS and_CC rescissions_NNS ._.
+There_EX will_MD be_VB more_RBR cuts_NNS recommended_VBN in_IN the_DT budget_NN that_IN I_PRP will_MD submit_VB ._.
+Even_RB so_RB ,_, the_DT level_NN of_IN outlays_NNS for_IN fiscal_JJ year_NN 1976_CD is_VBZ still_RB much_RB ,_, much_RB too_RB high_JJ ._.
+Not_RB only_RB is_VBZ it_PRP too_RB high_JJ for_IN this_DT year_NN but_CC the_DT decisions_NNS we_PRP make_VBP now_RB will_MD inevitably_RB have_VB a_DT major_JJ and_CC growing_VBG impact_NN on_IN expenditure_NN levels_NNS in_IN future_JJ years_NNS ._.
+I_PRP think_VBP this_DT is_VBZ a_DT very_RB fundamental_JJ issue_NN that_IN we_PRP ,_, the_DT Congress_NNP and_CC I_PRP ,_, must_MD jointly_RB solve_VB ._.
+Economic_NNP disruptions_NNS we_PRP and_CC others_NNS are_VBP experiencing_VBG stem_NN in_IN part_NN from_IN the_DT fact_NN that_IN the_DT world_NN price_NN of_IN petroleum_NN has_VBZ quadrupled_VBN in_IN the_DT last_JJ year_NN ._.
+But_CC in_IN all_DT honesty_NN ,_, we_PRP can_MD not_RB put_VB all_DT of_IN the_DT blame_NN on_IN the_DT oil-exporting_JJ nations_NNS ._.
+We_PRP ,_, the_DT United_NNP States_NNPS ,_, are_VBP not_RB blameless_JJ ._.
+Our_PRP$ growing_VBG dependence_NN upon_IN foreign_JJ sources_NNS has_VBZ been_VBN adding_VBG to_TO our_PRP$ vulnerability_NN for_IN years_NNS and_CC years_NNS ,_, and_CC we_PRP did_VBD nothing_NN to_TO prepare_VB ourselves_PRP for_IN such_PDT an_DT event_NN as_IN the_DT embargo_NN of_IN 1973_CD ._.
+During_IN the_DT 1960_CD 's_POS ,_, this_DT country_NN had_VBD a_DT surplus_NN capacity_NN of_IN crude_JJ oil_NN which_WDT we_PRP were_VBD able_JJ to_TO make_VB available_JJ to_TO our_PRP$ trading_NN partners_NNS whenever_WRB there_EX was_VBD a_DT disruption_NN of_IN supply_NN ._.
+This_DT surplus_NN capacity_NN enabled_VBD us_PRP to_TO influence_VB both_DT supplies_NNS and_CC prices_NNS of_IN crude_JJ oil_NN throughout_IN the_DT world_NN ._.
+Our_PRP$ excess_JJ capacity_NN neutralized_VBD any_DT effort_NN at_IN establishing_VBG an_DT effective_JJ cartel_NN ,_, and_CC thus_RB the_DT rest_NN of_IN the_DT world_NN was_VBD assured_VBN of_IN adequate_JJ supplies_NNS of_IN oil_NN at_IN reasonable_JJ prices_NNS ._.
+By_IN 1970_CD ,_, our_PRP$ surplus_NN capacity_NN had_VBD vanished_VBN ,_, and_CC as_IN a_DT consequence_NN ,_, the_DT latent_NN power_NN of_IN the_DT oil_NN cartel_NN could_MD emerge_VB in_IN full_JJ force_NN ._.
+Europe_NNP and_CC Japan_NNP ,_, both_DT heavily_RB dependent_JJ on_IN imported_VBN oil_NN ,_, now_RB struggle_NN to_TO keep_VB their_PRP$ economies_NNS in_IN balance_NN ._.
+Even_RB the_DT United_NNP States_NNPS ,_, our_PRP$ country_NN ,_, which_WDT is_VBZ far_RB more_RBR self-sufficient_JJ than_IN most_JJS other_JJ industrial_JJ countries_NNS ,_, has_VBZ been_VBN put_VBN under_IN serious_JJ pressure_NN ._.
+I_PRP am_VBP proposing_VBG a_DT program_NN which_WDT will_MD begin_VB to_TO restore_VB our_PRP$ country_NN 's_POS surplus_NN capacity_NN in_IN total_JJ energy_NN ._.
+In_IN this_DT way_NN ,_, we_PRP will_MD be_VB able_JJ to_TO assure_VB ourselves_PRP reliable_JJ and_CC adequate_JJ energy_NN and_CC help_NN foster_VB a_DT new_JJ world_NN energy_NN stability_NN for_IN other_JJ major_JJ consuming_NN nations_NNS ._.
+But_CC this_DT Nation_NN and_CC ,_, in_IN fact_NN ,_, the_DT world_NN must_MD face_VB the_DT prospect_NN of_IN energy_NN difficulties_NNS between_IN now_RB and_CC 1985_CD ._.
+This_DT program_NN will_MD impose_VB burdens_NNS on_IN all_DT of_IN us_PRP with_IN the_DT aim_NN of_IN reducing_VBG our_PRP$ consumption_NN of_IN energy_NN and_CC increasing_VBG our_PRP$ production_NN ._.
+Great_JJ attention_NN has_VBZ been_VBN paid_VBN to_TO the_DT considerations_NNS of_IN fairness_NN ,_, and_CC I_PRP can_MD assure_VB you_PRP that_IN the_DT burdens_NNS will_MD not_RB fall_VB more_JJR harshly_RB on_IN those_DT less_JJR able_JJ to_TO bear_VB them_PRP ._.
+I_PRP am_VBP recommending_VBG a_DT plan_NN to_TO make_VB us_PRP invulnerable_JJ to_TO cutoffs_NNS of_IN foreign_JJ oil_NN ._.
+It_PRP will_MD require_VB sacrifices_NNS ,_, but_CC it_PRP --_: and_CC this_DT is_VBZ most_RBS important_JJ --_: it_PRP will_MD work_VB ._.
+I_PRP have_VBP set_VBN the_DT following_JJ national_JJ energy_NN goals_NNS to_TO assure_VB that_IN our_PRP$ future_NN is_VBZ as_IN secure_JJ and_CC as_IN productive_JJ as_IN our_PRP$ past_NN :_: First_NNP ,_, we_PRP must_MD reduce_VB oil_NN imports_NNS by_IN 1_CD million_CD barrels_NNS per_IN day_NN by_IN the_DT end_NN of_IN this_DT year_NN and_CC by_IN 2_CD million_CD barrels_NNS per_IN day_NN by_IN the_DT end_NN of_IN 1977_CD ._.
+Second_NNP ,_, we_PRP must_MD end_VB vulnerability_NN to_TO economic_JJ disruption_NN by_IN foreign_JJ suppliers_NNS by_IN 1985_CD ._.
+Third_NNP ,_, we_PRP must_MD develop_VB our_PRP$ energy_NN technology_NN and_CC resources_NNS so_IN that_IN the_DT United_NNP States_NNPS has_VBZ the_DT ability_NN to_TO supply_VB a_DT significant_JJ share_NN of_IN the_DT energy_NN needs_VBZ of_IN the_DT free_JJ world_NN by_IN the_DT end_NN of_IN this_DT century_NN ._.
+To_TO attain_VB these_DT objectives_NNS ,_, we_PRP need_VBP immediate_JJ action_NN to_TO cut_VB imports_NNS ._.
+Unfortunately_RB ,_, in_IN the_DT short_JJ term_NN there_EX are_VBP only_RB a_DT limited_JJ number_NN of_IN actions_NNS which_WDT can_MD increase_VB domestic_JJ supply_NN ._.
+I_PRP will_MD press_VB for_IN all_DT of_IN them_PRP ._.
+I_PRP urge_VBP quick_JJ action_NN on_IN the_DT necessary_JJ legislation_NN to_TO allow_VB commercial_JJ production_NN at_IN the_DT Elk_NNP Hills_NNP ,_, California_NNP ,_, Naval_NNP Petroleum_NNP Reserve_NNP ._.
+In_IN order_NN that_IN we_PRP make_VBP greater_JJR use_NN of_IN domestic_JJ coal_NN resources_NNS ,_, I_PRP am_VBP submitting_VBG amendments_NNS to_TO the_DT Energy_NNP Supply_NNP and_CC Environmental_NNP Coordination_NNP Act_NNP which_WDT will_MD greatly_RB increase_VB the_DT number_NN of_IN powerplants_NNS that_WDT can_MD be_VB promptly_RB converted_VBN to_TO coal_NN ._.
+Obviously_RB ,_, voluntary_JJ conservation_NN continues_VBZ to_TO be_VB essential_JJ ,_, but_CC tougher_JJR programs_NNS are_VBP needed_VBN --_: and_CC needed_VBN now_RB ._.
+Therefore_RB ,_, I_PRP am_VBP using_VBG Presidential_JJ powers_NNS to_TO raise_VB the_DT fee_NN on_IN all_DT imported_VBN crude_NN oil_NN and_CC petroleum_NN products_NNS ._.
+The_DT crude_JJ oil_NN fee_NN level_NN will_MD be_VB increased_VBN $_$ 1_CD per_IN barrel_NN on_IN February_NNP 1_CD ,_, by_IN $_$ 2_CD per_IN barrel_NN on_IN March_NNP 1_CD ,_, and_CC by_IN $_$ 3_CD per_IN barrel_NN on_IN April_NNP 1_CD ._.
+I_PRP will_MD take_VB actions_NNS to_TO reduce_VB undue_JJ hardships_NNS on_IN any_DT geographical_JJ region_NN ._.
+The_DT foregoing_NN are_VBP interim_JJ administrative_JJ actions_NNS ._.
+They_PRP will_MD be_VB rescinded_VBN when_WRB broader_JJR but_CC necessary_JJ legislation_NN is_VBZ enacted_VBN ._.
+To_TO that_DT end_NN ,_, I_PRP am_VBP requesting_VBG the_DT Congress_NNP to_TO act_VB within_IN 90_CD days_NNS on_IN a_DT more_RBR comprehensive_JJ energy_NN tax_NN program_NN ._.
+It_PRP includes_VBZ :_: excise_VB taxes_NNS and_CC import_NN fees_NNS totaling_VBG $_$ 2_CD per_IN barrel_NN on_IN product_NN imports_NNS and_CC on_IN all_DT crude_JJ oil_NN ;_: deregulation_NN of_IN new_JJ natural_JJ gas_NN and_CC enactment_NN of_IN a_DT natural_JJ gas_NN excise_NN tax_NN ._.
+I_PRP plan_VBP to_TO take_VB Presidential_JJ initiative_NN to_TO decontrol_NN the_DT price_NN of_IN domestic_JJ crude_JJ oil_NN on_IN April_NNP 1_CD ._.
+I_PRP urge_VBP the_DT Congress_NNP to_TO enact_VB a_DT windfall_NN profits_NNS tax_NN by_IN that_DT date_NN to_TO ensure_VB that_IN oil_NN producers_NNS do_VBP not_RB profit_VB unduly_RB ._.
+The_DT sooner_RBR Congress_NNP acts_VBZ ,_, the_DT more_RBR effective_JJ the_DT oil_NN conservation_NN program_NN will_MD be_VB and_CC the_DT quicker_JJR the_DT Federal_NNP revenues_NNS can_MD be_VB returned_VBN to_TO our_PRP$ people_NNS ._.
+I_PRP am_VBP prepared_VBN to_TO use_VB Presidential_JJ authority_NN to_TO limit_VB imports_NNS ,_, as_RB necessary_JJ ,_, to_TO guarantee_VB success_NN ._.
+I_PRP want_VBP you_PRP to_TO know_VB that_DT before_IN deciding_VBG on_IN my_PRP$ energy_NN conservation_NN program_NN ,_, I_PRP considered_VBD rationing_VBG and_CC higher_JJR gasoline_NN taxes_NNS as_IN alternatives_NNS ._.
+In_IN my_PRP$ judgment_NN ,_, neither_CC would_MD achieve_VB the_DT desired_VBN results_NNS and_CC both_DT would_MD produce_VB unacceptable_JJ inequities_NNS ._.
+A_DT massive_JJ program_NN must_MD be_VB initiated_VBN to_TO increase_VB energy_NN supply_NN to_TO cut_VB demand_NN ,_, and_CC provide_VB new_JJ standby_JJ emergency_NN programs_NNS to_TO achieve_VB the_DT independence_NN we_PRP want_VBP by_IN 1985_CD ._.
+The_DT largest_JJS part_NN of_IN increased_VBN oil_NN production_NN must_MD come_VB from_IN new_JJ frontier_NN areas_NNS on_IN the_DT Outer_NNP Continental_NNP Shelf_NNP and_CC from_IN the_DT Naval_NNP Petroleum_NNP Reserve_NNP No._NN 4_CD in_IN Alaska_NNP ._.
+It_PRP is_VBZ the_DT intent_NN of_IN this_DT Administration_NN to_TO move_VB ahead_RB with_IN exploration_NN ,_, leasing_NN ,_, and_CC production_NN on_IN those_DT frontier_NN areas_NNS of_IN the_DT Outer_NNP Continental_NNP Shelf_NNP where_WRB the_DT environmental_JJ risks_NNS are_VBP acceptable_JJ ._.
+Use_NN of_IN our_PRP$ most_RBS abundant_JJ domestic_JJ resource_NN --_: coal_NN --_: is_VBZ severely_RB limited_VBN ._.
+We_PRP must_MD strike_VB a_DT reasonable_JJ compromise_NN on_IN environmental_JJ concerns_NNS with_IN coal_NN ._.
+I_PRP am_VBP submitting_VBG Clean_NNP Air_NNP -LSB-_NNP Act_NNP -RSB-_NNP amendments_NNS which_WDT will_MD allow_VB greater_JJR coal_NN use_NN without_IN sacrificing_VBG clean_JJ air_NN goals_NNS ._.
+I_PRP vetoed_VBD the_DT strip_NN mining_NN legislation_NN passed_VBN by_IN the_DT last_JJ Congress_NNP ._.
+With_IN appropriate_JJ changes_NNS ,_, I_PRP will_MD sign_VB a_DT revised_VBN version_NN when_WRB it_PRP comes_VBZ to_TO the_DT White_NNP House_NNP ._.
+I_PRP am_VBP proposing_VBG a_DT number_NN of_IN actions_NNS to_TO energize_VB our_PRP$ nuclear_JJ power_NN program_NN ._.
+I_PRP will_MD submit_VB legislation_NN to_TO expedite_VB nuclear_JJ leasing_NN -LSB-_NNP licensing_NN -RSB-_NNP and_CC the_DT rapid_JJ selection_NN of_IN sites_NNS ._.
+In_IN recent_JJ months_NNS ,_, utilities_NNS have_VBP canceled_VBN or_CC postponed_VBN over_RP 60_CD percent_NN of_IN planned_VBN nuclear_JJ expansion_NN and_CC 30_CD percent_NN of_IN planned_VBN additions_NNS to_TO non-nuclear_JJ capacity_NN ._.
+Financing_NN problems_NNS for_IN that_DT industry_NN are_VBP worsening_VBG ._.
+I_PRP am_VBP therefore_RB recommending_VBG that_IN the_DT 1-year_JJ investment_NN tax_NN credit_NN of_IN 12_CD percent_NN be_VB extended_VBN an_DT additional_JJ 2_CD years_NNS to_TO specifically_RB speed_VB the_DT construction_NN of_IN powerplants_NNS that_WDT do_VBP not_RB use_VB natural_JJ gas_NN or_CC oil_NN ._.
+I_PRP am_VBP also_RB submitting_VBG proposals_NNS for_IN selective_JJ reform_NN of_IN State_NNP utility_NN commission_NN regulations_NNS ._.
+To_TO provide_VB the_DT critical_JJ stability_NN for_IN our_PRP$ domestic_JJ energy_NN production_NN in_IN the_DT face_NN of_IN world_NN price_NN uncertainty_NN ,_, I_PRP will_MD request_VB legislation_NN to_TO authorize_VB and_CC require_VB tariffs_NNS ,_, import_NN quotas_NNS ,_, or_CC price_NN floors_NNS to_TO protect_VB our_PRP$ energy_NN prices_NNS at_IN levels_NNS which_WDT will_MD achieve_VB energy_NN independence_NN ._.
+Increasing_VBG energy_NN supplies_NNS is_VBZ not_RB enough_RB ._.
+We_PRP must_MD take_VB additional_JJ steps_NNS to_TO cut_VB long-term_JJ consumption_NN ._.
+I_PRP therefore_RB propose_VBP to_TO the_DT Congress_NNP :_: legislation_NN to_TO make_VB thermal_JJ efficiency_NN standards_NNS mandatory_JJ for_IN all_DT new_JJ buildings_NNS in_IN the_DT United_NNP States_NNPS ;_: a_DT new_JJ tax_NN credit_NN of_IN up_RB to_TO $_$ 150_CD for_IN those_DT homeowners_NNS who_WP install_VBP insulation_NN equipment_NN ;_: the_DT establishment_NN of_IN an_DT energy_NN conservation_NN program_NN to_TO help_VB low-income_JJ families_NNS purchase_NN insulation_NN supplies_NNS ;_: legislation_NN to_TO modify_VB and_CC defer_VB automotive_JJ pollution_NN standards_NNS for_IN 5_CD years_NNS ,_, which_WDT will_MD enable_VB us_PRP to_TO improve_VB automobile_NN gas_NN mileage_NN by_IN 40_CD percent_NN by_IN 1980_CD ._.
+These_DT proposals_NNS and_CC actions_NNS ,_, cumulatively_RB ,_, can_MD reduce_VB our_PRP$ dependence_NN on_IN foreign_JJ energy_NN supplies_NNS from_IN 3_CD to_TO 5_CD million_CD barrels_NNS per_IN day_NN by_IN 1985_CD ._.
+To_TO make_VB the_DT United_NNP States_NNPS invulnerable_JJ to_TO foreign_JJ disruption_NN ,_, I_PRP propose_VBP standby_JJ emergency_NN legislation_NN and_CC a_DT strategic_JJ storage_NN program_NN of_IN 1_CD billion_CD barrels_NNS of_IN oil_NN for_IN domestic_JJ needs_NNS and_CC 300_CD million_CD barrels_NNS for_IN national_JJ defense_NN purposes_NNS ._.
+I_PRP will_MD ask_VB for_IN the_DT funds_NNS needed_VBN for_IN energy_NN research_NN and_CC development_NN activities_NNS ._.
+I_PRP have_VBP established_VBN a_DT goal_NN of_IN 1_CD million_CD barrels_NNS of_IN synthetic_JJ fuels_NNS and_CC shale_NN oil_NN production_NN per_IN day_NN by_IN 1985_CD together_RB with_IN an_DT incentive_NN program_NN to_TO achieve_VB it_PRP ._.
+I_PRP have_VBP a_DT very_RB deep_JJ belief_NN in_IN America_NNP 's_POS capabilities_NNS ._.
+Within_IN the_DT next_JJ 10_CD years_NNS ,_, my_PRP$ program_NN envisions_VBZ :_: 200_CD major_JJ nuclear_JJ powerplants_NNS ;_: 250_CD major_JJ new_JJ coal_NN mines_NNS ;_: 150_CD major_JJ coal-fired_JJ powerplants_NNS ;_: 30_CD major_JJ new_JJ -LSB-_JJ oil_NN -RSB-_NN refineries_NNS ;_: 20_CD major_JJ new_JJ synthetic_JJ fuel_NN plants_NNS ;_: the_DT drilling_NN of_IN many_JJ thousands_NNS of_IN new_JJ oil_NN wells_NNS ;_: the_DT insulation_NN of_IN 18_CD million_CD homes_NNS ;_: and_CC the_DT manufacturing_NN and_CC the_DT sale_NN of_IN millions_NNS of_IN new_JJ automobiles_NNS ,_, trucks_NNS ,_, and_CC buses_NNS that_WDT use_VBP much_RB less_JJR fuel_NN ._.
+I_PRP happen_VBP to_TO believe_VB that_IN we_PRP can_MD do_VB it_PRP ._.
+In_IN another_DT crisis_NN --_: the_DT one_CD in_IN 1942_CD --_: President_NNP Franklin_NNP D._NNP Roosevelt_NNP said_VBD this_DT country_NN would_MD build_VB 60,000_CD -LSB-_NNP 50,000_CD -RSB-_NNP military_JJ aircraft_NN ._.
+By_IN 1943_CD ,_, production_NN in_IN that_DT program_NN had_VBD reached_VBN 125,000_CD aircraft_NN annually_RB ._.
+They_PRP did_VBD it_PRP then_RB ._.
+We_PRP can_MD do_VB it_PRP now_RB ._.
+If_IN the_DT Congress_NNP and_CC the_DT American_JJ people_NNS will_MD work_VB with_IN me_PRP to_TO attain_VB these_DT targets_NNS ,_, they_PRP will_MD be_VB achieved_VBN and_CC will_MD be_VB surpassed_VBN ._.
+From_IN adversity_NN ,_, let_VB us_PRP seize_VB opportunity_NN ._.
+Revenues_NNS of_IN some_DT $_$ 30_CD billion_CD from_IN higher_JJR energy_NN taxes_NNS designed_VBN to_TO encourage_VB conservation_NN must_MD be_VB refunded_VBN to_TO the_DT American_JJ people_NNS in_IN a_DT manner_NN which_WDT corrects_VBZ distortions_NNS in_IN our_PRP$ tax_NN system_NN wrought_VBN by_IN inflation_NN ._.
+People_NNS have_VBP been_VBN pushed_VBN into_IN higher_JJR tax_NN brackets_NNS by_IN inflation_NN ,_, with_IN consequent_JJ reduction_NN in_IN their_PRP$ actual_JJ spending_NN power_NN ._.
+Business_NN taxes_NNS are_VBP similarly_RB distorted_JJ because_IN inflation_NN exaggerates_VBZ reported_VBN profits_NNS ,_, resulting_VBG in_IN excessive_JJ taxes_NNS ._.
+Accordingly_RB ,_, I_PRP propose_VBP that_IN future_JJ individual_JJ income_NN taxes_NNS be_VB reduced_VBN by_IN $_$ 16.5_CD billion_CD ._.
+This_DT will_MD be_VB done_VBN by_IN raising_VBG the_DT low-income_JJ allowance_NN and_CC reducing_VBG tax_NN rates_NNS ._.
+This_DT continuing_VBG tax_NN cut_NN will_MD primarily_RB benefit_VB lower_JJR -_: and_CC middle-income_JJ taxpayers_NNS ._.
+For_IN example_NN ,_, a_DT typical_JJ family_NN of_IN four_CD with_IN a_DT gross_JJ income_NN of_IN $_$ 5,600_CD now_RB pays_VBZ $_$ 185_CD in_IN Federal_JJ income_NN taxes_NNS ._.
+Under_IN this_DT tax_NN cut_NN plan_NN ,_, they_PRP would_MD pay_VB nothing_NN ._.
+A_DT family_NN of_IN four_CD with_IN a_DT gross_JJ income_NN of_IN $_$ 12,500_CD now_RB pays_VBZ $_$ 1,260_CD in_IN Federal_NNP taxes_NNS ._.
+My_PRP$ proposal_NN reduces_VBZ that_IN total_JJ by_IN $_$ 300_CD ._.
+Families_NNS grossing_VBG $_$ 20,000_CD would_MD receive_VB a_DT reduction_NN of_IN $_$ 210_CD ._.
+Those_DT with_IN the_DT very_RB lowest_JJS incomes_NNS ,_, who_WP can_MD least_JJS afford_VB higher_JJR costs_NNS ,_, must_MD also_RB be_VB compensated_VBN ._.
+I_PRP propose_VBP a_DT payment_NN of_IN $_$ 80_CD to_TO every_DT person_NN 18_CD years_NNS of_IN age_NN and_CC older_JJR in_IN that_DT very_RB limited_JJ category_NN ._.
+State_NNP and_CC local_JJ governments_NNS will_MD receive_VB $_$ 2_CD billion_CD in_IN additional_JJ revenue_NN sharing_VBG to_TO offset_VB their_PRP$ increased_VBN energy_NN costs_NNS ._.
+To_TO offset_VB inflationary_JJ distortions_NNS and_CC to_TO generate_VB more_JJR economic_JJ activity_NN ,_, the_DT corporate_JJ tax_NN rate_NN will_MD be_VB reduced_VBN from_IN 48_CD percent_NN to_TO 42_CD percent_NN ._.
+Now_RB let_VB me_PRP turn_VB ,_, if_IN I_PRP might_MD ,_, to_TO the_DT international_JJ dimension_NN of_IN the_DT present_JJ crisis_NN ._.
+At_IN no_DT time_NN in_IN our_PRP$ peacetime_NN history_NN has_VBZ the_DT state_NN of_IN the_DT Nation_NN depended_VBD more_RBR heavily_RB on_IN the_DT state_NN of_IN the_DT world_NN ._.
+And_CC seldom_RB ,_, if_IN ever_RB ,_, has_VBZ the_DT state_NN of_IN the_DT world_NN depended_VBD more_RBR heavily_RB on_IN the_DT state_NN of_IN our_PRP$ Nation_NN ._.
+The_DT economic_JJ distress_NN is_VBZ global_JJ ._.
+We_PRP will_MD not_RB solve_VB it_PRP at_IN home_NN unless_IN we_PRP help_VBP to_TO remedy_VB the_DT profound_JJ economic_JJ dislocation_NN abroad_RB ._.
+World_NNP trade_NN and_CC monetary_JJ structure_NN provides_VBZ markets_NNS ,_, energy_NN ,_, food_NN ,_, and_CC vital_JJ raw_JJ materials_NNS --_: for_IN all_DT nations_NNS ._.
+This_DT international_JJ system_NN is_VBZ now_RB in_IN jeopardy_NN ._.
+This_DT Nation_NN can_MD be_VB proud_JJ of_IN significant_JJ achievements_NNS in_IN recent_JJ years_NNS in_IN solving_VBG problems_NNS and_CC crises_NNS ._.
+The_DT Berlin_NNP agreement_NN ,_, the_DT SALT_NNP agreements_NNS ,_, our_PRP$ new_JJ relationship_NN with_IN China_NNP ,_, the_DT unprecedented_JJ efforts_NNS in_IN the_DT Middle_NNP East_NNP are_VBP immensely_RB encouraging_JJ ._.
+But_CC the_DT world_NN is_VBZ not_RB free_JJ from_IN crisis_NN ._.
+In_IN a_DT world_NN of_IN 150_CD nations_NNS ,_, where_WRB nuclear_JJ technology_NN is_VBZ proliferating_VBG and_CC regional_JJ conflicts_NNS continue_VBP ,_, international_JJ security_NN can_MD not_RB be_VB taken_VBN for_IN granted_VBN ._.
+So_RB ,_, let_VB there_EX be_VB no_DT mistake_NN about_IN it_PRP :_: International_NNP cooperation_NN is_VBZ a_DT vital_JJ factor_NN of_IN our_PRP$ lives_NNS today_NN ._.
+This_DT is_VBZ not_RB a_DT moment_NN for_IN the_DT American_JJ people_NNS to_TO turn_VB inward_RB ._.
+More_JJR than_IN ever_RB before_RB ,_, our_PRP$ own_JJ well-being_NN depends_VBZ on_IN America_NNP 's_POS determination_NN and_CC America_NNP 's_POS leadership_NN in_IN the_DT whole_JJ wide_JJ world_NN ._.
+We_PRP are_VBP a_DT great_JJ Nation_NN --_: spiritually_RB ,_, politically_RB ,_, militarily_RB ,_, diplomatically_RB ,_, and_CC economically_RB ._.
+America_NNP 's_POS commitment_NN to_TO international_JJ security_NN has_VBZ sustained_VBN the_DT safety_NN of_IN allies_NNS and_CC friends_NNS in_IN many_JJ areas_NNS --_: in_IN the_DT Middle_NNP East_NNP ,_, in_IN Europe_NNP ,_, and_CC in_IN Asia_NNP ._.
+Our_PRP$ turning_VBG away_RB would_MD unleash_VB new_JJ instabilities_NNS ,_, new_JJ dangers_NNS around_IN the_DT globe_NN ,_, which_WDT ,_, in_IN turn_NN ,_, would_MD threaten_VB our_PRP$ own_JJ security_NN ._.
+At_IN the_DT end_NN of_IN World_NNP War_NNP II_NNP ,_, we_PRP turned_VBD a_DT similar_JJ challenge_NN into_IN an_DT historic_JJ opportunity_NN and_CC ,_, I_PRP might_MD add_VB ,_, an_DT historic_JJ achievement_NN ._.
+An_DT old_JJ order_NN was_VBD in_IN disarray_NN ;_: political_JJ and_CC economic_JJ institutions_NNS were_VBD shattered_VBN ._.
+In_IN that_DT period_NN ,_, this_DT Nation_NN and_CC its_PRP$ partners_NNS built_VBN new_JJ institutions_NNS ,_, new_JJ mechanisms_NNS of_IN mutual_JJ support_NN and_CC cooperation_NN ._.
+Today_NN ,_, as_IN then_RB ,_, we_PRP face_VBP an_DT historic_JJ opportunity_NN ._.
+If_IN we_PRP act_VBP imaginatively_RB and_CC boldly_RB ,_, as_IN we_PRP acted_VBD then_RB ,_, this_DT period_NN will_MD in_IN retrospect_NN be_VB seen_VBN as_IN one_CD of_IN the_DT great_JJ creative_JJ moments_NNS of_IN our_PRP$ Nation_NN 's_POS history_NN ._.
+The_DT whole_JJ world_NN is_VBZ watching_VBG to_TO see_VB how_WRB we_PRP respond_VBP ._.
+A_DT resurgent_JJ American_JJ economy_NN would_MD do_VB more_JJR to_TO restore_VB the_DT confidence_NN of_IN the_DT world_NN in_IN its_PRP$ own_JJ future_NN than_IN anything_NN else_RB we_PRP can_MD do_VB ._.
+The_DT program_NN that_IN this_DT Congress_NNP passes_VBZ can_MD demonstrate_VB to_TO the_DT world_NN that_IN we_PRP have_VBP started_VBN to_TO put_VB our_PRP$ own_JJ house_NN in_IN order_NN ._.
+If_IN we_PRP can_MD show_VB that_IN this_DT Nation_NN is_VBZ able_JJ and_CC willing_JJ to_TO help_VB other_JJ nations_NNS meet_VBP the_DT common_JJ challenge_NN ,_, it_PRP can_MD demonstrate_VB that_IN the_DT United_NNP States_NNPS will_MD fulfill_VB its_PRP$ responsibilities_NNS as_IN a_DT leader_NN among_IN nations_NNS ._.
+Quite_JJ frankly_RB ,_, at_IN stake_NN is_VBZ the_DT future_NN of_IN industrialized_VBN democracies_NNS ,_, which_WDT have_VBP perceived_VBN their_PRP$ destiny_NN in_IN common_JJ and_CC sustained_VBD it_PRP in_IN common_JJ for_IN 30_CD years_NNS ._.
+The_DT developing_VBG nations_NNS are_VBP also_RB at_IN a_DT turning_VBG point_NN ._.
+The_DT poorest_JJS nations_NNS see_VBP their_PRP$ hopes_NNS of_IN feeding_VBG their_PRP$ hungry_JJ and_CC developing_VBG their_PRP$ societies_NNS shattered_VBN by_IN the_DT economic_JJ crisis_NN ._.
+The_DT long-term_JJ economic_JJ future_NN for_IN the_DT producers_NNS of_IN raw_JJ materials_NNS also_RB depends_VBZ on_IN cooperative_JJ solutions_NNS ._.
+Our_PRP$ relations_NNS with_IN the_DT Communist_JJ countries_NNS are_VBP a_DT basic_JJ factor_NN of_IN the_DT world_NN environment_NN ._.
+We_PRP must_MD seek_VB to_TO build_VB a_DT long-term_JJ basis_NN for_IN coexistence_NN ._.
+We_PRP will_MD stand_VB by_IN our_PRP$ principles_NNS ._.
+We_PRP will_MD stand_VB by_IN our_PRP$ interests_NNS ._.
+We_PRP will_MD act_VB firmly_RB when_WRB challenged_VBN ._.
+The_DT kind_NN of_IN a_DT world_NN we_PRP want_VBP depends_VBZ on_IN a_DT broad_JJ policy_NN of_IN creating_VBG mutual_JJ incentives_NNS for_IN restraint_NN and_CC for_IN cooperation_NN ._.
+As_IN we_PRP move_VBP forward_RB to_TO meet_VB our_PRP$ global_JJ challenges_NNS and_CC opportunities_NNS ,_, we_PRP must_MD have_VB the_DT tools_NNS to_TO do_VB the_DT job_NN ._.
+Our_PRP$ military_JJ forces_NNS are_VBP strong_JJ and_CC ready_JJ ._.
+This_DT military_JJ strength_NN deters_VBZ aggression_NN against_IN our_PRP$ allies_NNS ,_, stabilizes_VBZ our_PRP$ relations_NNS with_IN former_JJ adversaries_NNS ,_, and_CC protects_VBZ our_PRP$ homeland_NN ._.
+Fully_RB adequate_JJ conventional_JJ and_CC strategic_JJ forces_NNS cost_VBD many_JJ ,_, many_JJ billions_NNS ,_, but_CC these_DT dollars_NNS are_VBP sound_JJ insurance_NN for_IN our_PRP$ safety_NN and_CC for_IN a_DT more_RBR peaceful_JJ world_NN ._.
+Military_JJ strength_NN alone_RB is_VBZ not_RB sufficient_JJ ._.
+Effective_JJ diplomacy_NN is_VBZ also_RB essential_JJ in_IN preventing_VBG conflict_NN ,_, in_IN building_NN world_NN understanding_NN ._.
+The_DT Vladivostok_NNP negotiations_NNS with_IN the_DT Soviet_NNP Union_NNP represent_VBP a_DT major_JJ step_NN in_IN moderating_VBG strategic_JJ arms_NNS competition_NN ._.
+My_PRP$ recent_JJ discussions_NNS with_IN the_DT leaders_NNS of_IN the_DT Atlantic_NNP community_NN ,_, Japan_NNP ,_, and_CC South_NNP Korea_NNP have_VBP contributed_VBN to_TO meeting_VBG the_DT common_JJ challenge_NN ._.
+But_CC we_PRP have_VBP serious_JJ problems_NNS before_IN us_PRP that_IN require_VBP cooperation_NN between_IN the_DT President_NNP and_CC the_DT Congress_NNP ._.
+By_IN the_DT Constitution_NNP and_CC tradition_NN ,_, the_DT execution_NN of_IN foreign_JJ policy_NN is_VBZ the_DT responsibility_NN of_IN the_DT President_NNP ._.
+In_IN recent_JJ years_NNS ,_, under_IN the_DT stress_NN of_IN the_DT Vietnam_NNP war_NN ,_, legislative_JJ restrictions_NNS on_IN the_DT President_NNP 's_POS ability_NN to_TO execute_VB foreign_JJ policy_NN and_CC military_JJ decisions_NNS have_VBP proliferated_VBN ._.
+As_IN a_DT Member_NNP of_IN the_DT Congress_NNP ,_, I_PRP opposed_VBD some_DT and_CC I_PRP approved_VBD others_NNS ._.
+As_IN President_NNP ,_, I_PRP welcome_VBP the_DT advice_NN and_CC cooperation_NN of_IN the_DT House_NNP and_CC the_DT Senate_NNP ._.
+But_CC if_IN our_PRP$ foreign_JJ policy_NN is_VBZ to_TO be_VB successful_JJ ,_, we_PRP can_MD not_RB rigidly_RB restrict_VB in_IN legislation_NN the_DT ability_NN of_IN the_DT President_NNP to_TO act_VB ._.
+The_DT conduct_NN of_IN negotiations_NNS is_VBZ ill-suited_JJ to_TO such_JJ limitations_NNS ._.
+Legislative_JJ restrictions_NNS ,_, intended_VBN for_IN the_DT best_JJS motives_NNS and_CC purposes_NNS ,_, can_MD have_VB the_DT opposite_JJ result_NN ,_, as_IN we_PRP have_VBP seen_VBN most_RBS recently_RB in_IN our_PRP$ trade_NN relations_NNS with_IN the_DT Soviet_NNP Union_NNP ._.
+For_IN my_PRP$ part_NN ,_, I_PRP pledge_NN this_DT Administration_NN will_MD act_VB in_IN the_DT closest_JJS consultation_NN with_IN the_DT Congress_NNP as_IN we_PRP face_VBP delicate_JJ situations_NNS and_CC troubled_JJ times_NNS throughout_IN the_DT globe_NN ._.
+When_WRB I_PRP became_VBD President_NNP only_RB 5_CD months_NNS ago_RB ,_, I_PRP promised_VBD the_DT last_JJ Congress_NNP a_DT policy_NN of_IN communication_NN ,_, conciliation_NN ,_, compromise_NN ,_, and_CC cooperation_NN ._.
+I_PRP renew_VBP that_IN pledge_NN to_TO the_DT new_JJ Members_NNS of_IN this_DT Congress_NNP ._.
+Let_VB me_PRP sum_VB it_PRP up_RP ._.
+America_NNP needs_VBZ a_DT new_JJ direction_NN ,_, which_WDT I_PRP have_VBP sought_VBN to_TO chart_VB here_RB today_NN --_: a_DT change_NN of_IN course_NN which_WDT will_MD :_: put_VB the_DT unemployed_JJ back_NN to_TO work_VB ;_: increase_NN real_JJ income_NN and_CC production_NN ;_: restrain_VB the_DT growth_NN of_IN Federal_NNP Government_NNP spending_NN ;_: achieve_VB energy_NN independence_NN ;_: and_CC advance_VB the_DT cause_NN of_IN world_NN understanding_NN ._.
+We_PRP have_VBP the_DT ability_NN ._.
+We_PRP have_VBP the_DT know-how_NN ._.
+In_IN partnership_NN with_IN the_DT American_JJ people_NNS ,_, we_PRP will_MD achieve_VB these_DT objectives_NNS ._.
+As_IN our_PRP$ 200th_JJ anniversary_NN approaches_NNS ,_, we_PRP owe_VBP it_PRP to_TO ourselves_PRP and_CC to_TO posterity_NN to_TO rebuild_VB our_PRP$ political_JJ and_CC economic_JJ strength_NN ._.
+Let_VB us_PRP make_VB America_NNP once_RB again_RB and_CC for_IN centuries_NNS more_JJR to_TO come_VB what_WP it_PRP has_VBZ so_RB long_RB been_VBN --_: a_DT stronghold_NN and_CC a_DT beacon-light_NN of_IN liberty_NN for_IN the_DT whole_JJ world_NN ._.
+Thank_VB you_PRP ._.

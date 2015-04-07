@@ -1,85 +1,9 @@
 timestep: 1:
 for point r_t = 0:
-likelihood: 7.6471637318201788e-043
-:
-joint: 1.274526778825781e-043
-for point r_t = 1:
-likelihood: 4.376838599182411e-063
-:
-joint: 3.647365791107916e-063
-timestep: 2:
-for point r_t = 0:
-likelihood: 7.6471637318201788e-043
-:
-joint: 1.274526778825781e-043
-for point r_t = 1:
-likelihood: 4.376838599182411e-063
-:
-joint: 3.647365791107916e-063
-for point r_t = 2:
-likelihood: 3.4272801602489452e-082
-:
-joint: 8.1733246806807921e-102
-timestep: 3:
-for point r_t = 0:
-likelihood: 7.6471637318201788e-043
-:
-joint: 1.274526778825781e-043
-for point r_t = 1:
-likelihood: 4.376838599182411e-063
-:
-joint: 3.647365791107916e-063
-for point r_t = 2:
-likelihood: 3.4272801602489452e-082
-:
-joint: 8.1733246806807921e-102
-for point r_t = 3:
-likelihood: 7.4316295438687407e-101
-:
-joint: 3.9714822680977908e-159
-timestep: 4:
-for point r_t = 0:
-likelihood: 1.605904383682233e-036
-:
-joint: 2.6765062355341323e-037
-for point r_t = 1:
-likelihood: 4.376838599182411e-063
-:
-joint: 3.647365791107916e-063
-for point r_t = 2:
-likelihood: 3.4272801602489452e-082
-:
-joint: 8.1733246806807921e-102
-for point r_t = 3:
-likelihood: 7.4316295438687407e-101
-:
-joint: 3.9714822680977908e-159
-for point r_t = 4:
-likelihood: 3.5769893861225987e-140
-:
-joint: 9.2883827502652988e-256
-timestep: 5:
-for point r_t = 0:
-likelihood: 1.605904383682233e-036
-:
-joint: 2.6765062355341323e-037
-for point r_t = 1:
-likelihood: 4.376838599182411e-063
-:
-joint: 3.647365791107916e-063
-for point r_t = 2:
-likelihood: 3.4272801602489452e-082
-:
-joint: 3.8920593717527682e-108
-for point r_t = 3:
-likelihood: 7.4316295438687407e-101
-:
-joint: 1.891182032427525e-165
-for point r_t = 4:
-likelihood: 3.5769893861225987e-140
-:
-joint: 4.4230394048882508e-262
-for point r_t = 5:
-likelihood: 4.5475586699890486e-162
+likelihood: -0
 :
 joint: 0
+for point r_t = 1:
+likelihood: -0
+:
+joint: -0

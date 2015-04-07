@@ -1,0 +1,163 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1979-Carter.txt 
+Tonight_NNP I_PRP want_VBP to_TO examine_VB in_IN a_DT broad_JJ sense_NN the_DT state_NN of_IN our_PRP$ American_NNP Union_NNP --_: how_WRB we_PRP are_VBP building_VBG a_DT new_JJ foundation_NN for_IN a_DT peaceful_JJ and_CC a_DT prosperous_JJ world_NN ._.
+Our_PRP$ children_NNS who_WP will_MD be_VB born_VBN this_DT year_NN will_MD come_VB of_IN age_NN in_IN the_DT 21st_JJ century_NN ._.
+What_WP kind_NN of_IN society_NN ,_, what_WP kind_NN of_IN world_NN are_VBP we_PRP building_VBG for_IN them_PRP ?_.
+Will_MD we_PRP ourselves_PRP be_VB at_IN peace_NN ?_.
+Will_MD our_PRP$ children_NNS enjoy_VBP a_DT better_JJR quality_NN of_IN life_NN ?_.
+Will_MD a_DT strong_JJ and_CC united_VBD America_NNP still_RB be_VB a_DT force_NN for_IN freedom_NN and_CC prosperity_NN around_IN the_DT world_NN ?_.
+Tonight_NNP ,_, there_EX is_VBZ every_DT sign_NN that_IN the_DT state_NN of_IN our_PRP$ Union_NNP is_VBZ sound_JJ ._.
+Our_PRP$ economy_NN offers_VBZ greater_JJR prosperity_NN for_IN more_JJR of_IN our_PRP$ people_NNS than_IN ever_RB before_RB ._.
+Real_JJ per_IN capita_NN income_NN and_CC real_JJ business_NN profits_NNS have_VBP risen_VBN substantially_RB in_IN the_DT last_JJ 2_CD years_NNS ._.
+Farm_NNP exports_NNS are_VBP setting_VBG an_DT all-time_JJ record_NN each_DT year_NN ,_, and_CC farm_NN income_NN last_JJ year_NN ,_, net_JJ farm_NN income_NN ,_, was_VBD up_RB more_JJR than_IN 25_CD percent_NN ._.
+Our_PRP$ liberties_NNS are_VBP secure_JJ ._.
+Our_PRP$ military_JJ defenses_NNS are_VBP strong_JJ and_CC growing_VBG stronger_JJR ._.
+And_CC more_RBR importantly_RB ,_, tonight_RB ,_, America_NNP --_: our_PRP$ beloved_JJ country_NN --_: is_VBZ at_IN peace_NN ._.
+Our_PRP$ earliest_JJS national_JJ commitments_NNS ,_, modified_VBN and_CC reshaped_VBN by_IN succeeding_VBG generations_NNS ,_, have_VBP served_VBN us_PRP well_RB ._.
+But_CC the_DT problems_NNS that_IN we_PRP face_VBP today_NN are_VBP different_JJ from_IN those_DT that_WDT confronted_VBD earlier_JJR generations_NNS of_IN Americans_NNPS ._.
+They_PRP are_VBP more_RBR subtle_JJ ,_, more_RBR complex_JJ ,_, and_CC more_RBR interrelated_JJ ._.
+At_IN home_NN ,_, we_PRP are_VBP recognizing_VBG ever_RB more_RBR clearly_RB that_IN government_NN alone_RB can_MD not_RB solve_VB these_DT problems_NNS ._.
+And_CC abroad_RB ,_, few_JJ of_IN them_PRP can_MD be_VB solved_VBN by_IN the_DT United_NNP States_NNPS alone_RB ._.
+But_CC Americans_NNPS as_IN a_DT united_VBN people_NNS ,_, working_VBG with_IN our_PRP$ allies_NNS and_CC friends_NNS ,_, have_VBP never_RB been_VBN afraid_JJ to_TO face_VB problems_NNS and_CC to_TO solve_VB problems_NNS ,_, either_CC here_RB or_CC abroad_RB ._.
+The_DT challenge_NN to_TO us_PRP is_VBZ to_TO build_VB a_DT new_JJ and_CC firmer_JJR foundation_NN for_IN the_DT future_NN --_: for_IN a_DT sound_JJ economy_NN ,_, for_IN a_DT more_RBR effective_JJ government_NN ,_, for_IN more_JJR political_JJ trust_NN ,_, and_CC for_IN a_DT stable_JJ peace_NN --_: so_RB that_IN the_DT America_NNP our_PRP$ children_NNS inherit_VBP will_MD be_VB even_RB stronger_JJR and_CC even_RB better_JJR than_IN it_PRP is_VBZ today_NN ._.
+We_PRP can_MD not_RB resort_VB to_TO simplistic_JJ or_CC extreme_JJ solutions_NNS which_WDT substitute_VBP myths_NNS for_IN common_JJ sense_NN ._.
+In_IN our_PRP$ economy_NN ,_, it_PRP is_VBZ a_DT myth_NN that_IN we_PRP must_MD choose_VB endlessly_RB between_IN inflation_NN and_CC recession_NN ._.
+Together_RB ,_, we_PRP build_VBP the_DT foundation_NN for_IN a_DT strong_JJ economy_NN ,_, with_IN lower_JJR inflation_NN ,_, without_IN contriving_VBG either_CC a_DT recession_NN with_IN its_PRP$ high_JJ unemployment_NN or_CC unworkable_JJ ,_, mandatory_JJ government_NN controls_NNS ._.
+In_IN our_PRP$ government_NN ,_, it_PRP is_VBZ a_DT myth_NN that_IN we_PRP must_MD choose_VB between_IN compassion_NN and_CC competence_NN ._.
+Together_RB ,_, we_PRP build_VBP the_DT foundation_NN for_IN a_DT government_NN that_WDT works_VBZ ,_, and_CC works_VBZ for_IN people_NNS ._.
+In_IN our_PRP$ relations_NNS with_IN our_PRP$ potential_JJ adversaries_NNS ,_, it_PRP is_VBZ a_DT myth_NN that_IN we_PRP must_MD choose_VB between_IN confrontation_NN and_CC capitulation_NN ._.
+Together_RB ,_, we_PRP build_VBP the_DT foundation_NN for_IN a_DT stable_JJ world_NN of_IN both_DT diversity_NN and_CC peace_NN ._.
+Together_RB ,_, we_PRP 've_VBP already_RB begun_VBN to_TO build_VB the_DT foundation_NN for_IN confidence_NN in_IN our_PRP$ economic_JJ system_NN ._.
+During_IN the_DT last_JJ 2_CD years_NNS ,_, in_IN bringing_VBG our_PRP$ economy_NN out_IN of_IN the_DT deepest_JJS recession_NN since_IN the_DT 1930_CD 's_POS ,_, we_PRP 've_VBP created_VBN 7,100,000_CD new_JJ jobs_NNS ._.
+The_DT unemployment_NN rate_NN has_VBZ gone_VBN down_RB 25_CD percent_NN ._.
+And_CC now_RB we_PRP must_MD redouble_VB our_PRP$ fight_NN against_IN the_DT persistent_JJ inflation_NN that_WDT has_VBZ wracked_VBN our_PRP$ country_NN for_IN more_JJR than_IN a_DT decade_NN ._.
+That_DT 's_VBZ our_PRP$ important_JJ domestic_JJ issue_NN ,_, and_CC we_PRP must_MD do_VB it_PRP together_RB ._.
+We_PRP know_VBP that_DT inflation_NN is_VBZ a_DT burden_NN for_IN all_DT Americans_NNPS ,_, but_CC it_PRP 's_VBZ a_DT disaster_NN for_IN the_DT poor_JJ ,_, the_DT sick_JJ ,_, and_CC the_DT old_JJ ._.
+No_DT American_NNP family_NN should_MD be_VB forced_VBN to_TO choose_VB among_IN food_NN ,_, warmth_NN ,_, health_NN care_NN ,_, or_CC decent_JJ housing_NN because_IN the_DT cost_NN of_IN any_DT of_IN these_DT basic_JJ necessities_NNS has_VBZ climbed_VBN out_IN of_IN reach_NN ._.
+Three_CD months_NNS ago_RB ,_, I_PRP outlined_VBD to_TO the_DT Nation_NN a_DT balanced_JJ anti-inflation_NN program_NN that_WDT couples_NNS responsible_JJ government_NN restraint_NN with_IN responsible_JJ wage_NN and_CC price_NN restraint_NN ._.
+It_PRP 's_VBZ based_VBN upon_IN my_PRP$ knowledge_NN that_IN there_EX is_VBZ a_DT more_RBR powerful_JJ force_NN than_IN government_NN compulsion_NN --_: the_DT force_NN created_VBN by_IN the_DT cooperative_JJ efforts_NNS of_IN millions_NNS of_IN Americans_NNPS working_VBG toward_IN a_DT common_JJ goal_NN ._.
+Business_NN and_CC labor_NN have_VBP been_VBN increasingly_RB supportive_JJ ._.
+It_PRP 's_VBZ imperative_JJ that_IN we_PRP in_IN government_NN do_VBP our_PRP$ part_NN ._.
+We_PRP must_MD stop_VB excessive_JJ government_NN growth_NN ,_, and_CC we_PRP must_MD control_VB government_NN spending_NN habits_NNS ._.
+I_PRP 've_VBP sent_VBN to_TO this_DT Congress_NNP a_DT stringent_JJ but_CC a_DT fair_JJ budget_NN ,_, one_CD that_WDT ,_, since_IN I_PRP ran_VBD for_IN President_NNP in_IN 1976_CD ,_, will_MD have_VB cut_VBN the_DT Federal_NNP deficit_NN in_IN half_NN ._.
+And_CC as_IN a_DT percentage_NN of_IN our_PRP$ gross_JJ national_JJ product_NN ,_, the_DT deficit_NN will_MD have_VB dropped_VBN by_IN almost_RB 75_CD percent_NN ._.
+This_DT Congress_NNP had_VBD a_DT good_JJ record_NN last_JJ year_NN ,_, and_CC I_PRP now_RB ask_VBP the_DT 96th_JJ Congress_NNP to_TO continue_VB this_DT partnership_NN in_IN holding_VBG the_DT line_NN on_IN excess_JJ Federal_JJ spending_NN ._.
+It_PRP will_MD not_RB be_VB easy_JJ ._.
+But_CC we_PRP must_MD be_VB strong_JJ ,_, and_CC we_PRP must_MD be_VB persistent_JJ ._.
+This_DT budget_NN is_VBZ a_DT clear_JJ message_NN that_IN ,_, with_IN the_DT help_NN of_IN you_PRP and_CC the_DT American_JJ people_NNS ,_, I_PRP am_VBP determined_VBN ,_, as_IN President_NNP ,_, to_TO bring_VB inflation_NN under_IN control_NN ._.
+The_DT 1980_CD budget_NN provides_VBZ enough_JJ spending_NN restraint_NN to_TO begin_VB unwinding_VBG inflation_NN ,_, but_CC enough_JJ support_NN for_IN our_PRP$ country_NN to_TO keep_VB American_JJ workers_NNS productive_JJ and_CC to_TO encourage_VB the_DT investments_NNS that_WDT provide_VBP new_JJ jobs_NNS ._.
+We_PRP will_MD continue_VB to_TO mobilize_VB our_PRP$ Nation_NN 's_POS resources_NNS to_TO reduce_VB our_PRP$ trade_NN deficit_NN substantially_RB this_DT year_NN and_CC to_TO maintain_VB the_DT strength_NN of_IN the_DT American_JJ dollar_NN ._.
+We_PRP 've_VBP demonstrated_VBN in_IN this_DT restrained_JJ budget_NN that_IN we_PRP can_MD build_VB on_IN the_DT gains_NNS of_IN the_DT past_JJ 2_CD years_NNS to_TO provide_VB additional_JJ support_NN to_TO educate_VB disadvantaged_JJ children_NNS ,_, to_TO care_VB for_IN the_DT elderly_JJ ,_, to_TO provide_VB nutrition_NN and_CC legal_JJ services_NNS for_IN the_DT poor_JJ ,_, and_CC to_TO strengthen_VB the_DT economic_JJ base_NN of_IN our_PRP$ urban_JJ communities_NNS and_CC ,_, also_RB ,_, our_PRP$ rural_JJ areas_NNS ._.
+This_DT year_NN ,_, we_PRP will_MD take_VB our_PRP$ first_JJ steps_NNS to_TO develop_VB a_DT national_JJ health_NN plan_NN ._.
+We_PRP must_MD never_RB accept_VB a_DT permanent_JJ group_NN of_IN unemployed_JJ Americans_NNPS ,_, with_IN no_DT hope_NN and_CC no_DT stake_NN in_IN building_VBG our_PRP$ society_NN ._.
+For_IN those_DT left_VBN out_IN of_IN the_DT economy_NN because_IN of_IN discrimination_NN ,_, a_DT lack_NN of_IN skills_NNS ,_, or_CC poverty_NN ,_, we_PRP must_MD maintain_VB high_JJ levels_NNS of_IN training_NN ,_, and_CC we_PRP must_MD continue_VB to_TO provide_VB jobs_NNS ._.
+A_DT responsible_JJ budget_NN is_VBZ not_RB our_PRP$ only_JJ weapon_NN to_TO control_VB inflation_NN ._.
+We_PRP must_MD act_VB now_RB to_TO protect_VB all_DT Americans_NNPS from_IN health_NN care_NN costs_NNS that_WDT are_VBP rising_VBG $_$ 1_CD million_CD per_IN hour_NN ,_, 24_CD hours_NNS a_DT day_NN ,_, doubling_VBG every_DT 5_CD years_NNS ._.
+We_PRP must_MD take_VB control_NN of_IN the_DT largest_JJS contributor_NN to_TO that_DT inflation_NN :_: skyrocketing_VBG hospital_NN costs_NNS ._.
+There_EX will_MD be_VB no_DT clearer_JJR test_NN of_IN the_DT commitment_NN of_IN this_DT Congress_NNP to_TO the_DT anti-inflation_NN fight_NN than_IN the_DT legislation_NN that_IN I_PRP will_MD submit_VB again_RB this_DT year_NN to_TO hold_VB down_RP inflation_NN in_IN hospital_NN care_NN ._.
+Over_IN the_DT next_JJ 5_CD years_NNS ,_, my_PRP$ proposals_NNS will_MD save_VB Americans_NNPS a_DT total_NN of_IN $_$ 60_CD billion_CD ,_, of_IN which_WDT $_$ 25_CD billion_CD will_MD be_VB savings_NNS to_TO the_DT American_JJ taxpayer_NN in_IN the_DT Federal_NNP budget_NN itself_PRP ._.
+The_DT American_JJ people_NNS have_VBP waited_VBN long_RB enough_RB ._.
+This_DT year_NN we_PRP must_MD act_VB on_IN hospital_NN cost_NN containment_NN ._.
+We_PRP must_MD also_RB fight_VB inflation_NN by_IN improvements_NNS and_CC better_JJR enforcement_NN of_IN our_PRP$ antitrust_JJ laws_NNS and_CC by_IN reducing_VBG government_NN obstacles_NNS to_TO competition_NN in_IN the_DT private_JJ sector_NN ._.
+We_PRP must_MD begin_VB to_TO scrutinize_VB the_DT overall_JJ effect_NN of_IN regulation_NN in_IN our_PRP$ economy_NN ._.
+Through_IN deregulation_NN of_IN the_DT airline_NN industry_NN we_PRP 've_VBP increased_VBN profits_NNS ,_, cut_NN prices_NNS for_IN all_DT Americans_NNPS ,_, and_CC begun_VBN --_: for_IN one_CD of_IN the_DT few_JJ times_NNS in_IN the_DT history_NN of_IN our_PRP$ Nation_NN --_: to_TO actually_RB dismantle_VB a_DT major_JJ Federal_NNP bureaucracy_NN ._.
+This_DT year_NN ,_, we_PRP must_MD begin_VB the_DT effort_NN to_TO reform_VB our_PRP$ regulatory_JJ processes_NNS for_IN the_DT railroad_NN ,_, bus_NN ,_, and_CC the_DT trucking_NN industries_NNS ._.
+America_NNP has_VBZ the_DT greatest_JJS economic_JJ system_NN in_IN the_DT world_NN ._.
+Let_NNP 's_POS reduce_VB government_NN interference_NN and_CC give_VB it_PRP a_DT chance_NN to_TO work_VB ._.
+I_PRP call_VBP on_IN Congress_NNP to_TO take_VB other_JJ anti-inflation_JJ action_NN --_: to_TO expand_VB our_PRP$ exports_NNS to_TO protect_VB American_JJ jobs_NNS threatened_VBN by_IN unfair_JJ trade_NN ,_, to_TO conserve_VB energy_NN ,_, to_TO increase_VB production_NN and_CC to_TO speed_VB development_NN of_IN solar_JJ power_NN ,_, and_CC to_TO reassess_NN our_PRP$ Nation_NN 's_POS technological_JJ superiority_NN ._.
+American_JJ workers_NNS who_WP enlist_VBP in_IN the_DT fight_NN against_IN inflation_NN deserve_VBP not_RB just_RB our_PRP$ gratitude_NN ,_, but_CC they_PRP deserve_VBP the_DT protection_NN of_IN the_DT real_JJ wage_NN insurance_NN proposal_NN that_IN I_PRP have_VBP already_RB made_VBN to_TO the_DT Congress_NNP ._.
+To_TO be_VB successful_JJ ,_, we_PRP must_MD change_VB our_PRP$ attitudes_NNS as_RB well_RB as_IN our_PRP$ policies_NNS ._.
+We_PRP can_MD not_RB afford_VB to_TO live_VB beyond_IN our_PRP$ means_NNS ._.
+We_PRP can_MD not_RB afford_VB to_TO create_VB programs_NNS that_IN we_PRP can_MD neither_RB manage_VB nor_CC finance_VB ,_, or_CC to_TO waste_VB our_PRP$ natural_JJ resources_NNS ,_, and_CC we_PRP can_MD not_RB tolerate_VB mismanagement_NN and_CC fraud_NN ._.
+Above_IN all_DT ,_, we_PRP must_MD meet_VB the_DT challenges_NNS of_IN inflation_NN as_IN a_DT united_VBN people_NNS ._.
+With_IN the_DT support_NN of_IN the_DT American_JJ people_NNS ,_, government_NN in_IN recent_JJ decades_NNS has_VBZ helped_VBN to_TO dismantle_VB racial_JJ barriers_NNS ,_, has_VBZ provided_VBN assistance_NN for_IN the_DT jobless_JJ and_CC the_DT retired_VBN ,_, has_VBZ fed_VBN the_DT hungry_JJ ,_, has_VBZ protected_VBN the_DT safety_NN ,_, health_NN ,_, and_CC bargaining_NN rights_NNS of_IN American_JJ workers_NNS ,_, and_CC has_VBZ helped_VBN to_TO preserve_VB our_PRP$ natural_JJ heritage_NN ._.
+But_CC it_PRP 's_VBZ not_RB enough_JJ to_TO have_VB created_VBN a_DT lot_NN of_IN government_NN programs_NNS ._.
+Now_RB we_PRP must_MD make_VB the_DT good_JJ programs_NNS more_RBR effective_JJ and_CC improve_VB or_CC weed_NN out_IN those_DT which_WDT are_VBP wasteful_JJ or_CC unnecessary_JJ ._.
+With_IN the_DT support_NN of_IN the_DT Congress_NNP ,_, we_PRP 've_VBP begun_VBN to_TO reorganize_VB and_CC to_TO get_VB control_NN of_IN the_DT bureaucracy_NN ._.
+We_PRP are_VBP reforming_VBG the_DT civil_JJ service_NN system_NN ,_, so_RB that_IN we_PRP can_MD recognize_VB and_CC reward_VB those_DT who_WP do_VBP a_DT good_JJ job_NN and_CC correct_JJ or_CC remove_VB those_DT who_WP do_VBP not_RB ._.
+This_DT year_NN ,_, we_PRP must_MD extend_VB major_JJ reorganization_NN efforts_NNS to_TO education_NN ,_, to_TO economic_JJ development_NN ,_, and_CC to_TO the_DT management_NN of_IN our_PRP$ natural_JJ resources_NNS ._.
+We_PRP need_VBP to_TO enact_VB a_DT sunshine_NN -LSB-_NNP sunset_NN -RSB-_NNP law_NN that_WDT when_WRB government_NN programs_NNS have_VBP outlived_VBN their_PRP$ value_NN ,_, they_PRP will_MD automatically_RB be_VB terminated_VBN ._.
+There_EX 's_VBZ no_DT such_JJ thing_NN as_IN an_DT effective_JJ and_CC a_DT noncontroversial_JJ reorganization_NN and_CC reform_NN ._.
+But_CC we_PRP know_VBP that_IN honest_JJ ,_, effective_JJ government_NN is_VBZ essential_JJ to_TO restore_VB public_JJ faith_NN in_IN our_PRP$ public_JJ action_NN ._.
+None_NN of_IN us_PRP can_MD be_VB satisfied_VBN when_WRB two-thirds_NNS of_IN the_DT American_JJ citizens_NNS chose_VBD not_RB to_TO vote_VB last_JJ year_NN in_IN a_DT national_JJ election_NN ._.
+Too_RB many_JJ Americans_NNPS feel_VBP powerless_JJ against_IN the_DT influence_NN of_IN private_JJ lobbying_NN groups_NNS and_CC the_DT unbelievable_JJ flood_NN of_IN private_JJ campaign_NN money_NN which_WDT threatens_VBZ our_PRP$ electoral_JJ process_NN ._.
+This_DT year_NN ,_, we_PRP must_MD regain_VB the_DT public_NN 's_POS faith_NN by_IN requiring_VBG limited_JJ financial_JJ funds_NNS from_IN public_JJ funds_NNS for_IN congressional_JJ election_NN campaigns_NNS ._.
+House_NNP bill_NN 1_CD provides_VBZ for_IN this_DT public_JJ financing_NN of_IN campaigns_NNS ._.
+And_CC I_PRP look_VBP forward_RB with_IN a_DT great_JJ deal_NN of_IN anticipation_NN to_TO signing_VBG it_PRP at_IN an_DT early_JJ date_NN ._.
+A_DT strong_JJ economy_NN and_CC an_DT effective_JJ government_NN will_MD restore_VB confidence_NN in_IN America_NNP ._.
+But_CC the_DT path_NN of_IN the_DT future_NN must_MD be_VB charted_VBN in_IN peace_NN ._.
+We_PRP must_MD continue_VB to_TO build_VB a_DT new_JJ and_CC a_DT firm_NN foundation_NN for_IN a_DT stable_JJ world_NN community_NN ._.
+We_PRP are_VBP building_VBG that_IN new_JJ foundation_NN from_IN a_DT position_NN of_IN national_JJ strength_NN --_: the_DT strength_NN of_IN our_PRP$ own_JJ defenses_NNS ,_, the_DT strength_NN of_IN our_PRP$ friendships_NNS with_IN other_JJ nations_NNS ,_, and_CC of_IN our_PRP$ oldest_JJS American_JJ ideals_NNS ._.
+America_NNP 's_POS military_JJ power_NN is_VBZ a_DT major_JJ force_NN for_IN security_NN and_CC stability_NN in_IN the_DT world_NN ._.
+We_PRP must_MD maintain_VB our_PRP$ strategic_JJ capability_NN and_CC continue_VB the_DT progress_NN of_IN the_DT last_JJ 2_CD years_NNS with_IN our_PRP$ NATO_NNP Allies_NNS ,_, with_IN whom_WP we_PRP have_VBP increased_VBN our_PRP$ readiness_NN ,_, modernized_VBN our_PRP$ equipment_NN ,_, and_CC strengthened_VBD our_PRP$ defense_NN forces_NNS in_IN Europe_NNP ._.
+I_PRP urge_VBP you_PRP to_TO support_VB the_DT strong_JJ defense_NN budget_NN which_WDT I_PRP have_VBP proposed_VBN to_TO the_DT Congress_NNP ._.
+But_CC our_PRP$ national_JJ security_NN in_IN this_DT complicated_JJ age_NN requires_VBZ more_JJR than_IN just_RB military_JJ might_NN ._.
+In_IN less_JJR than_IN a_DT lifetime_NN ,_, world_NN population_NN has_VBZ more_JJR than_IN doubled_VBD ,_, colonial_JJ empires_NNS have_VBP disappeared_VBN ,_, and_CC a_DT hundred_CD new_JJ nations_NNS have_VBP been_VBN born_VBN ,_, and_CC migration_NN to_TO the_DT world_NN 's_POS cities_NNS have_VBP all_DT awakened_VBN new_JJ yearnings_NNS for_IN economic_JJ justice_NN and_CC human_JJ rights_NNS among_IN people_NNS everywhere_RB ._.
+This_DT demand_NN for_IN justice_NN and_CC human_JJ rights_NNS is_VBZ a_DT wave_NN of_IN the_DT future_NN ._.
+In_IN such_PDT a_DT world_NN ,_, the_DT choice_NN is_VBZ not_RB which_WDT super_JJ power_NN will_MD dominate_VB the_DT world_NN ._.
+None_NN can_MD and_CC none_NN will_MD ._.
+The_DT choice_NN instead_RB is_VBZ between_IN a_DT world_NN of_IN anarchy_NN and_CC destruction_NN ,_, or_CC a_DT world_NN of_IN cooperation_NN and_CC peace_NN ._.
+In_IN such_PDT a_DT world_NN ,_, we_PRP seek_VBP not_RB to_TO stifle_VB inevitable_JJ change_NN ,_, but_CC to_TO influence_VB its_PRP$ course_NN in_IN helpful_JJ and_CC constructive_JJ ways_NNS that_WDT enhance_VBP our_PRP$ values_NNS ,_, our_PRP$ national_JJ interests_NNS ,_, and_CC the_DT cause_NN of_IN peace_NN ._.
+Towering_VBG over_IN this_DT volatile_JJ ,_, changing_VBG world_NN ,_, like_IN a_DT thundercloud_NN on_IN a_DT summer_NN day_NN ,_, looms_VBZ the_DT awesome_JJ power_NN of_IN nuclear_JJ weapons_NNS ._.
+We_PRP will_MD continue_VB to_TO help_VB shape_VB the_DT forces_NNS of_IN change_NN ,_, to_TO anticipate_VB emerging_VBG problems_NNS of_IN nuclear_JJ proliferation_NN and_CC conventional_JJ arms_NNS sales_NNS ,_, and_CC to_TO use_VB our_PRP$ great_JJ strength_NN parts_NNS of_IN the_DT world_NN before_IN they_PRP erupt_VBP and_CC spread_VBP ._.
+We_PRP have_VBP no_DT desire_NN to_TO be_VB the_DT world_NN 's_POS policeman_NN ._.
+But_CC America_NNP does_VBZ want_VB to_TO be_VB the_DT world_NN 's_POS peacemaker_NN ._.
+We_PRP are_VBP building_VBG the_DT foundation_NN for_IN truly_RB global_JJ cooperation_NN ,_, not_RB only_RB with_IN Western_JJ and_CC industrialized_JJ nations_NNS but_CC with_IN the_DT developing_VBG countries_NNS as_RB well_RB ._.
+Our_PRP$ ties_NNS with_IN Japan_NNP and_CC our_PRP$ European_JJ allies_NNS are_VBP stronger_JJR than_IN ever_RB ,_, and_CC so_RB are_VBP our_PRP$ friendly_JJ relations_NNS with_IN the_DT people_NNS of_IN Latin_NNP America_NNP ,_, Africa_NNP ,_, and_CC the_DT Western_NNP Pacific_NNP and_CC Asia_NNP ._.
+We_PRP 've_VBP won_VBN new_JJ respect_NN in_IN this_DT hemisphere_NN with_IN the_DT Panama_NNP Canal_NNP treaties_NNS ._.
+We_PRP 've_VBP gained_VBN new_JJ trust_NN with_IN the_DT developing_VBG world_NN through_IN our_PRP$ opposition_NN to_TO racism_NN ,_, our_PRP$ commitment_NN to_TO human_JJ rights_NNS ,_, and_CC our_PRP$ support_NN for_IN majority_NN rule_NN in_IN Africa_NNP ._.
+The_DT multilateral_JJ trade_NN negotiations_NNS are_VBP now_RB reaching_VBG a_DT successful_JJ conclusion_NN ,_, and_CC congressional_JJ approval_NN is_VBZ essential_JJ to_TO the_DT economic_JJ well-being_NN of_IN our_PRP$ own_JJ country_NN and_CC of_IN the_DT world_NN ._.
+This_DT will_MD be_VB one_CD of_IN our_PRP$ top_JJ priorities_NNS in_IN 1979_CD ._.
+We_PRP are_VBP entering_VBG a_DT hopeful_JJ era_NN in_IN our_PRP$ relations_NNS with_IN one-fourth_NN of_IN the_DT world_NN 's_POS people_NNS who_WP live_VBP in_IN China_NNP ._.
+The_DT presence_NN of_IN Vice_NNP Premier_NNP Deng_NNP Xiaoping_NNP next_JJ week_NN will_MD help_VB to_TO inaugurate_VB that_IN new_JJ era_NN ._.
+And_CC with_IN prompt_JJ congressional_JJ action_NN on_IN authorizing_VBG legislation_NN ,_, we_PRP will_MD continue_VB our_PRP$ commitment_NN to_TO a_DT prosperous_JJ ,_, peaceful_JJ ,_, and_CC secure_JJ life_NN for_IN the_DT people_NNS of_IN Taiwan_NNP ._.
+I_PRP 'm_VBP grateful_JJ that_IN in_IN the_DT past_JJ year_NN ,_, as_IN in_IN the_DT year_NN before_RB ,_, no_DT American_NNP has_VBZ died_VBN in_IN combat_NN anywhere_RB in_IN the_DT world_NN ._.
+And_CC in_IN Iran_NNP ,_, Nicaragua_NNP ,_, Cyprus_NNP ,_, Namibia_NNP ,_, and_CC Rhodesia_NNP ,_, our_PRP$ country_NN is_VBZ working_VBG for_IN peaceful_JJ solutions_NNS to_TO dangerous_JJ conflicts_NNS ._.
+In_IN the_DT Middle_NNP East_NNP ,_, under_IN the_DT most_RBS difficult_JJ circumstances_NNS ,_, we_PRP have_VBP sought_VBN to_TO help_VB ancient_JJ enemies_NNS lay_VBD aside_RB deep-seated_JJ differences_NNS that_WDT have_VBP produced_VBN four_CD bitter_JJ wars_NNS in_IN our_PRP$ lifetime_NN ._.
+Our_PRP$ firm_NN commitment_NN to_TO Israel_NNP 's_POS survival_NN and_CC security_NN is_VBZ rooted_VBN in_IN our_PRP$ deepest_JJS convictions_NNS and_CC in_IN our_PRP$ knowledge_NN of_IN the_DT strategic_JJ importance_NN to_TO our_PRP$ own_JJ Nation_NN of_IN a_DT stable_JJ Middle_NNP East_NNP ._.
+To_TO promote_VB peace_NN and_CC reconciliation_NN in_IN the_DT region_NN ,_, we_PRP must_MD retain_VB the_DT trust_NN and_CC the_DT confidence_NN both_DT of_IN Israel_NNP and_CC also_RB of_IN the_DT Arab_NNP nations_NNS that_WDT are_VBP sincerely_RB searching_VBG for_IN peace_NN ._.
+I_PRP am_VBP determined_VBN ,_, as_IN President_NNP ,_, to_TO use_VB the_DT full_JJ ,_, beneficial_JJ influence_NN of_IN our_PRP$ country_NN so_IN that_IN the_DT precious_JJ opportunity_NN for_IN lasting_JJ peace_NN between_IN Israel_NNP and_CC Egypt_NNP will_MD not_RB be_VB lost_VBN ._.
+The_DT new_JJ foundation_NN of_IN international_JJ cooperation_NN that_IN we_PRP seek_VBP excludes_VBZ no_DT nation_NN ._.
+Cooperation_NNP with_IN the_DT Soviet_NNP Union_NNP serves_VBZ the_DT cause_NN of_IN peace_NN ,_, for_IN in_IN this_DT nuclear_JJ age_NN ,_, world_NN peace_NN must_MD include_VB peace_NN between_IN the_DT super_JJ powers_NNS --_: and_CC it_PRP must_MD mean_VB the_DT control_NN of_IN nuclear_JJ arms_NNS ._.
+Ten_CD years_NNS ago_RB ,_, the_DT United_NNP States_NNPS and_CC the_DT Soviet_NNP Union_NNP made_VBD the_DT historic_JJ decision_NN to_TO open_VB the_DT strategic_JJ arms_NNS limitations_NNS talks_NNS ,_, or_CC SALT_NNP ._.
+The_DT purpose_NN of_IN SALT_NNP ,_, then_RB as_IN now_RB ,_, is_VBZ not_RB to_TO gain_VB a_DT unilateral_JJ advantage_NN for_IN either_DT nation_NN ,_, but_CC to_TO protect_VB the_DT security_NN of_IN both_DT nations_NNS ,_, to_TO reverse_VB the_DT costly_JJ and_CC dangerous_JJ momentum_NN of_IN the_DT nuclear_JJ arms_NNS race_NN ,_, to_TO preserve_VB a_DT stable_JJ balance_NN of_IN nuclear_JJ forces_NNS ,_, and_CC to_TO demonstrate_VB to_TO a_DT concerned_JJ world_NN that_IN we_PRP are_VBP determined_VBN to_TO help_VB preserve_VB the_DT peace_NN ._.
+The_DT first_JJ SALT_NNP agreement_NN was_VBD concluded_VBN in_IN 1972_CD ._.
+And_CC since_IN then_RB ,_, during_IN 6_CD years_NNS of_IN negotiation_NN by_IN both_DT Republican_NNP and_CC Democratic_JJ leaders_NNS ,_, nearly_RB all_DT issues_NNS of_IN SALT_NNP II_NNP have_VBP been_VBN resolved_VBN ._.
+If_IN the_DT Soviet_NNP Union_NNP continues_VBZ to_TO negotiate_VB in_IN good_JJ faith_NN ,_, a_DT responsible_JJ SALT_NNP agreement_NN will_MD be_VB reached_VBN ._.
+It_PRP 's_VBZ important_JJ that_IN the_DT American_JJ people_NNS understand_VBP the_DT nature_NN of_IN the_DT SALT_NNP process_NN ._.
+SALT_NNP II_NNP is_VBZ not_RB based_VBN on_IN sentiment_NN ;_: it_PRP 's_VBZ based_VBN on_IN self-interest_NN --_: of_IN the_DT United_NNP States_NNPS and_CC of_IN the_DT Soviet_NNP Union_NNP ._.
+Both_DT nations_NNS share_VBP a_DT powerful_JJ common_JJ interest_NN in_IN reducing_VBG the_DT threat_NN of_IN a_DT nuclear_JJ war_NN ._.
+I_PRP will_MD sign_VB no_DT agreement_NN which_WDT does_VBZ not_RB enhance_VB our_PRP$ national_JJ security_NN ._.
+SALT_NNP II_NNP does_VBZ not_RB rely_VB on_IN trust_NN ;_: it_PRP will_MD be_VB verifiable_JJ ._.
+We_PRP have_VBP very_RB sophisticated_JJ ,_, proven_JJ means_NNS ,_, including_VBG our_PRP$ satellites_NNS ,_, to_TO determine_VB for_IN ourselves_PRP whether_IN or_CC not_RB the_DT Soviet_NNP Union_NNP is_VBZ meeting_VBG its_PRP$ treaty_NN obligations_NNS ._.
+I_PRP will_MD sign_VB no_DT agreement_NN which_WDT can_MD not_RB be_VB verified_VBN ._.
+The_DT American_JJ nuclear_JJ deterrent_NN will_MD remain_VB strong_JJ after_IN SALT_NNP II_NNP ._.
+For_IN example_NN ,_, just_RB one_CD of_IN our_PRP$ relatively_RB invulnerable_JJ Poseidon_NNP submarines_NNS --_: comprising_VBG less_JJR than_IN 2_CD percent_NN of_IN our_PRP$ total_JJ nuclear_JJ force_NN of_IN submarines_NNS ,_, aircraft_NN ,_, and_CC land-based_JJ missiles_NNS --_: carries_VBZ enough_JJ warheads_NNS to_TO destroy_VB every_DT large_JJ -_: and_CC medium-sized_JJ city_NN in_IN the_DT Soviet_NNP Union_NNP ._.
+Our_PRP$ deterrent_NN is_VBZ ovewhelming_VBG ,_, and_CC I_PRP will_MD sign_VB no_DT agreement_NN unless_IN our_PRP$ deterrent_NN force_NN will_MD remain_VB overwhelming_JJ ._.
+A_DT SALT_NNP agreement_NN ,_, of_IN course_NN ,_, can_MD not_RB substitute_VB for_IN wise_JJ diplomacy_NN or_CC a_DT strong_JJ defense_NN ,_, nor_CC will_MD it_PRP end_VB the_DT danger_NN of_IN nuclear_JJ war_NN ._.
+But_CC it_PRP will_MD certainly_RB reduce_VB that_DT danger_NN ._.
+It_PRP will_MD strengthen_VB our_PRP$ efforts_NNS to_TO ban_VB nuclear_JJ tests_NNS and_CC to_TO stop_VB the_DT spread_NN of_IN atomic_JJ weapons_NNS to_TO other_JJ nations_NNS ._.
+And_CC it_PRP can_MD begin_VB the_DT process_NN of_IN negotiating_VBG new_JJ agreements_NNS which_WDT will_MD further_RBR limit_VB nuclear_JJ arms_NNS ._.
+The_DT path_NN of_IN arms_NNS control_NN ,_, backed_VBN by_IN a_DT strong_JJ defense_NN ,_, the_DT path_NN our_PRP$ Nation_NN and_CC every_DT President_NNP has_VBZ walked_VBN for_IN 30_CD years_NNS ,_, can_MD lead_VB to_TO a_DT world_NN of_IN law_NN and_CC of_IN international_JJ negotiation_NN and_CC consultation_NN in_IN which_WDT all_DT peoples_NNS might_MD live_VB in_IN peace_NN ._.
+In_IN this_DT year_NN 1979_CD ,_, nothing_NN is_VBZ more_RBR important_JJ than_IN that_IN the_DT Congress_NNP and_CC the_DT people_NNS of_IN the_DT United_NNP States_NNPS resolve_VBP to_TO continue_VB with_IN me_PRP on_IN that_DT path_NN of_IN nuclear_JJ arms_NNS control_NN and_CC world_NN peace_NN ._.
+This_DT is_VBZ paramount_JJ ._.
+I_PRP 've_VBP outlined_VBN some_DT of_IN the_DT changes_NNS that_WDT have_VBP transformed_VBN the_DT world_NN and_CC which_WDT are_VBP continuing_VBG as_IN we_PRP meet_VBP here_RB tonight_RB ._.
+But_CC we_PRP in_IN America_NNP need_MD not_RB fear_VB change_NN ._.
+The_DT values_NNS on_IN which_WDT our_PRP$ Nation_NN was_VBD founded_VBN :_: individual_JJ liberty_NN ,_, self-determination_NN ,_, the_DT potential_NN for_IN human_JJ fulfillment_NN in_IN freedom_NN ,_, all_DT of_IN these_DT endure_VB ._.
+We_PRP find_VBP these_DT democratic_JJ principles_NNS praised_VBD ,_, even_RB in_IN books_NNS smuggled_VBD out_IN of_IN totalitarian_JJ nations_NNS and_CC on_IN wallposters_NNS in_IN lands_NNS which_WDT we_PRP thought_VBD were_VBD closed_VBN to_TO our_PRP$ influence_NN ._.
+Our_PRP$ country_NN has_VBZ regained_VBN its_PRP$ special_JJ place_NN of_IN leadership_NN in_IN the_DT worldwide_NN struggle_NN for_IN human_JJ rights_NNS ._.
+And_CC that_DT is_VBZ a_DT commitment_NN that_IN we_PRP must_MD keep_VB at_IN home_NN ,_, as_RB well_RB as_IN abroad_RB ._.
+The_DT civil_JJ rights_NNS revolution_NN freed_VBD all_DT Americans_NNPS ,_, black_JJ and_CC white_JJ ,_, but_CC its_PRP$ full_JJ promise_NN still_RB remains_VBZ unrealized_JJ ._.
+I_PRP will_MD continue_VB to_TO work_VB with_IN all_DT my_PRP$ strength_NN for_IN equal_JJ opportunity_NN for_IN all_DT Americans_NNPS --_: and_CC for_IN affirmative_JJ action_NN for_IN those_DT who_WP carry_VBP the_DT extra_JJ burden_NN of_IN past_JJ denial_NN of_IN equal_JJ opportunity_NN ._.
+We_PRP remain_VBP committed_JJ to_TO improving_VBG our_PRP$ labor_NN laws_NNS to_TO better_RBR protect_VB the_DT rights_NNS of_IN American_JJ workers_NNS ._.
+And_CC our_PRP$ Nation_NN must_MD make_VB it_PRP clear_JJ that_IN the_DT legal_JJ rights_NNS of_IN women_NNS as_IN citizens_NNS are_VBP guaranteed_VBN under_IN the_DT laws_NNS of_IN our_PRP$ land_NN by_IN ratifying_VBG the_DT equal_JJ rights_NNS amendment_NN ._.
+As_RB long_RB as_IN I_PRP 'm_VBP President_NNP ,_, at_IN home_NN and_CC around_IN the_DT world_NN America_NNP 's_POS examples_NNS and_CC America_NNP 's_POS influence_NN will_MD be_VB marshaled_VBN to_TO advance_VB the_DT cause_NN of_IN human_JJ rights_NNS ._.
+To_TO establish_VB those_DT values_NNS ,_, two_CD centuries_NNS ago_IN a_DT bold_JJ generation_NN of_IN Americans_NNPS risked_VBD their_PRP$ property_NN ,_, their_PRP$ position_NN ,_, and_CC life_NN itself_PRP ._.
+We_PRP are_VBP their_PRP$ heirs_NNS ,_, and_CC they_PRP are_VBP sending_VBG us_PRP a_DT message_NN across_IN the_DT centuries_NNS ._.
+The_DT words_NNS they_PRP made_VBD so_RB vivid_JJ are_VBP now_RB growing_VBG faintly_RB indistinct_JJ ,_, because_IN they_PRP are_VBP not_RB heard_VBN often_RB enough_RB ._.
+They_PRP are_VBP words_NNS like_IN ``_`` justice_NN ,_, ''_'' ``_`` equality_NN ,_, ''_'' ``_`` unity_NN ,_, ''_'' ``_`` truth_NN ,_, ''_'' ``_`` sacrifice_NN ,_, ''_'' ``_`` liberty_NN ,_, ''_'' ``_`` faith_NN ,_, ''_'' and_CC ``_`` love_NN ._. ''_''
+These_DT words_NNS remind_VB us_PRP that_IN the_DT duty_NN of_IN our_PRP$ generation_NN of_IN Americans_NNPS is_VBZ to_TO renew_VB our_PRP$ Nation_NN 's_POS faith_NN ,_, not_RB focused_VBD just_RB against_IN foreign_JJ threats_NNS but_CC against_IN the_DT threats_NNS of_IN selfishness_NN ,_, cynicism_NN ,_, and_CC apathy_NN ._.
+The_DT new_JJ foundation_NN I_PRP 've_VBP discussed_VBN tonight_NN can_MD help_VB us_PRP build_VB a_DT nation_NN and_CC a_DT world_NN where_WRB every_DT child_NN is_VBZ nurtured_VBN and_CC can_MD look_VB to_TO the_DT future_NN with_IN hope_NN ,_, where_WRB the_DT resources_NNS now_RB wasted_VBN on_IN war_NN can_MD be_VB turned_VBN towards_IN meeting_NN human_JJ needs_NNS ,_, where_WRB all_DT people_NNS have_VBP enough_RB to_TO eat_VB ,_, a_DT decent_JJ home_NN ,_, and_CC protection_NN against_IN disease_NN ._.
+It_PRP can_MD help_VB us_PRP build_VB a_DT nation_NN and_CC a_DT world_NN where_WRB all_DT people_NNS are_VBP free_JJ to_TO seek_VB the_DT truth_NN and_CC to_TO add_VB to_TO human_JJ understanding_NN ,_, so_RB that_IN all_DT of_IN us_PRP may_MD live_VB our_PRP$ lives_NNS in_IN peace_NN ._.
+Tonight_NNP ,_, I_PRP ask_VBP you_PRP ,_, the_DT Members_NNS of_IN the_DT Congress_NNP ,_, to_TO join_VB me_PRP in_IN building_VBG that_IN new_JJ foundation_NN ,_, a_DT better_JJR foundation_NN ,_, for_IN our_PRP$ beloved_JJ country_NN and_CC our_PRP$ world_NN ._.
+Thank_VB you_PRP very_RB much_RB ._.

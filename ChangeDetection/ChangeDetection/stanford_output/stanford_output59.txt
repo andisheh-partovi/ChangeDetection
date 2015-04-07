@@ -1,0 +1,184 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\2001-GWBush-2.txt 
+Mr._NNP Speaker_NNP ,_, Mr._NNP President_NNP Pro_FW Tempore_NNP ,_, members_NNS of_IN Congress_NNP ,_, and_CC fellow_JJ Americans_NNPS :_: In_IN the_DT normal_JJ course_NN of_IN events_NNS ,_, Presidents_NNS come_VBP to_TO this_DT chamber_NN to_TO report_VB on_IN the_DT state_NN of_IN the_DT Union_NNP ._.
+Tonight_NNP ,_, no_DT such_JJ report_NN is_VBZ needed_VBN ._.
+It_PRP has_VBZ already_RB been_VBN delivered_VBN by_IN the_DT American_JJ people_NNS ._.
+We_PRP have_VBP seen_VBN it_PRP in_IN the_DT courage_NN of_IN passengers_NNS ,_, who_WP rushed_VBD terrorists_NNS to_TO save_VB others_NNS on_IN the_DT ground_NN --_: passengers_NNS like_IN an_DT exceptional_JJ man_NN named_VBN Todd_NNP Beamer_NNP ._.
+And_CC would_MD you_PRP please_VB help_VB me_PRP to_TO welcome_VB his_PRP$ wife_NN ,_, Lisa_NNP Beamer_NNP ,_, here_RB tonight_RB ._.
+We_PRP have_VBP seen_VBN the_DT state_NN of_IN our_PRP$ Union_NNP in_IN the_DT endurance_NN of_IN rescuers_NNS ,_, working_VBG past_IN exhaustion_NN ._.
+We_PRP have_VBP seen_VBN the_DT unfurling_NN of_IN flags_NNS ,_, the_DT lighting_NN of_IN candles_NNS ,_, the_DT giving_VBG of_IN blood_NN ,_, the_DT saying_VBG of_IN prayers_NNS --_: in_IN English_NNP ,_, Hebrew_NNP ,_, and_CC Arabic_NNP ._.
+We_PRP have_VBP seen_VBN the_DT decency_NN of_IN a_DT loving_JJ and_CC giving_VBG people_NNS who_WP have_VBP made_VBN the_DT grief_NN of_IN strangers_NNS their_PRP$ own_JJ ._.
+My_PRP$ fellow_JJ citizens_NNS ,_, for_IN the_DT last_JJ nine_CD days_NNS ,_, the_DT entire_JJ world_NN has_VBZ seen_VBN for_IN itself_PRP the_DT state_NN of_IN our_PRP$ Union_NNP --_: and_CC it_PRP is_VBZ strong_JJ ._.
+Tonight_NNP we_PRP are_VBP a_DT country_NN awakened_VBD to_TO danger_NN and_CC called_VBN to_TO defend_VB freedom_NN ._.
+Our_PRP$ grief_NN has_VBZ turned_VBN to_TO anger_NN ,_, and_CC anger_NN to_TO resolution_NN ._.
+Whether_IN we_PRP bring_VBP our_PRP$ enemies_NNS to_TO justice_NN ,_, or_CC bring_VB justice_NN to_TO our_PRP$ enemies_NNS ,_, justice_NN will_MD be_VB done_VBN ._.
+I_PRP thank_VBP the_DT Congress_NNP for_IN its_PRP$ leadership_NN at_IN such_PDT an_DT important_JJ time_NN ._.
+All_DT of_IN America_NNP was_VBD touched_VBN on_IN the_DT evening_NN of_IN the_DT tragedy_NN to_TO see_VB Republicans_NNPS and_CC Democrats_NNPS joined_VBD together_RB on_IN the_DT steps_NNS of_IN this_DT Capitol_NNP ,_, singing_VBG ``_`` God_NNP Bless_NNP America_NNP ._. ''_''
+And_CC you_PRP did_VBD more_JJR than_IN sing_VB ;_: you_PRP acted_VBD ,_, by_IN delivering_VBG $_$ 40_CD billion_CD to_TO rebuild_VB our_PRP$ communities_NNS and_CC meet_VB the_DT needs_NNS of_IN our_PRP$ military_NN ._.
+Speaker_NNP Hastert_NNP ,_, Minority_NNP Leader_NNP Gephardt_NNP ,_, Majority_NNP Leader_NNP Daschle_NNP and_CC Senator_NNP Lott_NNP ,_, I_PRP thank_VBP you_PRP for_IN your_PRP$ friendship_NN ,_, for_IN your_PRP$ leadership_NN and_CC for_IN your_PRP$ service_NN to_TO our_PRP$ country_NN ._.
+And_CC on_IN behalf_NN of_IN the_DT American_JJ people_NNS ,_, I_PRP thank_VBP the_DT world_NN for_IN its_PRP$ outpouring_NN of_IN support_NN ._.
+America_NNP will_MD never_RB forget_VB the_DT sounds_NNS of_IN our_PRP$ National_NNP Anthem_NNP playing_VBG at_IN Buckingham_NNP Palace_NNP ,_, on_IN the_DT streets_NNS of_IN Paris_NNP ,_, and_CC at_IN Berlin_NNP 's_POS Brandenburg_NNP Gate_NNP ._.
+We_PRP will_MD not_RB forget_VB South_JJ Korean_JJ children_NNS gathering_VBG to_TO pray_VB outside_IN our_PRP$ embassy_NN in_IN Seoul_NNP ,_, or_CC the_DT prayers_NNS of_IN sympathy_NN offered_VBN at_IN a_DT mosque_NN in_IN Cairo_NNP ._.
+We_PRP will_MD not_RB forget_VB moments_NNS of_IN silence_NN and_CC days_NNS of_IN mourning_VBG in_IN Australia_NNP and_CC Africa_NNP and_CC Latin_NNP America_NNP ._.
+Nor_CC will_MD we_PRP forget_VB the_DT citizens_NNS of_IN 80_CD other_JJ nations_NNS who_WP died_VBD with_IN our_PRP$ own_JJ :_: dozens_NNS of_IN Pakistanis_NNPS ;_: more_JJR than_IN 130_CD Israelis_NNPS ;_: more_JJR than_IN 250_CD citizens_NNS of_IN India_NNP ;_: men_NNS and_CC women_NNS from_IN El_NNP Salvador_NNP ,_, Iran_NNP ,_, Mexico_NNP and_CC Japan_NNP ;_: and_CC hundreds_NNS of_IN British_JJ citizens_NNS ._.
+America_NNP has_VBZ no_DT truer_JJR friend_NN than_IN Great_JJ Britain_NNP ._.
+Once_RB again_RB ,_, we_PRP are_VBP joined_VBN together_RB in_IN a_DT great_JJ cause_NN --_: so_RB honored_VBD the_DT British_JJ Prime_NNP Minister_NNP has_VBZ crossed_VBN an_DT ocean_NN to_TO show_VB his_PRP$ unity_NN of_IN purpose_NN with_IN America_NNP ._.
+Thank_VB you_PRP for_IN coming_VBG ,_, friend_NN ._.
+On_IN September_NNP the_DT 11th_JJ ,_, enemies_NNS of_IN freedom_NN committed_VBD an_DT act_NN of_IN war_NN against_IN our_PRP$ country_NN ._.
+Americans_NNPS have_VBP known_VBN wars_NNS --_: but_CC for_IN the_DT past_JJ 136_CD years_NNS ,_, they_PRP have_VBP been_VBN wars_NNS on_IN foreign_JJ soil_NN ,_, except_IN for_IN one_CD Sunday_NNP in_IN 1941_CD ._.
+Americans_NNPS have_VBP known_VBN the_DT casualties_NNS of_IN war_NN --_: but_CC not_RB at_IN the_DT center_NN of_IN a_DT great_JJ city_NN on_IN a_DT peaceful_JJ morning_NN ._.
+Americans_NNPS have_VBP known_VBN surprise_NN attacks_NNS --_: but_CC never_RB before_RB on_IN thousands_NNS of_IN civilians_NNS ._.
+All_DT of_IN this_DT was_VBD brought_VBN upon_IN us_PRP in_IN a_DT single_JJ day_NN --_: and_CC night_NN fell_VBD on_IN a_DT different_JJ world_NN ,_, a_DT world_NN where_WRB freedom_NN itself_PRP is_VBZ under_IN attack_NN ._.
+Americans_NNPS have_VBP many_JJ questions_NNS tonight_RB ._.
+Americans_NNPS are_VBP asking_VBG :_: Who_WP attacked_VBD our_PRP$ country_NN ?_.
+The_DT evidence_NN we_PRP have_VBP gathered_VBN all_DT points_NNS to_TO a_DT collection_NN of_IN loosely_RB affiliated_VBN terrorist_JJ organizations_NNS known_VBN as_IN al_JJ Qaeda_NNP ._.
+They_PRP are_VBP the_DT same_JJ murderers_NNS indicted_VBN for_IN bombing_NN American_JJ embassies_NNS in_IN Tanzania_NNP and_CC Kenya_NNP ,_, and_CC responsible_JJ for_IN bombing_NN the_DT USS_NNP Cole_NNP ._.
+Al_NNP Qaeda_NNP is_VBZ to_TO terror_VB what_WP the_DT mafia_NN is_VBZ to_TO crime_NN ._.
+But_CC its_PRP$ goal_NN is_VBZ not_RB making_VBG money_NN ;_: its_PRP$ goal_NN is_VBZ remaking_VBG the_DT world_NN --_: and_CC imposing_VBG its_PRP$ radical_JJ beliefs_NNS on_IN people_NNS everywhere_RB ._.
+The_DT terrorists_NNS practice_VBP a_DT fringe_NN form_NN of_IN Islamic_JJ extremism_NN that_WDT has_VBZ been_VBN rejected_VBN by_IN Muslim_JJ scholars_NNS and_CC the_DT vast_JJ majority_NN of_IN Muslim_NNP clerics_NNS --_: a_DT fringe_NN movement_NN that_WDT perverts_VBZ the_DT peaceful_JJ teachings_NNS of_IN Islam_NNP ._.
+The_DT terrorists_NNS '_POS directive_NN commands_VBZ them_PRP to_TO kill_VB Christians_NNS and_CC Jews_NNPS ,_, to_TO kill_VB all_DT Americans_NNPS ,_, and_CC make_VB no_DT distinction_NN among_IN military_JJ and_CC civilians_NNS ,_, including_VBG women_NNS and_CC children_NNS ._.
+This_DT group_NN and_CC its_PRP$ leader_NN --_: a_DT person_NN named_VBN Osama_NNP bin_NN Laden_NNP --_: are_VBP linked_VBN to_TO many_JJ other_JJ organizations_NNS in_IN different_JJ countries_NNS ,_, including_VBG the_DT Egyptian_JJ Islamic_NNP Jihad_NNP and_CC the_DT Islamic_NNP Movement_NNP of_IN Uzbekistan_NNP ._.
+There_EX are_VBP thousands_NNS of_IN these_DT terrorists_NNS in_IN more_JJR than_IN 60_CD countries_NNS ._.
+They_PRP are_VBP recruited_VBN from_IN their_PRP$ own_JJ nations_NNS and_CC neighborhoods_NNS and_CC brought_VBD to_TO camps_NNS in_IN places_NNS like_IN Afghanistan_NNP ,_, where_WRB they_PRP are_VBP trained_VBN in_IN the_DT tactics_NNS of_IN terror_NN ._.
+They_PRP are_VBP sent_VBN back_RB to_TO their_PRP$ homes_NNS or_CC sent_VBN to_TO hide_VB in_IN countries_NNS around_IN the_DT world_NN to_TO plot_VB evil_JJ and_CC destruction_NN ._.
+The_DT leadership_NN of_IN al_JJ Qaeda_NNP has_VBZ great_JJ influence_NN in_IN Afghanistan_NNP and_CC supports_VBZ the_DT Taliban_NNP regime_NN in_IN controlling_VBG most_JJS of_IN that_DT country_NN ._.
+In_IN Afghanistan_NNP ,_, we_PRP see_VBP al_JJ Qaeda_NNP 's_POS vision_NN for_IN the_DT world_NN ._.
+Afghanistan_NNP 's_POS people_NNS have_VBP been_VBN brutalized_VBN --_: many_JJ are_VBP starving_VBG and_CC many_JJ have_VBP fled_VBN ._.
+Women_NNS are_VBP not_RB allowed_VBN to_TO attend_VB school_NN ._.
+You_PRP can_MD be_VB jailed_VBN for_IN owning_VBG a_DT television_NN ._.
+Religion_NNP can_MD be_VB practiced_VBN only_RB as_IN their_PRP$ leaders_NNS dictate_VBP ._.
+A_DT man_NN can_MD be_VB jailed_VBN in_IN Afghanistan_NNP if_IN his_PRP$ beard_NN is_VBZ not_RB long_RB enough_RB ._.
+The_DT United_NNP States_NNPS respects_VBZ the_DT people_NNS of_IN Afghanistan_NNP --_: after_IN all_DT ,_, we_PRP are_VBP currently_RB its_PRP$ largest_JJS source_NN of_IN humanitarian_JJ aid_NN --_: but_CC we_PRP condemn_VBP the_DT Taliban_NNP regime_NN ._.
+It_PRP is_VBZ not_RB only_RB repressing_VBG its_PRP$ own_JJ people_NNS ,_, it_PRP is_VBZ threatening_JJ people_NNS everywhere_RB by_IN sponsoring_VBG and_CC sheltering_VBG and_CC supplying_VBG terrorists_NNS ._.
+By_IN aiding_VBG and_CC abetting_VBG murder_NN ,_, the_DT Taliban_NNP regime_NN is_VBZ committing_VBG murder_NN ._.
+And_CC tonight_RB ,_, the_DT United_NNP States_NNPS of_IN America_NNP makes_VBZ the_DT following_VBG demands_NNS on_IN the_DT Taliban_NNP :_: Deliver_VB to_TO United_NNP States_NNPS authorities_NNS all_PDT the_DT leaders_NNS of_IN al_JJ Qaeda_NNP who_WP hide_VBP in_IN your_PRP$ land_NN ._.
+Release_NNP all_DT foreign_JJ nationals_NNS ,_, including_VBG American_JJ citizens_NNS ,_, you_PRP have_VBP unjustly_RB imprisoned_VBN ._.
+Protect_VB foreign_JJ journalists_NNS ,_, diplomats_NNS and_CC aid_NN workers_NNS in_IN your_PRP$ country_NN ._.
+Close_JJ immediately_RB and_CC permanently_RB every_DT terrorist_JJ training_NN camp_NN in_IN Afghanistan_NNP ,_, and_CC hand_NN over_IN every_DT terrorist_JJ ,_, and_CC every_DT person_NN in_IN their_PRP$ support_NN structure_NN ,_, to_TO appropriate_JJ authorities_NNS ._.
+Give_VB the_DT United_NNP States_NNPS full_JJ access_NN to_TO terrorist_JJ training_NN camps_NNS ,_, so_IN we_PRP can_MD make_VB sure_JJ they_PRP are_VBP no_RB longer_RB operating_VBG ._.
+These_DT demands_NNS are_VBP not_RB open_JJ to_TO negotiation_NN or_CC discussion_NN ._.
+The_DT Taliban_NNP must_MD act_VB ,_, and_CC act_NN immediately_RB ._.
+They_PRP will_MD hand_VB over_IN the_DT terrorists_NNS ,_, or_CC they_PRP will_MD share_VB in_IN their_PRP$ fate_NN ._.
+I_PRP also_RB want_VBP to_TO speak_VB tonight_RB directly_RB to_TO Muslims_NNPS throughout_IN the_DT world_NN ._.
+We_PRP respect_VBP your_PRP$ faith_NN ._.
+It_PRP 's_VBZ practiced_VBN freely_RB by_IN many_JJ millions_NNS of_IN Americans_NNPS ,_, and_CC by_IN millions_NNS more_RBR in_IN countries_NNS that_WDT America_NNP counts_VBZ as_RB friends_NNS ._.
+Its_PRP$ teachings_NNS are_VBP good_JJ and_CC peaceful_JJ ,_, and_CC those_DT who_WP commit_VBP evil_JJ in_IN the_DT name_NN of_IN Allah_NNP blaspheme_VBP the_DT name_NN of_IN Allah_NNP ._.
+The_DT terrorists_NNS are_VBP traitors_NNS to_TO their_PRP$ own_JJ faith_NN ,_, trying_VBG ,_, in_IN effect_NN ,_, to_TO hijack_VB Islam_NNP itself_PRP ._.
+The_DT enemy_NN of_IN America_NNP is_VBZ not_RB our_PRP$ many_JJ Muslim_JJ friends_NNS ;_: it_PRP is_VBZ not_RB our_PRP$ many_JJ Arab_JJ friends_NNS ._.
+Our_PRP$ enemy_NN is_VBZ a_DT radical_JJ network_NN of_IN terrorists_NNS ,_, and_CC every_DT government_NN that_WDT supports_VBZ them_PRP ._.
+Our_PRP$ war_NN on_IN terror_NN begins_VBZ with_IN al_JJ Qaeda_NNP ,_, but_CC it_PRP does_VBZ not_RB end_VB there_RB ._.
+It_PRP will_MD not_RB end_VB until_IN every_DT terrorist_JJ group_NN of_IN global_JJ reach_NN has_VBZ been_VBN found_VBN ,_, stopped_VBD and_CC defeated_VBD ._.
+Americans_NNPS are_VBP asking_VBG ,_, why_WRB do_VBP they_PRP hate_VBP us_PRP ?_.
+They_PRP hate_VBP what_WP we_PRP see_VBP right_RB here_RB in_IN this_DT chamber_NN --_: a_DT democratically_RB elected_VBN government_NN ._.
+Their_PRP$ leaders_NNS are_VBP self-appointed_JJ ._.
+They_PRP hate_VBP our_PRP$ freedoms_NNS --_: our_PRP$ freedom_NN of_IN religion_NN ,_, our_PRP$ freedom_NN of_IN speech_NN ,_, our_PRP$ freedom_NN to_TO vote_VB and_CC assemble_VB and_CC disagree_VB with_IN each_DT other_JJ ._.
+They_PRP want_VBP to_TO overthrow_VB existing_VBG governments_NNS in_IN many_JJ Muslim_JJ countries_NNS ,_, such_JJ as_IN Egypt_NNP ,_, Saudi_NNP Arabia_NNP ,_, and_CC Jordan_NNP ._.
+They_PRP want_VBP to_TO drive_VB Israel_NNP out_IN of_IN the_DT Middle_NNP East_NNP ._.
+They_PRP want_VBP to_TO drive_VB Christians_NNS and_CC Jews_NNPS out_IN of_IN vast_JJ regions_NNS of_IN Asia_NNP and_CC Africa_NNP ._.
+These_DT terrorists_NNS kill_VBP not_RB merely_RB to_TO end_VB lives_NNS ,_, but_CC to_TO disrupt_VB and_CC end_VB a_DT way_NN of_IN life_NN ._.
+With_IN every_DT atrocity_NN ,_, they_PRP hope_VBP that_IN America_NNP grows_VBZ fearful_JJ ,_, retreating_VBG from_IN the_DT world_NN and_CC forsaking_VBG our_PRP$ friends_NNS ._.
+They_PRP stand_VBP against_IN us_PRP ,_, because_IN we_PRP stand_VBP in_IN their_PRP$ way_NN ._.
+We_PRP are_VBP not_RB deceived_VBN by_IN their_PRP$ pretenses_NNS to_TO piety_NN ._.
+We_PRP have_VBP seen_VBN their_PRP$ kind_NN before_RB ._.
+They_PRP are_VBP the_DT heirs_NNS of_IN all_PDT the_DT murderous_JJ ideologies_NNS of_IN the_DT 20th_JJ century_NN ._.
+By_IN sacrificing_VBG human_JJ life_NN to_TO serve_VB their_PRP$ radical_JJ visions_NNS --_: by_IN abandoning_VBG every_DT value_NN except_IN the_DT will_NN to_TO power_NN --_: they_PRP follow_VBP in_IN the_DT path_NN of_IN fascism_NN ,_, and_CC Nazism_NNP ,_, and_CC totalitarianism_NN ._.
+And_CC they_PRP will_MD follow_VB that_IN path_NN all_PDT the_DT way_NN ,_, to_TO where_WRB it_PRP ends_VBZ :_: in_IN history_NN 's_POS unmarked_JJ grave_NN of_IN discarded_VBN lies_NNS ._.
+Americans_NNPS are_VBP asking_VBG :_: How_WRB will_MD we_PRP fight_VB and_CC win_VB this_DT war_NN ?_.
+We_PRP will_MD direct_VB every_DT resource_NN at_IN our_PRP$ command_NN --_: every_DT means_NN of_IN diplomacy_NN ,_, every_DT tool_NN of_IN intelligence_NN ,_, every_DT instrument_NN of_IN law_NN enforcement_NN ,_, every_DT financial_JJ influence_NN ,_, and_CC every_DT necessary_JJ weapon_NN of_IN war_NN --_: to_TO the_DT disruption_NN and_CC to_TO the_DT defeat_NN of_IN the_DT global_JJ terror_NN network_NN ._.
+This_DT war_NN will_MD not_RB be_VB like_IN the_DT war_NN against_IN Iraq_NNP a_DT decade_NN ago_RB ,_, with_IN a_DT decisive_JJ liberation_NN of_IN territory_NN and_CC a_DT swift_JJ conclusion_NN ._.
+It_PRP will_MD not_RB look_VB like_IN the_DT air_NN war_NN above_IN Kosovo_NNP two_CD years_NNS ago_RB ,_, where_WRB no_DT ground_NN troops_NNS were_VBD used_VBN and_CC not_RB a_DT single_JJ American_NNP was_VBD lost_VBN in_IN combat_NN ._.
+Our_PRP$ response_NN involves_VBZ far_RB more_JJR than_IN instant_JJ retaliation_NN and_CC isolated_VBD strikes_NNS ._.
+Americans_NNPS should_MD not_RB expect_VB one_CD battle_NN ,_, but_CC a_DT lengthy_JJ campaign_NN ,_, unlike_IN any_DT other_JJ we_PRP have_VBP ever_RB seen_VBN ._.
+It_PRP may_MD include_VB dramatic_JJ strikes_NNS ,_, visible_JJ on_IN TV_NN ,_, and_CC covert_JJ operations_NNS ,_, secret_JJ even_RB in_IN success_NN ._.
+We_PRP will_MD starve_VB terrorists_NNS of_IN funding_NN ,_, turn_VB them_PRP one_CD against_IN another_DT ,_, drive_VBP them_PRP from_IN place_NN to_TO place_NN ,_, until_IN there_EX is_VBZ no_DT refuge_NN or_CC no_DT rest_NN ._.
+And_CC we_PRP will_MD pursue_VB nations_NNS that_WDT provide_VBP aid_NN or_CC safe_JJ haven_NN to_TO terrorism_NN ._.
+Every_DT nation_NN ,_, in_IN every_DT region_NN ,_, now_RB has_VBZ a_DT decision_NN to_TO make_VB ._.
+Either_CC you_PRP are_VBP with_IN us_PRP ,_, or_CC you_PRP are_VBP with_IN the_DT terrorists_NNS ._.
+-LRB-_-LRB- Applause_NN ._. -RRB-_-RRB-
+From_IN this_DT day_NN forward_RB ,_, any_DT nation_NN that_WDT continues_VBZ to_TO harbor_VB or_CC support_VB terrorism_NN will_MD be_VB regarded_VBN by_IN the_DT United_NNP States_NNPS as_IN a_DT hostile_JJ regime_NN ._.
+Our_PRP$ nation_NN has_VBZ been_VBN put_VBN on_IN notice_NN :_: We_PRP are_VBP not_RB immune_JJ from_IN attack_NN ._.
+We_PRP will_MD take_VB defensive_JJ measures_NNS against_IN terrorism_NN to_TO protect_VB Americans_NNPS ._.
+Today_NN ,_, dozens_NNS of_IN federal_JJ departments_NNS and_CC agencies_NNS ,_, as_RB well_RB as_IN state_NN and_CC local_JJ governments_NNS ,_, have_VBP responsibilities_NNS affecting_VBG homeland_NN security_NN ._.
+These_DT efforts_NNS must_MD be_VB coordinated_VBN at_IN the_DT highest_JJS level_NN ._.
+So_RB tonight_RB I_PRP announce_VBP the_DT creation_NN of_IN a_DT Cabinet-level_JJ position_NN reporting_VBG directly_RB to_TO me_PRP --_: the_DT Office_NNP of_IN Homeland_NNP Security_NNP ._.
+And_CC tonight_NN I_PRP also_RB announce_VBP a_DT distinguished_JJ American_JJ to_TO lead_VB this_DT effort_NN ,_, to_TO strengthen_VB American_JJ security_NN :_: a_DT military_JJ veteran_NN ,_, an_DT effective_JJ governor_NN ,_, a_DT true_JJ patriot_NN ,_, a_DT trusted_VBN friend_NN --_: Pennsylvania_NNP 's_POS Tom_NNP Ridge_NNP ._.
+He_PRP will_MD lead_VB ,_, oversee_VB and_CC coordinate_VB a_DT comprehensive_JJ national_JJ strategy_NN to_TO safeguard_VB our_PRP$ country_NN against_IN terrorism_NN ,_, and_CC respond_VB to_TO any_DT attacks_NNS that_WDT may_MD come_VB ._.
+These_DT measures_NNS are_VBP essential_JJ ._.
+But_CC the_DT only_JJ way_NN to_TO defeat_VB terrorism_NN as_IN a_DT threat_NN to_TO our_PRP$ way_NN of_IN life_NN is_VBZ to_TO stop_VB it_PRP ,_, eliminate_VB it_PRP ,_, and_CC destroy_VB it_PRP where_WRB it_PRP grows_VBZ ._.
+Many_JJ will_MD be_VB involved_VBN in_IN this_DT effort_NN ,_, from_IN FBI_NNP agents_NNS to_TO intelligence_NN operatives_NNS to_TO the_DT reservists_NNS we_PRP have_VBP called_VBN to_TO active_JJ duty_NN ._.
+All_DT deserve_VBP our_PRP$ thanks_NNS ,_, and_CC all_DT have_VBP our_PRP$ prayers_NNS ._.
+And_CC tonight_RB ,_, a_DT few_JJ miles_NNS from_IN the_DT damaged_JJ Pentagon_NNP ,_, I_PRP have_VBP a_DT message_NN for_IN our_PRP$ military_NN :_: Be_VB ready_JJ ._.
+I_PRP 've_VBP called_VBN the_DT Armed_NNP Forces_NNP to_TO alert_VB ,_, and_CC there_EX is_VBZ a_DT reason_NN ._.
+The_DT hour_NN is_VBZ coming_VBG when_WRB America_NNP will_MD act_VB ,_, and_CC you_PRP will_MD make_VB us_PRP proud_JJ ._.
+This_DT is_VBZ not_RB ,_, however_RB ,_, just_RB America_NNP 's_POS fight_NN ._.
+And_CC what_WP is_VBZ at_IN stake_NN is_VBZ not_RB just_RB America_NNP 's_POS freedom_NN ._.
+This_DT is_VBZ the_DT world_NN 's_POS fight_NN ._.
+This_DT is_VBZ civilization_NN 's_POS fight_NN ._.
+This_DT is_VBZ the_DT fight_NN of_IN all_DT who_WP believe_VBP in_IN progress_NN and_CC pluralism_NN ,_, tolerance_NN and_CC freedom_NN ._.
+We_PRP ask_VBP every_DT nation_NN to_TO join_VB us_PRP ._.
+We_PRP will_MD ask_VB ,_, and_CC we_PRP will_MD need_VB ,_, the_DT help_NN of_IN police_NN forces_NNS ,_, intelligence_NN services_NNS ,_, and_CC banking_NN systems_NNS around_IN the_DT world_NN ._.
+The_DT United_NNP States_NNPS is_VBZ grateful_JJ that_IN many_JJ nations_NNS and_CC many_JJ international_JJ organizations_NNS have_VBP already_RB responded_VBN --_: with_IN sympathy_NN and_CC with_IN support_NN ._.
+Nations_NNPS from_IN Latin_NNP America_NNP ,_, to_TO Asia_NNP ,_, to_TO Africa_NNP ,_, to_TO Europe_NNP ,_, to_TO the_DT Islamic_JJ world_NN ._.
+Perhaps_RB the_DT NATO_NNP Charter_NNP reflects_VBZ best_JJS the_DT attitude_NN of_IN the_DT world_NN :_: An_DT attack_NN on_IN one_CD is_VBZ an_DT attack_NN on_IN all_DT ._.
+The_DT civilized_JJ world_NN is_VBZ rallying_VBG to_TO America_NNP 's_POS side_NN ._.
+They_PRP understand_VBP that_IN if_IN this_DT terror_NN goes_VBZ unpunished_JJ ,_, their_PRP$ own_JJ cities_NNS ,_, their_PRP$ own_JJ citizens_NNS may_MD be_VB next_JJ ._.
+Terror_NN ,_, unanswered_JJ ,_, can_MD not_RB only_RB bring_VB down_RP buildings_NNS ,_, it_PRP can_MD threaten_VB the_DT stability_NN of_IN legitimate_JJ governments_NNS ._.
+And_CC you_PRP know_VBP what_WP --_: we_PRP 're_VBP not_RB going_VBG to_TO allow_VB it_PRP ._.
+Americans_NNPS are_VBP asking_VBG :_: What_WP is_VBZ expected_VBN of_IN us_PRP ?_.
+I_PRP ask_VBP you_PRP to_TO live_VB your_PRP$ lives_NNS ,_, and_CC hug_NN your_PRP$ children_NNS ._.
+I_PRP know_VBP many_JJ citizens_NNS have_VBP fears_NNS tonight_RB ,_, and_CC I_PRP ask_VBP you_PRP to_TO be_VB calm_JJ and_CC resolute_JJ ,_, even_RB in_IN the_DT face_NN of_IN a_DT continuing_VBG threat_NN ._.
+I_PRP ask_VBP you_PRP to_TO uphold_VB the_DT values_NNS of_IN America_NNP ,_, and_CC remember_VB why_WRB so_RB many_JJ have_VBP come_VBN here_RB ._.
+We_PRP are_VBP in_IN a_DT fight_NN for_IN our_PRP$ principles_NNS ,_, and_CC our_PRP$ first_JJ responsibility_NN is_VBZ to_TO live_VB by_IN them_PRP ._.
+No_DT one_NN should_MD be_VB singled_VBN out_RP for_IN unfair_JJ treatment_NN or_CC unkind_JJ words_NNS because_IN of_IN their_PRP$ ethnic_JJ background_NN or_CC religious_JJ faith_NN ._.
+I_PRP ask_VBP you_PRP to_TO continue_VB to_TO support_VB the_DT victims_NNS of_IN this_DT tragedy_NN with_IN your_PRP$ contributions_NNS ._.
+Those_DT who_WP want_VBP to_TO give_VB can_MD go_VB to_TO a_DT central_JJ source_NN of_IN information_NN ,_, libertyunites.org_NN ,_, to_TO find_VB the_DT names_NNS of_IN groups_NNS providing_VBG direct_JJ help_NN in_IN New_NNP York_NNP ,_, Pennsylvania_NNP ,_, and_CC Virginia_NNP ._.
+The_DT thousands_NNS of_IN FBI_NNP agents_NNS who_WP are_VBP now_RB at_IN work_NN in_IN this_DT investigation_NN may_MD need_VB your_PRP$ cooperation_NN ,_, and_CC I_PRP ask_VBP you_PRP to_TO give_VB it_PRP ._.
+I_PRP ask_VBP for_IN your_PRP$ patience_NN ,_, with_IN the_DT delays_NNS and_CC inconveniences_NNS that_WDT may_MD accompany_VB tighter_JJR security_NN ;_: and_CC for_IN your_PRP$ patience_NN in_IN what_WP will_MD be_VB a_DT long_JJ struggle_NN ._.
+I_PRP ask_VB your_PRP$ continued_JJ participation_NN and_CC confidence_NN in_IN the_DT American_JJ economy_NN ._.
+Terrorists_NNS attacked_VBD a_DT symbol_NN of_IN American_JJ prosperity_NN ._.
+They_PRP did_VBD not_RB touch_VB its_PRP$ source_NN ._.
+America_NNP is_VBZ successful_JJ because_IN of_IN the_DT hard_JJ work_NN ,_, and_CC creativity_NN ,_, and_CC enterprise_NN of_IN our_PRP$ people_NNS ._.
+These_DT were_VBD the_DT true_JJ strengths_NNS of_IN our_PRP$ economy_NN before_IN September_NNP 11th_JJ ,_, and_CC they_PRP are_VBP our_PRP$ strengths_NNS today_NN ._.
+And_CC ,_, finally_RB ,_, please_VB continue_VB praying_VBG for_IN the_DT victims_NNS of_IN terror_NN and_CC their_PRP$ families_NNS ,_, for_IN those_DT in_IN uniform_NN ,_, and_CC for_IN our_PRP$ great_JJ country_NN ._.
+Prayer_NN has_VBZ comforted_VBN us_PRP in_IN sorrow_NN ,_, and_CC will_MD help_VB strengthen_VB us_PRP for_IN the_DT journey_NN ahead_RB ._.
+Tonight_NNP I_PRP thank_VBP my_PRP$ fellow_JJ Americans_NNPS for_IN what_WP you_PRP have_VBP already_RB done_VBN and_CC for_IN what_WP you_PRP will_MD do_VB ._.
+And_CC ladies_NNS and_CC gentlemen_NNS of_IN the_DT Congress_NNP ,_, I_PRP thank_VBP you_PRP ,_, their_PRP$ representatives_NNS ,_, for_IN what_WP you_PRP have_VBP already_RB done_VBN and_CC for_IN what_WP we_PRP will_MD do_VB together_RB ._.
+Tonight_NNP ,_, we_PRP face_VBP new_JJ and_CC sudden_JJ national_JJ challenges_NNS ._.
+We_PRP will_MD come_VB together_RB to_TO improve_VB air_NN safety_NN ,_, to_TO dramatically_RB expand_VB the_DT number_NN of_IN air_NN marshals_NNS on_IN domestic_JJ flights_NNS ,_, and_CC take_VB new_JJ measures_NNS to_TO prevent_VB hijacking_NN ._.
+We_PRP will_MD come_VB together_RB to_TO promote_VB stability_NN and_CC keep_VB our_PRP$ airlines_NNS flying_VBG ,_, with_IN direct_JJ assistance_NN during_IN this_DT emergency_NN ._.
+We_PRP will_MD come_VB together_RB to_TO give_VB law_NN enforcement_NN the_DT additional_JJ tools_NNS it_PRP needs_VBZ to_TO track_VB down_RP terror_NN here_RB at_IN home_NN ._.
+We_PRP will_MD come_VB together_RB to_TO strengthen_VB our_PRP$ intelligence_NN capabilities_NNS to_TO know_VB the_DT plans_NNS of_IN terrorists_NNS before_IN they_PRP act_VBP ,_, and_CC find_VB them_PRP before_IN they_PRP strike_VBP ._.
+We_PRP will_MD come_VB together_RB to_TO take_VB active_JJ steps_NNS that_WDT strengthen_VBP America_NNP 's_POS economy_NN ,_, and_CC put_VB our_PRP$ people_NNS back_RB to_TO work_VB ._.
+Tonight_NNP we_PRP welcome_VBP two_CD leaders_NNS who_WP embody_VBP the_DT extraordinary_JJ spirit_NN of_IN all_DT New_NNP Yorkers_NNPS :_: Governor_NNP George_NNP Pataki_NNP ,_, and_CC Mayor_NNP Rudolph_NNP Giuliani_NNP ._.
+As_IN a_DT symbol_NN of_IN America_NNP 's_POS resolve_NN ,_, my_PRP$ administration_NN will_MD work_VB with_IN Congress_NNP ,_, and_CC these_DT two_CD leaders_NNS ,_, to_TO show_VB the_DT world_NN that_IN we_PRP will_MD rebuild_VB New_NNP York_NNP City_NNP ._.
+After_IN all_DT that_DT has_VBZ just_RB passed_VBN --_: all_PDT the_DT lives_NNS taken_VBN ,_, and_CC all_PDT the_DT possibilities_NNS and_CC hopes_VBZ that_IN died_VBD with_IN them_PRP --_: it_PRP is_VBZ natural_JJ to_TO wonder_VB if_IN America_NNP 's_POS future_NN is_VBZ one_CD of_IN fear_NN ._.
+Some_DT speak_VBP of_IN an_DT age_NN of_IN terror_NN ._.
+I_PRP know_VBP there_EX are_VBP struggles_NNS ahead_RB ,_, and_CC dangers_NNS to_TO face_VB ._.
+But_CC this_DT country_NN will_MD define_VB our_PRP$ times_NNS ,_, not_RB be_VB defined_VBN by_IN them_PRP ._.
+As_RB long_RB as_IN the_DT United_NNP States_NNPS of_IN America_NNP is_VBZ determined_VBN and_CC strong_JJ ,_, this_DT will_MD not_RB be_VB an_DT age_NN of_IN terror_NN ;_: this_DT will_MD be_VB an_DT age_NN of_IN liberty_NN ,_, here_RB and_CC across_IN the_DT world_NN ._.
+Great_NNP harm_NN has_VBZ been_VBN done_VBN to_TO us_PRP ._.
+We_PRP have_VBP suffered_VBN great_JJ loss_NN ._.
+And_CC in_IN our_PRP$ grief_NN and_CC anger_NN we_PRP have_VBP found_VBN our_PRP$ mission_NN and_CC our_PRP$ moment_NN ._.
+Freedom_NNP and_CC fear_NN are_VBP at_IN war_NN ._.
+The_DT advance_NN of_IN human_JJ freedom_NN --_: the_DT great_JJ achievement_NN of_IN our_PRP$ time_NN ,_, and_CC the_DT great_JJ hope_NN of_IN every_DT time_NN --_: now_RB depends_VBZ on_IN us_PRP ._.
+Our_PRP$ nation_NN --_: this_DT generation_NN --_: will_MD lift_VB a_DT dark_JJ threat_NN of_IN violence_NN from_IN our_PRP$ people_NNS and_CC our_PRP$ future_NN ._.
+We_PRP will_MD rally_VB the_DT world_NN to_TO this_DT cause_NN by_IN our_PRP$ efforts_NNS ,_, by_IN our_PRP$ courage_NN ._.
+We_PRP will_MD not_RB tire_NN ,_, we_PRP will_MD not_RB falter_VB ,_, and_CC we_PRP will_MD not_RB fail_VB ._.
+It_PRP is_VBZ my_PRP$ hope_NN that_IN in_IN the_DT months_NNS and_CC years_NNS ahead_RB ,_, life_NN will_MD return_VB almost_RB to_TO normal_JJ ._.
+We_PRP 'll_MD go_VB back_RB to_TO our_PRP$ lives_NNS and_CC routines_NNS ,_, and_CC that_DT is_VBZ good_JJ ._.
+Even_RB grief_NN recedes_VBZ with_IN time_NN and_CC grace_NN ._.
+But_CC our_PRP$ resolve_NN must_MD not_RB pass_VB ._.
+Each_DT of_IN us_PRP will_MD remember_VB what_WP happened_VBD that_DT day_NN ,_, and_CC to_TO whom_WP it_PRP happened_VBD ._.
+We_PRP 'll_MD remember_VB the_DT moment_NN the_DT news_NN came_VBD --_: where_WRB we_PRP were_VBD and_CC what_WP we_PRP were_VBD doing_VBG ._.
+Some_DT will_MD remember_VB an_DT image_NN of_IN a_DT fire_NN ,_, or_CC a_DT story_NN of_IN rescue_NN ._.
+Some_DT will_MD carry_VB memories_NNS of_IN a_DT face_NN and_CC a_DT voice_NN gone_VBN forever_RB ._.
+And_CC I_PRP will_MD carry_VB this_DT :_: It_PRP is_VBZ the_DT police_NN shield_NN of_IN a_DT man_NN named_VBN George_NNP Howard_NNP ,_, who_WP died_VBD at_IN the_DT World_NNP Trade_NNP Center_NNP trying_VBG to_TO save_VB others_NNS ._.
+It_PRP was_VBD given_VBN to_TO me_PRP by_IN his_PRP$ mom_NN ,_, Arlene_NNP ,_, as_IN a_DT proud_JJ memorial_NN to_TO her_PRP$ son_NN ._.
+This_DT is_VBZ my_PRP$ reminder_NN of_IN lives_NNS that_WDT ended_VBD ,_, and_CC a_DT task_NN that_WDT does_VBZ not_RB end_VB ._.
+I_PRP will_MD not_RB forget_VB this_DT wound_NN to_TO our_PRP$ country_NN or_CC those_DT who_WP inflicted_VBD it_PRP ._.
+I_PRP will_MD not_RB yield_VB ;_: I_PRP will_MD not_RB rest_VB ;_: I_PRP will_MD not_RB relent_VB in_IN waging_VBG this_DT struggle_NN for_IN freedom_NN and_CC security_NN for_IN the_DT American_JJ people_NNS ._.
+The_DT course_NN of_IN this_DT conflict_NN is_VBZ not_RB known_VBN ,_, yet_RB its_PRP$ outcome_NN is_VBZ certain_JJ ._.
+Freedom_NNP and_CC fear_NN ,_, justice_NN and_CC cruelty_NN ,_, have_VBP always_RB been_VBN at_IN war_NN ,_, and_CC we_PRP know_VBP that_IN God_NNP is_VBZ not_RB neutral_JJ between_IN them_PRP ._.
+Fellow_NNP citizens_NNS ,_, we_PRP 'll_MD meet_VB violence_NN with_IN patient_JJ justice_NN --_: assured_VBN of_IN the_DT rightness_NN of_IN our_PRP$ cause_NN ,_, and_CC confident_JJ of_IN the_DT victories_NNS to_TO come_VB ._.
+In_IN all_DT that_DT lies_VBZ before_IN us_PRP ,_, may_MD God_NNP grant_NN us_PRP wisdom_NN ,_, and_CC may_MD He_PRP watch_VB over_IN the_DT United_NNP States_NNPS of_IN America_NNP ._.
+Thank_VB you_PRP ._.

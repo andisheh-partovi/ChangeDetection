@@ -1,0 +1,199 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1965-Johnson-2.txt 
+Mr._NNP Speaker_NNP ,_, Mr._NNP President_NNP ,_, Members_NNP of_IN the_DT Congress_NNP :_: I_PRP speak_VBP tonight_RB for_IN the_DT dignity_NN of_IN man_NN and_CC the_DT destiny_NN of_IN democracy_NN ._.
+I_PRP urge_VBP every_DT member_NN of_IN both_DT parties_NNS ,_, Americans_NNPS of_IN all_DT religions_NNS and_CC of_IN all_DT colors_NNS ,_, from_IN every_DT section_NN of_IN this_DT country_NN ,_, to_TO join_VB me_PRP in_IN that_DT cause_NN ._.
+At_IN times_NNS history_NN and_CC fate_NN meet_VBP at_IN a_DT single_JJ time_NN in_IN a_DT single_JJ place_NN to_TO shape_VB a_DT turning_VBG point_NN in_IN man_NN 's_POS unending_JJ search_NN for_IN freedom_NN ._.
+So_IN it_PRP was_VBD at_IN Lexington_NNP and_CC Concord_NNP ._.
+So_IN it_PRP was_VBD a_DT century_NN ago_RB at_IN Appomattox_NNP ._.
+So_IN it_PRP was_VBD last_JJ week_NN in_IN Selma_NNP ,_, Alabama_NNP ._.
+There_RB ,_, long-suffering_JJ men_NNS and_CC women_NNS peacefully_RB protested_VBD the_DT denial_NN of_IN their_PRP$ rights_NNS as_IN Americans_NNPS ._.
+Many_JJ were_VBD brutally_RB assaulted_VBN ._.
+One_CD good_JJ man_NN ,_, a_DT man_NN of_IN God_NNP ,_, was_VBD killed_VBN ._.
+There_EX is_VBZ no_DT cause_NN for_IN pride_NN in_IN what_WP has_VBZ happened_VBN in_IN Selma_NNP ._.
+There_EX is_VBZ no_DT cause_NN for_IN self-satisfaction_NN in_IN the_DT long_JJ denial_NN of_IN equal_JJ rights_NNS of_IN millions_NNS of_IN Americans_NNPS ._.
+But_CC there_EX is_VBZ cause_NN for_IN hope_NN and_CC for_IN faith_NN in_IN our_PRP$ democracy_NN in_IN what_WP is_VBZ happening_VBG here_RB tonight_RB ._.
+For_IN the_DT cries_VBZ of_IN pain_NN and_CC the_DT hymns_NNS and_CC protests_NNS of_IN oppressed_JJ people_NNS have_VBP summoned_VBN into_IN convocation_NN all_PDT the_DT majesty_NN of_IN this_DT great_JJ Government_NN --_: the_DT Government_NN of_IN the_DT greatest_JJS Nation_NN on_IN earth_NN ._.
+Our_PRP$ mission_NN is_VBZ at_IN once_RB the_DT oldest_JJS and_CC the_DT most_JJS basic_JJ of_IN this_DT country_NN :_: to_TO right_JJ wrong_JJ ,_, to_TO do_VB justice_NN ,_, to_TO serve_VB man_NN ._.
+In_IN our_PRP$ time_NN we_PRP have_VBP come_VBN to_TO live_VB with_IN moments_NNS of_IN great_JJ crisis_NN ._.
+Our_PRP$ lives_NNS have_VBP been_VBN marked_VBN with_IN debate_NN about_IN great_JJ issues_NNS ;_: issues_NNS of_IN war_NN and_CC peace_NN ,_, issues_NNS of_IN prosperity_NN and_CC depression_NN ._.
+But_CC rarely_RB in_IN any_DT time_NN does_VBZ an_DT issue_NN lay_VBD bare_JJ the_DT secret_JJ heart_NN of_IN America_NNP itself_PRP ._.
+Rarely_RB are_VBP we_PRP met_VBD with_IN a_DT challenge_NN ,_, not_RB to_TO our_PRP$ growth_NN or_CC abundance_NN ,_, our_PRP$ welfare_NN or_CC our_PRP$ security_NN ,_, but_CC rather_RB to_TO the_DT values_NNS and_CC the_DT purposes_NNS and_CC the_DT meaning_NN of_IN our_PRP$ beloved_JJ Nation_NN ._.
+The_DT issue_NN of_IN equal_JJ rights_NNS for_IN American_JJ Negroes_NNPS is_VBZ such_JJ an_DT issue_NN ._.
+And_CC should_MD we_PRP defeat_VB every_DT enemy_NN ,_, should_MD we_PRP double_VB our_PRP$ wealth_NN and_CC conquer_VB the_DT stars_NNS ,_, and_CC still_RB be_VB unequal_JJ to_TO this_DT issue_NN ,_, then_RB we_PRP will_MD have_VB failed_VBN as_IN a_DT people_NNS and_CC as_IN a_DT nation_NN ._.
+For_IN with_IN a_DT country_NN as_IN with_IN a_DT person_NN ,_, ``_`` What_WP is_VBZ a_DT man_NN profited_VBD ,_, if_IN he_PRP shall_MD gain_VB the_DT whole_JJ world_NN ,_, and_CC lose_VB his_PRP$ own_JJ soul_NN ?_. ''_''
+There_EX is_VBZ no_DT Negro_NNP problem_NN ._.
+There_EX is_VBZ no_DT Southern_JJ problem_NN ._.
+There_EX is_VBZ no_DT Northern_JJ problem_NN ._.
+There_EX is_VBZ only_RB an_DT American_JJ problem_NN ._.
+And_CC we_PRP are_VBP met_VBN here_RB tonight_RB as_IN Americans_NNPS --_: not_RB as_IN Democrats_NNS or_CC Republicans-we_NN are_VBP met_VBN here_RB as_IN Americans_NNPS to_TO solve_VB that_DT problem_NN ._.
+This_DT was_VBD the_DT first_JJ nation_NN in_IN the_DT history_NN of_IN the_DT world_NN to_TO be_VB founded_VBN with_IN a_DT purpose_NN ._.
+The_DT great_JJ phrases_NNS of_IN that_DT purpose_NN still_RB sound_VB in_IN every_DT American_JJ heart_NN ,_, North_NNP and_CC South_NNP :_: ``_`` All_DT men_NNS are_VBP created_VBN equal_JJ ''_'' --_: ``_`` government_NN by_IN consent_NN of_IN the_DT governed_VBN ''_'' --_: ``_`` give_VB me_PRP liberty_NN or_CC give_VB me_PRP death_NN ._. ''_''
+Well_RB ,_, those_DT are_VBP not_RB just_RB clever_JJ words_NNS ,_, or_CC those_DT are_VBP not_RB just_RB empty_JJ theories_NNS ._.
+In_IN their_PRP$ name_NN Americans_NNPS have_VBP fought_VBN and_CC died_VBD for_IN two_CD centuries_NNS ,_, and_CC tonight_RB around_IN the_DT world_NN they_PRP stand_VBP there_RB as_IN guardians_NNS of_IN our_PRP$ liberty_NN ,_, risking_VBG their_PRP$ lives_NNS ._.
+Those_DT words_NNS are_VBP a_DT promise_NN to_TO every_DT citizen_NN that_IN he_PRP shall_MD share_VB in_IN the_DT dignity_NN of_IN man_NN ._.
+This_DT dignity_NN can_MD not_RB be_VB found_VBN in_IN a_DT man_NN 's_POS possessions_NNS ;_: it_PRP can_MD not_RB be_VB found_VBN in_IN his_PRP$ power_NN ,_, or_CC in_IN his_PRP$ position_NN ._.
+It_PRP really_RB rests_VBZ on_IN his_PRP$ right_NN to_TO be_VB treated_VBN as_IN a_DT man_NN equal_JJ in_IN opportunity_NN to_TO all_DT others_NNS ._.
+It_PRP says_VBZ that_IN he_PRP shall_MD share_VB in_IN freedom_NN ,_, he_PRP shall_MD choose_VB his_PRP$ leaders_NNS ,_, educate_VB his_PRP$ children_NNS ,_, and_CC provide_VB for_IN his_PRP$ family_NN according_VBG to_TO his_PRP$ ability_NN and_CC his_PRP$ merits_NNS as_IN a_DT human_JJ being_NN ._.
+To_TO apply_VB any_DT other_JJ test_NN --_: to_TO deny_VB a_DT man_NN his_PRP$ hopes_NNS because_IN of_IN his_PRP$ color_NN or_CC race_NN ,_, his_PRP$ religion_NN or_CC the_DT place_NN of_IN his_PRP$ birth_NN --_: is_VBZ not_RB only_RB to_TO do_VB injustice_NN ,_, it_PRP is_VBZ to_TO deny_VB America_NNP and_CC to_TO dishonor_VB the_DT dead_NN who_WP gave_VBD their_PRP$ lives_NNS for_IN American_JJ freedom_NN ._.
+THE_DT RIGHT_NN TO_TO VOTE_VB Our_PRP$ fathers_NNS believed_VBN that_IN if_IN this_DT noble_JJ view_NN of_IN the_DT rights_NNS of_IN man_NN was_VBD to_TO flourish_VB ,_, it_PRP must_MD be_VB rooted_VBN in_IN democracy_NN ._.
+The_DT most_RBS basic_JJ right_NN of_IN all_DT was_VBD the_DT right_NN to_TO choose_VB your_PRP$ own_JJ leaders_NNS ._.
+The_DT history_NN of_IN this_DT country_NN ,_, in_IN large_JJ measure_NN ,_, is_VBZ the_DT history_NN of_IN the_DT expansion_NN of_IN that_DT right_NN to_TO all_DT of_IN our_PRP$ people_NNS ._.
+Many_JJ of_IN the_DT issues_NNS of_IN civil_JJ rights_NNS are_VBP very_RB complex_JJ and_CC most_RBS difficult_JJ ._.
+But_CC about_IN this_DT there_EX can_MD and_CC should_MD be_VB no_DT argument_NN ._.
+Every_DT American_JJ citizen_NN must_MD have_VB an_DT equal_JJ right_NN to_TO vote_VB ._.
+There_EX is_VBZ no_DT reason_NN which_WDT can_MD excuse_VB the_DT denial_NN of_IN that_DT right_NN ._.
+There_EX is_VBZ no_DT duty_NN which_WDT weighs_VBZ more_RBR heavily_RB on_IN us_PRP than_IN the_DT duty_NN we_PRP have_VBP to_TO ensure_VB that_IN right_NN ._.
+Yet_CC the_DT harsh_JJ fact_NN is_VBZ that_IN in_IN many_JJ places_NNS in_IN this_DT country_NN men_NNS and_CC women_NNS are_VBP kept_VBN from_IN voting_VBG simply_RB because_IN they_PRP are_VBP Negroes_NNS ._.
+Every_DT device_NN of_IN which_WDT human_JJ ingenuity_NN is_VBZ capable_JJ has_VBZ been_VBN used_VBN to_TO deny_VB this_DT right_NN ._.
+The_DT Negro_NNP citizen_NN may_MD go_VB to_TO register_VB only_RB to_TO be_VB told_VBN that_IN the_DT day_NN is_VBZ wrong_JJ ,_, or_CC the_DT hour_NN is_VBZ late_RB ,_, or_CC the_DT official_NN in_IN charge_NN is_VBZ absent_JJ ._.
+And_CC if_IN he_PRP persists_VBZ ,_, and_CC if_IN he_PRP manages_VBZ to_TO present_VB himself_PRP to_TO the_DT registrar_NN ,_, he_PRP may_MD be_VB disqualified_VBN because_IN he_PRP did_VBD not_RB spell_VB out_RP his_PRP$ middle_JJ name_NN or_CC because_IN he_PRP abbreviated_VBD a_DT word_NN on_IN the_DT application_NN ._.
+And_CC if_IN he_PRP manages_VBZ to_TO fill_VB out_RP an_DT application_NN he_PRP is_VBZ given_VBN a_DT test_NN ._.
+The_DT registrar_NN is_VBZ the_DT sole_JJ judge_NN of_IN whether_IN he_PRP passes_VBZ this_DT test_NN ._.
+He_PRP may_MD be_VB asked_VBN to_TO recite_VB the_DT entire_JJ Constitution_NNP ,_, or_CC explain_VB the_DT most_RBS complex_JJ provisions_NNS of_IN State_NNP law_NN ._.
+And_CC even_RB a_DT college_NN degree_NN can_MD not_RB be_VB used_VBN to_TO prove_VB that_IN he_PRP can_MD read_VB and_CC write_VB ._.
+For_IN the_DT fact_NN is_VBZ that_IN the_DT only_JJ way_NN to_TO pass_VB these_DT barriers_NNS is_VBZ to_TO show_VB a_DT white_JJ skin_NN ._.
+Experience_NN has_VBZ clearly_RB shown_VBN that_IN the_DT existing_VBG process_NN of_IN law_NN can_MD not_RB overcome_VB systematic_JJ and_CC ingenious_JJ discrimination_NN ._.
+No_DT law_NN that_IN we_PRP now_RB have_VBP on_IN the_DT books-and_NN I_PRP have_VBP helped_VBN to_TO put_VB three_CD of_IN them_PRP there_EX --_: can_MD ensure_VB the_DT right_NN to_TO vote_VB when_WRB local_JJ officials_NNS are_VBP determined_VBN to_TO deny_VB it_PRP ._.
+In_IN such_PDT a_DT case_NN our_PRP$ duty_NN must_MD be_VB clear_JJ to_TO all_DT of_IN us_PRP ._.
+The_DT Constitution_NNP says_VBZ that_IN no_DT person_NN shall_MD be_VB kept_VBN from_IN voting_NN because_IN of_IN his_PRP$ race_NN or_CC his_PRP$ color_NN ._.
+We_PRP have_VBP all_DT sworn_VBN an_DT oath_NN before_IN God_NNP to_TO support_VB and_CC to_TO defend_VB that_DT Constitution_NNP ._.
+We_PRP must_MD now_RB act_VB in_IN obedience_NN to_TO that_DT oath_NN ._.
+GUARANTEEING_VBG THE_DT RIGHT_NN TO_TO VOTE_VB Wednesday_NNP I_PRP will_MD send_VB to_TO Congress_NNP a_DT law_NN designed_VBN to_TO eliminate_VB illegal_JJ barriers_NNS to_TO the_DT right_NN to_TO vote_VB ._.
+The_DT broad_JJ principles_NNS of_IN that_DT bill_NN will_MD be_VB in_IN the_DT hands_NNS of_IN the_DT Democratic_JJ and_CC Republican_JJ leaders_NNS tomorrow_NN ._.
+After_IN they_PRP have_VBP reviewed_VBN it_PRP ,_, it_PRP will_MD come_VB here_RB formally_RB as_IN a_DT bill_NN ._.
+I_PRP am_VBP grateful_JJ for_IN this_DT opportunity_NN to_TO come_VB here_RB tonight_RB at_IN the_DT invitation_NN of_IN the_DT leadership_NN to_TO reason_NN with_IN my_PRP$ friends_NNS ,_, to_TO give_VB them_PRP my_PRP$ views_NNS ,_, and_CC to_TO visit_VB with_IN my_PRP$ former_JJ colleagues_NNS ._.
+I_PRP have_VBP had_VBN prepared_VBN a_DT more_RBR comprehensive_JJ analysis_NN of_IN the_DT legislation_NN which_WDT I_PRP had_VBD intended_VBN to_TO transmit_VB to_TO the_DT clerk_NN tomorrow_NN but_CC which_WDT I_PRP will_MD submit_VB to_TO the_DT clerks_NNS tonight_RB ._.
+But_CC I_PRP want_VBP to_TO really_RB discuss_VB with_IN you_PRP now_RB briefly_RB the_DT main_JJ proposals_NNS of_IN this_DT legislation_NN ,_, This_DT bill_NN will_MD strike_VB down_RP restrictions_NNS to_TO voting_VBG in_IN all_DT elections_NNS --_: Federal_NNP ,_, State_NNP ,_, and_CC local_JJ --_: which_WDT have_VBP been_VBN used_VBN to_TO deny_VB Negroes_NNS the_DT right_NN to_TO vote_VB ._.
+This_DT bill_NN will_MD establish_VB a_DT simple_JJ ,_, uniform_JJ standard_NN which_WDT can_MD not_RB be_VB used_VBN ,_, however_RB ingenious_JJ the_DT effort_NN ,_, to_TO flout_VB our_PRP$ Constitution_NNP ._.
+It_PRP will_MD provide_VB for_IN citizens_NNS to_TO be_VB registered_VBN by_IN officials_NNS of_IN the_DT United_NNP States_NNPS Government_NNP if_IN the_DT State_NN officials_NNS refuse_VBP to_TO register_VB them_PRP ._.
+It_PRP will_MD eliminate_VB tedious_JJ ,_, unnecessary_JJ lawsuits_NNS which_WDT delay_VBP the_DT right_NN to_TO vote_VB ._.
+Finally_RB ,_, this_DT legislation_NN will_MD ensure_VB that_IN properly_RB registered_VBN individuals_NNS are_VBP not_RB prohibited_VBN from_IN voting_NN ._.
+I_PRP will_MD welcome_VB the_DT suggestions_NNS from_IN all_DT of_IN the_DT Members_NNS of_IN Congress_NNP --_: I_PRP have_VBP no_DT doubt_NN that_IN I_PRP will_MD get_VB some_DT --_: on_IN ways_NNS and_CC means_VBZ to_TO strengthen_VB this_DT law_NN and_CC to_TO make_VB it_PRP effective_JJ ._.
+But_CC experience_NN has_VBZ plainly_RB shown_VBN that_IN this_DT is_VBZ the_DT only_JJ path_NN to_TO carry_VB out_RP the_DT command_NN of_IN the_DT Constitution_NNP ._.
+To_TO those_DT who_WP seek_VBP to_TO avoid_VB action_NN by_IN their_PRP$ National_NNP Government_NNP in_IN their_PRP$ own_JJ communities_NNS ;_: who_WP want_VBP to_TO and_CC who_WP seek_VBP to_TO maintain_VB purely_RB local_JJ control_NN over_IN elections_NNS ,_, the_DT answer_NN is_VBZ simple_JJ :_: Open_VB your_PRP$ polling_NN places_VBZ to_TO all_DT your_PRP$ people_NNS ._.
+Allow_VB men_NNS and_CC women_NNS to_TO register_VB and_CC vote_VB whatever_WDT the_DT color_NN of_IN their_PRP$ skin_NN ._.
+Extend_VB the_DT rights_NNS of_IN citizenship_NN to_TO every_DT citizen_NN of_IN this_DT land_NN ._.
+THE_DT NEED_NNP FOR_IN ACTION_NNP There_EX is_VBZ no_DT constitutional_JJ issue_NN here_RB ._.
+The_DT command_NN of_IN the_DT Constitution_NNP is_VBZ plain_JJ ._.
+There_EX is_VBZ no_DT moral_JJ issue_NN ._.
+It_PRP is_VBZ wrong_JJ --_: deadly_JJ wrong_JJ --_: to_TO deny_VB any_DT of_IN your_PRP$ fellow_JJ Americans_NNPS the_DT right_NN to_TO vote_VB in_IN this_DT country_NN ._.
+There_EX is_VBZ no_DT issue_NN of_IN States_NNPS rights_NNS or_CC national_JJ rights_NNS ._.
+There_EX is_VBZ only_RB the_DT struggle_NN for_IN human_JJ rights_NNS ._.
+I_PRP have_VBP not_RB the_DT slightest_JJS doubt_NN what_WP will_MD be_VB your_PRP$ answer_NN ._.
+The_DT last_JJ time_NN a_DT President_NNP sent_VBD a_DT civil_JJ rights_NNS bill_NN to_TO the_DT Congress_NNP it_PRP contained_VBD a_DT provision_NN to_TO protect_VB voting_NN rights_NNS in_IN Federal_NNP elections_NNS ._.
+That_DT civil_JJ rights_NNS bill_NN was_VBD passed_VBN after_IN 8_CD long_JJ months_NNS of_IN debate_NN ._.
+And_CC when_WRB that_DT bill_NN came_VBD to_TO my_PRP$ desk_NN from_IN the_DT Congress_NNP for_IN my_PRP$ signature_NN ,_, the_DT heart_NN of_IN the_DT voting_NN provision_NN had_VBD been_VBN eliminated_VBN ._.
+This_DT time_NN ,_, on_IN this_DT issue_NN ,_, there_EX must_MD be_VB no_DT delay_NN ,_, no_DT hesitation_NN and_CC no_DT compromise_NN with_IN our_PRP$ purpose_NN ._.
+We_PRP can_MD not_RB ,_, we_PRP must_MD not_RB ,_, refuse_VBP to_TO protect_VB the_DT right_NN of_IN every_DT American_JJ to_TO vote_VB in_IN every_DT election_NN that_IN he_PRP may_MD desire_VB to_TO participate_VB in_IN ._.
+And_CC we_PRP ought_MD not_RB and_CC we_PRP can_MD not_RB and_CC we_PRP must_MD not_RB wait_VB another_DT 8_CD months_NNS before_IN we_PRP get_VBP a_DT bill_NN ._.
+We_PRP have_VBP already_RB waited_VBN a_DT hundred_CD years_NNS and_CC more_JJR ,_, and_CC the_DT time_NN for_IN waiting_VBG is_VBZ gone_VBN ._.
+So_IN I_PRP ask_VBP you_PRP to_TO join_VB me_PRP in_IN working_VBG long_RB hours_NNS --_: nights_NNS and_CC weekends_NNS ,_, if_IN necessary_JJ --_: to_TO pass_VB this_DT bill_NN ._.
+And_CC I_PRP do_VBP n't_RB make_VB that_DT request_NN lightly_RB ._.
+For_IN from_IN the_DT window_NN where_WRB I_PRP sit_VBP with_IN the_DT problems_NNS of_IN our_PRP$ country_NN I_PRP recognize_VBP that_IN outside_IN this_DT chamber_NN is_VBZ the_DT outraged_JJ conscience_NN of_IN a_DT nation_NN ,_, the_DT grave_JJ concern_NN of_IN many_JJ nations_NNS ,_, and_CC the_DT harsh_JJ judgment_NN of_IN history_NN on_IN our_PRP$ acts_NNS ._.
+WE_NNP SHALL_NNP OVERCOME_NNP But_CC even_RB if_IN we_PRP pass_VBP this_DT bill_NN ,_, the_DT battle_NN will_MD not_RB be_VB over_RB ._.
+What_WP happened_VBD in_IN Selma_NNP is_VBZ part_NN of_IN a_DT far_RB larger_JJR movement_NN which_WDT reaches_VBZ into_IN every_DT section_NN and_CC State_NN of_IN America_NNP ._.
+It_PRP is_VBZ the_DT effort_NN of_IN American_JJ Negroes_NNS to_TO secure_VB for_IN themselves_PRP the_DT full_JJ blessings_NNS of_IN American_JJ life_NN ._.
+Their_PRP$ cause_NN must_MD be_VB our_PRP$ cause_NN too_RB ._.
+Because_IN it_PRP is_VBZ not_RB just_RB Negroes_NNPS ,_, but_CC really_RB it_PRP is_VBZ all_DT of_IN us_PRP ,_, who_WP must_MD overcome_VB the_DT crippling_JJ legacy_NN of_IN bigotry_NN and_CC injustice_NN ._.
+And_CC we_PRP shall_MD overcome_VB ._.
+As_IN a_DT man_NN whose_WP$ roots_NNS go_VBP deeply_RB into_IN Southern_NNP soil_NN I_PRP know_VBP how_WRB agonizing_JJ racial_JJ feelings_NNS are_VBP ._.
+I_PRP know_VBP how_WRB difficult_JJ it_PRP is_VBZ to_TO reshape_VB the_DT attitudes_NNS and_CC the_DT structure_NN of_IN our_PRP$ society_NN ._.
+But_CC a_DT century_NN has_VBZ passed_VBN ,_, more_JJR than_IN a_DT hundred_CD years_NNS ,_, since_IN the_DT Negro_NNP was_VBD freed_VBN ._.
+And_CC he_PRP is_VBZ not_RB fully_RB free_JJ tonight_NN ._.
+It_PRP was_VBD more_JJR than_IN a_DT hundred_CD years_NNS ago_IN that_DT Abraham_NNP Lincoln_NNP ,_, a_DT great_JJ President_NNP of_IN another_DT party_NN ,_, signed_VBD the_DT Emancipation_NNP Proclamation_NNP ,_, but_CC emancipation_NN is_VBZ a_DT proclamation_NN and_CC not_RB a_DT fact_NN ._.
+A_DT century_NN has_VBZ passed_VBN ,_, more_JJR than_IN a_DT hundred_CD years_NNS ,_, since_IN equality_NN was_VBD promised_VBN ._.
+And_CC yet_RB the_DT Negro_NNP is_VBZ not_RB equal_JJ ._.
+A_DT century_NN has_VBZ passed_VBN since_IN the_DT day_NN of_IN promise_NN ._.
+And_CC the_DT promise_NN is_VBZ unkept_JJ ._.
+The_DT time_NN of_IN justice_NN has_VBZ now_RB come_VBN ._.
+I_PRP tell_VBP you_PRP that_IN I_PRP believe_VBP sincerely_RB that_IN no_DT force_NN can_MD hold_VB it_PRP back_RB ._.
+It_PRP is_VBZ right_RB in_IN the_DT eyes_NNS of_IN man_NN and_CC God_NNP that_IN it_PRP should_MD come_VB ._.
+And_CC when_WRB it_PRP does_VBZ ,_, I_PRP think_VBP that_DT day_NN will_MD brighten_VB the_DT lives_NNS of_IN every_DT American_NNP ._.
+For_IN Negroes_NNS are_VBP not_RB the_DT only_JJ victims_NNS ._.
+How_WRB many_JJ white_JJ children_NNS have_VBP gone_VBN uneducated_JJ ,_, how_WRB many_JJ white_JJ families_NNS have_VBP lived_VBN in_IN stark_JJ poverty_NN ,_, how_WRB many_JJ white_JJ lives_NNS have_VBP been_VBN scarred_VBN by_IN fear_NN ,_, because_IN we_PRP have_VBP wasted_VBN our_PRP$ energy_NN and_CC our_PRP$ substance_NN to_TO maintain_VB the_DT barriers_NNS of_IN hatred_NN and_CC terror_NN ?_.
+So_IN I_PRP say_VBP to_TO all_DT of_IN you_PRP here_RB ,_, and_CC to_TO all_DT in_IN the_DT Nation_NN tonight_NN ,_, that_IN those_DT who_WP appeal_VBP to_TO you_PRP to_TO hold_VB on_RP to_TO the_DT past_NN do_VBP so_RB at_IN the_DT cost_NN of_IN denying_VBG you_PRP your_PRP$ future_NN ._.
+This_DT great_JJ ,_, rich_JJ ,_, restless_JJ country_NN can_MD offer_VB opportunity_NN and_CC education_NN and_CC hope_NN to_TO all_DT :_: black_JJ and_CC white_JJ ,_, North_NNP and_CC South_NNP ,_, sharecropper_NN and_CC city_NN dweller_NN ._.
+These_DT are_VBP the_DT enemies_NNS :_: poverty_NN ,_, ignorance_NN ,_, disease_NN ._.
+They_PRP are_VBP the_DT enemies_NNS and_CC not_RB our_PRP$ fellow_JJ man_NN ,_, not_RB our_PRP$ neighbor_NN ._.
+And_CC these_DT enemies_NNS too_RB ,_, poverty_NN ,_, disease_NN and_CC ignorance_NN ,_, we_PRP shall_MD overcome_VB ._.
+AN_DT AMERICAN_NNP PROBLEM_NNP Now_RB let_VBD none_NN of_IN us_PRP in_IN any_DT sections_NNS look_VBP with_IN prideful_JJ righteousness_NN on_IN the_DT troubles_NNS in_IN another_DT section_NN ,_, or_CC on_IN the_DT problems_NNS of_IN our_PRP$ neighbors_NNS ._.
+There_EX is_VBZ really_RB no_DT part_NN of_IN America_NNP where_WRB the_DT promise_NN of_IN equality_NN has_VBZ been_VBN fully_RB kept_VBN ._.
+In_IN Buffalo_NNP as_RB well_RB as_IN in_IN Birmingham_NNP ,_, in_IN Philadelphia_NNP as_RB well_RB as_IN in_IN Selma_NNP ,_, Americans_NNPS are_VBP struggling_VBG for_IN the_DT fruits_NNS of_IN freedom_NN ._.
+This_DT is_VBZ one_CD Nation_NN ._.
+What_WP happens_VBZ in_IN Selma_NNP or_CC in_IN Cincinnati_NNP is_VBZ a_DT matter_NN of_IN legitimate_JJ concern_NN to_TO every_DT American_JJ ._.
+But_CC let_VB each_DT of_IN us_PRP look_VB within_IN our_PRP$ own_JJ hearts_NNS and_CC our_PRP$ own_JJ communities_NNS ,_, and_CC let_VB each_DT of_IN us_PRP put_VBD our_PRP$ shoulder_NN to_TO the_DT wheel_NN to_TO root_VB out_RP injustice_NN wherever_WRB it_PRP exists_VBZ ._.
+As_IN we_PRP meet_VBP here_RB in_IN this_DT peaceful_JJ ,_, historic_JJ chamber_NN tonight_NN ,_, men_NNS from_IN the_DT South_NNP ,_, some_DT of_IN whom_WP were_VBD at_IN Iwo_NNP Jima_NNP ,_, men_NNS from_IN the_DT North_NNP who_WP have_VBP carried_VBN Old_JJ Glory_NN to_TO far_RB corners_NNS of_IN the_DT world_NN and_CC brought_VBD it_PRP back_RB without_IN a_DT stain_VB on_IN it_PRP ,_, men_NNS from_IN the_DT East_NNP and_CC from_IN the_DT West_NNP ,_, are_VBP all_DT fighting_VBG together_RB without_IN regard_NN to_TO religion_NN ,_, or_CC color_NN ,_, or_CC region_NN ,_, in_IN Viet-Nam_NNP ._.
+Men_NN from_IN every_DT region_NN fought_VBD for_IN us_PRP across_IN the_DT world_NN 20_CD years_NNS ago_RB ._.
+And_CC in_IN these_DT common_JJ dangers_NNS and_CC these_DT common_JJ sacrifices_NNS the_DT South_NNP made_VBD its_PRP$ contribution_NN of_IN honor_NN and_CC gallantry_NN no_RB less_JJR than_IN any_DT other_JJ region_NN of_IN the_DT great_JJ Republic_NNP --_: and_CC in_IN some_DT instances_NNS ,_, a_DT great_JJ many_JJ of_IN them_PRP ,_, more_RBR ._.
+And_CC I_PRP have_VBP not_RB the_DT slightest_JJS doubt_NN that_IN good_JJ men_NNS from_IN everywhere_RB in_IN this_DT country_NN ,_, from_IN the_DT Great_NNP Lakes_NNPS to_TO the_DT Gulf_NNP of_IN Mexico_NNP ,_, from_IN the_DT Golden_NNP Gate_NNP to_TO the_DT harbors_NNS along_IN the_DT Atlantic_NNP ,_, will_MD rally_VB together_RB now_RB in_IN this_DT cause_NN to_TO vindicate_VB the_DT freedom_NN of_IN all_DT Americans_NNPS ._.
+For_IN all_DT of_IN us_PRP owe_VBP this_DT duty_NN ;_: and_CC I_PRP believe_VBP that_IN all_DT of_IN us_PRP will_MD respond_VB to_TO it_PRP ._.
+Your_PRP$ President_NNP makes_VBZ that_IN request_NN of_IN every_DT American_NNP ._.
+PROGRESS_NN THROUGH_IN THE_DT DEMOCRATIC_NNP PROCESS_NNP The_NNP real_JJ hero_NN of_IN this_DT struggle_NN is_VBZ the_DT American_JJ Negro_NNP ._.
+His_PRP$ actions_NNS and_CC protests_NNS ,_, his_PRP$ courage_NN to_TO risk_VB safety_NN and_CC even_RB to_TO risk_VB his_PRP$ life_NN ,_, have_VBP awakened_VBN the_DT conscience_NN of_IN this_DT Nation_NN ._.
+His_PRP$ demonstrations_NNS have_VBP been_VBN designed_VBN to_TO call_VB attention_NN to_TO injustice_NN ,_, designed_VBN to_TO provoke_VB change_NN ,_, designed_VBN to_TO stir_VB reform_NN ._.
+He_PRP has_VBZ called_VBN upon_IN us_PRP to_TO make_VB good_JJ the_DT promise_NN of_IN America_NNP ._.
+And_CC who_WP among_IN us_PRP can_MD say_VB that_IN we_PRP would_MD have_VB made_VBN the_DT same_JJ progress_NN were_VBD it_PRP not_RB for_IN his_PRP$ persistent_JJ bravery_NN ,_, and_CC his_PRP$ faith_NN in_IN American_JJ democracy_NN ._.
+For_IN at_IN the_DT real_JJ heart_NN of_IN battle_NN for_IN equality_NN is_VBZ a_DT deep-seated_JJ belief_NN in_IN the_DT democratic_JJ process_NN ._.
+Equality_NN depends_VBZ not_RB on_IN the_DT force_NN of_IN arms_NNS or_CC tear_VB gas_NN but_CC upon_IN the_DT force_NN of_IN moral_JJ right_NN ;_: not_RB on_IN recourse_NN to_TO violence_NN but_CC on_IN respect_NN for_IN law_NN and_CC order_NN ._.
+There_EX have_VBP been_VBN many_JJ pressures_NNS upon_IN your_PRP$ President_NNP and_CC there_EX will_MD be_VB others_NNS as_IN the_DT days_NNS come_VBP and_CC go_VBP ._.
+But_CC I_PRP pledge_NN you_PRP tonight_RB that_IN we_PRP intend_VBP to_TO fight_VB this_DT battle_NN where_WRB it_PRP should_MD be_VB fought_VBN :_: in_IN the_DT courts_NNS ,_, and_CC in_IN the_DT Congress_NNP ,_, and_CC in_IN the_DT hearts_NNS of_IN men_NNS ._.
+We_PRP must_MD preserve_VB the_DT right_NN of_IN free_JJ speech_NN and_CC the_DT right_NN of_IN free_JJ assembly_NN ._.
+But_CC the_DT right_NN of_IN free_JJ speech_NN does_VBZ not_RB carry_VB with_IN it_PRP ,_, as_IN has_VBZ been_VBN said_VBN ,_, the_DT right_NN to_TO holler_VB fire_NN in_IN a_DT crowded_JJ theater_NN ._.
+We_PRP must_MD preserve_VB the_DT right_NN to_TO free_JJ assembly_NN ,_, but_CC free_JJ assembly_NN does_VBZ not_RB carry_VB with_IN it_PRP the_DT right_NN to_TO block_VB public_JJ thoroughfares_NNS to_TO traffic_NN ._.
+We_PRP do_VBP have_VB a_DT right_NN to_TO protest_NN ,_, and_CC a_DT right_NN to_TO march_VB under_IN conditions_NNS that_WDT do_VBP not_RB infringe_VB the_DT constitutional_JJ rights_NNS of_IN our_PRP$ neighbors_NNS ._.
+And_CC I_PRP intend_VBP to_TO protect_VB all_PDT those_DT rights_NNS as_RB long_RB as_IN I_PRP am_VBP permitted_VBN to_TO serve_VB in_IN this_DT office_NN ._.
+We_PRP will_MD guard_VB against_IN violence_NN ,_, knowing_VBG it_PRP strikes_VBZ from_IN our_PRP$ hands_NNS the_DT very_RB weapons_NNS which_WDT we_PRP seek_VBP --_: progress_NN ,_, obedience_NN to_TO law_NN ,_, and_CC belief_NN in_IN American_JJ values_NNS ._.
+In_IN Selma_NNP as_IN elsewhere_RB we_PRP seek_VBP and_CC pray_VBP for_IN peace_NN ._.
+We_PRP seek_VBP order_NN ._.
+We_PRP seek_VBP unity_NN ._.
+But_CC we_PRP will_MD not_RB accept_VB the_DT peace_NN of_IN stifled_JJ rights_NNS ,_, or_CC the_DT order_NN imposed_VBN by_IN fear_NN ,_, or_CC the_DT unity_NN that_WDT stifles_VBZ protest_NN ._.
+For_IN peace_NN can_MD not_RB be_VB purchased_VBN at_IN the_DT cost_NN of_IN liberty_NN ._.
+In_IN Selma_NNP tonight_RB ,_, as_IN in_IN every_DT --_: and_CC we_PRP had_VBD a_DT good_JJ day_NN there_RB --_: as_IN in_IN every_DT city_NN ,_, we_PRP are_VBP working_VBG for_IN just_RB and_CC peaceful_JJ settlement_NN ._.
+We_PRP must_MD all_DT remember_VBP that_IN after_IN this_DT speech_NN I_PRP am_VBP making_VBG tonight_RB ,_, after_IN the_DT police_NN and_CC the_DT FBI_NNP and_CC the_DT Marshals_NNPS have_VBP all_DT gone_VBN ,_, and_CC after_IN you_PRP have_VBP promptly_RB passed_VBN this_DT bill_NN ,_, the_DT people_NNS of_IN Selma_NNP and_CC the_DT other_JJ cities_NNS of_IN the_DT Nation_NN must_MD still_RB live_VB and_CC work_VB together_RB ._.
+And_CC when_WRB the_DT attention_NN of_IN the_DT Nation_NN has_VBZ gone_VBN elsewhere_RB they_PRP must_MD try_VB to_TO heal_VB the_DT wounds_NNS and_CC to_TO build_VB a_DT new_JJ community_NN ._.
+This_DT can_MD not_RB be_VB easily_RB done_VBN on_IN a_DT battleground_NN of_IN violence_NN ,_, as_IN the_DT history_NN of_IN the_DT South_NNP itself_PRP shows_VBZ ._.
+It_PRP is_VBZ in_IN recognition_NN of_IN this_DT that_WDT men_NNS of_IN both_DT races_NNS have_VBP shown_VBN such_PDT an_DT outstandingly_RB impressive_JJ responsibility_NN in_IN recent_JJ days_NNS --_: last_JJ Tuesday_NNP ,_, again_RB today_NN ,_, RIGHTS_NNS MUST_VBP BE_VB OPPORTUNITIES_NNS The_DT bill_NN that_IN I_PRP am_VBP presenting_VBG to_TO you_PRP will_MD be_VB known_VBN as_IN a_DT civil_JJ rights_NNS bill_NN ._.
+But_CC ,_, in_IN a_DT larger_JJR sense_NN ,_, most_JJS of_IN the_DT program_NN I_PRP am_VBP recommending_VBG is_VBZ a_DT civil_JJ rights_NNS program_NN ._.
+Its_PRP$ object_NN is_VBZ to_TO open_VB the_DT city_NN of_IN hope_NN to_TO all_DT people_NNS of_IN all_DT races_NNS ._.
+Because_IN all_DT Americans_NNPS just_RB must_MD have_VB the_DT right_NN to_TO vote_VB ._.
+And_CC we_PRP are_VBP going_VBG to_TO give_VB them_PRP that_IN right_NN ._.
+All_DT Americans_NNPS must_MD have_VB the_DT privileges_NNS of_IN citizenship_NN regardless_RB of_IN race_NN ._.
+And_CC they_PRP are_VBP going_VBG to_TO have_VB those_DT privileges_NNS of_IN citizenship_NN regardless_RB of_IN race_NN ._.
+But_CC I_PRP would_MD like_VB to_TO caution_VB you_PRP and_CC remind_VB you_PRP that_IN to_TO exercise_VB these_DT privileges_NNS takes_VBZ much_RB more_JJR than_IN just_RB legal_JJ right_NN ._.
+It_PRP requires_VBZ a_DT trained_JJ mind_NN and_CC a_DT healthy_JJ body_NN ._.
+It_PRP requires_VBZ a_DT decent_JJ home_NN ,_, and_CC the_DT chance_NN to_TO find_VB a_DT job_NN ,_, and_CC the_DT opportunity_NN to_TO escape_VB from_IN the_DT clutches_NNS of_IN poverty_NN ._.
+Of_IN course_NN ,_, people_NNS can_MD not_RB contribute_VB to_TO the_DT Nation_NN if_IN they_PRP are_VBP never_RB taught_VBN to_TO read_VB or_CC write_VB ,_, if_IN their_PRP$ bodies_NNS are_VBP stunted_VBN from_IN hunger_NN ,_, if_IN their_PRP$ sickness_NN goes_VBZ untended_JJ ,_, if_IN their_PRP$ life_NN is_VBZ spent_VBN in_IN hopeless_JJ poverty_NN just_RB drawing_VBG a_DT welfare_NN check_NN ._.
+So_IN we_PRP want_VBP to_TO open_VB the_DT gates_NNS to_TO opportunity_NN ._.
+But_CC we_PRP are_VBP also_RB going_VBG to_TO give_VB all_DT our_PRP$ people_NNS ,_, black_JJ and_CC white_JJ ,_, the_DT help_NN that_IN they_PRP need_VBP to_TO walk_VB through_IN those_DT gates_NNS ._.
+THE_DT PURPOSE_NN OF_IN THIS_NNP GOVERNMENT_NNP My_PRP$ first_JJ job_NN after_IN college_NN was_VBD as_IN a_DT teacher_NN in_IN Cotulla_NNP ,_, Tex._NNP ,_, in_IN a_DT small_JJ Mexican-American_JJ school_NN ._.
+Few_JJ of_IN them_PRP could_MD speak_VB English_NNP ,_, and_CC I_PRP could_MD n't_RB speak_VB much_JJ Spanish_JJ ._.
+My_PRP$ students_NNS were_VBD poor_JJ and_CC they_PRP often_RB came_VBD to_TO class_NN without_IN breakfast_NN ,_, hungry_JJ ._.
+They_PRP knew_VBD even_RB in_IN their_PRP$ youth_NN the_DT pain_NN of_IN prejudice_NN ._.
+They_PRP never_RB seemed_VBD to_TO know_VB why_WRB people_NNS disliked_VBD them_PRP ._.
+But_CC they_PRP knew_VBD it_PRP was_VBD so_RB ,_, because_IN I_PRP saw_VBD it_PRP in_IN their_PRP$ eyes_NNS ._.
+I_PRP often_RB walked_VBD home_NN late_RB in_IN the_DT afternoon_NN ,_, after_IN the_DT classes_NNS were_VBD finished_VBN ,_, wishing_VBG there_EX was_VBD more_RBR that_IN I_PRP could_MD do_VB ._.
+But_CC all_DT I_PRP knew_VBD was_VBD to_TO teach_VB them_PRP the_DT little_JJ that_IN I_PRP knew_VBD ,_, hoping_VBG that_IN it_PRP might_MD help_VB them_PRP against_IN the_DT hardships_NNS that_WDT lay_VBD ahead_RB ._.
+Somehow_RB you_PRP never_RB forget_VBP what_WP poverty_NN and_CC hatred_NN can_MD do_VB when_WRB you_PRP see_VBP its_PRP$ scars_NNS on_IN the_DT hopeful_JJ face_NN of_IN a_DT young_JJ child_NN ._.
+I_PRP never_RB thought_VBD then_RB ,_, in_IN 1928_CD ,_, that_IN I_PRP would_MD be_VB standing_VBG here_RB in_IN 1965_CD ._.
+It_PRP never_RB even_RB occurred_VBD to_TO me_PRP in_IN my_PRP$ fondest_JJS dreams_NNS that_IN I_PRP might_MD have_VB the_DT chance_NN to_TO help_VB the_DT sons_NNS and_CC daughters_NNS of_IN those_DT students_NNS and_CC to_TO help_VB people_NNS like_IN them_PRP all_DT over_RP this_DT country_NN ._.
+But_CC now_RB I_PRP do_VBP have_VB that_DT chance_NN --_: and_CC I_PRP 'll_MD let_VB you_PRP in_IN on_IN a_DT secret_NN --_: I_PRP mean_VBP to_TO use_VB it_PRP ._.
+And_CC I_PRP hope_VBP that_IN you_PRP will_MD use_VB it_PRP with_IN me_PRP ._.
+This_DT is_VBZ the_DT richest_JJS and_CC most_RBS powerful_JJ country_NN which_WDT ever_RB occupied_VBD the_DT globe_NN ._.
+The_DT might_NN of_IN past_JJ empires_NNS is_VBZ little_JJ compared_VBN to_TO ours_JJ ._.
+But_CC I_PRP do_VBP not_RB want_VB to_TO be_VB the_DT President_NNP who_WP built_VBD empires_NNS ,_, or_CC sought_VBD grandeur_NN ,_, or_CC extended_VBN dominion_NN ._.
+I_PRP want_VBP to_TO be_VB the_DT President_NNP who_WP educated_VBD young_JJ children_NNS to_TO the_DT wonders_NNS of_IN their_PRP$ world_NN ._.
+I_PRP want_VBP to_TO be_VB the_DT President_NNP who_WP helped_VBD to_TO feed_VB the_DT hungry_JJ and_CC to_TO prepare_VB them_PRP to_TO be_VB taxpayers_NNS instead_RB of_IN taxeaters_NNS ._.
+I_PRP want_VBP to_TO be_VB the_DT President_NNP who_WP helped_VBD the_DT poor_JJ to_TO find_VB their_PRP$ own_JJ way_NN and_CC who_WP protected_VBD the_DT right_NN of_IN every_DT citizen_NN to_TO vote_VB in_IN every_DT election_NN ._.
+I_PRP want_VBP to_TO be_VB the_DT President_NNP who_WP helped_VBD to_TO end_VB hatred_NN among_IN his_PRP$ fellow_JJ men_NNS and_CC who_WP promoted_VBD love_NN among_IN the_DT people_NNS of_IN all_DT races_NNS and_CC all_DT regions_NNS and_CC all_DT parties_NNS ._.
+I_PRP want_VBP to_TO be_VB the_DT President_NNP who_WP helped_VBD to_TO end_VB war_NN among_IN the_DT brothers_NNS of_IN this_DT earth_NN ._.
+And_CC so_RB at_IN the_DT request_NN of_IN your_PRP$ beloved_JJ Speaker_NNP and_CC the_DT Senator_NNP from_IN Montana_NNP ;_: the_DT majority_NN leader_NN ,_, the_DT Senator_NNP from_IN Illinois_NNP ;_: the_DT minority_NN leader_NN ,_, Mr._NNP McCulloch_NNP ,_, and_CC other_JJ Members_NNS of_IN both_DT parties_NNS ,_, I_PRP came_VBD here_RB tonight_RB --_: not_RB as_IN President_NNP Roosevelt_NNP came_VBD down_RP one_CD time_NN in_IN person_NN to_TO veto_VB a_DT bonus_NN bill_NN ,_, not_RB as_IN President_NNP Truman_NNP came_VBD down_RP one_CD time_NN to_TO urge_VB the_DT passage_NN of_IN a_DT railroad_NN bill_NN --_: but_CC I_PRP came_VBD down_RB here_RB to_TO ask_VB you_PRP to_TO share_VB this_DT task_NN with_IN me_PRP and_CC to_TO share_VB it_PRP with_IN the_DT people_NNS that_IN we_PRP both_DT work_NN for_IN ._.
+I_PRP want_VBP this_DT to_TO be_VB the_DT Congress_NNP ,_, Republicans_NNPS and_CC Democrats_NNPS alike_RB ,_, which_WDT did_VBD all_PDT these_DT things_NNS for_IN all_PDT these_DT people_NNS ._.
+Beyond_IN this_DT great_JJ chamber_NN ,_, out_IN yonder_NN in_IN 50_CD States_NNS ,_, are_VBP the_DT people_NNS that_IN we_PRP serve_VBP ._.
+Who_WP can_MD tell_VB what_WP deep_RB and_CC unspoken_JJ hopes_NNS are_VBP in_IN their_PRP$ hearts_NNS tonight_RB as_IN they_PRP sit_VBP there_RB and_CC listen_VB ._.
+We_PRP all_DT can_MD guess_VB ,_, from_IN our_PRP$ own_JJ lives_NNS ,_, how_WRB difficult_JJ they_PRP often_RB find_VBP their_PRP$ own_JJ pursuit_NN of_IN happiness_NN ,_, how_WRB many_JJ problems_NNS each_DT little_JJ family_NN has_VBZ ._.
+They_PRP look_VBP most_JJS of_IN all_DT to_TO themselves_PRP for_IN their_PRP$ futures_NNS ._.
+But_CC I_PRP think_VBP that_IN they_PRP also_RB look_VBP to_TO each_DT of_IN us_PRP ._.
+Above_IN the_DT pyramid_NN on_IN the_DT great_JJ seal_NN of_IN the_DT United_NNP States_NNPS it_PRP says_VBZ --_: in_IN Latin_NNP --_: ``_`` God_NNP has_VBZ favored_VBN our_PRP$ undertaking_NN ._. ''_''
+God_NNP will_MD not_RB favor_VB everything_NN that_IN we_PRP do_VBP ._.
+It_PRP is_VBZ rather_RB our_PRP$ duty_NN to_TO divine_VB His_PRP$ will_MD ._.
+But_CC I_PRP can_MD not_RB help_VB believing_VBG that_IN He_PRP truly_RB understands_VBZ and_CC that_IN He_PRP really_RB favors_VBZ the_DT undertaking_NN that_IN we_PRP begin_VBP here_RB tonight_RB ._.
