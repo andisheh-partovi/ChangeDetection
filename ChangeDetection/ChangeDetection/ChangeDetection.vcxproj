@@ -64,11 +64,13 @@
     <ClInclude Include="Definitions.h" />
     <ClInclude Include="IOHandler.h" />
     <ClInclude Include="MyStringUtility.h" />
+    <ClInclude Include="Preprocessing.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="IOHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Preprocessing.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,7 @@
 #pragma once
 
-#include "IOHandler.h"
 #include "MyStringUtility.h"
-
+#include "Preprocessing.h"
 
 class App
 {
@@ -11,6 +10,7 @@ private:
 	//handles and inter-program variables
 	IOHandler* ioHandler;
 	MyStringUtility* strUtilHandle;
+	Preprocessing* preprocessHandle;
 	std::string log;
 
 	//domain specific
@@ -30,16 +30,14 @@ private:
 	double hazardFunction(bool isChangePoint);
 
 	//pre-processing
-	String2intMap getWordFrequencyCount(std::string inputText);
+	String2intMap getWordFrequencyCount(int fileNumber);
 	String2intMap getPOSCount(int fileNumber);
 	String2intMap getFunctionWordCount(int fileNumber);
-	std::string runPOSTagger(int fileNumber);
 
 	//utilities
 	std::vector <int> hash2Vector(String2intMap inputMap);
 	String2intMap mergeString2intMaps(std::vector< String2intMap > inputList, int startIndex, int endIndex);
 	double sumOfElements(std::vector <double> inputVector);
-	std::string fileNUmber2FilePath (int fileNumber);
 	bool isElementInList(std::string element, StringList list);
 
 public:

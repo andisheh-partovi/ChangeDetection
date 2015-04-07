@@ -1,0 +1,3 @@
+
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\test_files\4.txt 
+once_RB or_CC twice_RB she_PRP had_VBD peeped_VBN into_IN the_DT book_NN her_PRP$ sister_NN was_VBD reading_VBG

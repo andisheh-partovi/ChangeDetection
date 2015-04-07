@@ -11,6 +11,7 @@ App::App(void)
 {
 	ioHandler = new IOHandler();
 	strUtilHandle = new MyStringUtility();
+	preprocessHandle = new Preprocessing();
 
 	//defining the non_function_POSs:
 	//adjectives
@@ -39,7 +40,14 @@ void App::run(Method method)
 {
 	std::cout << "started running\n\n";
 
-	//initialization step
+	//initialization steps:
+	//1.Preprocessing
+	std::string dataFilesPath = PROJECT_PATH;
+	dataFilesPath += "\\test_files\\";
+
+	preprocessHandle->runTextPreprocessing(ioHandler->getAllFilesIndirectory(dataFilesPath) , dataFilesPath);
+
+	//2. Setting dictionary size
 	initializeChangeDetectionAlgorithm(method);
 	switch (method)
 	{
@@ -56,6 +64,7 @@ void App::run(Method method)
 			std::cerr << "unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
 
+	//Running the algorithm
 	runChangeDetectionAlgorithm(method);
 
 	std::cout << "finished running\n\n";
@@ -149,12 +158,10 @@ void App::runChangeDetectionAlgorithm(Method method)
 //returns the datum at time t (x_t) in form of a vector
 String2intMap App::getx_t (int t, Method method)
 {
-	std::string filePath = fileNUmber2FilePath (t);
-
 	switch (method)
 	{
 		case wordCount:
-			return getWordFrequencyCount(ioHandler->readFile(filePath));
+			return getWordFrequencyCount(t);
 		case POSCount:
 			return getPOSCount(t);
 		case functionWordCount:
@@ -164,35 +171,6 @@ String2intMap App::getx_t (int t, Method method)
 	}
 }
 
-std::string App::fileNUmber2FilePath (int fileNumber)
-{
-	std::string testLocation = "\\test_files\\";
-	return PROJECT_PATH + testLocation + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
-}
-
-//commanding the POS tagger to read and tag the input file and write back the result
-std::string App::runPOSTagger(int fileNumber)
-{
-	std::string outputFilePath = "\\stanford_output\\stanford_output";
-	outputFilePath = PROJECT_PATH + outputFilePath + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
-
-	std::string command = "stanford-postagger models\\wsj-0-18-left3words-distsim.tagger ";
-	command += fileNUmber2FilePath(fileNumber) + " > " + outputFilePath;
-
-	std::string currentDirectory = PROJECT_PATH;
-	currentDirectory += "\\stanford-postagger-full-2013-06-20";
-	SetCurrentDirectory(currentDirectory.c_str());
-	system(command.c_str());
-
-	SetCurrentDirectory(PROJECT_PATH);
-
-	//reading the stanford output file
-	std::string POSOutput = ioHandler->readFile(outputFilePath);
-	//std::cout << "POSOutput: " << POSOutput;
-
-	return POSOutput;
-}
-
 //returns the part of speech tag count of the input string
 //it uses stanford POS tagger
 String2intMap App::getPOSCount(int fileNumber)
@@ -200,7 +178,7 @@ String2intMap App::getPOSCount(int fileNumber)
 	String2intMap POSCount;
 
 	//commanding the POS tagger to read and tag the input file and write back the result
-	std::string POSOutput = runPOSTagger(fileNumber);
+	std::string POSOutput = ioHandler->getPOSTags(fileNumber);
 
 	//parsing stanford's output
 	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
@@ -233,8 +211,8 @@ String2intMap App::getFunctionWordCount(int fileNumber)
 {
 	String2intMap functionWordCount;
 
-	//commanding the POS tagger to read and tag the input file and write back the result
-	std::string POSOutput = runPOSTagger(fileNumber);
+	//reading back POS tagger's results (includes tokenization)
+	std::string POSOutput = ioHandler->getPOSTags(fileNumber);
 
 	//parsing stanford's output
 	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
@@ -267,6 +245,40 @@ String2intMap App::getFunctionWordCount(int fileNumber)
 	return functionWordCount;
 }
 
+//returns a map of words and their frequency count
+String2intMap App::getWordFrequencyCount(int fileNumber)
+{
+	String2intMap wordFrequencies;
+
+	//reading back POS tagger's results (includes tokenization)
+	std::string POSOutput = ioHandler->getPOSTags(fileNumber);
+
+	//parsing stanford's output
+	std::vector<std::string> allLines = strUtilHandle->split(POSOutput, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string word;
+
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			word= bothWords[0];
+
+			if (wordFrequencies.find(word) == wordFrequencies.end()) //if not in the map
+				wordFrequencies[word] = 1;
+			else
+				wordFrequencies[word] = wordFrequencies[word] + 1;
+		}
+	}
+
+	return wordFrequencies;
+}
+
 //merges the maps in the input list of maps, if their index is between the start and end index
 String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, int startIndex, int endIndex)
 {
@@ -290,29 +302,6 @@ String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, i
     }
 
 	return returnMap;
-}
-
-//returns a map of words and their frequency count
-String2intMap App::getWordFrequencyCount(std::string inputText)
-{
-	String2intMap wordFrequencies;
-
-	//1. tokenize the input string
-
-	boost::char_separator<char> sep(" ");
-    boost::tokenizer< boost::char_separator<char> > tokens(inputText, sep);
-
-	//2. count the word frequencies and fill the vector
-	BOOST_FOREACH(const std::string& t, tokens) 
-	{
-		if (wordFrequencies.find(t) == wordFrequencies.end()) //if not in the map
-			wordFrequencies[t] = 1;
-		else
-			wordFrequencies[t] = wordFrequencies[t] + 1;
-    }
-
-	//return hash2Vector(wordFrequencies);// if only interested in the count and not the whole map
-	return wordFrequencies;
 }
 
 std::vector <int> App::hash2Vector(String2intMap inputMap)
