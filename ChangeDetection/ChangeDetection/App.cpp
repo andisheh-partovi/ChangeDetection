@@ -112,9 +112,16 @@ void App::runChangeDetectionAlgorithm(Method method)
 			}
 			else //possible continuation : calcuate Growth probability
 			{
-				//printString2intMap(mergeString2intMaps(allData, t-i, t)); std::cout<<"\n";//testing
-				likelihood = calculateLikelihood(mergeString2intMaps(allData, t-i, t), dictionarySize);
-				P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
+				if (r[t-1][i-1] != 0)
+				{
+					//printString2intMap(mergeString2intMaps(allData, t-i, t)); std::cout<<"\n";//testing
+					likelihood = calculateLikelihood(mergeString2intMaps(allData, t-i, t), dictionarySize);
+					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
+				}
+				else
+				{
+					P_rt_and_x_1_t = 0;
+				}
 			}
 
 			//save the joint probabilities
@@ -130,12 +137,18 @@ void App::runChangeDetectionAlgorithm(Method method)
 		//first get the sum (evidence probability)
 		evidence = sumOfElements(joint_rt_probs);
 
-		//then divide all the joints by the sum
+		//then divide all the joints by the sum to get the conditional prob
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
 		{
 			joint_rt_probs.at(i) = joint_rt_probs.at(i) / evidence;
+
+			////remember: joiny_rt_probs is now holding conditionals not joints
+			////intorcusing thresholds:
+			//if (joint_rt_probs.at(i) < SIGNIFICANT_PROBABILITY_THRESHOLD)
+			//	joint_rt_probs.at(i) = 0;
 		}
 
+		//remember: joiny_rt_probs is now holding conditionals not joints
 		r.push_back(joint_rt_probs);
 		joint_rt_probs.clear();
 	}
