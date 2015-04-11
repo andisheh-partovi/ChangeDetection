@@ -5,9 +5,16 @@
 
 enum Method
 {
-	wordCount,
-	POSCount,
-	functionWordCount
+	WORDCOUNT,
+	POSCOUNT,
+	FUNCTIONWORDCOUNT
+};
+
+enum DataSet
+{
+	TEST,
+	STATE_OF_THE_UNION,
+	TWEET
 };
 
 class App
@@ -21,10 +28,12 @@ private:
 
 	//domain specific
 	int dictionarySize;
+	double hazardRate;
 
 	unsigned int totalTimeSteps;
 	std::vector<Features*> allFeatues;
 	std::vector< std::vector <long double> > r;
+	std::vector <long double> max_r;
 	std::vector< String2doubleMap > allData;
 	std::vector< int > allDataSizes;
 	std::vector< std::vector <long double> > testData;
@@ -45,13 +54,15 @@ private:
 	long double sumOfElements(std::vector <long double> inputVector);
 	int sumOfElements(String2doubleMap inputMap);
 	double getAverageLengthInRange(std::vector< int > allDataSizes);
+	std::vector <int> getMaxProbabilityindexAtEachTime(std::vector< std::vector <long double> > r);
 
 public:
 	App(void);
 	~App(void);
 
-	void run(Method method);
+	void run(Method method, DataSet dataSet);
 
+	void print1DArray(std::vector <int> inputData);
 	void prin2DArray(std::vector< std::vector <long double> > inputData);
 	void printString2intMap(String2doubleMap inputMap);
 	

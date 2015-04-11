@@ -6,7 +6,7 @@ int main()
 {
 	App* app = new App();
 
-	app->run(wordCount);
+	app->run(WORDCOUNT, TEST);
 
 	_getch();
 	return 0;

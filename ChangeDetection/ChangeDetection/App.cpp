@@ -12,14 +12,25 @@ App::App(void)
 	preprocessHandle = new Preprocessing();
 }
 
-void App::run(Method method)
+void App::run(Method method, DataSet dataSet)
 {
 	std::cout << "started running\n\n";
 
 	//------------------------------------------ 1.Preprocessing
 	std::string dataFilesPath = PROJECT_PATH;
-	dataFilesPath += "\\test_files\\";
-	//dataFilesPath += "\\state_union\\";
+	switch(dataSet)
+	{
+	case TEST:
+		dataFilesPath += "\\test_files\\";
+		hazardRate = 0.1666666; //used in the prioir probability over change P(r_t | r_t-1) for synthetic data's test
+		break;
+	case STATE_OF_THE_UNION:
+		dataFilesPath += "\\state_union\\";
+		hazardRate = 0.1;
+		break;
+	default:
+		std::cerr << "ERROR: unknown dataset selected.";
+	}
 	
 	//feeding all the data files to the pre-process unit to get them processed
 	StringList allDataFileNames = ioHandler->getAllFilesIndirectory(dataFilesPath);
@@ -35,13 +46,13 @@ void App::run(Method method)
 	initializeChangeDetectionAlgorithm(method);
 	switch (method)
 	{
-	case wordCount:
+	case WORDCOUNT:
 		dictionarySize = preprocessHandle->getWordCountDictSize();
 		break;
-	case POSCount:
+	case POSCOUNT:
 		dictionarySize = preprocessHandle->getPOSCountDictSize();
 		break;
-	case functionWordCount:
+	case FUNCTIONWORDCOUNT:
 		dictionarySize = preprocessHandle->getFunctionWordCountDictSize();
 		break;
 	default:
@@ -58,6 +69,10 @@ void App::run(Method method)
 	ioHandler->write2File(log, "log.txt");
 	prin2DArray(r);
 
+	//also print the maximums, which is what we actuallt want
+	std::vector <int> maxes = getMaxProbabilityindexAtEachTime(r);
+	print1DArray(maxes);
+
 	//testing:
 	std::cout << "\ndictionarySize: " << dictionarySize;
 	//std::cout << "\n\n";
@@ -68,7 +83,7 @@ void App::feedData (String2doubleMap x_t)
 {
 	allDataSizes.push_back(sumOfElements(x_t));
 	allData.push_back(x_t);
-	printString2intMap(allData[allData.size() - 1]); //testing
+	//printString2intMap(allData[allData.size() - 1]); //testing
 }
 
 //the initialization steps
@@ -109,7 +124,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 			{
 				P_rt_and_x_1_t = 0;
 
-				printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
+				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
 				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionarySize);
 
 				//for all the points in r_t-1
@@ -122,7 +137,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 			{
 				if (r[t-1][i-1] != 0)
 				{
-					printString2intMap(normalize_x_t(mergeString2intMaps(allData, t-i, t))); std::cout<<"\n";//testing
+					//printString2intMap(normalize_x_t(mergeString2intMaps(allData, t-i, t))); std::cout<<"\n";//testing
 					likelihood = calculateLikelihood(normalize_x_t(mergeString2intMaps(allData, t-i, t)), dictionarySize);
 					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
 				}
@@ -167,11 +182,11 @@ String2doubleMap App::getx_t (int t, Method method)
 {
 	switch (method)
 	{
-		case wordCount:
+		case WORDCOUNT:
 			return allFeatues.at(t)->getWordCount();
-		case POSCount:
+		case POSCOUNT:
 			return allFeatues.at(t)->getPOSCount();
-		case functionWordCount:
+		case FUNCTIONWORDCOUNT:
 			return allFeatues.at(t)->getFunctionWordCount();
 		default:
 			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
@@ -183,9 +198,9 @@ String2doubleMap App::normalize_x_t (String2doubleMap raw_x_t)
 {
 	String2doubleMap returnMap;
 	double runningAverage = getAverageLengthInRange(this->allDataSizes);
-	std::cout << "\nrunningAverage" << runningAverage << "\n";
+	//std::cout << "\nrunningAverage" << runningAverage << "\n";
 	double normalizationFactor = runningAverage / sumOfElements(raw_x_t);
-	std::cout << "\nnormalizationFactor" << normalizationFactor << "\n";
+	//std::cout << "\nnormalizationFactor" << normalizationFactor << "\n";
 
 	String2doubleMap::iterator iter;
 
@@ -341,9 +356,36 @@ long double App::getInitialProbability()
 long double App::hazardFunction(bool isChangePoint)
 {
 	if (isChangePoint)
-		return GAMMA;
+		return hazardRate;
 	else
-		return 1 - GAMMA;
+		return 1 - hazardRate;
+}
+
+std::vector <int> App::getMaxProbabilityindexAtEachTime(std::vector< std::vector <long double> > r)
+{
+	std::vector <long double> maxes;
+	std::vector <int> maxIndecies;
+	long double max;
+	int maxIndex;
+
+	for (unsigned int i = 0 ; i < r.size() ; ++i)
+	{
+		max = 0.0;
+		maxIndex = -1;
+		for (unsigned int j = 0 ; j < r.at(i).size() ; ++j)
+		{
+			if (r[i][j] > max)
+			{
+				max = r[i][j];
+				maxIndex = j;
+			}
+		}
+
+		maxes.push_back(max);
+		maxIndecies.push_back(maxIndex);
+	}
+
+	return maxIndecies;
 }
 
 void App::testTokenizer()
@@ -426,6 +468,16 @@ void App::prin2DArray(std::vector< std::vector <long double> > inputData)
 
 		std::cout << "\n";
 	}
+}
+
+void App::print1DArray(std::vector <int> inputData)
+{
+	std::cout << "\n";
+
+	for (unsigned int i = 0 ; i < inputData.size() ; ++i)
+		std::cout << inputData.at(i)<< " , ";
+
+	std::cout << "\n";
 }
 
 void App::printString2intMap(String2doubleMap inputMap)
