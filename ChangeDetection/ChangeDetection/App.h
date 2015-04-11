@@ -60,7 +60,7 @@ public:
 	App(void);
 	~App(void);
 
-	void run(Method method, DataSet dataSet);
+	void run(Method method, DataSet dataSet, bool doParse);
 
 	void print1DArray(std::vector <int> inputData);
 	void prin2DArray(std::vector< std::vector <long double> > inputData);

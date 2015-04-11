@@ -12,7 +12,7 @@ App::App(void)
 	preprocessHandle = new Preprocessing();
 }
 
-void App::run(Method method, DataSet dataSet)
+void App::run(Method method, DataSet dataSet, bool doParse)
 {
 	std::cout << "started running\n\n";
 
@@ -34,7 +34,9 @@ void App::run(Method method, DataSet dataSet)
 	
 	//feeding all the data files to the pre-process unit to get them processed
 	StringList allDataFileNames = ioHandler->getAllFilesIndirectory(dataFilesPath);
-	//preprocessHandle->runTextPreprocessing( allDataFileNames , dataFilesPath);
+
+	if (doParse)
+		preprocessHandle->runTextPreprocessing( allDataFileNames , dataFilesPath);
 
 	totalTimeSteps = allDataFileNames.size();
 
@@ -108,7 +110,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < totalTimeSteps ; ++t)
+	for (unsigned int t = 1 ; t < 30 ; ++t)
 	{
 		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
 		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
@@ -312,9 +314,9 @@ long double App::sumOfElements(std::vector <long double> inputVector)
 long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 {
 	long double alpha = 1.0/dictionarySize;
-	long double gammaAlpha = boost::math::tgamma<long double>(alpha);
+	long double gammaAlpha = boost::math::lgamma<long double>(alpha);
 
-	long double constantFactor = boost::math::tgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
+	long double constantFactor = boost::math::lgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
 
 	long double numerator = 1;
 	long double denom = 0;
@@ -327,7 +329,7 @@ long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 		//else
 		//{
 			try{
-			numerator *= boost::math::tgamma<long double>(alpha + iter->second);
+			numerator *= boost::math::lgamma<long double>(alpha + iter->second);
 			} catch (std::exception e){
 				std::cout << e.what() << std::endl << "argument:" << (alpha + iter->second);
 			}
@@ -343,7 +345,7 @@ long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 
 	std::cout << "\n\ndenom: " << denom;
 
-	return (constantFactor * numerator) / boost::math::tgamma<long double>(denom);
+	return (/*constantFactor * */numerator) / boost::math::lgamma<long double>(denom);
 }
 
 //the initial probability for the first point

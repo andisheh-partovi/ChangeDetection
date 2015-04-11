@@ -1,85 +1,1885 @@
 timestep: 1:
 for point r_t = 0:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 2.524528855685954e-034
+joint: inf
 for point r_t = 1:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 1.2622650337301446e-033
+joint: inf
 timestep: 2:
 for point r_t = 0:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 2.5245288556859536e-034
+joint: -nan
 for point r_t = 1:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 2.1037742147068854e-034
+joint: -nan
 for point r_t = 2:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 1.0518876122594561e-033
+joint: -nan
 timestep: 3:
 for point r_t = 0:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 2.524528855685954e-034
+joint: -nan
 for point r_t = 1:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 2.103774214706885e-034
+joint: -nan
 for point r_t = 2:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 1.7531453191740188e-034
+joint: -nan
 for point r_t = 3:
-likelihood: 1.51471791929874e-033
+likelihood: inf
 :
-joint: 8.7657308034205415e-034
+joint: -nan
 timestep: 4:
 for point r_t = 0:
-likelihood: 1.3260987474487988e-030
+likelihood: inf
 :
-joint: 2.2101636950154996e-031
+joint: -nan
 for point r_t = 1:
-likelihood: 2.3367335744363957e-041
+likelihood: inf
 :
-joint: 3.2454622592799685e-042
+joint: -nan
 for point r_t = 2:
-likelihood: 7.0562135542493193e-041
+likelihood: inf
 :
-joint: 8.1669118758769208e-042
+joint: -nan
 for point r_t = 3:
-likelihood: 3.4570577225788474e-040
+likelihood: inf
 :
-joint: 3.3343529797929653e-041
+joint: -nan
 for point r_t = 4:
-likelihood: 1.4035108369197711e-039
+likelihood: inf
 :
-joint: 6.7684764951933476e-040
+joint: -nan
 timestep: 5:
 for point r_t = 0:
-likelihood: 2.9943584155787751e-030
+likelihood: inf
 :
-joint: 4.9905953630590149e-031
+joint: -nan
 for point r_t = 1:
-likelihood: 2.9943584155787751e-030
+likelihood: inf
 :
-joint: 2.4952988711258908e-030
+joint: -nan
 for point r_t = 2:
-likelihood: 2.8204737464916477e-040
+likelihood: inf
 :
-joint: 3.4513815351421155e-051
+joint: -nan
 for point r_t = 3:
-likelihood: 6.886068495239376e-041
+likelihood: inf
 :
-joint: 2.1204281163322811e-051
+joint: -nan
 for point r_t = 4:
-likelihood: 9.8610388012795694e-041
+likelihood: inf
 :
-joint: 1.2397342147143967e-050
+joint: -nan
 for point r_t = 5:
-likelihood: 2.0608233975039356e-040
+likelihood: inf
 :
-joint: 5.2592770347573312e-049
+joint: -nan
+timestep: 6:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+timestep: 7:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+timestep: 8:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+timestep: 9:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: 6.6416715934070044e+147
+:
+joint: -nan
+timestep: 10:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -1.8978183110007587e+129
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+timestep: 11:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+timestep: 12:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+timestep: 13:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+timestep: 14:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: inf
+:
+joint: -nan
+timestep: 15:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -1.9479115982560969e+280
+:
+joint: -nan
+timestep: 16:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: 7.4380143010397277e+256
+:
+joint: -nan
+for point r_t = 16:
+likelihood: 1.197101165199144e+215
+:
+joint: -nan
+timestep: 17:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: 2.3693369445039223e+150
+:
+joint: -nan
+for point r_t = 17:
+likelihood: 2.5095029595696301e+047
+:
+joint: -nan
+timestep: 18:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -0
+:
+joint: -nan
+for point r_t = 18:
+likelihood: 0
+:
+joint: -nan
+timestep: 19:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -2.7196824353602205e+069
+:
+joint: -nan
+for point r_t = 19:
+likelihood: 3.8395010045810751e+146
+:
+joint: -nan
+timestep: 20:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 18:
+likelihood: 2.8519541796867354e+177
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -2.8387031156820342e+162
+:
+joint: -nan
+for point r_t = 20:
+likelihood: 8.7983087406698884e+201
+:
+joint: -nan
+timestep: 21:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -0
+:
+joint: -nan
+for point r_t = 19:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -7.979114440885175e+210
+:
+joint: -nan
+for point r_t = 21:
+likelihood: 2.5936423398578052e+236
+:
+joint: -nan
+timestep: 22:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 18:
+likelihood: 0
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: -9.56631952482248e+225
+:
+joint: -nan
+for point r_t = 22:
+likelihood: 9.370905201042695e+242
+:
+joint: -nan
+timestep: 23:
+for point r_t = 0:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: 2.5854313285019198e+303
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -1.6328493113502373e+256
+:
+joint: -nan
+for point r_t = 19:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: 1.0214122803572915e+224
+:
+joint: -nan
+for point r_t = 23:
+likelihood: -3.9590568406854658e+235
+:
+joint: -nan
+timestep: 24:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -8.8913883990474601e+176
+:
+joint: -nan
+for point r_t = 18:
+likelihood: 2.6169131084461598e+300
+:
+joint: -nan
+for point r_t = 19:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: 3.4125697558827207e+219
+:
+joint: -nan
+for point r_t = 24:
+likelihood: -1.9089244090867637e+224
+:
+joint: -nan
+timestep: 25:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: 0
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 24:
+likelihood: 2.034457175521327e+211
+:
+joint: -nan
+for point r_t = 25:
+likelihood: -1.2775252466858517e+200
+:
+joint: -nan
+timestep: 26:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -0
+:
+joint: -nan
+for point r_t = 18:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 24:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 25:
+likelihood: 1.3212774495647577e+181
+:
+joint: -nan
+for point r_t = 26:
+likelihood: 9.425329848750355e+215
+:
+joint: -nan
+timestep: 27:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -4.3356441644608556e+163
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 19:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 24:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 25:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 26:
+likelihood: 4.7001794053756605e+214
+:
+joint: -nan
+for point r_t = 27:
+likelihood: 2.6583594071295307e+226
+:
+joint: -nan
+timestep: 28:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: 1.5236341286625808e+175
+:
+joint: -nan
+for point r_t = 18:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 24:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 25:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 26:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 27:
+likelihood: 6.3015321716406684e+220
+:
+joint: -nan
+for point r_t = 28:
+likelihood: 2.0519826587507314e+227
+:
+joint: -nan
+timestep: 29:
+for point r_t = 0:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 1:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 2:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 3:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 4:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 5:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 6:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 7:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 8:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 9:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 10:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 11:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 12:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 13:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 14:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 15:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 16:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 17:
+likelihood: -9.8032376506088813e+228
+:
+joint: -nan
+for point r_t = 18:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 19:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 20:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 21:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 22:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 23:
+likelihood: -inf
+:
+joint: -nan
+for point r_t = 24:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 25:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 26:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 27:
+likelihood: inf
+:
+joint: -nan
+for point r_t = 28:
+likelihood: 3.5118097713853982e+219
+:
+joint: -nan
+for point r_t = 29:
+likelihood: 3.1710361218550158e+222
+:
+joint: -nan
