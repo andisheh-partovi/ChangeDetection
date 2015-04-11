@@ -5,7 +5,7 @@
 #include <unordered_map>
 
 //data types
-typedef std::unordered_map<std::string, int> String2intMap;
+typedef std::unordered_map<std::string, double> String2doubleMap;
 typedef std::vector <std::string> StringList;
 
 //system constants

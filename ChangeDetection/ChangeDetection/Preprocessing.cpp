@@ -62,9 +62,9 @@ void Preprocessing::runTextPreprocessing(StringList fileNames, std::string fileP
 
 Features* Preprocessing::getFeatures(std::string text)
 {
-	String2intMap POSCount;
-	String2intMap functionWordCount;
-	String2intMap wordFrequencies;
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;

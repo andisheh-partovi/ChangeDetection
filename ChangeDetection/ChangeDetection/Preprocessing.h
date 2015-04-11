@@ -11,9 +11,9 @@ private:
 
 	StringList NON_FUNCTION_POS;
 
-	String2intMap globalWordCount;
-	String2intMap globalPOSCount;
-	String2intMap globalFunctionWordCount;
+	String2doubleMap globalWordCount;
+	String2doubleMap globalPOSCount;
+	String2doubleMap globalFunctionWordCount;
 
 	//text preprocessings
 	void runPOSTagger(int fileNumber, std::string inputFilePath);

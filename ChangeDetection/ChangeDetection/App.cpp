@@ -18,8 +18,8 @@ void App::run(Method method)
 
 	//------------------------------------------ 1.Preprocessing
 	std::string dataFilesPath = PROJECT_PATH;
-	//dataFilesPath += "\\test_files\\";
-	dataFilesPath += "\\state_union\\";
+	dataFilesPath += "\\test_files\\";
+	//dataFilesPath += "\\state_union\\";
 	
 	//feeding all the data files to the pre-process unit to get them processed
 	StringList allDataFileNames = ioHandler->getAllFilesIndirectory(dataFilesPath);
@@ -64,6 +64,13 @@ void App::run(Method method)
 	//printString2intMap(mergeString2intMaps(allData, 0, allData.size()-1));
 }
 
+void App::feedData (String2doubleMap x_t)
+{
+	allDataSizes.push_back(sumOfElements(x_t));
+	allData.push_back(x_t);
+	printString2intMap(allData[allData.size() - 1]); //testing
+}
+
 //the initialization steps
 void App::initializeChangeDetectionAlgorithm(Method method)
 {
@@ -73,7 +80,7 @@ void App::initializeChangeDetectionAlgorithm(Method method)
 	r.push_back(tempRow);
 	
 	//reading and saving the first datum
-	allData.push_back(getx_t(0, method));
+	feedData(getx_t(0, method));
 }
 
 void App::runChangeDetectionAlgorithm(Method method)
@@ -82,6 +89,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 	long double P_rt_and_x_1_t;
 	std::vector<long double> joint_rt_probs;
 	long double evidence;
+	String2doubleMap x_t;
 
 	//While there is a new datum available
 	//for all files in the data folder
@@ -92,8 +100,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
-		allData.push_back(getx_t(t, method));
-		//printString2intMap(allData[t]); //testing
+		feedData(getx_t(t, method));
 
 		//for all the points in r_t, calculate the joint probability
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
@@ -102,7 +109,8 @@ void App::runChangeDetectionAlgorithm(Method method)
 			{
 				P_rt_and_x_1_t = 0;
 
-				likelihood = calculateLikelihood(allData[t], dictionarySize);
+				printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
+				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionarySize);
 
 				//for all the points in r_t-1
 				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
@@ -114,8 +122,8 @@ void App::runChangeDetectionAlgorithm(Method method)
 			{
 				if (r[t-1][i-1] != 0)
 				{
-					//printString2intMap(mergeString2intMaps(allData, t-i, t)); std::cout<<"\n";//testing
-					likelihood = calculateLikelihood(mergeString2intMaps(allData, t-i, t), dictionarySize);
+					printString2intMap(normalize_x_t(mergeString2intMaps(allData, t-i, t))); std::cout<<"\n";//testing
+					likelihood = calculateLikelihood(normalize_x_t(mergeString2intMaps(allData, t-i, t)), dictionarySize);
 					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
 				}
 				else
@@ -155,7 +163,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 }
 
 //returns the datum at time t (x_t) in form of a vector
-String2intMap App::getx_t (int t, Method method)
+String2doubleMap App::getx_t (int t, Method method)
 {
 	switch (method)
 	{
@@ -170,12 +178,55 @@ String2intMap App::getx_t (int t, Method method)
 	}
 }
 
-//merges the maps in the input list of maps, if their index is between the start and end index
-String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, int startIndex, int endIndex)
+//normalizes the size of the input data x_t
+String2doubleMap App::normalize_x_t (String2doubleMap raw_x_t)
 {
-	String2intMap returnMap;
-	String2intMap currentMap;
-	String2intMap::iterator iter;
+	String2doubleMap returnMap;
+	double runningAverage = getAverageLengthInRange(this->allDataSizes);
+	std::cout << "\nrunningAverage" << runningAverage << "\n";
+	double normalizationFactor = runningAverage / sumOfElements(raw_x_t);
+	std::cout << "\nnormalizationFactor" << normalizationFactor << "\n";
+
+	String2doubleMap::iterator iter;
+
+	for (iter = raw_x_t.begin() ; iter != raw_x_t.end() ; ++iter)
+	{
+		returnMap[iter->first] = iter->second * normalizationFactor;
+	}
+
+	return returnMap;
+}
+
+double App::getAverageLengthInRange(std::vector< int > allDataSizes)
+{
+	double sum = 0.0;
+
+	for (unsigned int i = 0 ; i < allDataSizes.size() ; ++i)
+		sum += allDataSizes[i];
+
+	return sum / allDataSizes.size();
+}
+
+int App::sumOfElements(String2doubleMap inputMap)
+{
+	int sum = 0;
+
+	String2doubleMap::iterator iter;
+
+	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
+	{
+		sum += iter->second;
+	}
+
+	return sum;
+}
+
+//merges the maps in the input list of maps, if their index is between the start and end index
+String2doubleMap App::mergeString2intMaps(std::vector< String2doubleMap > inputList, int startIndex, int endIndex)
+{
+	String2doubleMap returnMap;
+	String2doubleMap currentMap;
+	String2doubleMap::iterator iter;
 	std::string currentKey;
 
 	for(int i = startIndex ; i <= endIndex ; ++i) 
@@ -195,11 +246,11 @@ String2intMap App::mergeString2intMaps(std::vector< String2intMap > inputList, i
 	return returnMap;
 }
 
-std::vector <int> App::hash2Vector(String2intMap inputMap)
+std::vector <int> App::hash2Vector(String2doubleMap inputMap)
 {
 	std::vector <int> returnList;
 
-	String2intMap::iterator iter;
+	String2doubleMap::iterator iter;
 
 	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
 	{
@@ -222,7 +273,7 @@ long double App::sumOfElements(std::vector <long double> inputVector)
 
 
 //original likelihood method
-//long double App::calculateLikelihood (String2intMap x_t, int dictionarySize)
+//long double App::calculateLikelihood (String2doubleMap x_t, int dictionarySize)
 //{
 //	int D = x_t.size();
 //	long double alpha = 1.0/dictionarySize;
@@ -233,7 +284,7 @@ long double App::sumOfElements(std::vector <long double> inputVector)
 //	long double numerator = 1;
 //	long double denom = 0;
 //
-//	String2intMap::iterator iter;
+//	String2doubleMap::iterator iter;
 //	for (iter = x_t.begin() ; iter != x_t.end() ; ++iter)
 //	{
 //		numerator *= boost::math::tgamma<long double>(alpha + iter->second);
@@ -243,17 +294,17 @@ long double App::sumOfElements(std::vector <long double> inputVector)
 //	return (constantFactor * numerator) / boost::math::tgamma<long double>(denom);
 //}
 
-long double App::calculateLikelihood (String2intMap data, int dictionarySize)
+long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 {
 	long double alpha = 1.0/dictionarySize;
-	long double gammaAlpha = boost::math::lgamma<long double>(alpha);
+	long double gammaAlpha = boost::math::tgamma<long double>(alpha);
 
-	long double constantFactor = boost::math::lgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
+	long double constantFactor = boost::math::tgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
 
 	long double numerator = 1;
 	long double denom = 0;
 
-	String2intMap::iterator iter;
+	String2doubleMap::iterator iter;
 	for (iter = data.begin() ; iter != data.end() ; ++iter)
 	{
 		//if ((alpha + iter->second) > 100)
@@ -261,7 +312,7 @@ long double App::calculateLikelihood (String2intMap data, int dictionarySize)
 		//else
 		//{
 			try{
-			numerator *= boost::math::lgamma<long double>(alpha + iter->second);
+			numerator *= boost::math::tgamma<long double>(alpha + iter->second);
 			} catch (std::exception e){
 				std::cout << e.what() << std::endl << "argument:" << (alpha + iter->second);
 			}
@@ -277,7 +328,7 @@ long double App::calculateLikelihood (String2intMap data, int dictionarySize)
 
 	std::cout << "\n\ndenom: " << denom;
 
-	return (constantFactor * numerator) / boost::math::lgamma<long double>(denom);
+	return (constantFactor * numerator) / boost::math::tgamma<long double>(denom);
 }
 
 //the initial probability for the first point
@@ -377,9 +428,9 @@ void App::prin2DArray(std::vector< std::vector <long double> > inputData)
 	}
 }
 
-void App::printString2intMap(String2intMap inputMap)
+void App::printString2intMap(String2doubleMap inputMap)
 {
-	String2intMap::iterator iter;
+	String2doubleMap::iterator iter;
 	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
 	{
 		std::cout << iter->first << ":" << iter->second << "\n";
