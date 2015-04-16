@@ -32,6 +32,8 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 	default:
 		std::cerr << "ERROR: unknown dataset selected.";
 	}
+
+	logHazardRate = log (hazardRate);
 	
 	//feeding all the data files to the pre-process unit to get them processed
 	StringList allDataFileNames = ioHandler->getAllFilesIndirectory(dataFilesPath);
@@ -61,7 +63,7 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 
 	//outputting:
 	//writing the log:
-	ioHandler->write2File(log, "log.txt");
+	ioHandler->write2File(logString, "log.txt");
 	prin2DArray(r);
 
 	//also print the maximums, which is what we actuallt want
@@ -105,10 +107,10 @@ void App::runChangeDetectionAlgorithm()
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < totalTimeSteps ; ++t)
+	for (unsigned int t = 1 ; t < 30 /*totalTimeSteps*/ ; ++t)
 	{
 		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
-		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
+		logString += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
@@ -148,7 +150,7 @@ void App::runChangeDetectionAlgorithm()
 			joint_rt_probs.push_back(P_rt_and_x_1_t);
 			
 			//log:
-			log += "for point r_t = " + std::to_string(static_cast<long long>(i))
+			logString += "for point r_t = " + std::to_string(static_cast<long long>(i))
 				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(likelihood) + "\n"
 				+ ":\njoint: " + boost::lexical_cast<std::string>(P_rt_and_x_1_t) + "\n";
 		}
@@ -176,18 +178,22 @@ void App::runChangeDetectionAlgorithm()
 
 void App::runLogChangeDetectionAlgorithm()
 {
-	long double likelihood;
-	long double P_rt_and_x_1_t;
+	long double logLikelihood;
+	long double logP_rt_and_x_1_t;
+	long double logPrior;
+	long double max_a_i;
 	std::vector<long double> joint_rt_probs;
+	std::vector<long double> a_i;
 	long double evidence;
 	String2doubleMap x_t;
+	long double currentSum;
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < 30 ; ++t)
+	for (unsigned int t = 1 ; t < /*10*/totalTimeSteps ; ++t)
 	{
 		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
-		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
+		logString += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
@@ -198,39 +204,46 @@ void App::runLogChangeDetectionAlgorithm()
 		{
 			if ( i == 0) //possible changepoint : calcuate changepoint probability
 			{
-				P_rt_and_x_1_t = 0;
-
 				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
-				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionary.size());
+				logLikelihood = calculateLogLikelihood(normalize_x_t(allData[t]), dictionary.size());
 
 				//for all the points in r_t-1
 				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
-				{
-					P_rt_and_x_1_t += r[t-1][j] * likelihood * hazardFunction(true);
-				}
+					a_i.push_back( r[t-1][j] + logLikelihood + logHazardFunction(true) );
 			}
 			else //possible continuation : calcuate Growth probability
 			{
-				if (r[t-1][i-1] != 0)
+				//for all the points in r_t-1
+				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
 				{
 					//printString2intMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
-					likelihood = calculateLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t)), dictionary.size());
-					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
-				}
-				else
-				{
-					P_rt_and_x_1_t = 0;
+					logLikelihood = calculateLogLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-j, t)), dictionary.size());
+					if ( j == (i - 1) )
+						logPrior = logHazardFunction(false);
+					else
+						logPrior = 0;
+
+					a_i.push_back( r[t-1][j] + logLikelihood + logPrior);
 				}
 			}
 
+			//log-sum-exp trick:
+			max_a_i = utlityHandle->getMaxElement(a_i);
+			currentSum = 0;
+			for (unsigned int k = 0 ; k < a_i.size() ; ++k)
+				currentSum += exp (a_i[k] - max_a_i);
+			logP_rt_and_x_1_t = max_a_i + log(currentSum);
+
 			//save the joint probabilities
-			joint_rt_probs.push_back(P_rt_and_x_1_t);
+			joint_rt_probs.push_back(logP_rt_and_x_1_t);
+			a_i.clear();
 			
 			//log:
-			log += "for point r_t = " + std::to_string(static_cast<long long>(i))
-				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(likelihood) + "\n"
-				+ ":\njoint: " + boost::lexical_cast<std::string>(P_rt_and_x_1_t) + "\n";
-		}
+			logString += "for point r_t = " + std::to_string(static_cast<long long>(i))
+				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(logLikelihood)
+				+ "\njoint: " + boost::lexical_cast<std::string>(logP_rt_and_x_1_t) + "\n\n";
+
+		}//end of rt
 
 		//for all the points in r_t, calculate the conditional probability
 		//first get the sum (evidence probability)
@@ -250,7 +263,8 @@ void App::runLogChangeDetectionAlgorithm()
 		//remember: joiny_rt_probs is now holding conditionals not joints
 		r.push_back(joint_rt_probs);
 		joint_rt_probs.clear();
-	}
+
+	}// for all timesteps
 }
 
 //returns the datum at time t (x_t) in form of a vector
@@ -409,6 +423,14 @@ long double App::hazardFunction(bool isChangePoint)
 		return hazardRate;
 	else
 		return 1 - hazardRate;
+}
+
+long double App::logHazardFunction(bool isChangePoint)
+{
+	if (isChangePoint)
+		return log (1 - hazardRate); //logHazardRate;
+	else
+		return logHazardRate; //log (1 - hazardRate);
 }
 
 std::vector <int> App::getMaxProbabilityindexAtEachTime(std::vector< std::vector <long double> > r)

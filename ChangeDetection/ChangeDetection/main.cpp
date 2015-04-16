@@ -6,7 +6,8 @@ int main()
 {
 	App* app = new App();
 
-	app->run(WORDCOUNT, TEST, false, false);
+	//Method method, DataSet dataSet, bool doParse, bool isLogSpace
+	app->run(WORDCOUNT, TEST, false, true);
 
 	_getch();
 	return 0;

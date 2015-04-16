@@ -26,15 +26,17 @@ private:
 	IOHandler* ioHandler;
 	Preprocessing* preprocessHandle;
 	VectorAndMapUtility* utlityHandle;
-	std::string log;
+	std::string logString;
 
 	//domain specific
 	int dictionarySize;
 	double hazardRate;
+	double logHazardRate;
 	Method method;
 	bool isLogSpace;
 	std::set<std::string> dictionary;
 
+	//algorithm variables
 	unsigned int totalTimeSteps;
 	std::vector<Features*> allFeatues;
 	std::vector< std::vector <long double> > r;
@@ -43,17 +45,21 @@ private:
 	std::vector< int > allDataSizes;
 	std::vector< std::vector <long double> > testData;
 
-	//change detection algorithm
+	//change detection algorithm functions:
+	//common
 	void feedData (String2doubleMap x_t);
 	String2doubleMap getx_t(int t);
 	String2doubleMap normalize_x_t (String2doubleMap raw_x_t);
 	void initializeChangeDetectionAlgorithm();
-	void runChangeDetectionAlgorithm();
-	void runLogChangeDetectionAlgorithm();
-	long double calculateLikelihood (String2doubleMap data, int dictionarySize);
-	long double calculateLogLikelihood (String2doubleMap data, int dictionarySize);
 	long double getInitialProbability();
+	//normal
+	void runChangeDetectionAlgorithm();
+	long double calculateLikelihood (String2doubleMap data, int dictionarySize);
 	long double hazardFunction(bool isChangePoint);
+	//log space
+	void runLogChangeDetectionAlgorithm();
+	long double calculateLogLikelihood (String2doubleMap data, int dictionarySize);
+	long double logHazardFunction(bool isChangePoint);
 
 	//utilities
 	double getAverageLengthInRange(std::vector< int > allDataSizes);

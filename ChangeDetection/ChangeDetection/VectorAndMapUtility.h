@@ -99,4 +99,16 @@ public:
 
 		return sum;
 	}
+
+	template<typename T> T getMaxElement(std::vector <T> inputVector)
+	{
+		T max = inputVector.at(0);
+
+		for (unsigned int i = 1 ; i < inputVector.size() ; ++i)
+			if (inputVector[i] > max)
+				max = inputVector[i];
+
+		return max;
+	}
+
 };
