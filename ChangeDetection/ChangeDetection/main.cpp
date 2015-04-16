@@ -6,7 +6,7 @@ int main()
 {
 	App* app = new App();
 
-	app->run(FUNCTIONWORDCOUNT, STATE_OF_THE_UNION, false);
+	app->run(WORDCOUNT, TEST, false, false);
 
 	_getch();
 	return 0;

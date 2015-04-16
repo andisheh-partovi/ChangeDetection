@@ -10,9 +10,10 @@ App::App(void)
 {
 	ioHandler = new IOHandler();
 	preprocessHandle = new Preprocessing();
+	utlityHandle = new VectorAndMapUtility();
 }
 
-void App::run(Method method, DataSet dataSet, bool doParse)
+void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 {
 	std::cout << "started running\n\n";
 
@@ -44,25 +45,17 @@ void App::run(Method method, DataSet dataSet, bool doParse)
 	for (unsigned int t = 0 ; t < totalTimeSteps ; ++t)
 		allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(t)));
 
+	this->method = method;
+	this->isLogSpace = isLogSpace;
+
 	//Setting dictionary size
-	initializeChangeDetectionAlgorithm(method);
-	switch (method)
-	{
-	case WORDCOUNT:
-		dictionarySize = preprocessHandle->getWordCountDictSize();
-		break;
-	case POSCOUNT:
-		dictionarySize = preprocessHandle->getPOSCountDictSize();
-		break;
-	case FUNCTIONWORDCOUNT:
-		dictionarySize = preprocessHandle->getFunctionWordCountDictSize();
-		break;
-	default:
-			std::cerr << "unkown method selected:" << boost::lexical_cast<std::string>(method);
-	}
+	initializeChangeDetectionAlgorithm();
 
 	////------------------------------------- 2.Running the algorithm
-	runChangeDetectionAlgorithm(method);
+	if (isLogSpace)
+		runLogChangeDetectionAlgorithm();
+	else
+		runChangeDetectionAlgorithm();
 
 	std::cout << "finished running\n\n";
 
@@ -76,20 +69,22 @@ void App::run(Method method, DataSet dataSet, bool doParse)
 	print1DArray(maxes);
 
 	//testing:
-	std::cout << "\ndictionarySize: " << dictionarySize;
+	std::cout << "\ndictionarySize: " << dictionary.size();
 	//std::cout << "\n\n";
-	//printString2intMap(mergeString2intMaps(allData, 0, allData.size()-1));
+	//printString2intMap(utlityHandle->mergeMaps(allData, 0, allData.size()-1));
 }
 
 void App::feedData (String2doubleMap x_t)
 {
-	allDataSizes.push_back(sumOfElements(x_t));
+	allDataSizes.push_back(utlityHandle->sumOfElements(x_t));
 	allData.push_back(x_t);
+	std::set<std::string> currentDictionary = utlityHandle->getUniqueKeys(x_t);
+	dictionary.insert( currentDictionary.begin(), currentDictionary.end() );
 	//printString2intMap(allData[allData.size() - 1]); //testing
 }
 
 //the initialization steps
-void App::initializeChangeDetectionAlgorithm(Method method)
+void App::initializeChangeDetectionAlgorithm()
 {
 	//setting the first element of the r matrix to its initial value
 	std::vector<long double> tempRow;
@@ -97,10 +92,10 @@ void App::initializeChangeDetectionAlgorithm(Method method)
 	r.push_back(tempRow);
 	
 	//reading and saving the first datum
-	feedData(getx_t(0, method));
+	feedData(getx_t(0));
 }
 
-void App::runChangeDetectionAlgorithm(Method method)
+void App::runChangeDetectionAlgorithm()
 {
 	long double likelihood;
 	long double P_rt_and_x_1_t;
@@ -110,14 +105,14 @@ void App::runChangeDetectionAlgorithm(Method method)
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < 30 ; ++t)
+	for (unsigned int t = 1 ; t < totalTimeSteps ; ++t)
 	{
 		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
 		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
 
 		//Preprocess the datum to get the xt
 		//the process can happen here or already happend in another module
-		feedData(getx_t(t, method));
+		feedData(getx_t(t));
 
 		//for all the points in r_t, calculate the joint probability
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
@@ -127,7 +122,7 @@ void App::runChangeDetectionAlgorithm(Method method)
 				P_rt_and_x_1_t = 0;
 
 				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
-				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionarySize);
+				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionary.size());
 
 				//for all the points in r_t-1
 				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
@@ -139,8 +134,8 @@ void App::runChangeDetectionAlgorithm(Method method)
 			{
 				if (r[t-1][i-1] != 0)
 				{
-					//printString2intMap(normalize_x_t(mergeString2intMaps(allData, t-i, t))); std::cout<<"\n";//testing
-					likelihood = calculateLikelihood(normalize_x_t(mergeString2intMaps(allData, t-i, t)), dictionarySize);
+					//printString2intMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
+					likelihood = calculateLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t)), dictionary.size());
 					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
 				}
 				else
@@ -160,7 +155,86 @@ void App::runChangeDetectionAlgorithm(Method method)
 
 		//for all the points in r_t, calculate the conditional probability
 		//first get the sum (evidence probability)
-		evidence = sumOfElements(joint_rt_probs);
+		evidence = utlityHandle->sumOfElements(joint_rt_probs);
+
+		//then divide all the joints by the sum to get the conditional prob
+		for (unsigned int i = 0 ; i < t+1 ; ++i)
+		{
+			joint_rt_probs.at(i) = joint_rt_probs.at(i) / evidence;
+
+			////remember: joiny_rt_probs is now holding conditionals not joints
+			////intorcusing thresholds:
+			//if (joint_rt_probs.at(i) < SIGNIFICANT_PROBABILITY_THRESHOLD)
+			//	joint_rt_probs.at(i) = 0;
+		}
+
+		//remember: joiny_rt_probs is now holding conditionals not joints
+		r.push_back(joint_rt_probs);
+		joint_rt_probs.clear();
+	}
+}
+
+void App::runLogChangeDetectionAlgorithm()
+{
+	long double likelihood;
+	long double P_rt_and_x_1_t;
+	std::vector<long double> joint_rt_probs;
+	long double evidence;
+	String2doubleMap x_t;
+
+	//While there is a new datum available
+	//for all files in the data folder
+	for (unsigned int t = 1 ; t < 30 ; ++t)
+	{
+		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
+		log += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
+
+		//Preprocess the datum to get the xt
+		//the process can happen here or already happend in another module
+		feedData(getx_t(t));
+
+		//for all the points in r_t, calculate the joint probability
+		for (unsigned int i = 0 ; i < t+1 ; ++i)
+		{
+			if ( i == 0) //possible changepoint : calcuate changepoint probability
+			{
+				P_rt_and_x_1_t = 0;
+
+				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
+				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionary.size());
+
+				//for all the points in r_t-1
+				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
+				{
+					P_rt_and_x_1_t += r[t-1][j] * likelihood * hazardFunction(true);
+				}
+			}
+			else //possible continuation : calcuate Growth probability
+			{
+				if (r[t-1][i-1] != 0)
+				{
+					//printString2intMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
+					likelihood = calculateLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t)), dictionary.size());
+					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
+				}
+				else
+				{
+					P_rt_and_x_1_t = 0;
+				}
+			}
+
+			//save the joint probabilities
+			joint_rt_probs.push_back(P_rt_and_x_1_t);
+			
+			//log:
+			log += "for point r_t = " + std::to_string(static_cast<long long>(i))
+				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(likelihood) + "\n"
+				+ ":\njoint: " + boost::lexical_cast<std::string>(P_rt_and_x_1_t) + "\n";
+		}
+
+		//for all the points in r_t, calculate the conditional probability
+		//first get the sum (evidence probability)
+		evidence = utlityHandle->sumOfElements(joint_rt_probs);
 
 		//then divide all the joints by the sum to get the conditional prob
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
@@ -180,9 +254,9 @@ void App::runChangeDetectionAlgorithm(Method method)
 }
 
 //returns the datum at time t (x_t) in form of a vector
-String2doubleMap App::getx_t (int t, Method method)
+String2doubleMap App::getx_t (int t)
 {
-	switch (method)
+	switch (this->method)
 	{
 		case WORDCOUNT:
 			return allFeatues.at(t)->getWordCount();
@@ -201,7 +275,7 @@ String2doubleMap App::normalize_x_t (String2doubleMap raw_x_t)
 	String2doubleMap returnMap;
 	double runningAverage = getAverageLengthInRange(this->allDataSizes);
 	//std::cout << "\nrunningAverage" << runningAverage << "\n";
-	double normalizationFactor = runningAverage / sumOfElements(raw_x_t);
+	double normalizationFactor = runningAverage / utlityHandle->sumOfElements(raw_x_t);
 	//std::cout << "\nnormalizationFactor" << normalizationFactor << "\n";
 
 	String2doubleMap::iterator iter;
@@ -224,69 +298,7 @@ double App::getAverageLengthInRange(std::vector< int > allDataSizes)
 	return sum / allDataSizes.size();
 }
 
-int App::sumOfElements(String2doubleMap inputMap)
-{
-	int sum = 0;
 
-	String2doubleMap::iterator iter;
-
-	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
-	{
-		sum += iter->second;
-	}
-
-	return sum;
-}
-
-//merges the maps in the input list of maps, if their index is between the start and end index
-String2doubleMap App::mergeString2intMaps(std::vector< String2doubleMap > inputList, int startIndex, int endIndex)
-{
-	String2doubleMap returnMap;
-	String2doubleMap currentMap;
-	String2doubleMap::iterator iter;
-	std::string currentKey;
-
-	for(int i = startIndex ; i <= endIndex ; ++i) 
-	{
-		currentMap = inputList.at(i);
-
-		for (iter = currentMap.begin() ; iter != currentMap.end() ; ++iter)
-		{
-			currentKey = iter->first;
-			if (returnMap.find(currentKey) == returnMap.end()) //if not in the map
-				returnMap[currentKey] = 1;
-			else
-				returnMap[currentKey] = returnMap[currentKey] + 1;
-		}
-    }
-
-	return returnMap;
-}
-
-std::vector <int> App::hash2Vector(String2doubleMap inputMap)
-{
-	std::vector <int> returnList;
-
-	String2doubleMap::iterator iter;
-
-	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
-	{
-		returnList.push_back(iter->second);
-	}
-
-	return returnList;
-}
-
-//returns the sum of all the elements in the input vector of doubles
-long double App::sumOfElements(std::vector <long double> inputVector)
-{
-	long double sum = 0;
-
-	for (unsigned int i = 0 ; i < inputVector.size() ; ++i)
-		sum += inputVector[i];
-
-	return sum;
-}
 
 
 //original likelihood method
@@ -311,12 +323,13 @@ long double App::sumOfElements(std::vector <long double> inputVector)
 //	return (constantFactor * numerator) / boost::math::tgamma<long double>(denom);
 //}
 
+//calculates the normal likelihood
 long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 {
 	long double alpha = 1.0/dictionarySize;
-	long double gammaAlpha = boost::math::lgamma<long double>(alpha);
+	long double gammaAlpha = boost::math::tgamma<long double>(alpha);
 
-	long double constantFactor = boost::math::lgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
+	long double constantFactor = boost::math::tgamma<long double>(1) / pow(gammaAlpha, dictionarySize);
 
 	long double numerator = 1;
 	long double denom = 0;
@@ -329,7 +342,7 @@ long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 		//else
 		//{
 			try{
-			numerator *= boost::math::lgamma<long double>(alpha + iter->second);
+			numerator *= boost::math::tgamma<long double>(alpha + iter->second);
 			} catch (std::exception e){
 				std::cout << e.what() << std::endl << "argument:" << (alpha + iter->second);
 			}
@@ -345,14 +358,49 @@ long double App::calculateLikelihood (String2doubleMap data, int dictionarySize)
 
 	std::cout << "\n\ndenom: " << denom;
 
-	return (/*constantFactor * */numerator) / boost::math::lgamma<long double>(denom);
+	return (/*constantFactor * */numerator) / boost::math::tgamma<long double>(denom);
+}
+
+//calculates the log-likelihood based on equation
+long double App::calculateLogLikelihood (String2doubleMap data, int dictionarySize)
+{
+	long double alpha = 1.0/dictionarySize;
+	long double lgammaAlpha = boost::math::lgamma<long double>(alpha);
+
+	long double term1 = dictionarySize * lgammaAlpha;
+	long double term2 = 0;
+	long double term3 = 1;//it already has sigma(alpha_i)
+	long double n;
+
+	String2doubleMap::iterator iter;
+	for (iter = data.begin() ; iter != data.end() ; ++iter)
+	{
+		n = iter->second;
+
+		try{
+			term2 += boost::math::lgamma<long double>(alpha + n);
+		} catch (std::exception e){
+			std::cout << e.what() << std::endl << "argument:" << (alpha + n);
+		}
+
+		term3 += n;
+	}
+
+	term2 += (dictionarySize - data.size()) * lgammaAlpha;
+	long double lTerm3 = boost::math::lgamma<long double>(term3);
+
+	return term2 - term1 - lTerm3;
 }
 
 //the initial probability for the first point
 long double App::getInitialProbability()
 {
 	//we assume we start with a change point so returns 1
-	return 1;
+
+	if (isLogSpace)
+		return 0;
+	else
+		return 1;
 }
 
 long double App::hazardFunction(bool isChangePoint)
