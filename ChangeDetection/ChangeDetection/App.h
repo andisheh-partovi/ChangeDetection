@@ -64,6 +64,7 @@ private:
 	//utilities
 	double getAverageLengthInRange(std::vector< int > allDataSizes);
 	std::vector <int> getMaxProbabilityindexAtEachTime(std::vector< std::vector <long double> > r);
+	long double logSumExp(std::vector <long double> logVector);
 
 public:
 	App(void);
