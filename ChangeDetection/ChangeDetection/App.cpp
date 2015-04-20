@@ -42,12 +42,17 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 		preprocessHandle->runTextPreprocessing( allDataFileNames , dataFilesPath);
 
 	totalTimeSteps = allDataFileNames.size();
-	
+
+	//feed the list of stop words to the pre-processing unit
+	preprocessHandle->setStopWordsList(ioHandler->readFile("stopWordsList.txt"));
+	//ioHandler->print1DArray(preprocessHandle->getStopWords());//testing
 
 	this->method = method;
 	this->isLogSpace = isLogSpace;
 
 	//Setting dictionary size
+	//for (unsigned int t = 0 ; t < totalTimeSteps ; ++t)
+	//	allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(t)));
 	allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(0)));
 	initializeChangeDetectionAlgorithm();
 
@@ -62,16 +67,14 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 	//outputting:
 	//writing the log:
 	ioHandler->write2File(logString, "log.txt");
-	prin2DArray(r);
+	ioHandler->print2DArray(r);
 
 	//also print the maximums, which is what we actuallt want
 	std::vector <int> maxes = getMaxProbabilityindexAtEachTime(r);
-	print1DArray(maxes);
+	ioHandler->print1DArray(maxes);
 
-	//testing:
-	std::cout << "\ndictionarySize: " << dictionary.size();
 	//std::cout << "\n\n";
-	//printString2intMap(utlityHandle->mergeMaps(allData, 0, allData.size()-1));
+	//ioHandler->printMap(utlityHandle->mergeMaps(allData, 0, allData.size()-1));
 }
 
 void App::feedData (String2doubleMap x_t)
@@ -80,7 +83,7 @@ void App::feedData (String2doubleMap x_t)
 	allData.push_back(x_t);
 	std::set<std::string> currentDictionary = utlityHandle->getUniqueKeys(x_t);
 	dictionary.insert( currentDictionary.begin(), currentDictionary.end() );
-	//printString2intMap(allData[allData.size() - 1]); //testing
+	//ioHandler->printMap(allData[allData.size() - 1]); //testing
 }
 
 //the initialization steps
@@ -121,7 +124,7 @@ void App::runChangeDetectionAlgorithm()
 			{
 				P_rt_and_x_1_t = 0;
 
-				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
+				//ioHandler->printMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
 				likelihood = calculateLikelihood(normalize_x_t(allData[t]), dictionary.size());
 
 				//for all the points in r_t-1
@@ -134,7 +137,7 @@ void App::runChangeDetectionAlgorithm()
 			{
 				if (r[t-1][i-1] != 0)
 				{
-					//printString2intMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
+					//ioHandler->printMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
 					likelihood = calculateLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t)), dictionary.size());
 					P_rt_and_x_1_t = r[t-1][i-1] * likelihood * hazardFunction(false);
 				}
@@ -178,21 +181,20 @@ void App::runLogChangeDetectionAlgorithm()
 {
 	long double logLikelihood;
 	long double logP_rt_and_x_1_t;
-	long double logPrior;
-	long double max_a_i;
 	std::vector<long double> joint_rt_probs;
 	std::vector<long double> a_i;
 	long double evidence;
 	String2doubleMap x_t;
-	long double currentSum;
 
 	//While there is a new datum available
 	//for all files in the data folder
-	for (unsigned int t = 1 ; t < 17/*totalTimeSteps*/ ; ++t)
+	for (unsigned int t = 1 ; t < /*17*/totalTimeSteps ; ++t)
 	{
 		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
 		logString += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
-
+		
+		//testing:
+		//std::cout << "\ndictionarySize in this timestep: " << dictionary.size();
 		//Preprocess the datum to get the xt
 		allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(t)));
 
@@ -204,7 +206,7 @@ void App::runLogChangeDetectionAlgorithm()
 		{
 			if ( i == 0) //possible changepoint : calcuate changepoint probability
 			{
-				//printString2intMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
+				//ioHandler->printMap(normalize_x_t(allData[t])); std::cout<<"\n";//testing
 				logLikelihood = calculateLogLikelihood(normalize_x_t(allData[t]), dictionary.size());
 
 				//for all the points in r_t-1
@@ -213,7 +215,7 @@ void App::runLogChangeDetectionAlgorithm()
 			}
 			else //possible continuation : calcuate Growth probability
 			{
-				//printString2intMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
+				//ioHandler->printMap(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t))); std::cout<<"\n";//testing
 				logLikelihood = calculateLogLikelihood(normalize_x_t(utlityHandle->mergeMaps(allData, t-i, t)), dictionary.size());
 				a_i.push_back( r[t-1][i-1] + logLikelihood + logHazardFunction(false));
 			}
@@ -525,39 +527,6 @@ std::vector< std::vector <long double> > App::makeTestData()
 	}
 
 	return returnArray;
-}
-
-//prints a 2D array of doubles
-void App::prin2DArray(std::vector< std::vector <long double> > inputData)
-{
-	for (unsigned int i = 0 ; i < inputData.size() ; ++i)
-	{
-		for (unsigned int j = 0 ; j < inputData.at(i).size() ; ++j)
-		{
-			std::cout << inputData.at(i).at(j) << " , ";
-		}
-
-		std::cout << "\n";
-	}
-}
-
-void App::print1DArray(std::vector <int> inputData)
-{
-	std::cout << "\n";
-
-	for (unsigned int i = 0 ; i < inputData.size() ; ++i)
-		std::cout << inputData.at(i)<< " , ";
-
-	std::cout << "\n";
-}
-
-void App::printString2intMap(String2doubleMap inputMap)
-{
-	String2doubleMap::iterator iter;
-	for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
-	{
-		std::cout << iter->first << ":" << iter->second << "\n";
-	}
 }
 
 App::~App(void)

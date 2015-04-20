@@ -10,6 +10,7 @@ private:
 	MyStringUtility* strUtilHandle;
 
 	StringList NON_FUNCTION_POS;
+	StringList stopWords;
 
 	String2doubleMap globalWordCount;
 	String2doubleMap globalPOSCount;
@@ -27,6 +28,8 @@ public:
 	int getWordCountDictSize();
 	int getPOSCountDictSize();
 	int getFunctionWordCountDictSize();
+	void setStopWordsList(std::string inputFileContent);
+	StringList getStopWords();
 
 	//text preprocessings interfaces
 	void runTextPreprocessing(StringList fileNames, std::string filePath);

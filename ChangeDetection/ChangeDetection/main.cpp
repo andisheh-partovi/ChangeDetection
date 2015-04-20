@@ -7,7 +7,7 @@ int main()
 	App* app = new App();
 
 	//Method method, DataSet dataSet, bool doParse, bool isLogSpace
-	app->run(WORDCOUNT, STATE_OF_THE_UNION, false, true);
+	app->run(WORDCOUNT, TEST, false, true);
 
 	_getch();
 	return 0;

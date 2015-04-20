@@ -65,6 +65,7 @@ Features* Preprocessing::getFeatures(std::string text)
 	String2doubleMap POSCount;
 	String2doubleMap functionWordCount;
 	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;
@@ -93,10 +94,10 @@ Features* Preprocessing::getFeatures(std::string text)
 				POSCount[POS] = POSCount[POS] + 1;
 
 			//POS count global:
-			if (globalPOSCount.find(POS) == globalPOSCount.end()) //if not in the map
-				globalPOSCount[POS] = 1;
-			else
-				globalPOSCount[POS] = globalPOSCount[POS] + 1;
+			//if (globalPOSCount.find(POS) == globalPOSCount.end()) //if not in the map
+			//	globalPOSCount[POS] = 1;
+			//else
+			//	globalPOSCount[POS] = globalPOSCount[POS] + 1;
 
 			//functionWord count for this document:
 			if (!isElementInList(POS, NON_FUNCTION_POS))
@@ -108,31 +109,42 @@ Features* Preprocessing::getFeatures(std::string text)
 			}
 
 			//functionWord count global:
-			if (!isElementInList(POS, NON_FUNCTION_POS))
-			{
-				if (globalFunctionWordCount.find(word) == globalFunctionWordCount.end()) //if not in the map
-					globalFunctionWordCount[word] = 1;
-				else
-					globalFunctionWordCount[word] = globalFunctionWordCount[word] + 1;
-			}
+			//if (!isElementInList(POS, NON_FUNCTION_POS))
+			//{
+			//	if (globalFunctionWordCount.find(word) == globalFunctionWordCount.end()) //if not in the map
+			//		globalFunctionWordCount[word] = 1;
+			//	else
+			//		globalFunctionWordCount[word] = globalFunctionWordCount[word] + 1;
+			//}
 
 			//word count for this document:
-			if (wordFrequencies.find(word) == wordFrequencies.end()) //if not in the map
-				wordFrequencies[word] = 1;
-			else
-				wordFrequencies[word] = wordFrequencies[word] + 1;
-
+			if (!isElementInList(word, stopWords))
+			{
+				if (wordFrequencies.find(word) == wordFrequencies.end()) //if not in the map
+					wordFrequencies[word] = 1;
+				else
+					wordFrequencies[word] = wordFrequencies[word] + 1;
+			}
 			//word count global:
-			if (globalWordCount.find(word) == globalWordCount.end()) //if not in the map
-				globalWordCount[word] = 1;
-			else
-				globalWordCount[word] = globalWordCount[word] + 1;
+			//if (globalWordCount.find(word) == globalWordCount.end()) //if not in the map
+			//	globalWordCount[word] = 1;
+			//else
+			//	globalWordCount[word] = globalWordCount[word] + 1;
+
+			//stopword counts for this doc:
+			if (isElementInList(word, stopWords))
+			{
+				if (stopWordCount.find(word) == stopWordCount.end()) //if not in the map
+					stopWordCount[word] = 1;
+				else
+					stopWordCount[word] = stopWordCount[word] + 1;
+			}
 		}
 	}
 
 	std::cout << "\n\nDone.";
 
-	return new Features(wordFrequencies, POSCount, functionWordCount);
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
 }
 
 //checks if the element is included at least once in the list or not
@@ -145,6 +157,12 @@ bool Preprocessing::isElementInList(std::string element, StringList list)
 	return false;
 }
 
+void Preprocessing::setStopWordsList(std::string inputFileContent)
+{
+	stopWords = strUtilHandle->split(inputFileContent, '\n' );
+}
+
+StringList Preprocessing::getStopWords() { return this->stopWords; }
 int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
 int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
 int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }

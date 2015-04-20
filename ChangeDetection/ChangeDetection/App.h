@@ -71,10 +71,6 @@ public:
 	~App(void);
 
 	void run(Method method, DataSet dataSet, bool doParse, bool isLogSpace);
-
-	void print1DArray(std::vector <int> inputData);
-	void prin2DArray(std::vector< std::vector <long double> > inputData);
-	void printString2intMap(String2doubleMap inputMap);
 	
 	void testTokenizer();
 	std::vector< std::vector <long double> > makeTestData();
