@@ -27,7 +27,7 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 		break;
 	case STATE_OF_THE_UNION:
 		dataFilesPath += "\\state_union\\";
-		hazardRate = 0.1176; // 2/17
+		hazardRate = 0.25;// 1/4 //0.1176; // 2/17
 		break;
 	default:
 		std::cerr << "ERROR: unknown dataset selected.";
@@ -53,7 +53,6 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 	//Setting dictionary size
 	//for (unsigned int t = 0 ; t < totalTimeSteps ; ++t)
 	//	allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(t)));
-	allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(0)));
 	initializeChangeDetectionAlgorithm();
 
 	////------------------------------------- 2.Running the algorithm
@@ -77,7 +76,7 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace)
 	//ioHandler->printMap(utlityHandle->mergeMaps(allData, 0, allData.size()-1));
 }
 
-void App::feedData (String2doubleMap x_t)
+void App::feedData(String2doubleMap x_t)
 {
 	allDataSizes.push_back(utlityHandle->sumOfElements(x_t));
 	allData.push_back(x_t);
@@ -86,9 +85,26 @@ void App::feedData (String2doubleMap x_t)
 	//ioHandler->printMap(allData[allData.size() - 1]); //testing
 }
 
+Features* App::getFeature(int timeStep)
+{
+	switch (this->method)
+	{
+		case WORDCOUNT:
+			return preprocessHandle->getWordCountFeature(ioHandler->getPOSTags(timeStep));
+		case STOPWORDCOUNT:
+			return preprocessHandle->getStopWordCountFeature(ioHandler->getPOSTags(timeStep));
+		case FUNCTIONWORDCOUNT:
+			return preprocessHandle->getFunctionWordCountFeature(ioHandler->getPOSTags(timeStep));
+		default:
+			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
+	}
+}
+
 //the initialization steps
 void App::initializeChangeDetectionAlgorithm()
 {
+	allFeatues.push_back(getFeature(0));
+
 	//setting the first element of the r matrix to its initial value
 	std::vector<long double> tempRow;
 	tempRow.push_back(getInitialProbability());
@@ -196,7 +212,7 @@ void App::runLogChangeDetectionAlgorithm()
 		//testing:
 		//std::cout << "\ndictionarySize in this timestep: " << dictionary.size();
 		//Preprocess the datum to get the xt
-		allFeatues.push_back(preprocessHandle->getFeatures(ioHandler->getPOSTags(t)));
+		allFeatues.push_back(getFeature(t));
 
 		//the process can happen here or already happend in another module
 		feedData(getx_t(t));
@@ -275,8 +291,8 @@ String2doubleMap App::getx_t (int t)
 	{
 		case WORDCOUNT:
 			return allFeatues.at(t)->getWordCount();
-		case POSCOUNT:
-			return allFeatues.at(t)->getPOSCount();
+		case STOPWORDCOUNT:
+			return allFeatues.at(t)->getStopWordCount();
 		case FUNCTIONWORDCOUNT:
 			return allFeatues.at(t)->getFunctionWordCount();
 		default:

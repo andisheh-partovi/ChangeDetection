@@ -21,6 +21,21 @@ public:
 		this->stopWordCount = stopWordCount;
 	}
 
+	//Features(String2doubleMap wordCount)
+	//{
+	//	this->wordCount = wordCount;
+	//}
+
+	//Features(String2doubleMap functionWordCount)
+	//{
+	//	this->functionWordCount = functionWordCount;
+	//}
+
+	//Features(String2doubleMap stopWordCount)
+	//{
+	//	this->stopWordCount = stopWordCount;
+	//}
+
 	String2doubleMap getWordCount() { return this->wordCount; }
 	String2doubleMap getPOSCount() { return this->POSCount; }
 	String2doubleMap getFunctionWordCount() { return this->functionWordCount; }

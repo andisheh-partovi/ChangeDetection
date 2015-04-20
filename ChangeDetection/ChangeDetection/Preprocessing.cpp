@@ -60,7 +60,133 @@ void Preprocessing::runTextPreprocessing(StringList fileNames, std::string fileP
 	}
 }
 
-Features* Preprocessing::getFeatures(std::string text)
+Features* Preprocessing::getWordCountFeature(std::string text)
+{
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
+
+	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string POS;
+	std::string word;
+
+	std::cout << "\n\nstarted wordcount feature extraction...";
+
+	//parsing stanford's output
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			word= bothWords[0];
+
+			//word count for this document:
+			if (!isElementInList(word, stopWords))
+			{
+				if (wordFrequencies.find(word) == wordFrequencies.end()) //if not in the map
+					wordFrequencies[word] = 1;
+				else
+					wordFrequencies[word] = wordFrequencies[word] + 1;
+			}
+		}
+	}
+
+	std::cout << "\n\nDone.";
+
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+}
+
+Features* Preprocessing::getFunctionWordCountFeature(std::string text)
+{
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
+
+	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string word;
+	std::string POS;
+
+	std::cout << "\n\nstarted wordcount feature extraction...";
+
+	//parsing stanford's output
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			word= bothWords[0];
+			POS = bothWords[1];
+			
+			//functionWord count for this document:
+			if (!isElementInList(POS, NON_FUNCTION_POS))
+			{
+				if (functionWordCount.find(word) == functionWordCount.end()) //if not in the map
+					functionWordCount[word] = 1;
+				else
+					functionWordCount[word] = functionWordCount[word] + 1;
+			}
+		}
+	}
+
+	std::cout << "\n\nDone.";
+
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+}
+
+Features* Preprocessing::getStopWordCountFeature(std::string text)
+{
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
+
+	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::string POS;
+	std::string word;
+
+	std::cout << "\n\nstarted wordcount feature extraction...";
+
+	//parsing stanford's output
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() ; ++j)
+		{
+			bothWords = strUtilHandle->split(allPairs[j], '_' );
+
+			word= bothWords[0];
+
+			if (isElementInList(word, stopWords))
+			{
+				if (stopWordCount.find(word) == stopWordCount.end()) //if not in the map
+					stopWordCount[word] = 1;
+				else
+					stopWordCount[word] = stopWordCount[word] + 1;
+			}
+		}
+	}
+
+	std::cout << "\n\nDone.";
+
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+}
+
+Features* Preprocessing::getAllFeatures(std::string text)
 {
 	String2doubleMap POSCount;
 	String2doubleMap functionWordCount;
@@ -163,9 +289,9 @@ void Preprocessing::setStopWordsList(std::string inputFileContent)
 }
 
 StringList Preprocessing::getStopWords() { return this->stopWords; }
-int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
-int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
-int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }
+//int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
+//int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
+//int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }
 
 Preprocessing::~Preprocessing(void)
 {

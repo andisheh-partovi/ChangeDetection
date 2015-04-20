@@ -7,7 +7,7 @@
 enum Method
 {
 	WORDCOUNT,
-	POSCOUNT,
+	STOPWORDCOUNT,
 	FUNCTIONWORDCOUNT
 };
 
@@ -52,6 +52,7 @@ private:
 	String2doubleMap normalize_x_t (String2doubleMap raw_x_t);
 	void initializeChangeDetectionAlgorithm();
 	long double getInitialProbability();
+	Features* getFeature(int timeStep);
 	//normal
 	void runChangeDetectionAlgorithm();
 	long double calculateLikelihood (String2doubleMap data, int dictionarySize);
