@@ -206,8 +206,8 @@ void App::runLogChangeDetectionAlgorithm()
 	//for all files in the data folder
 	for (unsigned int t = 1 ; t < /*17*/totalTimeSteps ; ++t)
 	{
-		std::cout << "\ntimestep: " << t << "\n--------------------------------\n\n";
-		logString += "timestep: " + std::to_string(static_cast<long long>(t)) + ":\n";
+		std::cout << "\ntimestep: " << t << "\n--------------------------------\n";
+		logString += "\ntimestep " + std::to_string(static_cast<long long>(t)) + ":\n\n\n";
 		
 		//testing:
 		//std::cout << "\ndictionarySize in this timestep: " << dictionary.size();
@@ -244,15 +244,16 @@ void App::runLogChangeDetectionAlgorithm()
 			a_i.clear();
 			
 			//log:
-			logString += "for point r_t = " + std::to_string(static_cast<long long>(i))
+			logString += "\nfor point r_t = " + std::to_string(static_cast<long long>(i))
 				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(logLikelihood)
-				+ "\njoint: " + boost::lexical_cast<std::string>(logP_rt_and_x_1_t) + "\n\n";
+				+ "\njoint: " + boost::lexical_cast<std::string>(logP_rt_and_x_1_t) + "\n";
 
 		}//end of rt
 
 		//for all the points in r_t, calculate the conditional probability
 		//first get the sum (evidence probability)
 		evidence = logSumExp(joint_rt_probs);
+		logString += "Normalization factor: " + boost::lexical_cast<std::string>(evidence) + "\n";
 
 		//Normalization:
 		//then divide all the joints by the sum to get the conditional prob
