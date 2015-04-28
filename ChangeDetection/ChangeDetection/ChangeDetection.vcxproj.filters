@@ -36,6 +36,9 @@
     <ClInclude Include="VectorAndMapUtility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SufficientStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">

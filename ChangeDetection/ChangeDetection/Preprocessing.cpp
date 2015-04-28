@@ -94,6 +94,15 @@ Features* Preprocessing::getWordCountFeature(std::string text)
 				else
 					wordFrequencies[word] = wordFrequencies[word] + 1;
 			}
+
+			//word count global:
+			if (!isElementInList(word, stopWords))
+			{
+				if (globalWordCount.find(word) == globalWordCount.end()) //if not in the map
+					globalWordCount[word] = 1;
+				else
+					globalWordCount[word] = globalWordCount[word] + 1;
+			}
 		}
 	}
 
@@ -137,6 +146,15 @@ Features* Preprocessing::getFunctionWordCountFeature(std::string text)
 				else
 					functionWordCount[word] = functionWordCount[word] + 1;
 			}
+
+			//functionWord count global:
+			if (!isElementInList(POS, NON_FUNCTION_POS))
+			{
+				if (globalFunctionWordCount.find(word) == globalFunctionWordCount.end()) //if not in the map
+					globalFunctionWordCount[word] = 1;
+				else
+					globalFunctionWordCount[word] = globalFunctionWordCount[word] + 1;
+			}
 		}
 	}
 
@@ -177,6 +195,14 @@ Features* Preprocessing::getStopWordCountFeature(std::string text)
 					stopWordCount[word] = 1;
 				else
 					stopWordCount[word] = stopWordCount[word] + 1;
+			}
+
+			if (isElementInList(word, stopWords))
+			{
+				if (globalStopWordCount.find(word) == globalStopWordCount.end()) //if not in the map
+					globalStopWordCount[word] = 1;
+				else
+					globalStopWordCount[word] = globalStopWordCount[word] + 1;
 			}
 		}
 	}
@@ -289,9 +315,14 @@ void Preprocessing::setStopWordsList(std::string inputFileContent)
 }
 
 StringList Preprocessing::getStopWords() { return this->stopWords; }
-//int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
-//int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
-//int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }
+int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
+int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
+int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }
+int Preprocessing::getStopWordCountDictSize() { return globalStopWordCount.size(); }
+
+String2doubleMap Preprocessing::getWordCountDict() { return this->globalWordCount; }
+String2doubleMap Preprocessing::getFunctionWordCountDict() { return this->globalFunctionWordCount; }
+String2doubleMap Preprocessing::getStopWordCountDict() { return this->globalStopWordCount; }
 
 Preprocessing::~Preprocessing(void)
 {

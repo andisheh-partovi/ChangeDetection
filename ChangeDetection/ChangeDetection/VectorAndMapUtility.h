@@ -57,6 +57,7 @@ public:
 		std::unordered_map<K, V> returnMap;
 		std::unordered_map<K, V> currentMap;
 		K currentKey;
+		V currentValue;
 		std::unordered_map<K, V>::iterator iter;
 
 		for(int i = startIndex ; i <= endIndex ; ++i) 
@@ -66,10 +67,11 @@ public:
 			for (iter = currentMap.begin() ; iter != currentMap.end() ; ++iter)
 			{
 				currentKey = iter->first;
+				currentValue = iter->second;
 				if (returnMap.find(currentKey) == returnMap.end()) //if not in the map
-					returnMap[currentKey] = 1;
+					returnMap[currentKey] = currentValue;
 				else
-					returnMap[currentKey] = returnMap[currentKey] + 1;
+					returnMap[currentKey] = returnMap[currentKey] + currentValue;
 			}
 		}
 

@@ -12,9 +12,10 @@ private:
 	StringList NON_FUNCTION_POS;
 	StringList stopWords;
 
-	//String2doubleMap globalWordCount;
-	//String2doubleMap globalPOSCount;
-	//String2doubleMap globalFunctionWordCount;
+	String2doubleMap globalWordCount;
+	String2doubleMap globalPOSCount;
+	String2doubleMap globalFunctionWordCount;
+	String2doubleMap globalStopWordCount;
 
 	//text preprocessings
 	void runPOSTagger(int fileNumber, std::string inputFilePath);
@@ -25,11 +26,15 @@ private:
 public:
 	Preprocessing(void);
 	~Preprocessing(void);
-	//int getWordCountDictSize();
-	//int getPOSCountDictSize();
-	//int getFunctionWordCountDictSize();
+	int getWordCountDictSize();
+	int getPOSCountDictSize();
+	int getFunctionWordCountDictSize();
+	int getStopWordCountDictSize();
 	void setStopWordsList(std::string inputFileContent);
 	StringList getStopWords();
+	String2doubleMap getWordCountDict();
+	String2doubleMap getFunctionWordCountDict();
+	String2doubleMap getStopWordCountDict();
 
 	//text preprocessings interfaces
 	void runTextPreprocessing(StringList fileNames, std::string filePath);

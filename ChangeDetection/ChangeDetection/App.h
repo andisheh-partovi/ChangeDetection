@@ -3,6 +3,7 @@
 #include "Preprocessing.h"
 #include "IOHandler.h"
 #include "VectorAndMapUtility.h"
+#include "SufficientStatistics.h"
 
 enum Method
 {
@@ -40,12 +41,17 @@ private:
 	unsigned int totalTimeSteps;
 	std::vector<Features*> allFeatues;
 	std::vector< std::vector <long double> > r;
+	std::vector< std::vector <SufficientStatistics*> > sufStats;
 	std::vector <long double> max_r;
 	std::vector< String2doubleMap > allData;
 	std::vector< int > allDataSizes;
 	std::vector< std::vector <long double> > testData;
+	String2doubleMap allDictionary;
 
 	//change detection algorithm functions:
+	//admin
+	void runAlgorithm1();
+	void runAlgorithm2();
 	//common
 	void feedData (String2doubleMap x_t);
 	String2doubleMap getx_t(int t);
@@ -61,6 +67,13 @@ private:
 	void runLogChangeDetectionAlgorithm();
 	long double calculateLogLikelihood (String2doubleMap data, int dictionarySize);
 	long double logHazardFunction(bool isChangePoint);
+	//new algorithm
+	void runLogChangeDetectionAlgorithm2();
+	String2doubleMap calculateU_D(String2doubleMap data, String2doubleMap dictionary);
+	long double calculateLogLikelihood2 (String2doubleMap data, int alpha, String2doubleMap beta);
+	String2doubleMap uniformDistribution(String2doubleMap data);
+	SufficientStatistics* updateSuffiecientStats(SufficientStatistics* previousSufStats, String2doubleMap U);
+	SufficientStatistics* initialiseSufStats();
 
 	//utilities
 	double getAverageLengthInRange(std::vector< int > allDataSizes);
@@ -71,7 +84,7 @@ public:
 	App(void);
 	~App(void);
 
-	void run(Method method, DataSet dataSet, bool doParse, bool isLogSpace);
+	void run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int algorithmNumber);
 	
 	void testTokenizer();
 	std::vector< std::vector <long double> > makeTestData();
