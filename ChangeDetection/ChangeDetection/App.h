@@ -52,7 +52,9 @@ private:
 	//admin
 	void runAlgorithm1();
 	void runAlgorithm2();
+	void runAlgorithm3();
 	//common
+	void doCheatPreProcess();
 	void feedData (String2doubleMap x_t);
 	String2doubleMap getx_t(int t);
 	String2doubleMap normalize_x_t (String2doubleMap raw_x_t);
@@ -74,6 +76,9 @@ private:
 	String2doubleMap uniformDistribution(String2doubleMap data);
 	SufficientStatistics* updateSuffiecientStats(SufficientStatistics* previousSufStats, String2doubleMap U);
 	SufficientStatistics* initialiseSufStats();
+	//new algorithm alternative
+	void runLogChangeDetectionAlgorithm3();
+	
 
 	//utilities
 	double getAverageLengthInRange(std::vector< int > allDataSizes);

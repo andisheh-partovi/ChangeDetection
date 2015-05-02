@@ -27,7 +27,7 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		break;
 	case STATE_OF_THE_UNION:
 		dataFilesPath += "\\state_union\\";
-		hazardRate = 0.25;// 1/4 //0.1176; // 2/17
+		hazardRate = 0.1666666;// 0.25;// 1/4 //0.1176; // 2/17
 		break;
 	default:
 		std::cerr << "ERROR: unknown dataset selected.";
@@ -55,6 +55,8 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		runAlgorithm1();
 	else if (algorithmNumber == 2)
 		runAlgorithm2();
+	else if (algorithmNumber == 3)
+		runAlgorithm3();
 	else
 		std::cerr << "ERROR: wrong algorithm number.\n";
 
@@ -82,6 +84,19 @@ void App::runAlgorithm1()
 		runLogChangeDetectionAlgorithm();
 	else
 		runChangeDetectionAlgorithm();
+}
+
+void App::runAlgorithm3()
+{
+	doCheatPreProcess();
+
+	initializeChangeDetectionAlgorithm();
+
+	////------------------------------------- 2.Running the algorithm
+	if (isLogSpace)
+		runLogChangeDetectionAlgorithm3();
+	else
+		std:: cerr << "not implemented.\n";
 }
 
 void App::feedData(String2doubleMap x_t)
@@ -377,6 +392,101 @@ void App::runLogChangeDetectionAlgorithm2()
 	}// for all timesteps
 }
 
+void App::runLogChangeDetectionAlgorithm3()
+{
+	long double logLikelihood;
+	long double logP_rt_and_x_1_t;
+	std::vector<long double> joint_rt_probs;
+	std::vector<long double> a_i;
+	String2doubleMap U_D;
+	long double evidence;
+	String2doubleMap x_t;
+	int alpha;
+	String2doubleMap beta;
+	SufficientStatistics* currentsufstat;
+	std::vector<SufficientStatistics*> sufstats_t;
+
+	//While there is a new datum available
+	//for all files in the data folder
+	for (unsigned int t = 1 ; t < totalTimeSteps ; ++t)
+	{
+		std::cout << "\ntimestep: " << t << "\n--------------------------------\n";
+		logString += "\ntimestep " + std::to_string(static_cast<long long>(t)) + ":\n\n\n";
+
+		//the process can happen here or already happend in another module
+		allData.push_back(getx_t(t));
+
+		//get U(D_t) for this datum
+		U_D = calculateU_D(allData[t], allDictionary);
+		//ioHandler->printMap(U_D);
+
+		//std::cout << "\nliklihood: " << calculateLogLikelihood2 (allData[t], 2, beta);
+
+		//for all the points in r_t, calculate the joint probability
+		for (unsigned int i = 0 ; i < t+1 ; ++i)
+		{
+			if ( i == 0) //possible changepoint : calcuate changepoint probability
+			{
+				//ioHandler->printMap(allData[t]); std::cout<<"\n";//testing
+				currentsufstat = initialiseSufStats();
+				logLikelihood = calculateLogLikelihood2 (allData[t], currentsufstat->alpha, currentsufstat->beta);
+
+				//for all the points in r_t-1
+				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
+					a_i.push_back( r[t-1][j] + logLikelihood + logHazardFunction(true) );
+			}
+			else //possible continuation : calcuate Growth probability
+			{
+				//update sufficient statistics:
+				currentsufstat = updateSuffiecientStats(sufStats[t-1][i-1], U_D);
+				//logLikelihood = calculateLogLikelihood2 (allData[t], 1, getCurrentBeta(allData[t]));
+				a_i.push_back( r[t-1][i-1] + logLikelihood + logHazardFunction(false));
+			}
+
+			//log-sum-exp trick:
+			logP_rt_and_x_1_t = logSumExp(a_i);
+
+			//save the joint probabilities
+			joint_rt_probs.push_back(logP_rt_and_x_1_t);
+			a_i.clear();
+			
+			//log:
+			logString += "\nfor point r_t = " + std::to_string(static_cast<long long>(i))
+				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(logLikelihood)
+				+ "\njoint: " + boost::lexical_cast<std::string>(logP_rt_and_x_1_t) + "\n";
+
+			//save the current sufstats
+			sufstats_t.push_back(currentsufstat);
+
+		}//end of rt
+
+		//for all the points in r_t, calculate the conditional probability
+		//first get the sum (evidence probability)
+		evidence = logSumExp(joint_rt_probs);
+		logString += "Normalization factor: " + boost::lexical_cast<std::string>(evidence) + "\n";
+
+		//Normalization:
+		//then divide all the joints by the sum to get the conditional prob
+		for (unsigned int i = 0 ; i < t+1 ; ++i)
+		{
+			joint_rt_probs.at(i) = exp (joint_rt_probs.at(i) - evidence);
+
+			////remember: joiny_rt_probs is now holding conditionals not joints
+			////intorcusing thresholds:
+			//if (joint_rt_probs.at(i) < SIGNIFICANT_PROBABILITY_THRESHOLD)
+			//	joint_rt_probs.at(i) = 0;
+		}
+
+		//remember: joiny_rt_probs is now holding conditionals not joints
+		r.push_back(joint_rt_probs);
+		joint_rt_probs.clear();
+
+		sufStats.push_back(sufstats_t);
+		sufstats_t.clear();
+
+	}// for all timesteps
+}
+
 SufficientStatistics* App::updateSuffiecientStats(SufficientStatistics* previousSufStats, String2doubleMap U)
 {
 	int prevAlpha = previousSufStats->alpha;
@@ -409,21 +519,13 @@ String2doubleMap App::uniformDistribution(String2doubleMap data)
 	return returnMap;
 }
 
-void App::runAlgorithm2()
+void App::doCheatPreProcess()
 {
 	//preprocessing all data
 	for (unsigned int t = 0 ; t < totalTimeSteps ; ++t)
 		allFeatues.push_back(getFeature(t));
 
-	//setting the first element of the r matrix to its initial value
-	std::vector<long double> tempRow;
-	tempRow.push_back(getInitialProbability());
-	r.push_back(tempRow);
-
-	//reading and saving the first datum
-	allData.push_back(getx_t(0));
-
-	//Setting dictionary size (cheating)
+		//Setting dictionary size (cheating)
 	switch (this->method)
 	{
 		case WORDCOUNT:
@@ -445,6 +547,19 @@ void App::runAlgorithm2()
 	//testing:
 	//std::cout << "\ndictionarySize: " << dictionarySize << "\n";
 	//ioHandler->printMap(allDictionary);
+}
+
+void App::runAlgorithm2()
+{
+	doCheatPreProcess();
+
+	//setting the first element of the r matrix to its initial value
+	std::vector<long double> tempRow;
+	tempRow.push_back(getInitialProbability());
+	r.push_back(tempRow);
+
+	//reading and saving the first datum
+	allData.push_back(getx_t(0));
 
 	//initialising sufficient statistics
 	std::vector<SufficientStatistics*> tempRowStats;
