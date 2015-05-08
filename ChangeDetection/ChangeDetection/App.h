@@ -42,6 +42,7 @@ private:
 	std::vector<Features*> allFeatues;
 	std::vector< std::vector <long double> > r;
 	std::vector< std::vector <SufficientStatistics*> > sufStats;
+	std::vector< std::vector <String2doubleMap> > sufStatAlpha;
 	std::vector <long double> max_r;
 	std::vector< String2doubleMap > allData;
 	std::vector< int > allDataSizes;
@@ -53,6 +54,7 @@ private:
 	void runAlgorithm1();
 	void runAlgorithm2();
 	void runAlgorithm3();
+	void runAlgorithm4();
 	//common
 	void doCheatPreProcess();
 	void feedData (String2doubleMap x_t);
@@ -78,6 +80,12 @@ private:
 	SufficientStatistics* initialiseSufStats();
 	//new algorithm alternative
 	void runLogChangeDetectionAlgorithm3();
+	String2doubleMap getCurrentBeta(String2doubleMap inputMap, String2doubleMap dictionary);
+	//Reza's new algorithm
+	String2doubleMap initialiseSufStatAlpha(String2doubleMap datum);
+	void runLogChangeDetectionAlgorithm4();
+	String2doubleMap updateSufStats(String2doubleMap currentDatum, String2doubleMap prevAlpha);
+	long double calculateLogLikelihood3 (String2doubleMap data, String2doubleMap sufstats);
 	
 
 	//utilities

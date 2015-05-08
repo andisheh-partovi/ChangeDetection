@@ -1,0 +1,468 @@
+
+timestep 1:
+
+
+
+for point r_t = 0:
+likelihood: -1829.8308511888154
+joint: -1830.7471419206895
+
+for point r_t = 1:
+likelihood: -1323.751885080459
+joint: -1324.2627107042251
+
+timestep 2:
+
+
+
+for point r_t = 0:
+likelihood: -1662.1344341153163
+joint: -2987.3134355514158
+
+for point r_t = 1:
+likelihood: -901.27289964495139
+joint: -2732.5308671894068
+
+for point r_t = 2:
+likelihood: -826.07557193411321
+joint: -2150.8491082621044
+
+timestep 3:
+
+
+
+for point r_t = 0:
+likelihood: -1451.2765144038312
+joint: -3603.0419133978098
+
+for point r_t = 1:
+likelihood: -787.27921058601714
+joint: -3775.1034717611988
+
+for point r_t = 2:
+likelihood: -662.52085140225972
+joint: -3395.5625442154324
+
+for point r_t = 3:
+likelihood: -628.33790502438205
+joint: -2779.6978389102524
+
+timestep 4:
+
+
+
+for point r_t = 0:
+likelihood: -1686.6268620748306
+joint: -4467.2409917169571
+
+for point r_t = 1:
+likelihood: -987.32887471487447
+joint: -4590.8816137364511
+
+for point r_t = 2:
+likelihood: -817.31241175841569
+joint: -4592.9267091433803
+
+for point r_t = 3:
+likelihood: -725.46357118615924
+joint: -4121.5369410253579
+
+for point r_t = 4:
+likelihood: -712.68783990499287
+joint: -3492.8965044390111
+
+timestep 5:
+
+
+
+for point r_t = 0:
+likelihood: -1625.710543375877
+joint: -5119.5233385467627
+
+for point r_t = 1:
+likelihood: -891.23606021765045
+joint: -5358.9878775583738
+
+for point r_t = 2:
+likelihood: -857.58395849705812
+joint: -5448.9763978572755
+
+for point r_t = 3:
+likelihood: -814.65436928075542
+joint: -5408.0919040479021
+
+for point r_t = 4:
+likelihood: -790.17214523959592
+joint: -4912.2199118887202
+
+for point r_t = 5:
+likelihood: -764.42298260179268
+joint: -4257.8303126645706
+
+timestep 6:
+
+
+
+for point r_t = 0:
+likelihood: -1899.0524426571101
+joint: -6157.7990460535548
+
+for point r_t = 1:
+likelihood: -1268.6348384589764
+joint: -6388.6690026295055
+
+for point r_t = 2:
+likelihood: -1074.3235759700419
+joint: -6433.8222791521821
+
+for point r_t = 3:
+likelihood: -1016.757458857197
+joint: -6466.2446823382388
+
+for point r_t = 4:
+likelihood: -955.01995889478894
+joint: -6363.6226885664573
+
+for point r_t = 5:
+likelihood: -848.07420479820757
+joint: -5760.8049423106941
+
+for point r_t = 6:
+likelihood: -825.00056031369786
+joint: -5083.3416986020347
+
+timestep 7:
+
+
+
+for point r_t = 0:
+likelihood: -1765.4397251833434
+joint: -6849.6977145172523
+
+for point r_t = 1:
+likelihood: -969.17687410037252
+joint: -7127.4867457776936
+
+for point r_t = 2:
+likelihood: -871.22084745843677
+joint: -7260.4006757117086
+
+for point r_t = 3:
+likelihood: -827.2303056216515
+joint: -7261.5634103975999
+
+for point r_t = 4:
+likelihood: -821.67418719742636
+joint: -7288.4296951594315
+
+for point r_t = 5:
+likelihood: -812.16540952270225
+joint: -7176.2989237129259
+
+for point r_t = 6:
+likelihood: -777.40950476611397
+joint: -6538.7252727005744
+
+for point r_t = 7:
+likelihood: -762.37795990196537
+joint: -5846.2304841277664
+
+timestep 8:
+
+
+
+for point r_t = 0:
+likelihood: -1766.010725784532
+joint: -7613.1575006441726
+
+for point r_t = 1:
+likelihood: -1000.6486059349263
+joint: -7850.8571460759449
+
+for point r_t = 2:
+likelihood: -852.4993272497195
+joint: -7980.4968986511794
+
+for point r_t = 3:
+likelihood: -824.93313878642584
+joint: -8085.8446401219007
+
+for point r_t = 4:
+likelihood: -832.54964824629496
+joint: -8094.6238842676612
+
+for point r_t = 5:
+likelihood: -828.28123579245948
+joint: -8117.2217565756573
+
+for point r_t = 6:
+likelihood: -814.96740975590728
+joint: -7991.7771590925995
+
+for point r_t = 7:
+likelihood: -789.55681701259527
+joint: -7328.7929153369359
+
+for point r_t = 8:
+likelihood: -786.46545593916744
+joint: -6633.2067656907002
+
+timestep 9:
+
+
+
+for point r_t = 0:
+likelihood: -1839.3884669775362
+joint: -8473.5115234001114
+
+for point r_t = 1:
+likelihood: -987.84146234869331
+joint: -8601.5097886166313
+
+for point r_t = 2:
+likelihood: -840.77482473761847
+joint: -8692.1427964373288
+
+for point r_t = 3:
+likelihood: -766.85965753550045
+joint: -8747.8673818104453
+
+for point r_t = 4:
+likelihood: -762.17811048129442
+joint: -8848.5335762269606
+
+for point r_t = 5:
+likelihood: -750.0543657889466
+joint: -8845.1890756803732
+
+for point r_t = 6:
+likelihood: -743.67902640306784
+joint: -8861.4116086024915
+
+for point r_t = 7:
+likelihood: -739.07224957459766
+joint: -8731.3602342909617
+
+for point r_t = 8:
+likelihood: -736.82624508581284
+joint: -8066.1299860465151
+
+for point r_t = 9:
+likelihood: -733.89855781268488
+joint: -7367.6161491271514
+
+timestep 10:
+
+
+
+for point r_t = 0:
+likelihood: -1524.7982829830307
+joint: -8893.3307228420563
+
+for point r_t = 1:
+likelihood: -763.03101299853552
+joint: -9237.0533620224123
+
+for point r_t = 2:
+likelihood: -732.1836187307108
+joint: -9334.2042329711076
+
+for point r_t = 3:
+likelihood: -679.08965309877203
+joint: -9371.7432751598662
+
+for point r_t = 4:
+likelihood: -615.78369467735138
+joint: -9364.1619021115621
+
+for point r_t = 5:
+likelihood: -577.17442699171625
+joint: -9426.2188288424422
+
+for point r_t = 6:
+likelihood: -566.13672292933006
+joint: -9411.8366242334687
+
+for point r_t = 7:
+likelihood: -559.31064538892497
+joint: -9421.2330796151819
+
+for point r_t = 8:
+likelihood: -554.3376315390833
+joint: -9286.2086914538104
+
+for point r_t = 9:
+likelihood: -539.47439970485539
+joint: -8606.1152113751359
+
+for point r_t = 10:
+likelihood: -534.76982548459455
+joint: -7902.8968002355123
+
+timestep 11:
+
+
+
+for point r_t = 0:
+likelihood: -1729.171820954406
+joint: -9632.9849119217943
+
+for point r_t = 1:
+likelihood: -1038.8301798865859
+joint: -9932.6717283524085
+
+for point r_t = 2:
+likelihood: -925.69597242026884
+joint: -10163.260160066446
+
+for point r_t = 3:
+likelihood: -872.80681250347061
+joint: -10207.521871098343
+
+for point r_t = 4:
+likelihood: -818.96833474098185
+joint: -10191.222435524614
+
+for point r_t = 5:
+likelihood: -773.23928731561409
+joint: -10137.912015050941
+
+for point r_t = 6:
+likelihood: -749.49387565107554
+joint: -10176.223530117284
+
+for point r_t = 7:
+likelihood: -732.03787573165846
+joint: -10144.385325588893
+
+for point r_t = 8:
+likelihood: -727.59514491831305
+joint: -10149.339050157261
+
+for point r_t = 9:
+likelihood: -718.19090511187915
+joint: -10004.910422189456
+
+for point r_t = 10:
+likelihood: -696.13671897541735
+joint: -9302.7627559743196
+
+for point r_t = 11:
+likelihood: -690.50842606786409
+joint: -8593.9160519271427
+
+timestep 12:
+
+
+
+for point r_t = 0:
+likelihood: -1744.8188755258761
+joint: -10339.651218184894
+
+for point r_t = 1:
+likelihood: -943.01800628561978
+joint: -10576.513743831179
+
+for point r_t = 2:
+likelihood: -824.85904258167011
+joint: -10758.041596557843
+
+for point r_t = 3:
+likelihood: -749.28387873601241
+joint: -10913.054864426224
+
+for point r_t = 4:
+likelihood: -701.74706140370563
+joint: -10909.779758125813
+
+for point r_t = 5:
+likelihood: -663.13736546974178
+joint: -10854.870626618122
+
+for point r_t = 6:
+likelihood: -634.47708052165854
+joint: -10772.899921196364
+
+for point r_t = 7:
+likelihood: -611.77961630183927
+joint: -10788.513972042889
+
+for point r_t = 8:
+likelihood: -606.48088214789914
+joint: -10751.377033360557
+
+for point r_t = 9:
+likelihood: -608.05501069168167
+joint: -10757.904886472708
+
+for point r_t = 10:
+likelihood: -603.42707428521408
+joint: -10608.848322098434
+
+for point r_t = 11:
+likelihood: -600.6270921275318
+joint: -9903.9006737256168
+
+for point r_t = 12:
+likelihood: -589.80515125657712
+joint: -9184.2320288074843
+
+timestep 13:
+
+
+
+for point r_t = 0:
+likelihood: -1861.1070978942498
+joint: -11046.255417433609
+
+for point r_t = 1:
+likelihood: -998.97229370838249
+joint: -11339.134337517042
+
+for point r_t = 2:
+likelihood: -860.04117421706542
+joint: -11437.06574367201
+
+for point r_t = 3:
+likelihood: -817.88309072850461
+joint: -11576.435512910113
+
+for point r_t = 4:
+likelihood: -760.53433654474429
+joint: -11674.100026594733
+
+for point r_t = 5:
+likelihood: -746.31004996261254
+joint: -11656.600633712191
+
+for point r_t = 6:
+likelihood: -729.17221149995385
+joint: -11584.553663741841
+
+for point r_t = 7:
+likelihood: -709.13158270595522
+joint: -11482.542329526084
+
+for point r_t = 8:
+likelihood: -692.60850492577811
+joint: -11481.633302592432
+
+for point r_t = 9:
+likelihood: -687.90695248594784
+joint: -11439.79481147027
+
+for point r_t = 10:
+likelihood: -686.35396439737451
+joint: -11444.769676493848
+
+for point r_t = 11:
+likelihood: -684.40585091385219
+joint: -11293.764998636052
+
+for point r_t = 12:
+likelihood: -685.85346551095063
+joint: -10590.264964860333
+
+for point r_t = 13:
+likelihood: -682.87444177206999
+joint: -9867.6172962033197

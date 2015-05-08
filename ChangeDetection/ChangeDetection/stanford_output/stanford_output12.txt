@@ -1,253 +1,264 @@
 
-C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1958-Eisenhower.txt 
-It_PRP is_VBZ again_RB my_PRP$ high_JJ privilege_NN to_TO extend_VB personal_JJ greetings_NNS to_TO the_DT members_NNS of_IN the_DT 85th_JJ Congress_NNP ._.
-All_DT of_IN us_PRP realize_VBP that_IN ,_, as_IN this_DT new_JJ session_NN begins_VBZ ,_, many_JJ Americans_NNPS are_VBP troubled_VBN about_IN recent_JJ world_NN developments_NNS which_WDT they_PRP believe_VBP may_MD threaten_VB our_PRP$ nation_NN 's_POS safety_NN ._.
-Honest_JJ men_NNS differ_VBP in_IN their_PRP$ appraisal_NN of_IN America_NNP 's_POS material_NN and_CC intellectual_JJ strength_NN ,_, and_CC the_DT dangers_NNS that_WDT confront_VBP us_PRP ._.
-But_CC all_DT know_VBP these_DT dangers_NNS are_VBP real_JJ ._.
-The_DT purpose_NN of_IN this_DT message_NN is_VBZ to_TO outline_VB the_DT measures_NNS that_WDT can_MD give_VB the_DT American_JJ people_NNS a_DT confidence_NN --_: just_RB as_IN real_JJ --_: in_IN their_PRP$ own_JJ security_NN ._.
-I_PRP am_VBP not_RB here_RB to_TO justify_VB the_DT past_NN ,_, gloss_VB over_IN the_DT problems_NNS of_IN the_DT present_JJ ,_, or_CC propose_VB easy_JJ solutions_NNS for_IN the_DT future_NN ._.
-I_PRP am_VBP here_RB to_TO state_NN what_WP I_PRP believe_VBP to_TO be_VB right_JJ and_CC what_WP I_PRP believe_VBP to_TO be_VB wrong_JJ ;_: and_CC to_TO propose_VB action_NN for_IN correcting_VBG what_WP I_PRP think_VBP wrong_JJ !_.
-I._NN There_EX are_VBP two_CD tasks_NNS confronting_VBG us_PRP that_IN so_RB far_RB outweigh_VB all_DT others_NNS that_IN I_PRP shall_MD devote_VB this_DT year_NN 's_POS message_NN entirely_RB to_TO them_PRP ._.
-The_DT first_JJ is_VBZ to_TO ensure_VB our_PRP$ safety_NN through_IN strength_NN ._.
-As_IN to_TO our_PRP$ strength_NN ,_, I_PRP have_VBP repeatedly_RB voiced_VBN this_DT conviction_NN :_: We_PRP now_RB have_VBP a_DT broadly_RB based_VBN and_CC efficient_JJ defensive_JJ strength_NN ,_, including_VBG a_DT great_JJ deterrent_NN power_NN ,_, which_WDT is_VBZ ,_, for_IN the_DT present_JJ ,_, our_PRP$ main_JJ guarantee_NN against_IN war_NN ;_: but_CC ,_, unless_IN we_PRP act_VBP wisely_RB and_CC promptly_RB ,_, we_PRP could_MD lose_VB that_IN capacity_NN to_TO deter_VB attack_NN or_CC defend_VB ourselves_PRP ._.
-My_PRP$ profoundest_JJS conviction_NN is_VBZ that_IN the_DT American_JJ people_NNS will_MD say_VB ,_, as_IN one_CD man_NN :_: No_DT matter_NN what_WP the_DT exertions_NNS or_CC sacrifices_NNS ,_, we_PRP shall_MD maintain_VB that_IN necessary_JJ strength_NN !_.
-But_CC we_PRP could_MD make_VB no_DT more_JJR tragic_JJ mistake_NN than_IN merely_RB to_TO concentrate_VB on_IN military_JJ strength_NN ._.
-For_IN if_IN we_PRP did_VBD only_RB this_DT ,_, the_DT future_NN would_MD hold_VB nothing_NN for_IN the_DT world_NN but_CC an_DT Age_NNP of_IN Terror_NN ._.
-And_CC so_RB our_PRP$ second_JJ task_NN is_VBZ to_TO do_VB the_DT constructive_JJ work_NN of_IN building_VBG a_DT genuine_JJ peace_NN ._.
-We_PRP must_MD never_RB become_VB so_RB preoccupied_VBN with_IN our_PRP$ desire_NN for_IN military_JJ strength_NN that_IN we_PRP neglect_NN those_DT areas_NNS of_IN economic_JJ development_NN ,_, trade_NN ,_, diplomacy_NN ,_, education_NN ,_, ideas_NNS and_CC principles_NNS where_WRB the_DT foundations_NNS of_IN real_JJ peace_NN must_MD be_VB laid_VBN ._.
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\1959-Eisenhower.txt 
+This_DT is_VBZ the_DT moment_NN when_WRB Congress_NNP and_CC the_DT Executive_NNP annually_RB begin_VBP their_PRP$ cooperative_JJ work_NN to_TO build_VB a_DT better_JJR America_NNP ._.
+One_CD basic_JJ purpose_NN unites_VBZ us_PRP :_: To_TO promote_VB strength_NN and_CC security_NN ,_, side_NN by_IN side_NN with_IN liberty_NN and_CC opportunity_NN ._.
+As_IN we_PRP meet_VBP today_NN ,_, in_IN the_DT 170th_CD year_NN of_IN the_DT Republic_NNP ,_, our_PRP$ Nation_NN must_MD continue_VB to_TO provide_VB --_: as_IN all_DT other_JJ free_JJ governments_NNS have_VBP had_VBN to_TO do_VB throughout_IN time_NN --_: a_DT satisfactory_JJ answer_NN to_TO a_DT question_NN as_IN old_JJ as_IN history_NN ._.
+It_PRP is_VBZ :_: Can_MD Government_NNP based_VBN upon_IN liberty_NN and_CC the_DT God-given_JJ rights_NNS of_IN man_NN ,_, permanently_RB endure_VB when_WRB ceaselessly_RB challenged_VBN by_IN a_DT dictatorship_NN ,_, hostile_JJ to_TO our_PRP$ mode_NN of_IN life_NN ,_, and_CC controlling_VBG an_DT economic_JJ and_CC military_JJ power_NN of_IN great_JJ and_CC growing_VBG strength_NN ?_.
+For_IN us_PRP the_DT answer_NN has_VBZ always_RB been_VBN found_VBN ,_, and_CC is_VBZ still_RB found_VBN in_IN the_DT devotion_NN ,_, the_DT vision_NN ,_, the_DT courage_NN and_CC the_DT fortitude_NN of_IN our_PRP$ people_NNS ._.
+Moreover_RB ,_, this_DT challenge_NN we_PRP face_VBP ,_, not_RB as_IN a_DT single_JJ powerful_JJ nation_NN ,_, but_CC as_IN one_CD that_WDT has_VBZ in_IN recent_JJ decades_NNS reached_VBD a_DT position_NN of_IN recognized_VBN leadership_NN in_IN the_DT Free_NNP World_NNP ._.
+We_PRP have_VBP arrived_VBN at_IN this_DT position_NN of_IN leadership_NN in_IN an_DT era_NN of_IN remarkable_JJ productivity_NN and_CC growth_NN ._.
+It_PRP is_VBZ also_RB a_DT time_NN when_WRB man_NN 's_POS power_NN of_IN mass_NN destruction_NN has_VBZ reached_VBN fearful_JJ proportions_NNS ._.
+Possession_NN of_IN such_JJ capabilities_NNS helps_VBZ create_VB world_NN suspicion_NN and_CC tension_NN ._.
+We_PRP ,_, on_IN our_PRP$ part_NN ,_, know_VBP that_IN we_PRP seek_VBP only_RB a_DT just_RB peace_NN for_IN all_DT ,_, with_IN aggressive_JJ designs_NNS against_IN no_DT one_NN ._.
+Yet_RB we_PRP realize_VBP that_IN there_EX is_VBZ uneasiness_NN in_IN the_DT world_NN because_IN of_IN a_DT belief_NN on_IN the_DT part_NN of_IN peoples_NNS that_WDT through_IN arrogance_NN ,_, miscalculation_NN or_CC fear_NN of_IN attack_NN ,_, catastrophic_JJ war_NN could_MD be_VB launched_VBN ._.
+Keeping_VBG the_DT peace_NN in_IN today_NN 's_POS world_NN more_JJR than_IN ever_RB calls_VBZ for_IN the_DT utmost_JJ in_IN the_DT nation_NN 's_POS resolution_NN ,_, wisdom_NN ,_, steadiness_NN and_CC unremitting_JJ effort_NN ._.
+We_PRP can_MD not_RB build_VB peace_NN through_IN desire_NN alone_RB ._.
+Moreover_RB ,_, we_PRP have_VBP learned_VBN the_DT bitter_JJ lesson_NN that_WDT international_JJ agreements_NNS ,_, historically_RB considered_VBN by_IN us_PRP as_IN sacred_JJ ,_, are_VBP regarded_VBN in_IN Communist_JJ doctrine_NN and_CC in_IN practice_NN to_TO be_VB mere_JJ scraps_NNS of_IN paper_NN ._.
+The_DT most_RBS recent_JJ proof_NN of_IN their_PRP$ disdain_NN of_IN international_JJ obligations_NNS ,_, solemnly_RB undertaken_VBN ,_, is_VBZ their_PRP$ announced_VBN intention_NN to_TO abandon_VB their_PRP$ responsibilities_NNS respecting_VBG Berlin_NNP ._.
+As_IN a_DT consequence_NN ,_, we_PRP can_MD have_VB no_DT confidence_NN in_IN any_DT treaty_NN to_TO which_WDT Communists_NNPS are_VBP a_DT party_NN except_IN where_WRB such_PDT a_DT treaty_NN provides_VBZ within_IN itself_PRP for_IN self-enforcing_JJ mechanisms_NNS ._.
+Indeed_RB ,_, the_DT demonstrated_VBN disregard_NN of_IN the_DT Communists_NNPS of_IN their_PRP$ own_JJ pledges_NNS is_VBZ one_CD of_IN the_DT greatest_JJS obstacles_NNS to_TO success_NN in_IN substituting_VBG the_DT Rule_NNP of_IN Law_NNP for_IN rule_NN by_IN force_NN ._.
+Yet_RB step_VB by_IN step_NN we_PRP must_MD strengthen_VB the_DT institutions_NNS of_IN peace_NN --_: a_DT peace_NN that_WDT rests_VBZ upon_IN justice_NN --_: a_DT peace_NN that_WDT depends_VBZ upon_IN a_DT deep_JJ knowledge_NN and_CC clear_JJ understanding_NN by_IN all_DT peoples_NNS of_IN the_DT cause_NN and_CC consequences_NNS of_IN possible_JJ failure_NN in_IN this_DT great_JJ purpose_NN ._.
+I._NN To_TO achieve_VB this_DT peace_NN we_PRP seek_VBP to_TO prevent_VB war_NN at_IN any_DT place_NN and_CC in_IN any_DT dimension_NN ._.
+If_IN ,_, despite_IN our_PRP$ best_JJS efforts_NNS ,_, a_DT local_JJ dispute_NN should_MD flare_VB into_IN armed_JJ hostilities_NNS ,_, the_DT next_JJ problem_NN would_MD be_VB to_TO keep_VB the_DT conflict_NN from_IN spreading_VBG ,_, and_CC so_RB compromising_VBG freedom_NN ._.
+In_IN support_NN of_IN these_DT objectives_NNS we_PRP maintain_VBP forces_NNS of_IN great_JJ power_NN and_CC flexibility_NN ._.
+Our_PRP$ formidable_JJ air_NN striking_JJ forces_NNS are_VBP a_DT powerful_JJ deterrent_NN to_TO general_JJ war_NN ._.
+Large_JJ and_CC growing_VBG portions_NNS of_IN these_DT units_NNS can_MD depart_VB from_IN their_PRP$ bases_NNS in_IN a_DT matter_NN of_IN minutes_NNS ._.
+Similar_JJ forces_NNS are_VBP included_VBN in_IN our_PRP$ naval_JJ fleets_NNS ._.
+Ground_NN and_CC other_JJ tactical_JJ formations_NNS can_MD move_VB with_IN swiftness_NN and_CC precision_NN ,_, when_WRB requested_VBN by_IN friendly_JJ and_CC responsible_JJ governments_NNS ,_, to_TO help_VB curb_VB threatened_VBN aggression_NN ._.
+The_DT stabilizing_VBG influence_NN of_IN this_DT capacity_NN has_VBZ been_VBN dramatically_RB demonstrated_VBD more_JJR than_IN once_RB over_IN the_DT past_JJ year_NN ._.
+Our_PRP$ military_JJ and_CC related_JJ scientific_JJ progress_NN has_VBZ been_VBN highly_RB gratifying_JJ ._.
+Great_NNP strides_NNS have_VBP been_VBN made_VBN in_IN the_DT development_NN of_IN ballistic_JJ missiles_NNS ._.
+Intermediate_NNP range_NN missiles_NNS are_VBP now_RB being_VBG deployed_VBN in_IN operational_JJ units_NNS ._.
+The_DT Atlas_NNP intercontinental_JJ ballistic_JJ missile_NN program_NN has_VBZ been_VBN marked_VBN by_IN rapid_JJ development_NN as_IN evidenced_VBN by_IN recent_JJ successful_JJ tests_NNS ._.
+Missile_NNP training_NN units_NNS have_VBP been_VBN established_VBN and_CC launching_VBG sites_NNS are_VBP far_RB along_RB in_IN construction_NN ._.
+New_NNP aircraft_NN that_WDT fly_VBP at_IN twice_RB the_DT speed_NN of_IN sound_NN are_VBP entering_VBG our_PRP$ squadrons_NNS ._.
+We_PRP have_VBP successfully_RB placed_VBN five_CD satellites_NNS in_IN orbit_NN ,_, which_WDT have_VBP gathered_VBN information_NN of_IN scientific_JJ importance_NN never_RB before_IN available_JJ ._.
+Our_PRP$ latest_JJS satellite_NN illustrates_VBZ our_PRP$ steady_JJ advance_NN in_IN rocketry_NN and_CC foreshadows_VBZ new_JJ developments_NNS in_IN world-wide_JJ communications_NNS ._.
+Warning_NN systems_NNS constantly_RB improve_VBP ._.
+Our_PRP$ atomic_JJ submarines_NNS have_VBP shattered_VBN endurance_NN records_NNS and_CC made_VBN historic_JJ voyages_NNS under_IN the_DT North_NNP Polar_NNP Sea_NNP ._.
+A_DT major_JJ segment_NN of_IN our_PRP$ national_JJ scientific_JJ and_CC engineering_NN community_NN is_VBZ working_VBG intensively_RB to_TO achieve_VB new_JJ and_CC greater_JJR developments_NNS ._.
+Advance_NNP in_IN military_JJ technology_NN requires_VBZ adequate_JJ financing_NN but_CC ,_, of_IN course_NN ,_, even_RB more_RBR ,_, it_PRP requires_VBZ talent_NN and_CC time_NN ._.
+All_PDT this_DT is_VBZ given_VBN only_RB as_IN a_DT matter_NN of_IN history_NN ;_: as_IN a_DT record_NN of_IN our_PRP$ progress_NN in_IN space_NN and_CC ballistic_JJ missile_NN fields_NNS in_IN no_DT more_JJR than_IN four_CD years_NNS of_IN intensive_JJ effort_NN ._.
+At_IN the_DT same_JJ time_NN we_PRP clearly_RB recognize_VBP that_IN some_DT of_IN the_DT recent_JJ Soviet_JJ accomplishments_NNS in_IN this_DT particular_JJ technology_NN are_VBP indeed_RB brilliant_JJ ._.
+Under_IN the_DT law_NN enacted_VBN last_JJ year_NN the_DT Department_NNP of_IN Defense_NNP is_VBZ being_VBG reorganized_VBN to_TO give_VB the_DT Secretary_NNP of_IN Defense_NNP full_JJ authority_NN over_IN the_DT military_JJ establishment_NN ._.
+Greater_NNP efficiency_NN ,_, more_JJR cohesive_JJ effort_NN and_CC speedier_JJR reaction_NN to_TO emergencies_NNS are_VBP among_IN the_DT many_JJ advantages_NNS we_PRP are_VBP already_RB noting_VBG from_IN these_DT changes_NNS ._.
+These_DT few_JJ highlights_VBZ point_NN up_IN our_PRP$ steady_JJ military_JJ gains_NNS ._.
+We_PRP are_VBP rightfully_RB gratified_VBN by_IN the_DT achievements_NNS they_PRP represent_VBP ._.
+But_CC we_PRP must_MD remember_VB that_IN these_DT imposing_VBG armaments_NNS are_VBP purchased_VBN at_IN great_JJ cost_NN ._.
+National_NNP Security_NNP programs_NNS account_VBP for_IN nearly_RB sixty_CD percent_NN of_IN the_DT entire_JJ Federal_JJ budget_NN for_IN this_DT coming_VBG fiscal_JJ year_NN ._.
+Modern_NNP weapons_NNS are_VBP exceedingly_RB expensive_JJ ._.
+The_DT overall_JJ cost_NN of_IN introducing_VBG ATLAS_NNP into_IN our_PRP$ armed_JJ forces_NNS will_MD average_VB $_$ 35_CD million_CD per_IN missile_NN on_IN the_DT firing_NN line_NN ._.
+This_DT year_NN we_PRP are_VBP investing_VBG an_DT aggregate_NN of_IN close_JJ to_TO $_$ 7_CD billion_CD in_IN missile_NN programs_NNS alone_RB ._.
+Other_JJ billions_NNS go_VBP for_IN research_NN ,_, development_NN ,_, test_NN and_CC evaluation_NN of_IN new_JJ weapons_NNS systems_NNS ._.
+Our_PRP$ latest_JJS atomic_JJ submarines_NNS will_MD cost_VB $_$ 50_CD millions_NNS each_DT ,_, while_IN some_DT special_JJ types_NNS will_MD cost_VB three_CD times_NNS as_RB much_RB ._.
+We_PRP are_VBP now_RB ordering_VBG fighter_NN aircraft_NN which_WDT are_VBP priced_VBN at_IN fifty_CD times_NNS as_RB much_RB as_IN the_DT fighters_NNS of_IN World_NNP War_NNP II_NNP ._.
+We_PRP are_VBP buying_VBG certain_JJ bombers_NNS that_WDT cost_VBP their_PRP$ weight_NN in_IN gold_NN ._.
+These_DT sums_NNS are_VBP tremendous_JJ ,_, even_RB when_WRB compared_VBN with_IN the_DT marvelous_JJ resiliency_NN and_CC capacity_NN of_IN our_PRP$ economy_NN ._.
+Such_JJ expenditures_NNS demand_VBP both_DT balance_NN and_CC perspective_NN in_IN our_PRP$ planning_NN for_IN defense_NN ._.
+At_IN every_DT turn_NN ,_, we_PRP must_MD weigh_VB ,_, judge_NN and_CC select_JJ ._.
+Needless_JJ duplication_NN of_IN weapons_NNS and_CC forces_NNS must_MD be_VB avoided_VBN ._.
+We_PRP must_MD guard_VB against_IN feverish_JJ building_NN of_IN vast_JJ armaments_NNS to_TO meet_VB glibly_RB predicted_VBN moments_NNS of_IN so-called_JJ ``_`` maximum_JJ peril_NN ._. ''_''
+The_DT threat_NN we_PRP face_VBP is_VBZ not_RB sporadic_JJ or_CC dated_VBN :_: It_PRP is_VBZ continuous_JJ ._.
+Hence_RB we_PRP must_MD not_RB be_VB swayed_VBN in_IN our_PRP$ calculations_NNS either_CC by_IN groundless_JJ fear_NN or_CC by_IN complacency_NN ._.
+We_PRP must_MD avoid_VB extremes_NNS ,_, for_IN vacillation_NN between_IN extremes_NNS is_VBZ inefficient_JJ ,_, costly_JJ ,_, and_CC destructive_JJ of_IN morale_NN ._.
+In_IN these_DT days_NNS of_IN unceasing_JJ technological_JJ advance_NN ,_, we_PRP must_MD plan_VB our_PRP$ defense_NN expenditures_NNS systematically_RB and_CC with_IN care_NN ,_, fully_RB recognizing_VBG that_IN obsolescence_NN compels_VBZ the_DT never-ending_JJ replacement_NN of_IN older_JJR weapons_NNS with_IN new_JJ ones_NNS ._.
+The_DT defense_NN budget_NN for_IN the_DT coming_JJ year_NN has_VBZ been_VBN planned_VBN on_IN the_DT basis_NN of_IN these_DT principles_NNS and_CC considerations_NNS ._.
+Over_IN these_DT many_JJ months_NNS I_PRP have_VBP personally_RB participated_VBN in_IN its_PRP$ development_NN ._.
+The_DT aim_NN is_VBZ a_DT sensible_JJ posture_NN of_IN defense_NN ._.
+The_DT secondary_JJ aim_NN is_VBZ increased_VBN efficiency_NN and_CC avoidance_NN of_IN waste_NN ._.
+Both_DT are_VBP achieved_VBN by_IN this_DT budgetary_JJ plan_NN ._.
+Working_VBG by_IN these_DT guide_NN lines_NNS I_PRP believe_VBP with_IN all_DT my_PRP$ heart_NN that_IN America_NNP can_MD be_VB as_IN sure_JJ of_IN the_DT strength_NN and_CC efficiency_NN of_IN her_PRP$ armed_JJ forces_NNS as_IN she_PRP is_VBZ of_IN their_PRP$ loyalty_NN ._.
+I_PRP am_VBP equally_RB sure_JJ that_IN the_DT nation_NN will_MD thus_RB avoid_VB useless_JJ expenditures_NNS which_WDT ,_, in_IN the_DT name_NN of_IN security_NN ,_, might_MD tend_VB to_TO undermine_VB the_DT economy_NN and_CC ,_, therefore_RB ,_, the_DT nation_NN 's_POS safety_NN ._.
+Our_PRP$ own_JJ vast_JJ strength_NN is_VBZ only_RB a_DT part_NN of_IN that_DT required_VBN for_IN dependable_JJ security_NN ._.
+Because_IN of_IN this_DT we_PRP have_VBP joined_VBN with_IN nearly_RB 50_CD other_JJ nations_NNS in_IN collective_JJ security_NN arrangements_NNS ._.
+In_IN these_DT common_JJ undertakings_NNS each_DT nation_NN is_VBZ expected_VBN to_TO contribute_VB what_WP it_PRP can_MD in_IN sharing_VBG the_DT heavy_JJ load_NN ._.
+Each_DT supplies_NNS part_NN of_IN a_DT strategic_JJ deployment_NN to_TO protect_VB the_DT forward_JJ boundaries_NNS of_IN freedom_NN ._.
+Constantly_RB we_PRP seek_VBP new_JJ ways_NNS to_TO make_VB more_JJR effective_JJ our_PRP$ contribution_NN to_TO this_DT system_NN of_IN collective_JJ security_NN ._.
+Recently_RB I_PRP have_VBP asked_VBN a_DT Committee_NNP of_IN eminent_JJ Americans_NNPS of_IN both_DT parties_NNS to_TO re-appraise_VB our_PRP$ military_JJ assistance_NN programs_NNS and_CC the_DT relative_JJ emphasis_NN which_WDT should_MD be_VB placed_VBN on_IN military_JJ and_CC economic_JJ aid_NN ._.
+I_PRP am_VBP hopeful_JJ that_IN preliminary_JJ recommendations_NNS of_IN this_DT Committee_NNP will_MD be_VB available_JJ in_IN time_NN to_TO assist_VB in_IN shaping_VBG the_DT Mutual_NNP Security_NNP program_NN for_IN the_DT coming_VBG fiscal_JJ year_NN ._.
+Any_DT survey_NN of_IN the_DT free_JJ world_NN 's_POS defense_NN structure_NN can_MD not_RB fail_VB to_TO impart_VB a_DT feeling_NN of_IN regret_NN that_WDT so_RB much_RB of_IN our_PRP$ effort_NN and_CC resources_NNS must_MD be_VB devoted_VBN to_TO armaments_NNS ._.
+At_IN Geneva_NNP and_CC elsewhere_RB we_PRP continue_VBP to_TO seek_VB technical_JJ and_CC other_JJ agreements_NNS that_WDT may_MD help_VB to_TO open_VB up_RP ,_, with_IN some_DT promise_NN ,_, the_DT issues_NNS of_IN international_JJ disarmament_NN ._.
+America_NNP will_MD never_RB give_VB up_RP the_DT hope_NN that_IN eventually_RB all_DT nations_NNS can_MD ,_, with_IN mutual_JJ confidence_NN ,_, drastically_RB reduce_VB these_DT non-productive_JJ expenditures_NNS ._.
 II_NNP ._.
-The_DT threat_NN to_TO our_PRP$ safety_NN ,_, and_CC to_TO the_DT hope_NN of_IN a_DT peaceful_JJ world_NN ,_, can_MD be_VB simply_RB stated_VBN ._.
-It_PRP is_VBZ communist_JJ imperialism_NN ._.
-This_DT threat_NN is_VBZ not_RB something_NN imagined_VBN by_IN critics_NNS of_IN the_DT Soviets_NNPS ._.
-Soviet_JJ spokesmen_NNS ,_, from_IN the_DT beginning_NN ,_, have_VBP publicly_RB and_CC frequently_RB declared_VBD their_PRP$ aim_NN to_TO expand_VB their_PRP$ power_NN ,_, one_CD way_NN or_CC another_DT ,_, throughout_IN the_DT world_NN ._.
-The_DT threat_NN has_VBZ become_VBN increasingly_RB serious_JJ as_IN this_DT expansionist_JJ aim_NN has_VBZ been_VBN reinforced_VBN by_IN an_DT advancing_VBG industrial_JJ ,_, military_JJ and_CC scientific_JJ establishment_NN ._.
-But_CC what_WP makes_VBZ the_DT Soviet_JJ threat_NN unique_JJ in_IN history_NN is_VBZ its_PRP$ all-inclusiveness_NN ._.
-Every_DT human_JJ activity_NN is_VBZ pressed_VBN into_IN service_NN as_IN a_DT weapon_NN of_IN expansion_NN ._.
-Trade_NNP ,_, economic_JJ development_NN ,_, military_JJ power_NN ,_, arts_NNS ,_, science_NN ,_, education_NN ,_, the_DT whole_JJ world_NN of_IN ideas_NNS --_: all_DT are_VBP harnessed_VBN to_TO this_DT same_JJ chariot_NN of_IN expansion_NN ._.
-The_DT Soviets_NNPS are_VBP ,_, in_IN short_JJ ,_, waging_VBG total_JJ cold_JJ war_NN ._.
-The_DT only_JJ answer_NN to_TO a_DT regime_NN that_WDT wages_NNS total_VBP cold_JJ war_NN is_VBZ to_TO wage_VB total_JJ peace_NN ._.
-This_DT means_VBZ bringing_VBG to_TO bear_VB every_DT asset_NN of_IN our_PRP$ personal_JJ and_CC national_JJ lives_NNS upon_IN the_DT task_NN of_IN building_VBG the_DT conditions_NNS in_IN which_WDT security_NN and_CC peace_NN can_MD grow_VB ._.
+The_DT material_NN foundation_NN of_IN our_PRP$ national_JJ safety_NN is_VBZ a_DT strong_JJ and_CC expanding_VBG economy_NN ._.
+This_DT we_PRP have_VBP --_: and_CC this_DT we_PRP must_MD maintain_VB ._.
+Only_RB with_IN such_PDT an_DT economy_NN can_MD we_PRP be_VB secure_JJ and_CC simultaneously_RB provide_VB for_IN the_DT well-being_NN of_IN our_PRP$ people_NNS ._.
+A_DT year_NN ago_IN the_DT nation_NN was_VBD experiencing_VBG a_DT decline_NN in_IN employment_NN and_CC output_NN ._.
+Today_NN that_IN recession_NN is_VBZ fading_JJ into_IN history_NN ,_, and_CC this_DT without_IN gigantic_JJ ,_, hastily-improvised_JJ public_JJ works_NNS projects_NNS or_CC untimely_JJ tax_NN reductions_NNS ._.
+A_DT healthy_JJ and_CC vigorous_JJ recovery_NN has_VBZ been_VBN under_IN way_NN since_IN last_JJ May_NNP ._.
+New_NNP homes_NNS are_VBP being_VBG built_VBN at_IN the_DT highest_JJS rate_NN in_IN several_JJ years_NNS ._.
+Retail_JJ sales_NNS are_VBP at_IN peak_NN levels_NNS ._.
+Personal_JJ income_NN is_VBZ at_IN an_DT all-time_JJ high_JJ ._.
+The_DT marked_JJ forward_JJ thrust_NN of_IN our_PRP$ economy_NN reaffirms_VBZ our_PRP$ confidence_NN in_IN competitive_JJ enterprise_NN ._.
+But_CC --_: clearly_RB --_: wisdom_NN and_CC prudence_NN in_IN both_DT the_DT public_NN and_CC private_JJ sectors_NNS of_IN the_DT economy_NN are_VBP always_RB necessary_JJ ._.
+Our_PRP$ outlook_NN is_VBZ this_DT :_: 1960_CD commitments_NNS for_IN our_PRP$ armed_JJ forces_NNS ,_, the_DT Atomic_NNP Energy_NNP Commission_NNP and_CC Military_NNP Assistance_NNP exceed_VBP 47_CD billion_CD dollars_NNS ._.
+In_IN the_DT foreseeable_JJ future_NN they_PRP are_VBP not_RB likely_JJ to_TO be_VB significantly_RB lower_JJR ._.
+With_IN an_DT annual_JJ population_NN increase_NN of_IN three_CD million_CD ,_, other_JJ governmental_JJ costs_NNS are_VBP bound_VBN to_TO mount_VB ._.
+After_IN we_PRP have_VBP provided_VBN wisely_RB for_IN our_PRP$ military_JJ strength_NN ,_, we_PRP must_MD judge_VB how_WRB to_TO allocate_VB our_PRP$ remaining_VBG government_NN resources_NNS most_RBS effectively_RB to_TO promote_VB our_PRP$ well-being_NN and_CC economic_JJ growth_NN ._.
+Federal_JJ programs_NNS that_WDT will_MD benefit_VB all_DT citizens_NNS are_VBP moving_VBG forward_RB ._.
+Next_JJ year_NN we_PRP will_MD be_VB spending_VBG increased_VBN amounts_NNS on_IN health_NN programs_NNS ;_: on_IN Federal_NNP assistance_NN to_TO science_NN and_CC education_NN ;_: on_IN the_DT development_NN of_IN the_DT nation_NN 's_POS water_NN resources_NNS ;_: on_IN the_DT renewal_NN of_IN urban_JJ areas_NNS ;_: and_CC on_IN our_PRP$ vast_JJ system_NN of_IN Federal-aid_JJ highways_NNS ._.
+Each_DT of_IN these_DT additional_JJ outlays_NNS is_VBZ being_VBG made_VBN necessary_JJ by_IN the_DT surging_VBG growth_NN of_IN America_NNP ._.
+Let_VB me_PRP illustrate_VB ._.
+Responsive_JJ to_TO this_DT growth_NN ,_, Federal_NNP grants_NNS and_CC long_JJ term_NN loans_NNS to_TO assist_VB 14_CD major_JJ types_NNS of_IN capital_NN improvements_NNS in_IN our_PRP$ cities_NNS will_MD total_VB over_IN 2_CD billion_CD dollars_NNS in_IN 1960_CD --_: double_JJ the_DT expenditure_NN of_IN two_CD years_NNS ago_RB ._.
+The_DT major_JJ responsibility_NN for_IN development_NN in_IN these_DT fields_NNS rests_VBZ in_IN the_DT localities_NNS ,_, even_RB though_IN the_DT Federal_NNP Government_NNP will_MD continue_VB to_TO do_VB its_PRP$ proper_JJ part_NN in_IN meeting_VBG the_DT genuine_JJ needs_NNS of_IN a_DT burgeoning_VBG population_NN ._.
+But_CC the_DT progress_NN of_IN our_PRP$ economy_NN can_MD more_RBR than_IN match_VB the_DT growth_NN of_IN our_PRP$ needs_NNS ._.
+We_PRP need_VBP only_RB to_TO act_VB wisely_RB and_CC confidently_RB ._.
+Here_RB ,_, I_PRP hope_VBP you_PRP will_MD permit_VB me_PRP to_TO digress_VB long_RB enough_RB to_TO express_VB something_NN that_WDT is_VBZ much_RB on_IN my_PRP$ mind_NN ._.
+The_DT basic_JJ question_NN facing_VBG us_PRP today_NN is_VBZ more_JJR than_IN mere_JJ survival_NN --_: the_DT military_JJ defense_NN of_IN national_JJ life_NN and_CC territory_NN ._.
+It_PRP is_VBZ the_DT preservation_NN of_IN a_DT way_NN of_IN life_NN ._.
+We_PRP must_MD meet_VB the_DT world_NN challenge_NN and_CC at_IN the_DT same_JJ time_NN permit_NN no_DT stagnation_NN in_IN America_NNP ._.
+Unless_IN we_PRP progress_VBP ,_, we_PRP regress_VBP ._.
+We_PRP can_MD successfully_RB sustain_VB security_NN and_CC remain_VBP true_JJ to_TO our_PRP$ heritage_NN of_IN freedom_NN if_IN we_PRP clearly_RB visualize_VBP the_DT tasks_NNS ahead_RB and_CC set_VBN out_RP to_TO perform_VB them_PRP with_IN resolution_NN and_CC fervor_NN ._.
+We_PRP must_MD first_RB define_VB these_DT tasks_NNS and_CC then_RB understand_VB what_WP we_PRP must_MD do_VB to_TO perform_VB them_PRP ._.
+If_IN progress_NN is_VBZ to_TO be_VB steady_JJ we_PRP must_MD have_VB long_JJ term_NN guides_NNS extending_VBG far_RB ahead_RB ,_, certainly_RB five_CD ,_, possibly_RB even_RB ten_CD years_NNS ._.
+They_PRP must_MD reflect_VB the_DT knowledge_NN that_WDT before_IN the_DT end_NN of_IN five_CD years_NNS we_PRP will_MD have_VB a_DT population_NN of_IN over_IN 190_CD million_CD ._.
+They_PRP must_MD be_VB goals_NNS that_WDT stand_VBP high_JJ ,_, and_CC so_RB inspire_VB every_DT citizen_NN to_TO climb_VB always_RB toward_IN mounting_VBG levels_NNS of_IN moral_JJ ,_, intellectual_JJ and_CC material_JJ strength_NN ._.
+Every_DT advance_NN toward_IN them_PRP must_MD stir_VB pride_NN in_IN individual_JJ and_CC national_JJ achievements_NNS ._.
+To_TO define_VB these_DT goals_NNS ,_, I_PRP intend_VBP to_TO mobilize_VB help_NN from_IN every_DT available_JJ source_NN ._.
+We_PRP need_VBP more_JJR than_IN politically_RB ordained_VBN national_JJ objectives_NNS to_TO challenge_VB the_DT best_JJS efforts_NNS of_IN free_JJ men_NNS and_CC women_NNS ._.
+A_DT group_NN of_IN selfless_JJ and_CC devoted_JJ individuals_NNS ,_, outside_IN of_IN government_NN ,_, could_MD effectively_RB participate_VB in_IN making_VBG the_DT necessary_JJ appraisal_NN of_IN the_DT potentials_NNS of_IN our_PRP$ future_NN ._.
+The_DT result_NN would_MD be_VB establishment_NN of_IN national_JJ goals_NNS that_WDT would_MD not_RB only_RB spur_VB us_PRP on_IN to_TO our_PRP$ finest_JJS efforts_NNS ,_, but_CC would_MD meet_VB the_DT stern_JJ test_NN of_IN practicality_NN ._.
+The_DT Committee_NNP I_PRP plan_VBP will_MD comprise_VB educators_NNS and_CC representatives_NNS of_IN labor_NN ,_, management_NN ,_, finance_NN ,_, the_DT professions_NNS and_CC every_DT other_JJ kind_NN of_IN useful_JJ activity_NN ._.
+Such_JJ a_DT study_NN would_MD update_VB and_CC supplement_VB ,_, in_IN the_DT light_NN of_IN continuous_JJ changes_NNS in_IN our_PRP$ society_NN and_CC its_PRP$ economy_NN ,_, the_DT monumental_JJ work_NN of_IN the_DT Committee_NNP on_IN Recent_JJ Social_NNP Trends_NNPS which_WDT was_VBD appointed_VBN in_IN 1931_CD by_IN President_NNP Hoover_NNP ._.
+Its_PRP$ report_NN has_VBZ stood_VBN the_DT test_NN of_IN time_NN and_CC has_VBZ had_VBN a_DT beneficial_JJ influence_NN on_IN national_JJ development_NN ._.
+The_DT new_JJ Committee_NNP would_MD be_VB concerned_VBN ,_, among_IN other_JJ things_NNS ,_, with_IN the_DT acceleration_NN of_IN our_PRP$ economy_NN 's_POS growth_NN and_CC the_DT living_NN standards_NNS of_IN our_PRP$ people_NNS ,_, their_PRP$ health_NN and_CC education_NN ,_, their_PRP$ better_JJR assurance_NN of_IN life_NN and_CC liberty_NN and_CC their_PRP$ greater_JJR opportunities_NNS ._.
+It_PRP would_MD also_RB be_VB concerned_VBN with_IN methods_NNS to_TO meet_VB such_JJ goals_NNS and_CC what_WP levels_NNS of_IN government_NN --_: Local_JJ ,_, State_NNP ,_, or_CC Federal_NNP --_: might_MD or_CC should_MD be_VB particularly_RB concerned_VBN ._.
+As_IN one_CD example_NN ,_, consider_VB our_PRP$ schools_NNS ,_, operated_VBN under_IN the_DT authority_NN of_IN local_JJ communities_NNS and_CC states_NNS ._.
+In_IN their_PRP$ capacity_NN and_CC in_IN their_PRP$ quality_NN they_PRP conform_VBP to_TO no_DT recognizable_JJ standards_NNS ._.
+In_IN some_DT places_NNS facilities_NNS are_VBP ample_JJ ,_, in_IN others_NNS meager_JJ ._.
+Pay_VB of_IN teachers_NNS ranges_NNS between_IN wide_JJ limits_NNS ,_, from_IN the_DT adequate_JJ to_TO the_DT shameful_JJ ._.
+As_IN would_MD be_VB expected_VBN ,_, quality_NN of_IN teaching_NN varies_VBZ just_RB as_IN widely_RB ._.
+But_CC to_TO our_PRP$ teachers_NNS we_PRP commit_VBP the_DT most_RBS valuable_JJ possession_NN of_IN the_DT nation_NN and_CC of_IN the_DT family_NN --_: our_PRP$ children_NNS ._.
+We_PRP must_MD have_VB teachers_NNS of_IN competence_NN ._.
+To_TO obtain_VB and_CC hold_VB them_PRP we_PRP need_VBP standards_NNS ._.
+We_PRP need_VBP a_DT National_NNP Goal_NNP ._.
+Once_RB established_VBN I_PRP am_VBP certain_JJ that_IN public_JJ opinion_NN would_MD compel_VB steady_JJ progress_NN toward_IN its_PRP$ accomplishment_NN ._.
+Such_JJ studies_NNS would_MD be_VB helpful_JJ ,_, I_PRP believe_VBP ,_, to_TO government_NN at_IN all_DT levels_NNS and_CC to_TO all_DT individuals_NNS ._.
+The_DT goals_NNS so_RB established_VBN could_MD help_VB us_PRP see_VB our_PRP$ current_JJ needs_NNS in_IN perspective_NN ._.
+They_PRP will_MD spur_VB progress_NN ._.
+We_PRP do_VBP not_RB forget_VB ,_, of_IN course_NN ,_, that_IN our_PRP$ nation_NN 's_POS progress_NN and_CC fiscal_JJ integrity_NN are_VBP interdependent_JJ and_CC inseparable_JJ ._.
+We_PRP can_MD afford_VB everything_NN we_PRP clearly_RB need_VBP ,_, but_CC we_PRP can_MD not_RB afford_VB one_CD cent_NN of_IN waste_NN ._.
+We_PRP must_MD examine_VB every_DT item_NN of_IN governmental_JJ expense_NN critically_RB ._.
+To_TO do_VB otherwise_RB would_MD betray_VB our_PRP$ nation_NN 's_POS future_NN ._.
+Thrift_NN is_VBZ one_CD of_IN the_DT characteristics_NNS that_WDT has_VBZ made_VBN this_DT nation_NN great_JJ ._.
+Why_WRB should_MD we_PRP ignore_VB it_PRP now_RB ?_.
+We_PRP must_MD avoid_VB any_DT contribution_NN to_TO inflationary_JJ processes_NNS ,_, which_WDT could_MD disrupt_VB sound_JJ growth_NN in_IN our_PRP$ economy_NN ._.
+Prices_NNS have_VBP displayed_VBN a_DT welcome_JJ stability_NN in_IN recent_JJ months_NNS and_CC ,_, if_IN we_PRP are_VBP wise_JJ and_CC resolute_JJ ,_, we_PRP will_MD not_RB tolerate_VB inflation_NN in_IN the_DT years_NNS to_TO come_VB ._.
+But_CC history_NN makes_VBZ clear_JJ the_DT risks_NNS inherent_JJ in_IN any_DT failure_NN to_TO deal_VB firmly_RB with_IN the_DT basic_JJ causes_NNS of_IN inflation_NN ._.
+Two_CD of_IN the_DT most_RBS important_JJ of_IN these_DT causes_NNS are_VBP the_DT wage-price_JJ spiral_NN and_CC continued_VBD deficit_NN financing_NN ._.
+Inflation_NN would_MD reduce_VB job_NN opportunities_NNS ,_, price_NN us_PRP out_IN of_IN world_NN markets_NNS ,_, shrink_VB the_DT value_NN of_IN savings_NNS and_CC penalize_VB the_DT thrift_NN so_RB essential_JJ to_TO finance_VB a_DT growing_VBG economy_NN ._.
+Inflation_NN is_VBZ not_RB a_DT Robin_NNP Hood_NNP ,_, taking_VBG from_IN the_DT rich_JJ to_TO give_VB to_TO the_DT poor_JJ ._.
+Rather_RB ,_, it_PRP deals_VBZ most_RBS cruelly_RB with_IN those_DT who_WP can_MD least_JJS protect_VBP themselves_PRP ._.
+It_PRP strikes_VBZ hardest_RBS those_DT millions_NNS of_IN our_PRP$ citizens_NNS whose_WP$ incomes_NNS do_VBP not_RB quickly_RB rise_VB with_IN the_DT cost_NN of_IN living_NN ._.
+When_WRB prices_NNS soar_VB ,_, the_DT pensioner_NN and_CC the_DT widow_NN see_VB their_PRP$ security_NN undermined_VBN ,_, the_DT man_NN of_IN thrift_NN sees_VBZ his_PRP$ savings_NNS melt_VB away_RB ;_: the_DT white_JJ collar_NN worker_NN ,_, the_DT minister_NN ,_, and_CC the_DT teacher_NN see_VB their_PRP$ standards_NNS of_IN living_VBG dragged_VBN down_RP ._.
+Inflation_NN can_MD be_VB prevented_VBN ._.
+But_CC this_DT demands_NNS statesmanship_NN on_IN the_DT part_NN of_IN business_NN and_CC labor_NN leaders_NNS and_CC of_IN government_NN at_IN all_DT levels_NNS ._.
+We_PRP must_MD encourage_VB the_DT self-discipline_NN ,_, the_DT restraint_NN necessary_JJ to_TO curb_VB the_DT wage-price_JJ spiral_NN and_CC we_PRP must_MD meet_VB current_JJ costs_NNS from_IN current_JJ revenue_NN ._.
+To_TO minimize_VB the_DT danger_NN of_IN future_JJ soaring_VBG prices_NNS and_CC to_TO keep_VB our_PRP$ economy_NN sound_NN and_CC expanding_VBG ,_, I_PRP shall_MD present_VB to_TO the_DT Congress_NNP certain_JJ proposals_NNS ._.
+First_RB ,_, I_PRP shall_MD submit_VB a_DT balanced_JJ budget_NN for_IN the_DT next_JJ year_NN ,_, a_DT year_NN expected_VBN to_TO be_VB the_DT most_RBS prosperous_JJ in_IN our_PRP$ history_NN ._.
+It_PRP is_VBZ a_DT realistic_JJ budget_NN with_IN wholly_RB attainable_JJ objectives_NNS ._.
+If_IN we_PRP can_MD not_RB live_VB within_IN our_PRP$ means_NNS during_IN such_PDT a_DT time_NN of_IN rising_VBG prosperity_NN ,_, the_DT hope_NN for_IN fiscal_JJ integrity_NN will_MD fade_VB ._.
+If_IN we_PRP persist_VBP in_IN living_VBG beyond_IN our_PRP$ means_NNS ,_, we_PRP make_VBP it_PRP difficult_JJ for_IN every_DT family_NN in_IN our_PRP$ land_NN to_TO balance_VB its_PRP$ own_JJ household_NN budget_NN ._.
+But_CC to_TO live_VB within_IN our_PRP$ means_NNS would_MD be_VB a_DT tangible_JJ demonstration_NN of_IN the_DT self-discipline_NN needed_VBN to_TO assure_VB a_DT stable_JJ dollar_NN ._.
+The_DT Constitution_NNP entrusts_VBZ the_DT Executive_NNP with_IN many_JJ functions_NNS ,_, but_CC the_DT Congress_NNP --_: and_CC the_DT Congress_NNP alone_RB --_: has_VBZ the_DT power_NN of_IN the_DT purse_NN ._.
+Ultimately_RB upon_IN Congress_NNP rests_VBZ responsibility_NN for_IN determining_VBG the_DT scope_NN and_CC amount_NN of_IN Federal_JJ spending_NN ._.
+By_IN working_VBG together_RB ,_, the_DT Congress_NNP and_CC the_DT Executive_NNP can_MD keep_VB a_DT balance_NN between_IN income_NN and_CC outgo_NN ._.
+If_IN this_DT is_VBZ done_VBN there_EX is_VBZ real_JJ hope_NN that_IN we_PRP can_MD look_VB forward_RB to_TO a_DT time_NN in_IN the_DT foreseeable_JJ future_NN when_WRB needed_VBN tax_NN reforms_NNS can_MD be_VB accomplished_VBN ._.
+In_IN this_DT hope_NN ,_, I_PRP am_VBP requesting_VBG the_DT Secretary_NNP of_IN the_DT Treasury_NNP to_TO prepare_VB appropriate_JJ proposals_NNS for_IN revising_VBG ,_, at_IN the_DT proper_JJ time_NN ,_, our_PRP$ tax_NN structure_NN ,_, to_TO remove_VB inequities_NNS and_CC to_TO enhance_VB incentives_NNS for_IN all_DT Americans_NNPS to_TO work_VB ,_, to_TO save_VB ,_, and_CC to_TO invest_VB ._.
+Such_JJ recommendations_NNS will_MD be_VB made_VBN as_RB soon_RB as_IN our_PRP$ fiscal_JJ condition_NN permits_NNS ._.
+These_DT prospects_NNS will_MD be_VB brightened_VBN if_IN 1960_CD expenditures_NNS do_VBP not_RB exceed_VB the_DT levels_NNS recommended_VBD ._.
+Second_NNP ,_, I_PRP shall_MD recommend_VB to_TO the_DT Congress_NNP that_IN the_DT Chief_NNP Executive_NNP be_VB given_VBN the_DT responsibility_NN either_RB to_TO approve_VB or_CC to_TO veto_VB specific_JJ items_NNS in_IN appropriations_NNS and_CC authorization_NN bills_NNS ._.
+-LSB-_NNP I_PRP assure_VBP you_PRP gentlemen_NNS that_IN I_PRP know_VBP this_DT recommendation_NN has_VBZ been_VBN made_VBN time_NN and_CC again_RB by_IN every_DT President_NNP that_WDT has_VBZ appeared_VBN in_IN this_DT hall_NN for_IN many_JJ years_NNS ,_, but_CC I_PRP say_VBP this_DT ,_, it_PRP still_RB is_VBZ one_CD of_IN the_DT most_RBS important_JJ corrections_NNS that_WDT could_MD be_VB made_VBN in_IN our_PRP$ annual_JJ expenditure_NN program_NN ,_, because_IN this_DT would_MD save_VB tax_NN dollars_NNS ._. -RSB-_NN
+Third_NNP ,_, to_TO reduce_VB Federal_NNP operations_NNS in_IN an_DT area_NN where_WRB private_JJ enterprise_NN can_MD do_VB the_DT job_NN ,_, I_PRP shall_MD recommend_VB legislation_NN for_IN greater_JJR flexibility_NN in_IN extending_VBG Federal_NNP credit_NN ,_, and_CC in_IN improving_VBG the_DT procedures_NNS under_IN which_WDT private_JJ credits_NNS are_VBP insured_VBN or_CC guaranteed_VBN ._.
+Present_JJ practices_NNS have_VBP needlessly_RB added_VBN large_JJ sums_NNS to_TO Federal_NNP expenditures_NNS ._.
+Fourth_JJ ,_, action_NN is_VBZ required_VBN to_TO make_VB more_JJR effective_JJ use_NN of_IN the_DT large_JJ Federal_NNP expenditures_NNS for_IN agriculture_NN and_CC to_TO achieve_VB greater_JJR fiscal_JJ control_NN in_IN this_DT area_NN ._.
+Outlays_NNS of_IN the_DT Department_NNP of_IN Agriculture_NNP for_IN the_DT current_JJ fiscal_JJ year_NN for_IN the_DT support_NN of_IN farm_NN prices_NNS on_IN a_DT very_RB few_JJ farm_NN products_NNS will_MD exceed_VB five_CD billion_CD dollars_NNS ._.
+That_DT is_VBZ a_DT sum_NN equal_JJ to_TO approximately_RB two-fifths_JJ of_IN the_DT net_JJ income_NN of_IN all_DT farm_NN operators_NNS in_IN the_DT entire_JJ United_NNP States_NNPS ._.
+By_IN the_DT end_NN of_IN this_DT fiscal_JJ year_NN it_PRP is_VBZ estimated_VBN that_IN there_EX will_MD be_VB in_IN Government_NNP hands_NNS surplus_NN farm_NN products_NNS worth_JJ about_IN nine_CD billion_CD dollars_NNS ._.
+And_CC by_IN July_NNP 1_CD ,_, 1959_CD ,_, Government_NNP expenditures_NNS for_IN storage_NN ,_, interest_NN ,_, and_CC handling_NN of_IN its_PRP$ agricultural_JJ inventory_NN will_MD reach_VB a_DT rate_NN of_IN one_CD billion_CD dollars_NNS a_DT year_NN ._.
+This_DT level_NN of_IN expenditure_NN for_IN farm_NN products_NNS could_MD be_VB made_VBN willingly_RB for_IN a_DT temporary_JJ period_NN if_IN it_PRP were_VBD leading_VBG to_TO a_DT sound_JJ solution_NN of_IN the_DT problem_NN ._.
+But_CC unfortunately_RB this_DT is_VBZ not_RB true_JJ ._.
+We_PRP need_VBP new_JJ legislation_NN ._.
+In_IN the_DT past_NN I_PRP have_VBP sent_VBN messages_NNS to_TO the_DT Congress_NNP requesting_VBG greater_JJR freedom_NN for_IN our_PRP$ farmers_NNS to_TO manage_VB their_PRP$ own_JJ farms_NNS and_CC greater_JJR freedom_NN for_IN markets_NNS to_TO reflect_VB the_DT wishes_NNS of_IN producers_NNS and_CC consumers_NNS ._.
+Legislative_JJ changes_NNS that_WDT followed_VBD were_VBD appropriate_JJ in_IN direction_NN but_CC did_VBD not_RB go_VB far_RB enough_RB ._.
+The_DT situation_NN calls_VBZ for_IN prompt_JJ and_CC forthright_JJ action_NN ._.
+Recommendation_NN for_IN action_NN will_MD be_VB contained_VBN in_IN a_DT message_NN to_TO be_VB transmitted_VBN to_TO the_DT Congress_NNP shortly_RB ._.
+These_DT fiscal_JJ and_CC related_JJ actions_NNS will_MD help_VB create_VB an_DT environment_NN of_IN price_NN stability_NN for_IN economic_JJ growth_NN ._.
+However_RB ,_, certain_JJ additional_JJ measures_NNS are_VBP needed_VBN ._.
+I_PRP shall_MD ask_VB Congress_NNP to_TO amend_VB the_DT Employment_NNP Act_NNP of_IN 1946_CD to_TO make_VB it_PRP clear_JJ that_IN Government_NNP intends_VBZ to_TO use_VB all_DT appropriate_JJ means_NNS to_TO protect_VB the_DT buying_NN power_NN of_IN the_DT dollar_NN ._.
+I_PRP am_VBP establishing_VBG a_DT continuing_VBG Cabinet_NNP group_NN on_IN Price_NNP Stability_NNP for_IN Economic_NNP Growth_NNP to_TO study_VB governmental_JJ and_CC private_JJ policies_NNS affecting_VBG costs_NNS ,_, prices_NNS ,_, and_CC economic_JJ growth_NN ._.
+It_PRP will_MD strive_VB also_RB to_TO build_VB a_DT better_JJR public_JJ understanding_NN of_IN the_DT conditions_NNS necessary_JJ for_IN maintaining_VBG growth_NN and_CC price_NN stability_NN ._.
+Studies_NNS are_VBP being_VBG undertaken_VBN to_TO improve_VB our_PRP$ information_NN on_IN prices_NNS ,_, wages_NNS ,_, and_CC productivity_NN ._.
+I_PRP believe_VBP all_DT citizens_NNS in_IN all_DT walks_VBZ of_IN life_NN will_MD support_VB this_DT program_NN of_IN action_NN to_TO accelerate_VB economic_JJ growth_NN and_CC promote_VB price_NN stability_NN ._.
 III_NNP ._.
-Among_IN our_PRP$ assets_NNS ,_, let_VB us_PRP first_RB briefly_RB glance_NN at_IN our_PRP$ military_JJ power_NN ._.
-Military_JJ power_NN serves_VBZ the_DT cause_NN of_IN security_NN by_IN making_VBG prohibitive_JJ the_DT cost_NN of_IN any_DT aggressive_JJ attack_NN ._.
-It_PRP serves_VBZ the_DT cause_NN of_IN peace_NN by_IN holding_VBG up_RP a_DT shield_NN behind_IN which_WDT the_DT patient_NN constructive_JJ work_NN of_IN peace_NN can_MD go_VB on_IN ._.
-But_CC it_PRP can_MD serve_VB neither_DT cause_NN if_IN we_PRP make_VBP either_DT of_IN two_CD mistakes_NNS ._.
-The_DT one_CD would_MD be_VB to_TO overestimate_VB our_PRP$ strength_NN ,_, and_CC thus_RB neglect_NN crucially_RB important_JJ actions_NNS in_IN the_DT period_NN just_RB ahead_RB ._.
-The_DT other_JJ would_MD be_VB to_TO underestimate_VB our_PRP$ strength_NN ._.
-Thereby_RB we_PRP might_MD be_VB tempted_VBN to_TO become_VB irresolute_JJ in_IN our_PRP$ foreign_JJ relations_NNS ,_, to_TO dishearten_VB our_PRP$ friends_NNS ,_, and_CC to_TO lose_VB our_PRP$ national_JJ poise_NN and_CC perspective_NN in_IN approaching_VBG the_DT complex_JJ problems_NNS ahead_RB ._.
-Any_DT orderly_JJ balance-sheet_NN of_IN military_JJ strength_NN must_MD be_VB in_IN two_CD parts_NNS ._.
-The_DT first_JJ is_VBZ the_DT position_NN as_IN of_IN today_NN ._.
-The_DT second_JJ is_VBZ the_DT position_NN in_IN the_DT period_NN ahead_RB ._.
-As_IN of_IN today_NN :_: our_PRP$ defensive_JJ shield_NN comprehends_VBZ a_DT vast_JJ complex_NN of_IN ground_NN ,_, sea_NN ,_, and_CC air_NN units_NNS ,_, superbly_RB equipped_VBN and_CC strategically_RB deployed_VBN around_IN the_DT world_NN ._.
-The_DT most_RBS powerful_JJ deterrent_NN to_TO war_NN in_IN the_DT world_NN today_NN lies_VBZ in_IN the_DT retaliatory_JJ power_NN of_IN our_PRP$ Strategic_NNP Air_NNP Command_NNP and_CC the_DT aircraft_NN of_IN our_PRP$ Navy_NNP ._.
-They_PRP present_VBP to_TO any_DT potential_JJ attacker_NN who_WP would_MD unleash_VB war_NN upon_IN the_DT world_NN the_DT prospect_NN of_IN virtual_JJ annihilation_NN of_IN his_PRP$ own_JJ country_NN ._.
-Even_RB if_IN we_PRP assume_VBP a_DT surprise_NN attack_NN on_IN our_PRP$ bases_NNS ,_, with_IN a_DT marked_JJ reduction_NN in_IN our_PRP$ striking_JJ power_NN ,_, our_PRP$ bombers_NNS would_MD immediately_RB be_VB on_IN their_PRP$ way_NN in_IN sufficient_JJ strength_NN to_TO accomplish_VB this_DT mission_NN of_IN retaliation_NN ._.
-Every_DT informed_JJ government_NN knows_VBZ this_DT ._.
-It_PRP is_VBZ no_DT secret_NN ._.
-Since_IN the_DT Korean_JJ Armistice_NNP ,_, the_DT American_JJ people_NNS have_VBP spent_VBN $_$ 225_CD billion_CD in_IN maintaining_VBG and_CC strengthening_VBG this_DT overall_JJ defensive_JJ shield_NN ._.
-This_DT is_VBZ the_DT position_NN as_IN of_IN today_NN ._.
-Now_RB as_IN to_TO the_DT period_NN ahead_RB :_: Every_DT part_NN of_IN our_PRP$ military_JJ establishment_NN must_MD and_CC will_MD be_VB equipped_VBN to_TO do_VB its_PRP$ defensive_JJ job_NN with_IN the_DT most_RBS modern_JJ weapons_NNS and_CC methods_NNS ._.
-But_CC it_PRP is_VBZ particularly_RB important_JJ to_TO our_PRP$ planning_NN that_IN we_PRP make_VBP a_DT candid_JJ estimate_NN of_IN the_DT effect_NN of_IN long-range_JJ ballistic_JJ missiles_NNS on_IN the_DT present_JJ deterrent_NN power_NN I_PRP have_VBP described_VBN ._.
-At_IN this_DT moment_NN ,_, the_DT consensus_NN of_IN opinion_NN is_VBZ that_IN we_PRP are_VBP probably_RB somewhat_RB behind_IN the_DT Soviets_NNPS in_IN some_DT areas_NNS of_IN long-range_JJ ballistic_JJ missile_NN development_NN ._.
-But_CC it_PRP is_VBZ my_PRP$ conviction_NN ,_, based_VBN on_IN close_JJ study_NN of_IN all_DT relevant_JJ intelligence_NN ,_, that_IN if_IN we_PRP make_VBP the_DT necessary_JJ effort_NN ,_, we_PRP will_MD have_VB the_DT missiles_NNS ,_, in_IN the_DT needed_VBN quantity_NN and_CC in_IN time_NN ,_, to_TO sustain_VB and_CC strengthen_VB the_DT deterrent_NN power_NN of_IN our_PRP$ increasingly_RB efficient_JJ bombers_NNS ._.
-One_CD encouraging_JJ fact_NN evidencing_VBG this_DT ability_NN is_VBZ the_DT rate_NN of_IN progress_NN we_PRP have_VBP achieved_VBN since_IN we_PRP began_VBD to_TO concentrate_VB on_IN these_DT missiles_NNS ._.
-The_DT intermediate_JJ ballistic_JJ missiles_NNS ,_, Thor_NNP and_CC Jupiter_NNP ,_, have_VBP already_RB been_VBN ordered_VBN into_IN production_NN ._.
-The_DT parallel_JJ progress_NN in_IN the_DT intercontinental_JJ ballistic_JJ missile_NN effort_NN will_MD be_VB advanced_VBN by_IN our_PRP$ plans_NNS for_IN acceleration_NN ._.
-The_DT development_NN of_IN the_DT submarine-based_JJ Polaris_NNP missile_NN system_NN has_VBZ progressed_VBN so_RB well_RB that_IN its_PRP$ future_JJ procurement_NN schedules_NNS are_VBP being_VBG moved_VBD forward_RB markedly_RB ._.
-When_WRB it_PRP is_VBZ remembered_VBN that_IN our_PRP$ country_NN has_VBZ concentrated_VBN on_IN the_DT development_NN of_IN ballistic_JJ missiles_NNS for_IN only_RB about_IN a_DT third_JJ as_RB long_RB as_IN the_DT Soviets_NNPS ,_, these_DT achievements_NNS show_VBP a_DT rate_NN of_IN progress_NN that_IN speaks_VBZ for_IN itself_PRP ._.
-Only_RB a_DT brief_JJ time_NN back_RB ,_, we_PRP were_VBD spending_VBG at_IN the_DT rate_NN of_IN only_RB about_IN one_CD million_CD dollars_NNS a_DT year_NN on_IN long_JJ range_NN ballistic_JJ missiles_NNS ._.
-In_IN 1957_CD we_PRP spent_VBD more_JJR than_IN one_CD billion_CD dollars_NNS on_IN the_DT Atlas_NNP ,_, Titan_NNP ,_, Thor_NNP ,_, Jupiter_NNP ,_, and_CC Polaris_NNP programs_NNS alone_RB ._.
-But_CC I_PRP repeat_VBP ,_, gratifying_JJ though_IN this_DT rate_NN of_IN progress_NN is_VBZ ,_, we_PRP must_MD still_RB do_VB more_JJR !_.
-Our_PRP$ real_JJ problem_NN ,_, then_RB ,_, is_VBZ not_RB our_PRP$ strength_NN today_NN ;_: it_PRP is_VBZ rather_RB the_DT vital_JJ necessity_NN of_IN action_NN today_NN to_TO ensure_VB our_PRP$ strength_NN tomorrow_NN ._.
-What_WP I_PRP have_VBP just_RB said_VBN applies_VBZ to_TO our_PRP$ strength_NN as_IN a_DT single_JJ country_NN ._.
-But_CC we_PRP are_VBP not_RB alone_RB ._.
-I_PRP have_VBP returned_VBN from_IN the_DT recent_JJ NATO_NNP meeting_NN with_IN renewed_VBN conviction_NN that_IN ,_, because_IN we_PRP are_VBP a_DT part_NN of_IN a_DT world-wide_JJ community_NN of_IN free_JJ and_CC peaceful_JJ nations_NNS ,_, our_PRP$ own_JJ security_NN is_VBZ immeasurably_RB increased_VBN ._.
-By_IN contrast_NN ,_, the_DT Soviet_NNP Union_NNP has_VBZ surrounded_VBN itself_PRP with_IN captive_NN and_CC sullen_JJ nations_NNS ._.
-Like_IN a_DT crack_NN in_IN the_DT crust_NN of_IN an_DT uneasily_JJ sleeping_VBG volcano_NN ,_, the_DT Hungarian_JJ uprising_NN revealed_VBD the_DT depth_NN and_CC intensity_NN of_IN the_DT patriotic_JJ longing_NN for_IN liberty_NN that_WDT still_RB burns_VBZ within_IN these_DT countries_NNS ._.
-The_DT world_NN thinks_VBZ of_IN us_PRP as_IN a_DT country_NN which_WDT is_VBZ strong_JJ ,_, but_CC which_WDT will_MD never_RB start_VB a_DT war_NN ._.
-The_DT world_NN also_RB thinks_VBZ of_IN us_PRP as_IN a_DT land_NN which_WDT has_VBZ never_RB enslaved_VBN anyone_NN and_CC which_WDT is_VBZ animated_VBN by_IN humane_JJ ideals_NNS ._.
-This_DT friendship_NN ,_, based_VBN on_IN common_JJ ideals_NNS ,_, is_VBZ one_CD of_IN our_PRP$ greatest_JJS sources_NNS of_IN strength_NN ._.
-It_PRP cements_VBZ into_IN a_DT cohesive_JJ security_NN arrangement_NN the_DT aggregate_NN of_IN the_DT spiritual_JJ ,_, military_JJ and_CC economic_JJ strength_NN of_IN all_PDT those_DT nations_NNS which_WDT ,_, with_IN us_PRP ,_, are_VBP allied_VBN by_IN treaties_NNS and_CC agreements_NNS ._.
-Up_IN to_TO this_DT point_NN ,_, I_PRP have_VBP talked_VBN solely_RB about_IN our_PRP$ military_JJ strength_NN to_TO deter_VB a_DT possible_JJ future_JJ war_NN ._.
-I_PRP now_RB want_VBP to_TO talk_VB about_IN the_DT strength_NN we_PRP need_VBP to_TO win_VB a_DT different_JJ kind_NN of_IN war_NN --_: one_CD that_WDT has_VBZ already_RB been_VBN launched_VBN against_IN us_PRP ._.
-It_PRP is_VBZ the_DT massive_JJ economic_JJ offensive_NN that_WDT has_VBZ been_VBN mounted_VBN by_IN the_DT communist_NN imperialists_NNS against_IN free_JJ nations_NNS ._.
-The_DT communist_NN imperialist_NN regimes_NNS have_VBP for_IN some_DT time_NN been_VBN largely_RB frustrated_JJ in_IN their_PRP$ attempts_NNS at_IN expansion_NN based_VBN directly_RB on_IN force_NN ._.
-As_IN a_DT result_NN ,_, they_PRP have_VBP begun_VBN to_TO concentrate_VB heavily_RB on_IN economic_JJ penetration_NN ,_, particularly_RB of_IN newly-developing_JJ countries_NNS ,_, as_IN a_DT preliminary_JJ to_TO political_JJ domination_NN ._.
-This_DT non-military_JJ drive_NN ,_, if_IN underestimated_VBN ,_, could_MD defeat_VB the_DT free_JJ world_NN regardless_RB of_IN our_PRP$ military_JJ strength_NN ._.
-This_DT danger_NN is_VBZ all_PDT the_DT greater_JJR precisely_RB because_IN many_JJ of_IN us_PRP fail_VBP or_CC refuse_VBP to_TO recognize_VB it_PRP ._.
-Thus_RB ,_, some_DT people_NNS may_MD be_VB tempted_VBN to_TO finance_VB our_PRP$ extra_JJ military_JJ effort_NN by_IN cutting_VBG economic_JJ assistance_NN ._.
-But_CC at_IN the_DT very_JJ time_NN when_WRB the_DT economic_JJ threat_NN is_VBZ assuming_VBG menacing_JJ proportions_NNS ,_, to_TO fail_VB to_TO strengthen_VB our_PRP$ own_JJ effort_NN would_MD be_VB nothing_NN less_JJR than_IN reckless_JJ folly_NN !_.
-Admittedly_RB ,_, most_JJS of_IN us_PRP did_VBD not_RB anticipate_VB the_DT psychological_JJ impact_NN upon_IN the_DT world_NN of_IN the_DT launching_NN of_IN the_DT first_JJ earth_NN satellite_NN ._.
-Let_VB us_PRP not_RB make_VB the_DT same_JJ kind_NN of_IN mistake_NN in_IN another_DT field_NN ,_, by_IN failing_VBG to_TO anticipate_VB the_DT much_JJ more_JJR serious_JJ impact_NN of_IN the_DT Soviet_JJ economic_JJ offensive_NN ._.
-As_IN with_IN our_PRP$ military_JJ potential_NN ,_, our_PRP$ economic_JJ assets_NNS are_VBP more_RBR than_IN equal_JJ to_TO the_DT task_NN ._.
-Our_PRP$ independent_JJ farmers_NNS produce_VBP an_DT abundance_NN of_IN food_NN and_CC fiber_NN ._.
-Our_PRP$ free_JJ workers_NNS are_VBP versatile_JJ ,_, intelligent_JJ ,_, and_CC hardworking_NN ._.
-Our_PRP$ businessmen_NNS are_VBP imaginative_JJ and_CC resourceful_JJ ._.
-The_DT productivity_NN ,_, the_DT adaptability_NN of_IN the_DT American_JJ economy_NN is_VBZ the_DT solid_JJ foundation-stone_NN of_IN our_PRP$ security_NN structure_NN ._.
-We_PRP have_VBP just_RB concluded_VBN another_DT prosperous_JJ year_NN ._.
-Our_PRP$ output_NN was_VBD once_RB more_JJR the_DT greatest_JJS in_IN the_DT nation_NN 's_POS history_NN ._.
-In_IN the_DT latter_JJ part_NN of_IN the_DT year_NN ,_, some_DT decline_NN in_IN employment_NN and_CC output_NN occurred_VBD ,_, following_VBG the_DT exceptionally_RB rapid_JJ expansion_NN of_IN recent_JJ years_NNS ._.
-In_IN a_DT free_JJ economy_NN ,_, reflecting_VBG as_IN it_PRP does_VBZ the_DT independent_JJ judgments_NNS of_IN millions_NNS of_IN people_NNS ,_, growth_NN typically_RB moves_VBZ forward_RB unevenly_RB ._.
-But_CC the_DT basic_JJ forces_NNS of_IN growth_NN remain_VBP unimpaired_JJ ._.
-There_EX are_VBP solid_JJ grounds_NNS for_IN confidence_NN that_IN economic_JJ growth_NN will_MD be_VB resumed_VBN without_IN an_DT extended_JJ interruption_NN ._.
-Moreover_RB ,_, the_DT Federal_NNP government_NN ,_, constantly_RB alert_JJ to_TO signs_NNS of_IN weakening_VBG in_IN any_DT part_NN of_IN our_PRP$ economy_NN ,_, always_RB stands_VBZ ready_JJ ,_, with_IN its_PRP$ full_JJ power_NN ,_, to_TO take_VB any_DT appropriate_JJ further_JJ action_NN to_TO promote_VB renewed_VBN business_NN expansion_NN ._.
-If_IN our_PRP$ history_NN teaches_VBZ us_PRP anything_NN ,_, it_PRP is_VBZ this_DT lesson_NN :_: so_RB far_RB as_IN the_DT economic_JJ potential_NN of_IN our_PRP$ nation_NN is_VBZ concerned_VBN ,_, the_DT believers_NNS in_IN the_DT future_NN of_IN America_NNP have_VBP always_RB been_VBN the_DT realists_NNS ._.
-I_PRP count_VBP myself_PRP as_IN one_CD of_IN this_DT company_NN ._.
-Our_PRP$ long-range_JJ problem_NN ,_, then_RB ,_, is_VBZ not_RB the_DT stamina_NN of_IN our_PRP$ enormous_JJ engine_NN of_IN production_NN ._.
-Our_PRP$ problem_NN is_VBZ to_TO make_VB sure_JJ that_IN we_PRP use_VBP these_DT vast_JJ economic_JJ forces_NNS confidently_RB and_CC creatively_RB ,_, not_RB only_RB in_IN direct_JJ military_JJ defense_NN efforts_NNS ,_, but_CC likewise_RB in_IN our_PRP$ foreign_JJ policy_NN ,_, through_IN such_JJ activities_NNS as_IN mutual_JJ economic_JJ aid_NN and_CC foreign_JJ trade_NN ._.
-In_IN much_RB the_DT same_JJ way_NN ,_, we_PRP have_VBP tremendous_JJ potential_JJ resources_NNS on_IN other_JJ non-military_JJ fronts_NNS to_TO help_VB in_IN countering_VBG the_DT Soviet_JJ threat_NN :_: education_NN ,_, science_NN ,_, research_NN ,_, and_CC ,_, not_RB least_JJS ,_, the_DT ideas_NNS and_CC principles_NNS by_IN which_WDT we_PRP live_VBP ._.
-And_CC in_IN all_DT these_DT cases_NNS the_DT task_NN ahead_RB is_VBZ to_TO bring_VB these_DT resources_NNS more_RBR sharply_RB to_TO bear_VB upon_IN the_DT new_JJ tasks_NNS of_IN security_NN and_CC peace_NN in_IN a_DT swiftly-changing_JJ world_NN ._.
+I_PRP take_VBP up_RP next_JJ certain_JJ aspects_NNS of_IN our_PRP$ international_JJ situation_NN and_CC our_PRP$ programs_NNS to_TO strengthen_VB it_PRP ._.
+America_NNP 's_POS security_NN can_MD be_VB assured_VBN only_RB within_IN a_DT world_NN community_NN of_IN strong_JJ ,_, stable_JJ ,_, independent_JJ nations_NNS ,_, in_IN which_WDT the_DT concepts_NNS of_IN freedom_NN ,_, justice_NN and_CC human_JJ dignity_NN can_MD flourish_VB ._.
+There_EX can_MD be_VB no_DT such_JJ thing_NN as_IN Fortress_NNP America_NNP ._.
+If_IN ever_RB we_PRP were_VBD reduced_VBN to_TO the_DT isolation_NN implied_VBN by_IN that_DT term_NN ,_, we_PRP would_MD occupy_VB a_DT prison_NN ,_, not_RB a_DT fortress_NN ._.
+The_DT question_NN whether_IN we_PRP can_MD afford_VB to_TO help_VB other_JJ nations_NNS that_WDT want_VBP to_TO defend_VB their_PRP$ freedom_NN but_CC can_MD not_RB fully_RB do_VB so_RB from_IN their_PRP$ own_JJ means_NNS ,_, has_VBZ only_RB one_CD answer_NN :_: we_PRP can_MD and_CC we_PRP must_MD ,_, we_PRP we_PRP have_VBP been_VBN doing_VBG so_RB since_IN 1947_CD ._.
+Our_PRP$ foreign_JJ policy_NN has_VBZ long_RB been_VBN dedicated_VBN to_TO building_VBG a_DT permanent_JJ and_CC just_RB peace_NN ._.
+During_IN the_DT past_JJ six_CD years_NNS our_PRP$ free_JJ world_NN security_NN arrangements_NNS have_VBP been_VBN bolstered_VBN and_CC the_DT bonds_NNS of_IN freedom_NN have_VBP been_VBN more_RBR closely_RB knit_VBN ._.
+Our_PRP$ friends_NNS in_IN Western_NNP Europe_NNP are_VBP experiencing_VBG new_JJ internal_JJ vitality_NN ,_, and_CC are_VBP increasingly_RB more_RBR able_JJ to_TO resist_VB external_JJ threats_NNS ._.
+Over_IN the_DT years_NNS the_DT world_NN has_VBZ come_VBN to_TO understand_VB clearly_RB that_IN it_PRP is_VBZ our_PRP$ firm_NN policy_NN not_RB to_TO countenance_VB aggression_NN ._.
+In_IN Lebanon_NNP ,_, Taiwan_NNP ,_, and_CC Berlin_NNP --_: our_PRP$ stand_NN has_VBZ been_VBN clear_JJ ,_, right_JJ ,_, and_CC expressive_JJ of_IN the_DT determined_VBN will_MD of_IN a_DT united_VBN people_NNS ._.
+Acting_NN with_IN other_JJ free_JJ nations_NNS we_PRP have_VBP undertaken_VBN the_DT solemn_JJ obligation_NN to_TO defend_VB the_DT people_NNS of_IN free_JJ Berlin_NNP against_IN any_DT effort_NN to_TO destroy_VB their_PRP$ freedom_NN ._.
+In_IN the_DT meantime_NN we_PRP shall_MD constantly_RB seek_VB meaningful_JJ agreements_NNS to_TO settle_VB this_DT and_CC other_JJ problems_NNS ,_, knowing_VBG full_JJ well_RB that_IN not_RB only_RB the_DT integrity_NN of_IN a_DT single_JJ city_NN ,_, but_CC the_DT hope_NN of_IN all_DT free_JJ peoples_NNS is_VBZ at_IN stake_NN ._.
+We_PRP need_VBP ,_, likewise_RB ,_, to_TO continue_VB helping_VBG to_TO build_VB the_DT economic_JJ base_NN so_RB essential_JJ to_TO the_DT Free_NNP World_NNP 's_POS stability_NN and_CC strength_NN ._.
+The_DT International_NNP Monetary_NNP Fund_NNP and_CC the_DT World_NNP Bank_NNP have_VBP both_DT fully_RB proven_VBN their_PRP$ worth_JJ as_IN instruments_NNS of_IN international_JJ financial_JJ cooperation_NN ._.
+Their_PRP$ Executive_NNP Directors_NNS have_VBP recommended_VBN an_DT increase_NN in_IN each_DT member_NN country_NN 's_POS subscription_NN ._.
+I_PRP am_VBP requesting_VBG the_DT Congress_NNP for_IN immediate_JJ approval_NN of_IN our_PRP$ share_NN of_IN these_DT increases_NNS ._.
+We_PRP are_VBP now_RB negotiating_VBG with_IN representatives_NNS of_IN the_DT twenty_CD Latin_NNP American_NNP Republics_NNPS for_IN the_DT creation_NN of_IN an_DT inter-American_JJ financial_JJ institution_NN ._.
+Its_PRP$ purpose_NN would_MD be_VB to_TO join_VB all_PDT the_DT American_JJ Republics_NNPS in_IN a_DT common_JJ institution_NN which_WDT would_MD promote_VB and_CC finance_VB development_NN in_IN Latin_NNP America_NNP ,_, and_CC make_VB more_JJR effective_JJ the_DT use_NN of_IN capital_NN from_IN the_DT World_NNP Bank_NNP ,_, the_DT Export-Import_NNP Bank_NNP ,_, and_CC private_JJ sources_NNS ._.
+Private_JJ enterprise_NN continues_VBZ to_TO make_VB major_JJ contributions_NNS to_TO economic_JJ development_NN in_IN all_DT parts_NNS of_IN the_DT world_NN ._.
+But_CC we_PRP have_VBP not_RB yet_RB marshalled_VBN the_DT full_JJ potential_NN of_IN American_JJ business_NN for_IN this_DT task_NN ,_, particularly_RB in_IN countries_NNS which_WDT have_VBP recently_RB attained_VBN their_PRP$ independence_NN ._.
+I_PRP shall_MD present_VB to_TO this_DT Congress_NNP a_DT program_NN designed_VBN to_TO encourage_VB greater_JJR participation_NN by_IN private_JJ enterprise_NN in_IN economic_JJ development_NN abroad_RB ._.
+Further_RB ,_, all_DT of_IN us_PRP know_VBP that_IN to_TO advance_VB the_DT cause_NN of_IN freedom_NN we_PRP must_MD do_VB much_RB more_JJR than_IN help_NN build_VB sound_JJ economies_NNS ._.
+The_DT spiritual_JJ ,_, intellectual_JJ ,_, and_CC physical_JJ strength_NN of_IN people_NNS throughout_IN the_DT world_NN will_MD in_IN the_DT last_JJ analysis_NN determine_VB their_PRP$ willingness_NN and_CC their_PRP$ ability_NN to_TO resist_VB Communism_NNP ._.
+To_TO give_VB a_DT single_JJ illustration_NN of_IN our_PRP$ many_JJ efforts_NNS in_IN these_DT fields_NNS :_: We_PRP have_VBP been_VBN a_DT participant_NN in_IN the_DT effort_NN that_WDT has_VBZ been_VBN made_VBN over_IN the_DT past_JJ few_JJ years_NNS against_IN one_CD of_IN the_DT great_JJ scourges_NNS of_IN mankind_NN --_: disease_NN ._.
+Through_IN the_DT Mutual_NNP Security_NNP program_NN public_JJ health_NN officials_NNS are_VBP being_VBG trained_VBN by_IN American_JJ universities_NNS to_TO serve_VB in_IN less_JJR developed_JJ countries_NNS ._.
+We_PRP are_VBP engaged_VBN in_IN intensive_JJ malaria_NN eradication_NN projects_NNS in_IN many_JJ parts_NNS of_IN the_DT world_NN ._.
+America_NNP 's_POS major_JJ successes_NNS in_IN our_PRP$ own_JJ country_NN prove_VBP the_DT feasibility_NN of_IN success_NN everywhere_RB ._.
+By_IN these_DT and_CC other_JJ means_NNS we_PRP shall_MD continue_VB and_CC expand_VB our_PRP$ campaign_NN against_IN the_DT afflictions_NNS that_WDT now_RB bring_VBP needless_JJ suffering_NN and_CC death_NN to_TO so_RB many_JJ of_IN the_DT world_NN 's_POS people_NNS ._.
+We_PRP wish_VBP to_TO be_VB part_NN of_IN a_DT great_JJ shared_JJ effort_NN toward_IN the_DT triumph_NN of_IN health_NN ._.
 IV_NNP ._.
-There_EX are_VBP many_JJ items_NNS in_IN the_DT Administration_NNP 's_POS program_NN ,_, of_IN a_DT kind_NN frequently_RB included_VBD in_IN a_DT State_NN of_IN the_DT Union_NNP Message_NNP ,_, with_IN which_WDT I_PRP am_VBP not_RB dealing_VBG today_NN ._.
-They_PRP are_VBP important_JJ to_TO us_PRP and_CC to_TO our_PRP$ prosperity_NN ._.
-But_CC I_PRP am_VBP reserving_VBG them_PRP for_IN treatment_NN in_IN separate_JJ communications_NNS because_IN of_IN my_PRP$ purpose_NN today_NN of_IN speaking_VBG only_RB about_IN matters_NNS bearing_VBG directly_RB upon_IN our_PRP$ security_NN and_CC peace_NN ._.
-I_PRP now_RB place_VBP before_IN you_PRP an_DT outline_NN of_IN action_NN designed_VBN to_TO focus_VB our_PRP$ resources_NNS upon_IN the_DT two_CD tasks_NNS of_IN security_NN and_CC peace_NN ._.
-In_IN this_DT special_JJ category_NN I_PRP list_VBP eight_CD items_NNS requiring_VBG action_NN ._.
-They_PRP are_VBP not_RB merely_RB desirable_JJ ._.
-They_PRP are_VBP imperative_JJ ._.
-1_LS ._.
-DEFENSE_NN REORGANIZATION_NN The_DT first_JJ need_NN is_VBZ to_TO assure_VB ourselves_PRP that_IN military_JJ organization_NN facilitates_VBZ rather_RB than_IN hinders_VBZ the_DT functioning_NN of_IN the_DT military_JJ establishment_NN in_IN maintaining_VBG the_DT security_NN of_IN the_DT nation_NN ._.
-Since_IN World_NNP War_NNP II_NNP ,_, the_DT purpose_NN of_IN achieving_VBG maximum_JJ organizational_JJ efficiency_NN in_IN a_DT modern_JJ defense_NN establishment_NN has_VBZ several_JJ times_NNS occasioned_VBN action_NN by_IN the_DT Congress_NNP and_CC by_IN the_DT Executive_NNP ._.
-The_DT advent_NN of_IN revolutionary_JJ new_JJ devices_NNS ,_, bringing_VBG with_IN them_PRP the_DT problem_NN of_IN overall_JJ continental_JJ defense_NN ,_, creates_VBZ new_JJ difficulties_NNS ,_, reminiscent_JJ of_IN those_DT attending_VBG the_DT advent_NN of_IN the_DT airplane_NN half_NN a_DT century_NN ago_RB ._.
-Some_DT of_IN the_DT important_JJ new_JJ weapons_NNS which_WDT technology_NN has_VBZ produced_VBN do_VBP not_RB fit_VB into_IN any_DT existing_VBG service_NN pattern_NN ._.
-They_PRP cut_VBD across_IN all_DT services_NNS ,_, involve_VB all_DT services_NNS ,_, and_CC transcend_VB all_DT services_NNS ,_, at_IN every_DT stage_NN from_IN development_NN to_TO operation_NN ._.
-In_IN some_DT instances_NNS they_PRP defy_VBP classification_NN according_VBG to_TO branch_NN of_IN service_NN ._.
-Unfortunately_RB ,_, the_DT uncertainties_NNS resulting_VBG from_IN such_JJ a_DT situation_NN ,_, and_CC the_DT jurisdictional_JJ disputes_NNS attending_VBG upon_IN it_PRP ,_, tend_VB to_TO bewilder_VB and_CC confuse_VB the_DT public_NN and_CC create_VB the_DT impression_NN that_IN service_NN differences_NNS are_VBP damaging_VBG the_DT national_JJ interest_NN ._.
-Let_VB us_PRP proudly_RB remember_VBP that_IN the_DT members_NNS of_IN the_DT Armed_NNP Forces_NNS give_VBP their_PRP$ basic_JJ allegiance_NN solely_RB to_TO the_DT United_NNP States_NNPS ._.
-Of_IN that_DT fact_NN all_DT of_IN us_PRP are_VBP certain_JJ ._.
-But_CC pride_NN of_IN service_NN and_CC mistaken_JJ zeal_NN in_IN promoting_VBG particular_JJ doctrine_NN has_VBZ more_JJR than_IN once_RB occasioned_VBN the_DT kind_NN of_IN difficulty_NN of_IN which_WDT I_PRP have_VBP just_RB spoken_VBN ._.
-I_PRP am_VBP not_RB attempting_VBG today_NN to_TO pass_VB judgment_NN on_IN the_DT charge_NN of_IN harmful_JJ service_NN rivalries_NNS ._.
-But_CC one_CD thing_NN is_VBZ sure_JJ ._.
-Whatever_WDT they_PRP are_VBP ,_, America_NNP wants_VBZ them_PRP stopped_VBD ._.
-Recently_RB I_PRP have_VBP had_VBN under_IN special_JJ study_NN the_DT never-ending_JJ problem_NN of_IN efficient_JJ organization_NN ,_, complicated_VBN as_IN it_PRP is_VBZ by_IN new_JJ weapons_NNS ._.
-Soon_RB my_PRP$ conclusions_NNS will_MD be_VB finalized_VBN ._.
-I_PRP shall_MD promptly_RB take_VB such_JJ Executive_NNP action_NN as_IN is_VBZ necessary_JJ and_CC ,_, in_IN a_DT separate_JJ message_NN ,_, I_PRP shall_MD present_VB appropriate_JJ recommendations_NNS to_TO the_DT Congress_NNP ._.
-Meanwhile_RB ,_, without_IN anticipating_VBG the_DT detailed_JJ form_NN that_IN a_DT reorganization_NN should_MD take_VB ,_, I_PRP can_MD state_VB its_PRP$ main_JJ lines_NNS in_IN terms_NNS of_IN objectives_NNS :_: A_DT major_JJ purpose_NN of_IN military_JJ organization_NN is_VBZ to_TO achieve_VB real_JJ unity_NN in_IN the_DT Defense_NNP establishment_NN in_IN all_PDT the_DT principal_NN features_NNS of_IN military_JJ activities_NNS ._.
-Of_IN all_PDT these_DT ,_, one_CD of_IN the_DT most_RBS important_JJ to_TO our_PRP$ nation_NN 's_POS security_NN is_VBZ strategic_JJ planning_NN and_CC control_NN ._.
-This_DT work_NN must_MD be_VB done_VBN under_IN unified_VBN direction_NN ._.
-The_DT defense_NN structure_NN must_MD be_VB one_CD which_WDT ,_, as_IN a_DT whole_NN ,_, can_MD assume_VB ,_, with_IN top_JJ efficiency_NN and_CC without_IN friction_NN ,_, the_DT defense_NN of_IN America_NNP ._.
-The_DT Defense_NNP establishment_NN must_MD therefore_RB plan_VB for_IN a_DT better_JJR integration_NN of_IN its_PRP$ defensive_JJ resources_NNS ,_, particularly_RB with_IN respect_NN to_TO the_DT newer_JJR weapons_NNS now_RB building_VBG and_CC under_IN development_NN ._.
-These_DT obviously_RB require_VBP full_JJ coordination_NN in_IN their_PRP$ development_NN ,_, production_NN and_CC use_NN ._.
-Good_JJ organization_NN can_MD help_VB assure_VB this_DT coordination_NN ._.
-In_IN recognition_NN of_IN the_DT need_NN for_IN single_JJ control_NN in_IN some_DT of_IN our_PRP$ most_RBS advanced_JJ development_NN projects_NNS ,_, the_DT Secretary_NNP of_IN Defense_NNP has_VBZ already_RB decided_VBN to_TO concentrate_VB into_IN one_CD organization_NN all_PDT the_DT anti-missile_JJ and_CC satellite_JJ technology_NN undertaken_VBN within_IN the_DT Department_NNP of_IN Defense_NNP ._.
-Another_DT requirement_NN of_IN military_JJ organization_NN is_VBZ a_DT clear_JJ subordination_NN of_IN the_DT military_JJ services_NNS to_TO duly_RB constituted_VBN civilian_JJ authority_NN ._.
-This_DT control_NN must_MD be_VB real_JJ ;_: not_RB merely_RB on_IN the_DT surface_NN ._.
-Next_JJ there_EX must_MD be_VB assurance_NN that_IN an_DT excessive_JJ number_NN of_IN compartments_NNS in_IN organization_NN will_MD not_RB create_VB costly_JJ and_CC confusing_JJ compartments_NNS in_IN our_PRP$ scientific_JJ and_CC industrial_JJ effort_NN ._.
-Finally_RB ,_, to_TO end_VB inter-service_JJ disputes_NNS requires_VBZ clear_JJ organization_NN and_CC decisive_JJ central_JJ direction_NN ,_, supported_VBN by_IN the_DT unstinted_JJ cooperation_NN of_IN every_DT individual_NN in_IN the_DT defense_NN establishment_NN ,_, civilian_JJ and_CC military_JJ ._.
-2_LS ._.
-ACCELERATED_VBN DEFENSE_NN EFFORT_NN The_DT second_JJ major_JJ action_NN item_NN is_VBZ the_DT acceleration_NN of_IN the_DT defense_NN effort_NN in_IN particular_JJ areas_NNS affected_VBN by_IN the_DT fast_JJ pace_NN of_IN scientific_JJ and_CC technological_JJ advance_NN ._.
-Some_DT of_IN the_DT points_NNS at_IN which_WDT improved_VBD and_CC increased_VBD effort_NN are_VBP most_RBS essential_JJ are_VBP these_DT :_: We_PRP must_MD have_VB sure_JJ warning_NN in_IN case_NN of_IN attack_NN ._.
-The_DT improvement_NN of_IN warning_VBG equipment_NN is_VBZ becoming_VBG increasingly_RB important_JJ as_IN we_PRP approach_VBP the_DT period_NN when_WRB long-range_JJ missiles_NNS will_MD come_VB into_IN use_NN ._.
-We_PRP must_MD protect_VB and_CC disperse_VB our_PRP$ striking_JJ forces_NNS and_CC increase_VB their_PRP$ readiness_NN for_IN instant_JJ reaction_NN ._.
-This_DT means_VBZ more_RBR base_JJ facilities_NNS and_CC standby_NN crews_NNS ._.
-We_PRP must_MD maintain_VB deterrent_NN retaliatory_JJ power_NN ._.
-This_DT means_VBZ ,_, among_IN other_JJ things_NNS ,_, stepped-up_JJ long_JJ range_NN missile_NN programs_NNS ;_: accelerated_JJ programs_NNS for_IN other_JJ effective_JJ missile_NN systems_NNS ;_: and_CC ,_, for_IN some_DT years_NNS ,_, more_JJR advanced_JJ aircraft_NN ._.
-We_PRP must_MD maintain_VB freedom_NN of_IN the_DT seas_NNS ._.
-This_DT means_VBZ nuclear_JJ submarines_NNS and_CC cruisers_NNS ;_: improved_VBN anti-submarine_JJ weapons_NNS ;_: missile_NN ships_NNS ;_: and_CC the_DT like_JJ ._.
-We_PRP must_MD maintain_VB all_DT necessary_JJ types_NNS of_IN mobile_JJ forces_NNS to_TO deal_VB with_IN local_JJ conflicts_NNS ,_, should_MD there_RB be_VB need_NN ._.
-This_DT means_VBZ further_JJ improvements_NNS in_IN equipment_NN ,_, mobility_NN ,_, tactics_NNS and_CC fire_NN power_NN ._.
-Through_IN increases_NNS in_IN pay_NN and_CC incentive_NN ,_, we_PRP must_MD maintain_VB in_IN the_DT armed_JJ forces_NNS the_DT skilled_JJ manpower_NN modern_JJ military_JJ forces_NNS require_VBP ._.
-We_PRP must_MD be_VB forward-looking_JJ in_IN our_PRP$ research_NN and_CC development_NN to_TO anticipate_VB and_CC achieve_VB the_DT unimagined_JJ weapons_NNS of_IN the_DT future_NN ._.
-With_IN these_DT and_CC other_JJ improvements_NNS ,_, we_PRP intend_VBP to_TO assure_VB that_IN our_PRP$ vigilance_NN ,_, power_NN ,_, and_CC technical_JJ excellence_NN keep_VB abreast_RB of_IN any_DT realistic_JJ threat_NN we_PRP face_VBP ._.
-3_LS ._.
-MUTUAL_JJ AID_NNP Third_NNP :_: We_PRP must_MD continue_VB to_TO strengthen_VB our_PRP$ mutual_JJ security_NN efforts_NNS ._.
-Most_JJS people_NNS now_RB realize_VBP that_IN our_PRP$ programs_NNS of_IN military_JJ aid_NN and_CC defense_NN support_NN are_VBP an_DT integral_JJ part_NN of_IN our_PRP$ own_JJ defense_NN effort_NN ._.
-If_IN the_DT foundation_NN of_IN the_DT Free_NNP World_NNP structure_NN were_VBD progressively_RB allowed_VBN to_TO crumble_VB under_IN the_DT pressure_NN of_IN communist_NN imperialism_NN ,_, the_DT entire_JJ house_NN of_IN freedom_NN would_MD be_VB in_IN danger_NN of_IN collapse_NN ._.
-As_IN for_IN the_DT mutual_JJ economic_JJ assistance_NN program_NN ,_, the_DT benefit_NN to_TO us_PRP is_VBZ threefold_RB ._.
-First_RB ,_, the_DT countries_NNS receiving_VBG this_DT aid_NN become_VBN bulwarks_NNS against_IN communist_JJ encroachment_NN as_IN their_PRP$ military_JJ defenses_NNS and_CC economies_NNS are_VBP strengthened_VBN ._.
-Nations_NNPS that_WDT are_VBP conscious_JJ of_IN a_DT steady_JJ improvement_NN in_IN their_PRP$ industry_NN ,_, education_NN ,_, health_NN and_CC standard_NN of_IN living_VBG are_VBP not_RB apt_JJ to_TO fall_VB prey_NN to_TO the_DT blandishments_NNS of_IN communist_NN imperialists_NNS ._.
-Second_NNP ,_, these_DT countries_NNS are_VBP helped_VBN to_TO reach_VB the_DT point_NN where_WRB mutually_RB profitable_JJ trade_NN can_MD expand_VB between_IN them_PRP and_CC us_PRP ._.
-Third_NNP ,_, the_DT mutual_JJ confidence_NN that_WDT comes_VBZ from_IN working_VBG together_RB on_IN constructive_JJ projects_NNS creates_VBZ an_DT atmosphere_NN in_IN which_WDT real_JJ understanding_NN and_CC peace_NN can_MD flourish_VB ._.
-To_TO help_VB bring_VB these_DT multiple_JJ benefits_NNS ,_, our_PRP$ economic_JJ aid_NN effort_NN should_MD be_VB made_VBN more_RBR effective_JJ ._.
-In_IN proposals_NNS for_IN future_JJ economic_JJ aid_NN ,_, I_PRP am_VBP stressing_VBG a_DT greater_JJR use_NN of_IN repayable_JJ loans_NNS ,_, through_IN the_DT Development_NNP Loan_NNP Fund_NNP ,_, through_IN funds_NNS generated_VBN by_IN sale_NN of_IN surplus_NN farm_NN products_NNS ,_, and_CC through_IN the_DT Export-Import_NNP Bank_NNP ._.
-While_IN some_DT increase_NN in_IN Government_NNP funds_NNS will_MD be_VB required_VBN ,_, it_PRP remains_VBZ our_PRP$ objective_NN to_TO encourage_VB shifting_VBG to_TO the_DT use_NN of_IN private_JJ capital_NN sources_NNS as_IN rapidly_RB as_IN possible_JJ ._.
-One_CD great_JJ obstacle_NN to_TO the_DT economic_JJ aid_NN program_NN in_IN the_DT past_NN has_VBZ been_VBN ,_, not_RB a_DT rational_JJ argument_NN against_IN it_PRP on_IN the_DT merits_NNS ,_, but_CC a_DT catchword_NN :_: ``_`` give-away_NN program_NN ._. ''_''
-The_DT real_JJ fact_NN is_VBZ that_IN no_DT investment_NN we_PRP make_VBP in_IN our_PRP$ own_JJ security_NN and_CC peace_NN can_MD pay_VB us_PRP greater_JJR dividends_NNS than_IN necessary_JJ amounts_NNS of_IN economic_JJ aid_NN to_TO friendly_JJ nations_NNS ._.
-This_DT is_VBZ no_DT ``_`` give-away_NN ._. ''_''
-Let_NNP 's_POS stick_NN to_TO facts_NNS !_.
-We_PRP can_MD not_RB afford_VB to_TO have_VB one_CD of_IN our_PRP$ most_RBS essential_JJ security_NN programs_NNS shot_VBD down_RB with_IN a_DT slogan_NN !_.
-4_LS ._.
-MUTUAL_JJ TRADE_NN Fourth_JJ :_: Both_DT in_IN our_PRP$ national_JJ interest_NN ,_, and_CC in_IN the_DT interest_NN of_IN world_NN peace_NN ,_, we_PRP must_MD have_VB a_DT five-year_JJ extension_NN of_IN the_DT Trade_NNP Agreements_NNP Act_NNP with_IN broadened_VBN authority_NN to_TO negotiate_VB ._.
-World_NNP trade_NN supports_VBZ a_DT significant_JJ segment_NN of_IN American_JJ industry_NN and_CC agriculture_NN ._.
-It_PRP provides_VBZ employment_NN for_IN four_CD and_CC one-half_JJ million_CD American_JJ workers_NNS ._.
-It_PRP helps_VBZ supply_VB our_PRP$ ever_RB increasing_VBG demand_NN for_IN raw_JJ materials_NNS ._.
-It_PRP provides_VBZ the_DT opportunity_NN for_IN American_JJ free_JJ enterprise_NN to_TO develop_VB on_IN a_DT worldwide_NN scale_NN ._.
-It_PRP strengthens_VBZ our_PRP$ friends_NNS and_CC increases_NNS their_PRP$ desire_NN to_TO be_VB friends_NNS ._.
-World_NNP trade_NN helps_VBZ to_TO lay_VB the_DT groundwork_NN for_IN peace_NN by_IN making_VBG all_DT free_JJ nations_NNS of_IN the_DT world_NN stronger_JJR and_CC more_JJR self-reliant_JJ ._.
-America_NNP is_VBZ today_NN the_DT world_NN 's_POS greatest_JJS trading_NN nation_NN ._.
-If_IN we_PRP use_VBP this_DT great_JJ asset_NN wisely_RB to_TO meet_VB the_DT expanding_VBG demands_NNS of_IN the_DT world_NN ,_, we_PRP shall_MD not_RB only_RB provide_VB future_JJ opportunities_NNS for_IN our_PRP$ own_JJ business_NN ,_, agriculture_NN ,_, and_CC labor_NN ,_, but_CC in_IN the_DT process_NN strengthen_VB our_PRP$ security_NN posture_NN and_CC other_JJ prospects_NNS for_IN a_DT prosperous_JJ ,_, harmonious_JJ world_NN ._.
-As_IN President_NNP McKinley_NNP said_VBD ,_, as_RB long_RB ago_RB as_IN 1901_CD :_: ``_`` Isolation_NN is_VBZ no_RB longer_RBR possible_JJ or_CC desirable_JJ ..._: The_DT period_NN of_IN exclusiveness_NN is_VBZ past_JJ ._. ''_''
-5_CD ._.
-SCIENTIFIC_NNP COOPERATION_NN WITH_IN OUR_NNP ALLIES_NNP Fifth_NNP :_: It_PRP is_VBZ of_IN the_DT highest_JJS importance_NN that_IN the_DT Congress_NNP enact_VBP the_DT necessary_JJ legislation_NN to_TO enable_VB us_PRP to_TO exchange_VB appropriate_JJ scientific_JJ and_CC technical_JJ information_NN with_IN friendly_JJ countries_NNS as_IN part_NN of_IN our_PRP$ effort_NN to_TO achieve_VB effective_JJ scientific_JJ cooperation_NN ._.
-It_PRP is_VBZ wasteful_JJ in_IN the_DT extreme_NN for_IN friendly_JJ allies_NNS to_TO consume_VB talent_NN and_CC money_NN in_IN solving_VBG problems_NNS that_IN their_PRP$ friends_NNS have_VBP already_RB solved_VBN --_: all_DT because_IN of_IN artificial_JJ barriers_NNS to_TO sharing_VBG ._.
-We_PRP can_MD not_RB afford_VB to_TO cut_VB ourselves_PRP off_RP from_IN the_DT brilliant_JJ talents_NNS and_CC minds_NNS of_IN scientists_NNS in_IN friendly_JJ countries_NNS ._.
-The_DT task_NN ahead_RB will_MD be_VB hard_RB enough_RB without_IN handcuffs_NNS of_IN our_PRP$ own_JJ making_NN ._.
-The_DT groundwork_NN for_IN this_DT kind_NN of_IN cooperation_NN has_VBZ already_RB been_VBN laid_VBN in_IN discussions_NNS among_IN NATO_NNP countries_NNS ._.
-Promptness_NNP in_IN following_VBG through_IN with_IN legislation_NN will_MD be_VB the_DT best_JJS possible_JJ evidence_NN of_IN American_JJ unity_NN of_IN purpose_NN in_IN cooperating_VBG with_IN our_PRP$ friends_NNS ._.
-6_CD ._.
-EDUCATION_NNP AND_CC RESEARCH_NNP Sixth_NNP :_: In_IN the_DT area_NN of_IN education_NN and_CC research_NN ,_, I_PRP recommend_VBP a_DT balanced_JJ program_NN to_TO improve_VB our_PRP$ resources_NNS ,_, involving_VBG an_DT investment_NN of_IN about_IN a_DT billion_CD dollars_NNS over_IN a_DT four_CD year_NN period_NN ._.
-This_DT involves_VBZ new_JJ activities_NNS by_IN the_DT Department_NNP of_IN Health_NNP ,_, Education_NNP and_CC Welfare_NNP designed_VBN principally_RB to_TO encourage_VB improved_JJ teaching_NN quality_NN and_CC student_NN opportunities_NNS in_IN the_DT interests_NNS of_IN national_JJ security_NN ._.
-It_PRP also_RB provides_VBZ a_DT five-fold_JJ increase_NN in_IN sums_NNS available_JJ to_TO the_DT National_NNP Science_NNP Foundation_NNP for_IN its_PRP$ special_JJ activities_NNS in_IN stimulating_VBG and_CC improving_VBG science_NN education_NN ._.
-Scrupulous_JJ attention_NN has_VBZ been_VBN paid_VBN to_TO maintaining_VBG local_JJ control_NN of_IN educational_JJ policy_NN ,_, spurring_VBG the_DT maximum_NN amount_NN of_IN local_JJ effort_NN ,_, and_CC to_TO avoiding_VBG undue_JJ stress_NN on_IN the_DT physical_JJ sciences_NNS at_IN the_DT expense_NN of_IN other_JJ branches_NNS of_IN learning_VBG ._.
-In_IN the_DT field_NN of_IN research_NN ,_, I_PRP am_VBP asking_VBG for_IN substantial_JJ increases_NNS in_IN basic_JJ research_NN funds_NNS ,_, including_VBG a_DT doubling_NN of_IN the_DT funds_NNS available_JJ to_TO the_DT National_NNP Science_NNP Foundation_NNP for_IN this_DT purpose_NN ._.
-But_CC federal_JJ action_NN can_MD do_VB only_RB a_DT part_NN of_IN the_DT job_NN ._.
-In_IN both_DT education_NN and_CC research_NN ,_, redoubled_JJ exertions_NNS will_MD be_VB necessary_JJ on_IN the_DT part_NN of_IN all_DT Americans_NNPS if_IN we_PRP are_VBP to_TO rise_VB to_TO the_DT demands_NNS of_IN our_PRP$ times_NNS ._.
-This_DT means_VBZ hard_JJ work_NN on_IN the_DT part_NN of_IN state_NN and_CC local_JJ governments_NNS ,_, private_JJ industry_NN ,_, schools_NNS and_CC colleges_NNS ,_, private_JJ organizations_NNS and_CC foundations_NNS ,_, teachers_NNS ,_, parents_NNS ,_, and_CC --_: perhaps_RB most_RBS important_JJ of_IN all_DT --_: the_DT student_NN himself_PRP ,_, with_IN his_PRP$ bag_NN of_IN books_NNS and_CC his_PRP$ homework_NN ._.
-With_IN this_DT kind_NN of_IN all-inclusive_JJ campaign_NN ,_, I_PRP have_VBP no_DT doubt_NN that_IN we_PRP can_MD create_VB the_DT intellectual_JJ capital_NN we_PRP need_VBP for_IN the_DT years_NNS ahead_RB ,_, invest_VBP it_PRP in_IN the_DT right_JJ places_NNS --_: and_CC do_VB all_PDT this_DT ,_, not_RB as_IN regimented_JJ pawns_NNS ,_, but_CC as_IN free_JJ men_NNS and_CC women_NNS !_.
-7_CD ._.
-SPENDING_NN AND_CC SAVING_VBG Seventh_NNP :_: To_TO provide_VB for_IN this_DT extra_JJ effort_NN for_IN security_NN ,_, we_PRP must_MD apply_VB stern_JJ tests_NNS of_IN priority_NN to_TO other_JJ expenditures_NNS ,_, both_DT military_JJ and_CC civilian_JJ ._.
-This_DT extra_JJ effort_NN involves_VBZ ,_, most_JJS immediately_RB ,_, the_DT need_NN for_IN a_DT supplemental_JJ defense_NN appropriation_NN of_IN $_$ 1.3_CD billion_CD for_IN fiscal_JJ year_NN 1958_CD ._.
-In_IN the_DT 1959_CD budget_NN ,_, increased_VBD expenditures_NNS for_IN missiles_NNS ,_, nuclear_JJ ships_NNS ,_, atomic_JJ energy_NN ,_, research_NN and_CC development_NN ,_, science_NN and_CC education_NN ,_, a_DT special_JJ contingency_NN fund_NN to_TO deal_VB with_IN possible_JJ new_JJ technological_JJ discoveries_NNS ,_, and_CC increases_NNS in_IN pay_NN and_CC incentives_NNS to_TO obtain_VB and_CC retain_VB competent_JJ manpower_NN add_VB up_RB to_TO a_DT total_JJ increase_NN over_IN the_DT comparable_JJ figures_NNS in_IN the_DT 1957_CD budget_NN of_IN about_IN $_$ 4_CD billion_CD ._.
-I_PRP believe_VBP that_IN ,_, in_IN spite_NN of_IN these_DT necessary_JJ increases_NNS ,_, we_PRP should_MD strive_VB to_TO finance_VB the_DT 1959_CD security_NN effort_NN out_IN of_IN expected_VBN revenues_NNS ._.
-While_IN we_PRP now_RB believe_VBP that_IN expected_VBN revenues_NNS and_CC expenditures_NNS will_MD roughly_RB balance_VB ,_, our_PRP$ real_JJ purpose_NN will_MD be_VB to_TO achieve_VB adequate_JJ security_NN ,_, but_CC always_RB with_IN the_DT utmost_JJ regard_NN for_IN efficiency_NN and_CC careful_JJ management_NN ._.
-This_DT purpose_NN will_MD require_VB the_DT cooperation_NN of_IN Congress_NNP in_IN making_VBG careful_JJ analysis_NN of_IN estimates_NNS presented_VBN ,_, reducing_VBG expenditure_NN on_IN less_JJR essential_JJ military_NN programs_NNS and_CC installations_NNS ,_, postponing_VBG some_DT new_JJ civilian_JJ programs_NNS ,_, transferring_VBG some_DT to_TO the_DT states_NNS ,_, and_CC curtailing_VBG or_CC eliminating_VBG others_NNS ._.
-Such_JJ related_JJ matters_NNS as_IN the_DT national_JJ debt_NN ceiling_NN and_CC tax_NN revenues_NNS will_MD be_VB dealt_VBN with_IN in_IN later_JJ messages_NNS ._.
-8_CD ._.
-WORKS_NNS OF_IN PEACE_NNP My_PRP$ last_JJ call_NN for_IN action_NN is_VBZ not_RB primarily_RB addressed_VBD to_TO the_DT Congress_NNP and_CC people_NNS of_IN the_DT United_NNP States_NNPS ._.
-Rather_RB ,_, it_PRP is_VBZ a_DT message_NN from_IN the_DT people_NNS of_IN the_DT United_NNP States_NNPS to_TO all_DT other_JJ peoples_NNS ,_, especially_RB those_DT of_IN the_DT Soviet_NNP Union_NNP ._.
-This_DT is_VBZ the_DT spirit_NN of_IN what_WP we_PRP would_MD like_VB to_TO say_VB :_: ``_`` In_IN the_DT last_JJ analysis_NN ,_, there_EX is_VBZ only_RB one_CD solution_NN to_TO the_DT grim_JJ problems_NNS that_WDT lie_VBP ahead_RB ._.
-The_DT world_NN must_MD stop_VB the_DT present_JJ plunge_NN toward_IN more_RBR and_CC more_RBR destructive_JJ weapons_NNS of_IN war_NN ,_, and_CC turn_VB the_DT corner_NN that_WDT will_MD start_VB our_PRP$ steps_NNS firmly_RB on_IN the_DT path_NN toward_IN lasting_JJ peace_NN ._.
-``_`` Our_PRP$ greatest_JJS hope_NN for_IN success_NN lies_VBZ in_IN a_DT universal_JJ fact_NN :_: the_DT people_NNS of_IN the_DT world_NN ,_, as_IN people_NNS ,_, have_VBP always_RB wanted_VBN peace_NN and_CC want_VB peace_NN now_RB ._.
-``_`` The_DT problem_NN ,_, then_RB ,_, is_VBZ to_TO find_VB a_DT way_NN of_IN translating_VBG this_DT universal_JJ desire_NN into_IN action_NN ._.
-``_`` This_DT will_MD require_VB more_JJR than_IN words_NNS of_IN peace_NN ._.
-It_PRP requires_VBZ works_NNS of_IN peace_NN ._. ''_''
-Now_RB ,_, may_MD I_PRP try_VB to_TO give_VB you_PRP some_DT concrete_JJ examples_NNS of_IN the_DT kind_NN of_IN works_NNS of_IN peace_NN that_WDT might_MD make_VB a_DT beginning_NN in_IN the_DT new_JJ direction_NN ._.
-For_IN a_DT start_NN our_PRP$ people_NNS should_MD learn_VB to_TO know_VB each_DT other_JJ better_JJR ._.
-Recent_JJ negotiations_NNS in_IN Washington_NNP have_VBP provided_VBN a_DT basis_NN in_IN principle_NN for_IN greater_JJR freedom_NN of_IN communication_NN and_CC exchange_NN of_IN people_NNS ._.
-I_PRP urge_VBP the_DT Soviet_JJ government_NN to_TO cooperate_VB in_IN turning_VBG principle_NN into_IN practice_NN by_IN prompt_JJ and_CC tangible_JJ actions_NNS that_WDT will_MD break_VB down_RP the_DT unnatural_JJ barriers_NNS that_WDT have_VBP blocked_VBN the_DT flow_NN of_IN thought_NN and_CC understanding_NN between_IN our_PRP$ people_NNS ._.
-Another_DT kind_NN of_IN work_NN of_IN peace_NN is_VBZ cooperation_NN on_IN projects_NNS of_IN human_JJ welfare_NN ._.
-For_IN example_NN ,_, we_PRP now_RB have_VBP it_PRP within_IN our_PRP$ power_NN to_TO eradicate_VB from_IN the_DT face_NN of_IN the_DT earth_NN that_WDT age-old_JJ scourge_NN of_IN mankind_NN :_: malaria_NN ._.
-We_PRP are_VBP embarking_VBG with_IN other_JJ nations_NNS in_IN an_DT all-out_JJ five-year_JJ campaign_NN to_TO blot_VB out_RP this_DT curse_NN forever_RB ._.
-We_PRP invite_VBP the_DT Soviets_NNPS to_TO join_VB with_IN us_PRP in_IN this_DT great_JJ work_NN of_IN humanity_NN ._.
-Indeed_RB ,_, we_PRP would_MD be_VB willing_JJ to_TO pool_VB our_PRP$ efforts_NNS with_IN the_DT Soviets_NNPS in_IN other_JJ campaigns_NNS against_IN the_DT diseases_NNS that_WDT are_VBP the_DT common_JJ enemy_NN of_IN all_DT mortals_NNS --_: such_JJ as_IN cancer_NN and_CC heart_NN disease_NN ._.
-If_IN people_NNS can_MD get_VB together_RB on_IN such_JJ projects_NNS ,_, is_VBZ it_PRP not_RB possible_JJ that_IN we_PRP could_MD then_RB go_VB on_IN to_TO a_DT full-scale_JJ cooperative_JJ program_NN of_IN Science_NN for_IN Peace_NNP ?_.
-We_PRP have_VBP as_IN a_DT guide_NN and_CC inspiration_NN the_DT success_NN of_IN our_PRP$ Atoms-for-Peace_JJ proposal_NN ,_, which_WDT in_IN only_RB a_DT few_JJ years_NNS ,_, under_IN United_NNP Nations_NNPS auspices_NNS ,_, became_VBD a_DT reality_NN in_IN the_DT International_NNP Atomic_NNP Energy_NNP Agency_NNP ._.
-A_DT program_NN of_IN Science_NN for_IN Peace_NNP might_MD provide_VB a_DT means_NN of_IN funneling_VBG into_IN one_CD place_NN the_DT results_NNS of_IN research_NN from_IN scientists_NNS everywhere_RB and_CC from_IN there_EX making_VBG it_PRP available_JJ to_TO all_DT parts_NNS of_IN the_DT world_NN ._.
-There_EX is_VBZ almost_RB no_DT limit_NN to_TO the_DT human_JJ betterment_NN that_WDT could_MD result_VB from_IN such_JJ cooperation_NN ._.
-Hunger_NN and_CC disease_NN could_MD increasingly_RB be_VB driven_VBN from_IN the_DT earth_NN ._.
-The_DT age-old_JJ dream_NN of_IN a_DT good_JJ life_NN for_IN all_DT could_MD ,_, at_IN long_RB last_JJ ,_, be_VB translated_VBN into_IN reality_NN ._.
-But_CC of_IN all_PDT the_DT works_NNS of_IN peace_NN ,_, none_NN is_VBZ more_RBR needed_VBN now_RB than_IN a_DT real_JJ first_JJ step_NN toward_IN disarmament_NN ._.
-Last_JJ August_NNP the_DT United_NNP Nations_NNP General_NNP Assembly_NNP ,_, by_IN an_DT overwhelming_JJ vote_NN ,_, approved_VBD a_DT disarmament_NN plan_NN that_IN we_PRP and_CC our_PRP$ allies_NNS sincerely_RB believed_VBD to_TO be_VB fair_JJ and_CC practical_JJ ._.
-The_DT Soviets_NNPS have_VBP rejected_VBN both_DT the_DT plan_NN ,_, and_CC the_DT negotiating_NN procedure_NN set_VBN up_RP by_IN the_DT United_NNP Nations_NNPS ._.
-As_IN a_DT result_NN ,_, negotiation_NN on_IN this_DT supremely_RB important_JJ issue_NN is_VBZ now_RB at_IN a_DT standstill_NN ._.
-But_CC the_DT world_NN can_MD not_RB afford_VB to_TO stand_VB still_RB on_IN disarmament_NN !_.
-We_PRP must_MD never_RB give_VB up_RP the_DT search_NN for_IN a_DT basis_NN of_IN agreement_NN ._.
-Our_PRP$ allies_NNS from_IN time_NN to_TO time_NN develop_VB differing_VBG ideas_NNS on_IN how_WRB to_TO proceed_VB ._.
-We_PRP must_MD concert_NN these_DT convictions_NNS among_IN ourselves_PRP ._.
-Thereafter_RB ,_, any_DT reasonable_JJ proposal_NN that_WDT holds_VBZ promise_NN for_IN disarmament_NN and_CC reduction_NN of_IN tension_NN must_MD be_VB heard_VBN ,_, discussed_VBN ,_, and_CC ,_, if_IN possible_JJ ,_, negotiated_VBN ._.
-But_CC a_DT disarmament_NN proposal_NN ,_, to_TO hold_VB real_JJ promise_NN ,_, must_MD at_IN the_DT minimum_NN have_VBP one_CD feature_NN :_: reliable_JJ means_NNS to_TO ensure_VB compliance_NN by_IN all_DT ._.
-It_PRP takes_VBZ actions_NNS and_CC demonstrated_VBD integrity_NN on_IN both_DT sides_NNS to_TO create_VB and_CC sustain_VB confidence_NN ._.
-And_CC confidence_NN in_IN a_DT genuine_JJ disarmament_NN agreement_NN is_VBZ vital_JJ ,_, not_RB only_RB to_TO the_DT signers_NNS of_IN the_DT agreement_NN ,_, but_CC also_RB to_TO the_DT millions_NNS of_IN people_NNS all_DT over_IN the_DT world_NN who_WP are_VBP weary_JJ of_IN tensions_NNS and_CC armaments_NNS ._.
-I_PRP say_VBP once_RB more_JJR ,_, to_TO all_DT peoples_NNS ,_, that_IN we_PRP will_MD always_RB go_VB the_DT extra_JJ mile_NN with_IN anyone_NN on_IN earth_NN if_IN it_PRP will_MD bring_VB us_PRP nearer_IN a_DT genuine_JJ peace_NN ._.
-CONCLUSION_NNP These_DT ,_, then_RB ,_, are_VBP the_DT ways_NNS in_IN which_WDT we_PRP must_MD funnel_VB our_PRP$ energies_NNS more_RBR efficiently_RB into_IN the_DT task_NN of_IN advancing_VBG security_NN and_CC peace_NN ._.
-These_DT actions_NNS demand_NN and_CC expect_VB two_CD things_NNS of_IN the_DT American_JJ people_NNS :_: sacrifice_NN ,_, and_CC a_DT high_JJ degree_NN of_IN understanding_NN ._.
-For_IN sacrifice_NN to_TO be_VB effective_JJ it_PRP must_MD be_VB intelligent_JJ ._.
-Sacrifice_VB must_MD be_VB made_VBN for_IN the_DT right_JJ purpose_NN and_CC in_IN the_DT right_JJ place_NN --_: even_RB if_IN that_DT place_NN happens_VBZ to_TO come_VB close_RB to_TO home_NN !_.
-After_IN all_DT ,_, it_PRP is_VBZ no_DT good_JJ demanding_VBG sacrifice_NN in_IN general_JJ terms_NNS one_CD day_NN ,_, and_CC the_DT next_JJ day_NN ,_, for_IN local_JJ reasons_NNS ,_, opposing_VBG the_DT elimination_NN of_IN some_DT unneeded_JJ federal_JJ facility_NN ._.
-It_PRP is_VBZ pointless_JJ to_TO condemn_VB federal_JJ spending_NN in_IN general_JJ ,_, and_CC the_DT next_JJ moment_NN condemn_VB just_RB as_IN strongly_RB an_DT effort_NN to_TO reduce_VB the_DT particular_JJ federal_JJ grant_NN that_WDT touches_NNS one_PRP 's_POS own_JJ interest_NN ._.
-And_CC it_PRP makes_VBZ no_DT sense_NN whatever_WDT to_TO spend_VB additional_JJ billions_NNS on_IN military_JJ strength_NN to_TO deter_VB a_DT potential_JJ danger_NN ,_, and_CC then_RB ,_, by_IN cutting_VBG aid_NN and_CC trade_NN programs_NNS ,_, let_VB the_DT world_NN succumb_NN to_TO a_DT present_JJ danger_NN in_IN economic_JJ guise_NN ._.
-My_PRP$ friends_NNS of_IN the_DT Congress_NNP :_: The_DT world_NN is_VBZ waiting_VBG to_TO see_VB how_WRB wisely_RB and_CC decisively_RB a_DT free_JJ representative_JJ government_NN will_MD now_RB act_VB ._.
-I_PRP believe_VBP that_IN this_DT Congress_NNP possesses_VBZ and_CC will_MD display_VB the_DT wisdom_NN promptly_RB to_TO do_VB its_PRP$ part_NN in_IN translating_VBG into_IN law_NN the_DT actions_NNS demanded_VBD by_IN our_PRP$ nation_NN 's_POS interests_NNS ._.
-But_CC ,_, to_TO make_VB law_NN effective_JJ ,_, our_PRP$ kind_NN of_IN government_NN needs_VBZ the_DT full_JJ voluntary_JJ support_NN of_IN millions_NNS of_IN Americans_NNPS for_IN these_DT actions_NNS ._.
-I_PRP am_VBP fully_RB confident_JJ that_IN the_DT response_NN of_IN the_DT Congress_NNP and_CC of_IN the_DT American_JJ people_NNS will_MD make_VB this_DT time_NN of_IN test_NN a_DT time_NN of_IN honor_NN ._.
-Mankind_NN then_RB will_MD see_VB more_JJR clearly_RB than_IN ever_RB that_IN the_DT future_JJ belongs_VBZ ,_, not_RB to_TO the_DT concept_NN of_IN the_DT regimented_JJ atheistic_JJ state_NN ,_, but_CC to_TO the_DT people_NNS --_: the_DT God-fearing_JJ ,_, peace-loving_JJ people_NNS of_IN all_PDT the_DT world_NN ._.
+America_NNP is_VBZ best_JJS described_VBN by_IN one_CD word_NN ,_, freedom_NN ._.
+If_IN we_PRP hope_VBP to_TO strengthen_VB freedom_NN in_IN the_DT world_NN we_PRP must_MD be_VB ever_RB mindful_JJ of_IN how_WRB our_PRP$ own_JJ conduct_NN reacts_VBZ elsewhere_RB ._.
+No_DT nation_NN has_VBZ ever_RB been_VBN so_RB floodlighted_VBN by_IN world_NN opinion_NN as_IN the_DT United_NNP States_NNPS is_VBZ today_NN ._.
+Everything_NN we_PRP do_VBP is_VBZ carefully_RB scrutinized_VBN by_IN other_JJ peoples_NNS throughout_IN the_DT world_NN ._.
+The_DT bad_JJ is_VBZ seen_VBN along_IN with_IN the_DT good_JJ ._.
+Because_IN we_PRP are_VBP human_JJ we_PRP err_VBP ._.
+But_CC as_IN free_JJ men_NNS we_PRP are_VBP also_RB responsible_JJ for_IN correcting_VBG the_DT errors_NNS and_CC imperfections_NNS of_IN our_PRP$ ways_NNS ._.
+Last_JJ January_NNP I_PRP made_VBD comprehensive_JJ recommendations_NNS to_TO the_DT Congress_NNP for_IN legislation_NN in_IN the_DT labor-management_JJ field_NN ._.
+To_TO my_PRP$ disappointment_NN ,_, Congress_NNP failed_VBD to_TO act_VB ._.
+The_DT McClellan_NNP Committee_NNP disclosures_NNS of_IN corruption_NN ,_, racketeering_NN ,_, and_CC abuse_NN of_IN trust_NN and_CC power_NN in_IN labor-management_JJ affairs_NNS have_VBP aroused_VBN America_NNP and_CC amazed_VBD other_JJ peoples_NNS ._.
+They_PRP emphasize_VBP the_DT need_NN for_IN improved_VBN local_JJ law_NN enforcement_NN and_CC the_DT enactment_NN of_IN effective_JJ Federal_NNP legislation_NN to_TO protect_VB the_DT public_JJ interest_NN and_CC to_TO insure_VB the_DT rights_NNS and_CC economic_JJ freedoms_NNS of_IN millions_NNS of_IN American_JJ workers_NNS ._.
+Halfhearted_JJ measures_NNS will_MD not_RB do_VB ._.
+I_PRP shall_MD recommend_VB prompt_JJ enactment_NN of_IN legislation_NN designed_VBN :_: To_TO safeguard_VB workers_NNS '_POS funds_NNS in_IN union_NN treasuries_NNS against_IN misuse_NN of_IN any_DT kind_NN whatsoever_RB ._.
+To_TO protect_VB the_DT rights_NNS and_CC freedoms_NNS of_IN individual_JJ union_NN members_NNS ,_, including_VBG the_DT basic_JJ right_NN to_TO free_JJ and_CC secret_JJ elections_NNS of_IN officers_NNS ._.
+To_TO advance_VB true_JJ and_CC responsible_JJ collective_JJ bargaining_NN ._.
+To_TO protect_VB the_DT public_NN and_CC innocent_JJ third_JJ parties_NNS from_IN unfair_JJ and_CC coercive_JJ practices_NNS such_JJ as_IN boycotting_VBG and_CC blackmail_VB picketing_NN ._.
+The_DT workers_NNS and_CC the_DT public_NN must_MD have_VB these_DT vital_JJ protections_NNS ._.
+In_IN other_JJ areas_NNS of_IN human_JJ rights_NNS --_: freedom_NN from_IN discrimination_NN in_IN voting_NN ,_, in_IN public_JJ education_NN ,_, in_IN access_NN to_TO jobs_NNS ,_, and_CC in_IN other_JJ respects_NNS --_: the_DT world_NN is_VBZ likewise_RB watching_VBG our_PRP$ conduct_NN ._.
+The_DT image_NN of_IN America_NNP abroad_RB is_VBZ not_RB improved_VBN when_WRB school_NN children_NNS ,_, through_IN closing_NN of_IN some_DT of_IN our_PRP$ schools_NNS and_CC through_IN no_DT fault_NN of_IN their_PRP$ own_JJ ,_, are_VBP deprived_VBN of_IN their_PRP$ opportunity_NN for_IN an_DT education_NN ._.
+The_DT government_NN of_IN a_DT free_JJ people_NNS has_VBZ no_DT purpose_NN more_RBR noble_JJ than_IN to_TO work_VB for_IN the_DT maximum_NN realization_NN of_IN equality_NN of_IN opportunity_NN under_IN law_NN ._.
+This_DT is_VBZ not_RB the_DT sole_JJ responsibility_NN of_IN any_DT one_CD branch_NN of_IN our_PRP$ government_NN ._.
+The_DT judicial_JJ arm_NN ,_, which_WDT has_VBZ the_DT ultimate_JJ authority_NN for_IN interpreting_VBG the_DT Constitution_NNP ,_, has_VBZ held_VBN that_IN certain_JJ state_NN laws_NNS and_CC practices_NNS discriminate_JJ upon_IN racial_JJ grounds_NNS and_CC are_VBP unconstitutional_JJ ._.
+Whenever_NNP the_DT supremacy_NN of_IN the_DT Constitution_NNP of_IN the_DT United_NNP States_NNPS is_VBZ challenged_VBN I_PRP shall_MD continue_VB to_TO take_VB every_DT action_NN necessary_JJ to_TO uphold_VB it_PRP ._.
+One_CD of_IN the_DT fundamental_JJ concepts_NNS of_IN our_PRP$ constitutional_JJ system_NN is_VBZ that_IN it_PRP guarantees_VBZ to_TO every_DT individual_NN ,_, regardless_RB of_IN race_NN ,_, religion_NN ,_, or_CC national_JJ origin_NN ,_, the_DT equal_JJ protection_NN of_IN the_DT laws_NNS ._.
+Those_DT of_IN us_PRP who_WP are_VBP privileged_JJ to_TO hold_VB public_JJ office_NN have_VBP a_DT solemn_JJ obligation_NN to_TO make_VB meaningful_JJ this_DT inspiring_JJ objective_NN ._.
+We_PRP can_MD fulfill_VB that_IN obligation_NN by_IN our_PRP$ leadership_NN in_IN teaching_NN ,_, persuading_VBG ,_, demonstrating_VBG ,_, and_CC in_IN enforcing_VBG the_DT law_NN ._.
+We_PRP are_VBP making_VBG noticeable_JJ progress_NN in_IN the_DT field_NN of_IN civil_JJ rights_NNS --_: we_PRP are_VBP moving_VBG forward_RB toward_IN achievement_NN of_IN equality_NN of_IN opportunity_NN for_IN all_DT people_NNS everywhere_RB in_IN the_DT United_NNP States_NNPS ._.
+In_IN the_DT interest_NN of_IN the_DT nation_NN and_CC of_IN each_DT of_IN its_PRP$ citizens_NNS ,_, that_IN progress_NN must_MD continue_VB ._.
+Legislative_JJ proposals_NNS of_IN the_DT Administration_NN in_IN this_DT field_NN will_MD be_VB submitted_VBN to_TO the_DT Congress_NNP early_RB in_IN the_DT session_NN ._.
+All_DT of_IN us_PRP should_MD help_VB to_TO make_VB clear_JJ that_IN the_DT government_NN is_VBZ united_VBN in_IN the_DT common_JJ purpose_NN of_IN giving_VBG support_NN to_TO the_DT law_NN and_CC the_DT decisions_NNS of_IN the_DT Courts_NNS ._.
+By_IN moving_VBG steadily_RB toward_IN the_DT goal_NN of_IN greater_JJR freedom_NN under_IN law_NN ,_, for_IN our_PRP$ own_JJ people_NNS ,_, we_PRP shall_MD be_VB the_DT better_JJR prepared_JJ to_TO work_VB for_IN the_DT cause_NN of_IN freedom_NN under_IN law_NN throughout_IN the_DT world_NN ._.
+All_DT peoples_NNS are_VBP sorely_RB tired_VBN of_IN the_DT fear_NN ,_, destruction_NN ,_, and_CC the_DT waste_NN of_IN war_NN ._.
+As_IN never_RB before_RB ,_, the_DT world_NN knows_VBZ the_DT human_JJ and_CC material_JJ costs_NNS of_IN war_NN and_CC seeks_VBZ to_TO replace_VB force_NN with_IN a_DT genuine_JJ rule_NN of_IN law_NN among_IN nations_NNS ._.
+It_PRP is_VBZ my_PRP$ purpose_NN to_TO intensify_VB efforts_NNS during_IN the_DT coming_VBG two_CD years_NNS in_IN seeking_VBG ways_NNS to_TO supplement_VB the_DT procedures_NNS of_IN the_DT United_NNP Nations_NNPS and_CC other_JJ bodies_NNS with_IN similar_JJ objectives_NNS ,_, to_TO the_DT end_NN that_IN the_DT rule_NN of_IN law_NN may_MD replace_VB the_DT rule_NN of_IN force_NN in_IN the_DT affairs_NNS of_IN nations_NNS ._.
+Measures_NNS toward_IN this_DT end_NN will_MD be_VB proposed_VBN later_RB ,_, including_VBG a_DT re-examination_NN of_IN our_PRP$ own_JJ relation_NN to_TO the_DT International_NNP Court_NNP of_IN Justice_NNP ._.
+Finally_RB --_: let_VB us_PRP remind_VB ourselves_PRP that_IN Marxist_JJ scripture_NN is_VBZ not_RB new_JJ ;_: it_PRP is_VBZ not_RB the_DT gospel_NN of_IN the_DT future_NN ._.
+Its_PRP$ basic_JJ objective_NN is_VBZ dictatorship_NN ,_, old_JJ as_IN history_NN ._.
+What_WP is_VBZ new_JJ is_VBZ the_DT shining_VBG prospect_NN that_DT man_NN can_MD build_VB a_DT world_NN where_WRB all_DT can_MD live_VB in_IN dignity_NN ._.
+We_PRP seek_VBP victory_NN --_: not_RB over_IN any_DT nation_NN or_CC people_NNS --_: but_CC over_IN the_DT ancient_JJ enemies_NNS of_IN us_PRP all_DT ;_: victory_NN over_IN ignorance_NN ,_, poverty_NN ,_, disease_NN ,_, and_CC human_JJ degradation_NN wherever_WRB they_PRP may_MD be_VB found_VBN ._.
+We_PRP march_VBP in_IN the_DT noblest_JJS of_IN causes_NNS --_: human_JJ freedom_NN ._.
+If_IN we_PRP make_VBP ourselves_PRP worthy_JJ of_IN America_NNP 's_POS ideals_NNS ,_, if_IN we_PRP do_VBP not_RB forget_VB that_IN our_PRP$ nation_NN was_VBD founded_VBN on_IN the_DT premise_NN that_IN all_DT men_NNS are_VBP creatures_NNS of_IN God_NNP 's_POS making_NN ,_, the_DT world_NN will_MD come_VB to_TO know_VB that_IN it_PRP is_VBZ free_JJ men_NNS who_WP carry_VBP forward_RP the_DT true_JJ promise_NN of_IN human_JJ progress_NN and_CC dignity_NN ._.

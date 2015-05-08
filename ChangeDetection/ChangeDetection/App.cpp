@@ -4,6 +4,7 @@
 #include <boost/lexical_cast.hpp>//casting long double to string
 #include <boost/math/special_functions/gamma.hpp> //gamma function (tgamma)
 #include <math.h> //pow
+#include <limits>
 
 
 App::App(void)
@@ -27,7 +28,7 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		break;
 	case STATE_OF_THE_UNION:
 		dataFilesPath += "\\state_union\\";
-		hazardRate = 0.1666666;// 0.25;// 1/4 //0.1176; // 2/17
+		hazardRate = 0.1666666; //0.0714;
 		break;
 	default:
 		std::cerr << "ERROR: unknown dataset selected.";
@@ -57,6 +58,8 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		runAlgorithm2();
 	else if (algorithmNumber == 3)
 		runAlgorithm3();
+	else if (algorithmNumber == 4)
+		runAlgorithm4();
 	else
 		std::cerr << "ERROR: wrong algorithm number.\n";
 
@@ -92,9 +95,32 @@ void App::runAlgorithm3()
 
 	initializeChangeDetectionAlgorithm();
 
+	//initialising sufficient statistics
+	std::vector<SufficientStatistics*> tempRowStats;
+	tempRowStats.push_back(initialiseSufStats());
+	sufStats.push_back(tempRowStats);
+
 	////------------------------------------- 2.Running the algorithm
 	if (isLogSpace)
 		runLogChangeDetectionAlgorithm3();
+	else
+		std:: cerr << "not implemented.\n";
+}
+
+void App::runAlgorithm4()
+{
+	doCheatPreProcess();
+
+	initializeChangeDetectionAlgorithm();
+
+	//initialising sufficient statistics
+	std::vector<String2doubleMap> tempRowStats;
+	tempRowStats.push_back(initialiseSufStatAlpha(allData[0]));
+	sufStatAlpha.push_back(tempRowStats);
+
+	////------------------------------------- 2.Running the algorithm
+	if (isLogSpace)
+		runLogChangeDetectionAlgorithm4();
 	else
 		std:: cerr << "not implemented.\n";
 }
@@ -439,7 +465,7 @@ void App::runLogChangeDetectionAlgorithm3()
 			{
 				//update sufficient statistics:
 				currentsufstat = updateSuffiecientStats(sufStats[t-1][i-1], U_D);
-				//logLikelihood = calculateLogLikelihood2 (allData[t], 1, getCurrentBeta(allData[t]));
+				logLikelihood = calculateLogLikelihood2 (allData[t], 1, getCurrentBeta(utlityHandle->mergeMaps(allData, t-i, t), allDictionary));
 				a_i.push_back( r[t-1][i-1] + logLikelihood + logHazardFunction(false));
 			}
 
@@ -485,6 +511,115 @@ void App::runLogChangeDetectionAlgorithm3()
 		sufstats_t.clear();
 
 	}// for all timesteps
+}
+
+void App::runLogChangeDetectionAlgorithm4()
+{
+	long double logLikelihood;
+	long double logP_rt_and_x_1_t;
+	std::vector<long double> joint_rt_probs;
+	std::vector<long double> a_i;
+	long double evidence;
+	String2doubleMap x_t;
+	String2doubleMap alpha0 = uniformDistribution(allDictionary);
+	String2doubleMap currentsufstat;
+	std::vector<String2doubleMap> sufstats_t;
+
+	//While there is a new datum available
+	//for all files in the data folder
+	for (unsigned int t = 1 ; t < totalTimeSteps ; ++t)
+	{
+		std::cout << "\ntimestep: " << t << "\n--------------------------------\n";
+		logString += "\ntimestep " + std::to_string(static_cast<long long>(t)) + ":\n\n\n";
+		
+
+		//the process can happen here or already happend in another module
+		allData.push_back(getx_t(t));
+
+		//for all the points in r_t, calculate the joint probability
+		for (unsigned int i = 0 ; i < t+1 ; ++i)
+		{
+			if ( i == 0) //possible changepoint : calcuate changepoint probability
+			{
+				currentsufstat = initialiseSufStatAlpha(allData[t]);
+				logLikelihood = calculateLogLikelihood3 (allData[t], alpha0);
+
+				//for all the points in r_t-1
+				for (unsigned int j = 0 ; j < r.at(t-1).size() ; ++j)
+					a_i.push_back( r[t-1][j] + logLikelihood + logHazardFunction(true) );
+			}
+			else //possible continuation : calcuate Growth probability
+			{
+				currentsufstat = updateSufStats(allData[t], sufStatAlpha[t-1][i-1]);
+				logLikelihood = calculateLogLikelihood3 (allData[t], sufStatAlpha[t-1][i-1]);
+				a_i.push_back( r[t-1][i-1] + logLikelihood + logHazardFunction(false));
+			}
+
+			//log-sum-exp trick:
+			logP_rt_and_x_1_t = logSumExp(a_i);
+
+			//save the joint probabilities
+			joint_rt_probs.push_back(logP_rt_and_x_1_t);
+			a_i.clear();
+
+			//some diagnostic printing:
+			//std::cout << ":\ncurrent alpha for r_t: " << std::to_string(static_cast<long long>(i)) << "\n";
+			//ioHandler->printMap(currentsufstat);
+			
+			//log:
+			logString += "\nfor point r_t = " + std::to_string(static_cast<long long>(i))
+				+ ":\nlikelihood: " + boost::lexical_cast<std::string>(logLikelihood)
+				+ "\njoint: " + boost::lexical_cast<std::string>(logP_rt_and_x_1_t) + "\n";
+
+			//save the current sufstats
+			sufstats_t.push_back(currentsufstat);
+
+		}//end of rt
+
+		////for all the points in r_t, calculate the conditional probability
+		////first get the sum (evidence probability)
+		//evidence = logSumExp(joint_rt_probs);
+		//logString += "Normalization factor: " + boost::lexical_cast<std::string>(evidence) + "\n";
+
+		////Normalization:
+		////then divide all the joints by the sum to get the conditional prob
+		//for (unsigned int i = 0 ; i < t+1 ; ++i)
+		//{
+		//	joint_rt_probs.at(i) = exp (joint_rt_probs.at(i) - evidence);
+
+		//	////remember: joiny_rt_probs is now holding conditionals not joints
+		//	////intorcusing thresholds:
+		//	//if (joint_rt_probs.at(i) < SIGNIFICANT_PROBABILITY_THRESHOLD)
+		//	//	joint_rt_probs.at(i) = 0;
+		//}
+
+		//remember: joiny_rt_probs is now holding conditionals not joints
+		r.push_back(joint_rt_probs);
+		joint_rt_probs.clear();
+		
+		sufStatAlpha.push_back(sufstats_t);
+		sufstats_t.clear();
+
+	}// for all timesteps
+}
+
+String2doubleMap App::getCurrentBeta(String2doubleMap inputMap, String2doubleMap dictionary)
+{
+	String2doubleMap beta;
+	std::string word;
+
+	String2doubleMap::iterator iter;
+	for (iter = dictionary.begin() ; iter != dictionary.end() ; ++iter)
+	{
+		word = iter->first;
+
+		if (inputMap.find(word) != inputMap.end())
+			beta[word] = inputMap[word] + iter->second;
+		else
+			beta[word] = iter->second;
+	}
+
+	return utlityHandle->normalise(beta);
 }
 
 SufficientStatistics* App::updateSuffiecientStats(SufficientStatistics* previousSufStats, String2doubleMap U)
@@ -575,6 +710,31 @@ SufficientStatistics* App::initialiseSufStats()
 	String2doubleMap beta0 = uniformDistribution(allDictionary);
 
 	return new SufficientStatistics(alpha0, beta0);
+}
+
+String2doubleMap App::initialiseSufStatAlpha(String2doubleMap datum)
+{
+	String2doubleMap returnMap;
+	std::string word;
+	double alpha = 1.0 / allDictionary.size();
+
+	String2doubleMap::iterator iter;
+	for (iter = allDictionary.begin() ; iter != allDictionary.end() ; ++iter)
+	{
+		word = iter->first;
+
+		if (datum.find(word) == datum.end()) //if not in the map
+			returnMap[word] = alpha;
+		else
+			returnMap[word] = datum[word] + alpha;
+	}
+
+	return returnMap;
+}
+
+String2doubleMap App::updateSufStats(String2doubleMap currentDatum, String2doubleMap prevAlpha)
+{
+	return utlityHandle->add(currentDatum, prevAlpha);
 }
 
 long double App::logSumExp(std::vector <long double> logVector)
@@ -792,6 +952,60 @@ long double App::calculateLogLikelihood2 (String2doubleMap data, int alpha, Stri
 
 	return returnTerm;
 }
+
+//calculates the log-likelihood based on equation
+//n: data -> normalized
+//m: sufstats
+long double App::calculateLogLikelihood3 (String2doubleMap datum, String2doubleMap sufstats)
+{
+	String2doubleMap n =initialiseSufStatAlpha(datum);
+	long double Sum_mn = 0;
+	long double mn;
+	long double Sum_m = 0;
+	long double m;
+	long double Sum_log_mn = 0;
+	long double Sum_log_m = 0;
+	std::string word;
+	long double n_i;
+	long double Sum_n = 0;
+	long double Sum_log_n_i = 0;
+	long double returnTerm;
+
+	String2doubleMap::iterator iter;
+	for (iter = sufstats.begin() ; iter != sufstats.end() ; ++iter)
+	{
+		word = iter->first;
+
+		//m
+		m = iter->second;
+		Sum_m += m;
+		Sum_log_m += boost::math::lgamma<long double>(m);
+
+		//mn
+		mn = m + n[word];
+		Sum_mn += mn;
+		Sum_log_mn += boost::math::lgamma<long double>(mn);
+
+		//getting n
+		if (datum.find(word) == datum.end())
+			n_i = 0;
+		else
+			n_i = datum[word];
+
+		Sum_n += n_i;
+		Sum_log_n_i += boost::math::lgamma<long double>(n_i + 1);
+	}
+
+	returnTerm = 
+		Sum_log_mn - boost::math::lgamma<long double>(Sum_mn) - Sum_log_m +  boost::math::lgamma<long double>(Sum_m)
+		+ boost::math::lgamma<long double>(Sum_n + 1) - Sum_log_n_i;
+
+	//returnTerm =
+	//	boost::math::lgamma<long double>(Sum_m) - 
+
+	return returnTerm;
+}
+
 //the initial probability for the first point
 long double App::getInitialProbability()
 {
@@ -828,7 +1042,7 @@ std::vector <int> App::getMaxProbabilityindexAtEachTime(std::vector< std::vector
 
 	for (unsigned int i = 0 ; i < r.size() ; ++i)
 	{
-		max = 0.0;
+		max = std::numeric_limits<double>::infinity() * -1;
 		maxIndex = -1;
 		for (unsigned int j = 0 ; j < r.at(i).size() ; ++j)
 		{

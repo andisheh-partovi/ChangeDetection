@@ -1,5 +1,5 @@
 
-C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\2004-GWBush-2.txt 
+C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\stanford-postagger-full-2013-06-20>java -mx300m -cp "stanford-postagger.jar;" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models\wsj-0-18-left3words-distsim.tagger -textFile C:\Users\andisheh\Documents\GitHub\ChangeDetection\ChangeDetection\ChangeDetection\state_union\2001-GWBush-2.txt 
 Mr._NNP Speaker_NNP ,_, Mr._NNP President_NNP Pro_FW Tempore_NNP ,_, members_NNS of_IN Congress_NNP ,_, and_CC fellow_JJ Americans_NNPS :_: In_IN the_DT normal_JJ course_NN of_IN events_NNS ,_, Presidents_NNS come_VBP to_TO this_DT chamber_NN to_TO report_VB on_IN the_DT state_NN of_IN the_DT Union_NNP ._.
 Tonight_NNP ,_, no_DT such_JJ report_NN is_VBZ needed_VBN ._.
 It_PRP has_VBZ already_RB been_VBN delivered_VBN by_IN the_DT American_JJ people_NNS ._.

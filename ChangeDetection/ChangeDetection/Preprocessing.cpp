@@ -124,7 +124,7 @@ Features* Preprocessing::getFunctionWordCountFeature(std::string text)
 	std::string word;
 	std::string POS;
 
-	std::cout << "\n\nstarted wordcount feature extraction...";
+	std::cout << "\n\nstarted functionwordcount feature extraction...";
 
 	//parsing stanford's output
 	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
@@ -176,7 +176,7 @@ Features* Preprocessing::getStopWordCountFeature(std::string text)
 	std::string POS;
 	std::string word;
 
-	std::cout << "\n\nstarted wordcount feature extraction...";
+	std::cout << "\n\nstarted stopWordcount feature extraction...";
 
 	//parsing stanford's output
 	for (unsigned int i = 2 ; i < allLines.size() ; ++i)

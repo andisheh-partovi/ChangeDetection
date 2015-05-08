@@ -113,4 +113,38 @@ public:
 		return max;
 	}
 
+	template<typename K, typename V> std::unordered_map<K, V> normalise(std::unordered_map<K, V> inputMap)
+	{
+		V sum = sumOfElements(inputMap);
+
+		std::unordered_map<K, V>::iterator iter;
+
+		for (iter = inputMap.begin() ; iter != inputMap.end() ; ++iter)
+		{
+			inputMap[iter->first] = iter->second / sum;
+		}
+
+		return inputMap;
+	}
+
+	//precond: inputMap1 is a subset of inputMap2
+	template<typename K, typename V> std::unordered_map<K, V> add(std::unordered_map<K, V> inputMap1, std::unordered_map<K, V> inputMap2)
+	{
+		std::unordered_map<K, V> returnMap;
+		K key;
+
+		std::unordered_map<K, V>::iterator iter;
+		for (iter = inputMap2.begin() ; iter != inputMap2.end() ; ++iter)
+		{
+			key = iter->first;
+
+			if (inputMap1.find(key) != inputMap1.end())
+				returnMap[key] = iter->second + inputMap1[key];
+			else
+				returnMap[key] = iter->second;
+		}
+
+		return returnMap;
+	}
+
 };

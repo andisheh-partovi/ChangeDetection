@@ -12,7 +12,7 @@ int main()
 	doParse: can be set to false if algorithm was ran once so save a bit of time
 	Order: Method method, DataSet dataSet, bool doParse, bool isLogSpace, int algorithmNumber
 	*/
-	app->run(WORDCOUNT, STATE_OF_THE_UNION, true, true, 2);
+	app->run(WORDCOUNT, STATE_OF_THE_UNION, true, true, 4);
 
 	_getch();
 	return 0;
