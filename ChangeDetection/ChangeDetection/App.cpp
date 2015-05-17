@@ -30,6 +30,10 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		dataFilesPath += "\\state_union\\";
 		hazardRate = 0.1666666; //0.0714;
 		break;
+	case NEWS:
+		dataFilesPath += "\\news_data\\";
+		hazardRate = 0.33333;//2/6
+		break;
 	default:
 		std::cerr << "ERROR: unknown dataset selected.";
 	}
@@ -144,6 +148,10 @@ Features* App::getFeature(int timeStep)
 			return preprocessHandle->getStopWordCountFeature(ioHandler->getPOSTags(timeStep));
 		case FUNCTIONWORDCOUNT:
 			return preprocessHandle->getFunctionWordCountFeature(ioHandler->getPOSTags(timeStep));
+		case BIGRAM:
+			return preprocessHandle->getBigramFeature(ioHandler->getPOSTags(timeStep));
+		case TRIGRAM:
+			return preprocessHandle->getTrigramFeature(ioHandler->getPOSTags(timeStep));
 		default:
 			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
@@ -675,6 +683,14 @@ void App::doCheatPreProcess()
 			dictionarySize = preprocessHandle->getFunctionWordCountDictSize();
 			allDictionary = preprocessHandle->getFunctionWordCountDict();
 			break;
+		case BIGRAM:
+			dictionarySize = preprocessHandle->getBigramDictSize();
+			allDictionary = preprocessHandle->getBigramDict();
+			break;
+		case TRIGRAM:
+			dictionarySize = preprocessHandle->getTrigramDictSize();
+			allDictionary = preprocessHandle->getTrigramDict();
+			break;
 		default:
 			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
@@ -954,7 +970,7 @@ long double App::calculateLogLikelihood2 (String2doubleMap data, int alpha, Stri
 }
 
 //calculates the log-likelihood based on equation
-//n: data -> normalized
+//n: data + allpha
 //m: sufstats
 long double App::calculateLogLikelihood3 (String2doubleMap datum, String2doubleMap sufstats)
 {

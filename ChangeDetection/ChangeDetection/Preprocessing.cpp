@@ -66,6 +66,8 @@ Features* Preprocessing::getWordCountFeature(std::string text)
 	String2doubleMap functionWordCount;
 	String2doubleMap wordFrequencies;
 	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;
@@ -108,7 +110,145 @@ Features* Preprocessing::getWordCountFeature(std::string text)
 
 	std::cout << "\n\nDone.";
 
-	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
+}
+
+Features* Preprocessing::getBigramFeature(std::string text)
+{
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
+
+	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::vector<std::string> bothWords1;
+	std::vector<std::string> bothWords2;
+	std::string word;
+	std::string word2;
+	bool found = false;
+
+	std::cout << "\n\nstarted bigram feature extraction...";
+
+	//parsing stanford's output
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() - 1 ; ++j)
+		{
+			bothWords1 = strUtilHandle->split(allPairs[j], '_' );
+			bothWords2 = strUtilHandle->split(allPairs[j+1], '_' );
+
+			if (isElementInList(bothWords1[0], stopWords))
+				continue;
+			else if (isElementInList(bothWords2[0], stopWords))
+			{
+				int k = j + 2;
+				while (k < allPairs.size())
+				{
+					bothWords = strUtilHandle->split(allPairs[k], '_' );
+					if (!isElementInList(bothWords[0], stopWords))
+					{
+						break;
+					}
+					else
+						k++;
+				}
+				word = bothWords1[0] + "_" + bothWords[0];
+			}
+			else
+				word = bothWords1[0] + "_" + bothWords2[0];
+
+			//word count for this document:
+			if (bigramCount.find(word) == bigramCount.end()) //if not in the map
+				bigramCount[word] = 1;
+			else
+				bigramCount[word] = bigramCount[word] + 1;
+
+			//global count
+			if (globalBigramCount.find(word) == globalBigramCount.end()) //if not in the map
+				globalBigramCount[word] = 1;
+			else
+				globalBigramCount[word] = globalBigramCount[word] + 1;
+		}
+	}
+
+	std::cout << "\n\nDone.";
+
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
+}
+
+Features* Preprocessing::getTrigramFeature(std::string text)
+{
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap wordFrequencies;
+	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
+
+	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
+	std::vector<std::string> allPairs;
+	std::vector<std::string> bothWords;
+	std::vector<std::string> bothWords1;
+	std::vector<std::string> bothWords2;
+	std::string word;
+	std::string word2;
+	bool found = false;
+
+	std::cout << "\n\nstarted bigram feature extraction...";
+
+	//parsing stanford's output
+	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	{
+		allPairs = strUtilHandle->split(allLines[i], ' ' );
+
+		for (unsigned int j = 0 ; j < allPairs.size() - 1 ; ++j)
+		{
+			bothWords1 = strUtilHandle->split(allPairs[j], '_' );
+			bothWords2 = strUtilHandle->split(allPairs[j+1], '_' );
+
+			if (isElementInList(bothWords1[0], stopWords))
+				continue;
+			else if (isElementInList(bothWords2[0], stopWords))
+			{
+				int k = j + 2;
+				while (k < allPairs.size())
+				{
+					bothWords = strUtilHandle->split(allPairs[k], '_' );
+					if (!isElementInList(bothWords[0], stopWords))
+					{
+						word = bothWords1[0] + "_" + bothWords[0];
+						break;
+					}
+					else
+						k++;
+				}
+			}
+			else
+				word = bothWords1[0] + "_" + bothWords2[0];
+
+			//word count for this document:
+			if (bigramCount.find(word) == bigramCount.end()) //if not in the map
+				bigramCount[word] = 1;
+			else
+				bigramCount[word] = bigramCount[word] + 1;
+
+			//global count
+			if (globalBigramCount.find(word) == globalBigramCount.end()) //if not in the map
+				globalBigramCount[word] = 1;
+			else
+				globalBigramCount[word] = globalBigramCount[word] + 1;
+		}
+	}
+
+	std::cout << "\n\nDone.";
+
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
 }
 
 Features* Preprocessing::getFunctionWordCountFeature(std::string text)
@@ -117,6 +257,8 @@ Features* Preprocessing::getFunctionWordCountFeature(std::string text)
 	String2doubleMap functionWordCount;
 	String2doubleMap wordFrequencies;
 	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;
@@ -160,8 +302,10 @@ Features* Preprocessing::getFunctionWordCountFeature(std::string text)
 
 	std::cout << "\n\nDone.";
 
-	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
 }
+
+
 
 Features* Preprocessing::getStopWordCountFeature(std::string text)
 {
@@ -169,6 +313,8 @@ Features* Preprocessing::getStopWordCountFeature(std::string text)
 	String2doubleMap functionWordCount;
 	String2doubleMap wordFrequencies;
 	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;
@@ -209,7 +355,7 @@ Features* Preprocessing::getStopWordCountFeature(std::string text)
 
 	std::cout << "\n\nDone.";
 
-	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
 }
 
 Features* Preprocessing::getAllFeatures(std::string text)
@@ -218,6 +364,8 @@ Features* Preprocessing::getAllFeatures(std::string text)
 	String2doubleMap functionWordCount;
 	String2doubleMap wordFrequencies;
 	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
 
 	std::vector<std::string> allLines = strUtilHandle->split(text, '\n' );
 	std::vector<std::string> allPairs;
@@ -296,7 +444,7 @@ Features* Preprocessing::getAllFeatures(std::string text)
 
 	std::cout << "\n\nDone.";
 
-	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount);
+	return new Features(wordFrequencies, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount);
 }
 
 //checks if the element is included at least once in the list or not
@@ -319,10 +467,14 @@ int Preprocessing::getWordCountDictSize() { return globalWordCount.size(); }
 int Preprocessing::getPOSCountDictSize() { return globalPOSCount.size(); }
 int Preprocessing::getFunctionWordCountDictSize() { return globalFunctionWordCount.size(); }
 int Preprocessing::getStopWordCountDictSize() { return globalStopWordCount.size(); }
+int Preprocessing::getBigramDictSize() { return globalBigramCount.size(); }
+int Preprocessing::getTrigramDictSize() { return globalTrigramCount.size(); }
 
 String2doubleMap Preprocessing::getWordCountDict() { return this->globalWordCount; }
 String2doubleMap Preprocessing::getFunctionWordCountDict() { return this->globalFunctionWordCount; }
 String2doubleMap Preprocessing::getStopWordCountDict() { return this->globalStopWordCount; }
+String2doubleMap Preprocessing::getBigramDict() { return this->globalBigramCount; }
+String2doubleMap Preprocessing::getTrigramDict() { return this->globalTrigramCount; }
 
 Preprocessing::~Preprocessing(void)
 {
