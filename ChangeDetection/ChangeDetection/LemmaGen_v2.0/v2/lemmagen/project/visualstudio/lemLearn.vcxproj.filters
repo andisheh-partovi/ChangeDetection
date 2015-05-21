@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{56110fc9-79f2-4aff-a22b-ca3997402e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{a2b7b4c6-12b2-4319-b62e-6204453025c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\source\BaseAlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\BaseNode.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\CmdLineParser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\CoverNodeAlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\MiscLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrLemmatizer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrRule.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrTree.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\Rule.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\Word.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\WordList.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\main\lemLearn.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\interface\InterLearn.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\header\BaseAlg.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\BaseNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\CmdLineParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\CoverNodeAlg.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\MiscLib.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrLemmatizer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrRule.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrTree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\Rule.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\Word.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\WordList.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\interface\Interface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

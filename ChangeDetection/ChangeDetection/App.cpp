@@ -30,8 +30,12 @@ void App::run(Method method, DataSet dataSet, bool doParse, bool isLogSpace, int
 		dataFilesPath += "\\state_union\\";
 		hazardRate = 0.1666666; //0.0714;
 		break;
-	case NEWS:
-		dataFilesPath += "\\news_data\\";
+	case NEWS1:
+		dataFilesPath += "\\news_data1\\";
+		hazardRate = 0.33333;//2/6
+		break;
+	case NEWS2:
+		dataFilesPath += "\\news_data2\\";
 		hazardRate = 0.33333;//2/6
 		break;
 	default:
@@ -143,6 +147,7 @@ Features* App::getFeature(int timeStep)
 	switch (this->method)
 	{
 		case WORDCOUNT:
+		case TF_IDF_UNIGRAM:
 			return preprocessHandle->getWordCountFeature(ioHandler->getPOSTags(timeStep));
 		case STOPWORDCOUNT:
 			return preprocessHandle->getStopWordCountFeature(ioHandler->getPOSTags(timeStep));
@@ -340,7 +345,6 @@ void App::runLogChangeDetectionAlgorithm2()
 	String2doubleMap U_D;
 	long double evidence;
 	String2doubleMap x_t;
-	int alpha;
 	String2doubleMap beta;
 	SufficientStatistics* currentsufstat;
 	std::vector<SufficientStatistics*> sufstats_t;
@@ -435,7 +439,6 @@ void App::runLogChangeDetectionAlgorithm3()
 	String2doubleMap U_D;
 	long double evidence;
 	String2doubleMap x_t;
-	int alpha;
 	String2doubleMap beta;
 	SufficientStatistics* currentsufstat;
 	std::vector<SufficientStatistics*> sufstats_t;
@@ -543,6 +546,7 @@ void App::runLogChangeDetectionAlgorithm4()
 
 		//the process can happen here or already happend in another module
 		allData.push_back(getx_t(t));
+		ioHandler->printMap(allData[t]);
 
 		//for all the points in r_t, calculate the joint probability
 		for (unsigned int i = 0 ; i < t+1 ; ++i)
@@ -668,7 +672,7 @@ void App::doCheatPreProcess()
 	for (unsigned int t = 0 ; t < totalTimeSteps ; ++t)
 		allFeatues.push_back(getFeature(t));
 
-		//Setting dictionary size (cheating)
+	//Setting dictionary size (cheating)
 	switch (this->method)
 	{
 		case WORDCOUNT:
@@ -691,6 +695,11 @@ void App::doCheatPreProcess()
 			dictionarySize = preprocessHandle->getTrigramDictSize();
 			allDictionary = preprocessHandle->getTrigramDict();
 			break;
+		case TF_IDF_UNIGRAM:
+			dictionarySize = preprocessHandle->getWordCountDictSize();
+			allDictionary = preprocessHandle->getWordCountDict();
+			allFeatues = runTFIDF(allFeatues);
+			break;
 		default:
 			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}
@@ -698,6 +707,72 @@ void App::doCheatPreProcess()
 	//testing:
 	//std::cout << "\ndictionarySize: " << dictionarySize << "\n";
 	//ioHandler->printMap(allDictionary);
+}
+
+std::vector<Features*> App::runTFIDF(std::vector<Features*> allFeatues)
+{
+	std::cout << "\nstarted TF-IDF...";
+
+	float currentTF;
+	float currentIDF;
+	float currentDF = 0;
+	String2doubleMap IDFs;
+	String2doubleMap currentDocument;
+	String2doubleMap currentTFIDF;
+	std::string word;
+	std::vector<Features*> newFeatures;
+
+	//dummy variables
+	String2doubleMap POSCount;
+	String2doubleMap functionWordCount;
+	String2doubleMap stopWordCount;
+	String2doubleMap bigramCount;
+	String2doubleMap trigramCount;
+
+	//1. calculate idf for each word in the corpus
+	String2doubleMap::iterator iter;
+	for (iter = allDictionary.begin() ; iter != allDictionary.end() ; ++iter)
+	{
+		word = iter->first;
+
+		//calculate df:
+		for (unsigned int i = 0; i < allFeatues.size() ; ++i)
+		{
+			currentDocument = allFeatues[i]->getWordCount();
+
+			//check if the word is in the current document
+			if (currentDocument.find(word) != currentDocument.end()) //if not in the map
+				currentDF++;
+		}
+
+		//calculate idf:
+		currentIDF = log(allFeatues.size() / currentDF);
+		currentDF = 0;
+
+		IDFs[word] = currentIDF;
+	}
+
+	//2. calculate tf.idf
+	for (unsigned int i = 0; i < allFeatues.size() ; ++i)
+	{
+		currentDocument = allFeatues[i]->getWordCount();
+		
+		String2doubleMap::iterator iter2;
+		for (iter2 = currentDocument.begin() ; iter2 != currentDocument.end() ; ++iter2)
+		{
+			word = iter2->first;
+			currentTF = iter2->second;
+
+			currentTFIDF[word] = currentTF * IDFs[word];
+		}
+
+		newFeatures.push_back(new Features(currentTFIDF, POSCount, functionWordCount, stopWordCount, bigramCount, trigramCount));
+		currentTFIDF.clear();
+	}
+
+	std::cout << "\ndone";
+
+	return newFeatures;
 }
 
 void App::runAlgorithm2()
@@ -775,6 +850,12 @@ String2doubleMap App::getx_t (int t)
 			return allFeatues.at(t)->getStopWordCount();
 		case FUNCTIONWORDCOUNT:
 			return allFeatues.at(t)->getFunctionWordCount();
+		case BIGRAM:
+			return allFeatues.at(t)->getBigramCount();
+		case TRIGRAM:
+			return allFeatues.at(t)->getTrigramCount();
+		case TF_IDF_UNIGRAM:
+			return allFeatues.at(t)->getWordCount();
 		default:
 			std::cerr << "ERROR: unkown method selected:" << boost::lexical_cast<std::string>(method);
 	}

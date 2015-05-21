@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{2646a3ee-9747-4f05-8ac1-57cf85062f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{9f88f168-23ba-4a0b-9a72-a64ced226fc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\source\CmdLineParser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\MiscLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrLemmatizer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrLexer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrParser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrRule.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrScanner.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\source\RdrTree.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\main\lemmatize.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\interface\InterLemtz.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\header\CmdLineParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\MiscLib.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrLemmatizer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrLexer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrRule.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrScanner.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\header\RdrTree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\interface\Interface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

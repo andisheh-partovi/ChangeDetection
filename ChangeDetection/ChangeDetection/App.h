@@ -11,7 +11,8 @@ enum Method
 	STOPWORDCOUNT,
 	FUNCTIONWORDCOUNT,
 	BIGRAM,
-	TRIGRAM
+	TRIGRAM,
+	TF_IDF_UNIGRAM
 };
 
 enum DataSet
@@ -19,7 +20,8 @@ enum DataSet
 	TEST,
 	STATE_OF_THE_UNION,
 	TWEET,
-	NEWS
+	NEWS1,
+	NEWS2
 };
 
 class App
@@ -89,6 +91,9 @@ private:
 	void runLogChangeDetectionAlgorithm4();
 	String2doubleMap updateSufStats(String2doubleMap currentDatum, String2doubleMap prevAlpha);
 	long double calculateLogLikelihood3 (String2doubleMap data, String2doubleMap sufstats);
+
+	//preprocessing
+	std::vector<Features*> runTFIDF(std::vector<Features*> allFeatues);
 	
 
 	//utilities

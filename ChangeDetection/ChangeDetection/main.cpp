@@ -12,7 +12,7 @@ int main()
 	doParse: can be set to false if algorithm was ran once so save a bit of time
 	Order: Method method, DataSet dataSet, bool doParse, bool isLogSpace, int algorithmNumber
 	*/
-	app->run(WORDCOUNT, NEWS, true, true, 4);
+	app->run(TF_IDF_UNIGRAM, STATE_OF_THE_UNION, true, true, 4);
 
 	_getch();
 	return 0;

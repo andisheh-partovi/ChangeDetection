@@ -50,14 +50,40 @@ void Preprocessing::runPOSTagger(int fileNumber, std::string inputFilePath)
 void Preprocessing::runTextPreprocessing(StringList fileNames, std::string filePath)
 {
 	std::string inputFilePath = filePath;
+	std::string lemmaOutputFilePath;
 
 	for (unsigned int i = 0 ; i < fileNames.size() ; ++i)
 	{
 		std::cout << "\n\nfile name: " << fileNames[i];
 		inputFilePath += fileNames[i];
-		runPOSTagger(i, inputFilePath);
+
+		//run lemmatizer
+		lemmaOutputFilePath = runLemmatizer(i, inputFilePath);
+
+		//run POS Tagger/Tokenizer
+		runPOSTagger(i, lemmaOutputFilePath);
+
 		inputFilePath = filePath;
 	}
+}
+
+std::string Preprocessing::runLemmatizer(int fileNumber, std::string inputFilePath)
+{
+	//running lemmatizer
+	std::string command = 
+	"C:\\Users\\andisheh\\Documents\\GitHub\\ChangeDetection\\ChangeDetection\\ChangeDetection\\LemmaGen_v2.0\\v2\\lemmagen\\binary\\win32\\release\\lemmatize.exe" ;
+	//language model
+	command += " -l C:\\Users\\andisheh\\Documents\\GitHub\\ChangeDetection\\ChangeDetection\\ChangeDetection\\LemmaGen_v2.0\\v2\\data\\lemmatizer\\lem-m-en.bin " ;
+	//input file
+	command += inputFilePath;
+	//output file
+	std::string outputFile = " C:\\Users\\andisheh\\Documents\\GitHub\\ChangeDetection\\ChangeDetection\\ChangeDetection\\lemma_output\\output";
+	outputFile += "_" + std::to_string(static_cast<long long>(fileNumber)) + ".txt";
+	command += outputFile;
+	
+	system(command.c_str());
+
+	return outputFile;
 }
 
 Features* Preprocessing::getWordCountFeature(std::string text)
@@ -86,7 +112,7 @@ Features* Preprocessing::getWordCountFeature(std::string text)
 		{
 			bothWords = strUtilHandle->split(allPairs[j], '_' );
 
-			word= bothWords[0];
+			word= strUtilHandle->toLowerCase(bothWords[0]);
 
 			//word count for this document:
 			if (!isElementInList(word, stopWords))
@@ -128,13 +154,15 @@ Features* Preprocessing::getBigramFeature(std::string text)
 	std::vector<std::string> bothWords1;
 	std::vector<std::string> bothWords2;
 	std::string word;
+	std::string word1;
 	std::string word2;
+	std::string word3;
 	bool found = false;
 
 	std::cout << "\n\nstarted bigram feature extraction...";
 
 	//parsing stanford's output
-	for (unsigned int i = 2 ; i < allLines.size() ; ++i)
+	for (unsigned int i = 2 ; i < allLines.size() - 1 ; ++i)
 	{
 		allPairs = strUtilHandle->split(allLines[i], ' ' );
 
@@ -143,25 +171,29 @@ Features* Preprocessing::getBigramFeature(std::string text)
 			bothWords1 = strUtilHandle->split(allPairs[j], '_' );
 			bothWords2 = strUtilHandle->split(allPairs[j+1], '_' );
 
-			if (isElementInList(bothWords1[0], stopWords))
+			word1 = strUtilHandle->toLowerCase(bothWords1[0]);
+			word2 = strUtilHandle->toLowerCase(bothWords2[0]);
+
+			if (isElementInList(word1, stopWords))
 				continue;
-			else if (isElementInList(bothWords2[0], stopWords))
+			else if (isElementInList(word2, stopWords))
 			{
 				int k = j + 2;
 				while (k < allPairs.size())
 				{
 					bothWords = strUtilHandle->split(allPairs[k], '_' );
-					if (!isElementInList(bothWords[0], stopWords))
+					word3 = strUtilHandle->toLowerCase(bothWords[0]);
+					if (!isElementInList(word3, stopWords))
 					{
 						break;
 					}
 					else
 						k++;
 				}
-				word = bothWords1[0] + "_" + bothWords[0];
+				word = word1 + "_" + word3;
 			}
 			else
-				word = bothWords1[0] + "_" + bothWords2[0];
+				word = word1 + "_" + word2;
 
 			//word count for this document:
 			if (bigramCount.find(word) == bigramCount.end()) //if not in the map
@@ -277,7 +309,7 @@ Features* Preprocessing::getFunctionWordCountFeature(std::string text)
 		{
 			bothWords = strUtilHandle->split(allPairs[j], '_' );
 
-			word= bothWords[0];
+			word= strUtilHandle->toLowerCase(bothWords[0]);
 			POS = bothWords[1];
 			
 			//functionWord count for this document:
@@ -333,7 +365,7 @@ Features* Preprocessing::getStopWordCountFeature(std::string text)
 		{
 			bothWords = strUtilHandle->split(allPairs[j], '_' );
 
-			word= bothWords[0];
+			word= strUtilHandle->toLowerCase(bothWords[0]);
 
 			if (isElementInList(word, stopWords))
 			{
@@ -384,7 +416,7 @@ Features* Preprocessing::getAllFeatures(std::string text)
 		{
 			bothWords = strUtilHandle->split(allPairs[j], '_' );
 
-			word= bothWords[0];
+			word= strUtilHandle->toLowerCase(bothWords[0]);
 			POS = bothWords[1];
 
 			//POS count for this document:

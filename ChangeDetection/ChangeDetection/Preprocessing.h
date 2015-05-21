@@ -21,6 +21,7 @@ private:
 
 	//text preprocessings
 	void runPOSTagger(int fileNumber, std::string inputFilePath);
+	std::string runLemmatizer(int fileNumber, std::string inputFilePath);
 
 	//utilities
 	bool isElementInList(std::string element, StringList list);
